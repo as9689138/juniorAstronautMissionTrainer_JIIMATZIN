@@ -1,0 +1,16 @@
+flowchart TD
+    S(["GET /api/v1/facts/{id}?lang=es&recordId="]) --> V{"¿Parámetros válidos?<br/>id, lang de 2 letras,<br/>recordId SHA-256 opcional"}
+    V -- no --> E400(["400 consulta_invalida"])
+    V -- sí --> F{"¿Existe la ficha<br/>en ese idioma?"}
+    F -- no --> E404(["404"])
+    F -- sí --> R{"¿La última revisión<br/>es approved?"}
+    R -- no --> E404
+    R -- sí --> Q{"¿Calidad accepted<br/>o not_applicable?"}
+    Q -- no --> E404
+    Q -- sí --> EV{"¿Tiene al menos una evidencia<br/>y todas verificadas?"}
+    EV -- no --> E404
+    EV -- sí --> ID{"¿Viene recordId?"}
+    ID -- sí --> EXA["Solo esa revisión exacta"]
+    ID -- no --> LAT["La aprobada más reciente"]
+    EXA --> OK
+    LAT --> OK(["200 ficha + límites + evidencias<br/>Cache-Control no-store"])

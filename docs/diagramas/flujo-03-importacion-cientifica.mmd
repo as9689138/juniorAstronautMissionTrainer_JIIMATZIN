@@ -1,0 +1,17 @@
+flowchart TD
+    S(["pnpm importar --archivo --sha256"]) --> P["Abrir paquete<br/>verifica SHA-256 externo y rutas seguras<br/>sin ejecutar el pipeline del ZIP"]
+    P --> V["Validación previa completa<br/>contratos, política de calidad,<br/>conteos y vínculos"]
+    V -- falla --> X1(["Aborta antes de tocar la BD"])
+    V --> L["Bloqueo de asesoría<br/>una sola carga a la vez"]
+    L --> R["Registrar la publicación<br/>solo si es candidate"]
+    R --> Q{"¿Ya existe con<br/>otro contenido?"}
+    Q -- sí --> X2(["Conflicto de contenido: aborta"])
+    Q -- no --> RUN["Registrar intento<br/>import_runs = running"]
+    RUN --> T["Transacción<br/>tablas temporales por lote"]
+    T --> M["Insertar en orden de dependencias<br/>ON CONFLICT DO NOTHING"]
+    M --> C{"¿Lo existente coincide<br/>con lo entrante?"}
+    C -- no --> RB["ROLLBACK<br/>import_runs = failed + error"]
+    C -- sí --> K["Comprobar linaje, conteos<br/>y estadísticas horarias"]
+    K -- falla --> RB
+    K -- ok --> OK["COMMIT<br/>import_runs = succeeded"]
+    OK --> END(["Publicación sigue en candidate<br/>no se aprueban fichas"])

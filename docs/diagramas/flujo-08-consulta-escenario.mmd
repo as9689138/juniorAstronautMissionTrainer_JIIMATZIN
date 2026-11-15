@@ -1,0 +1,29 @@
+sequenceDiagram
+    participant C as Cliente
+    participant R as Ruta y controlador
+    participant M as Modelo
+    participant P as Repositorio
+    participant B as PostgreSQL
+    participant V as Vista
+
+    C->>R: GET /api/v1/scenarios/{id}?version=n
+    R->>R: valida id y version con zod
+    alt parámetros inválidos
+        R-->>C: 400 consulta_invalida
+    else parámetros válidos
+        R->>M: obtener(id, version)
+        M->>P: buscarPublicado(id, version)
+        P->>B: una sentencia
+        Note over P,B: escenario publicado de la vista available_scenarios<br/>+ condiciones y fichas de ciencia<br/>+ reglas + catálogo del juego sellado
+        B-->>P: fila o ninguna
+        alt no hay escenario publicado
+            M-->>R: ErrorNoEncontrado
+            R-->>C: 404 escenario_no_encontrado
+        else existe
+            P-->>M: datos internos
+            M-->>R: datos internos
+            R->>V: presentarEscenario()
+            V-->>R: JSON del contrato 2
+            R-->>C: 200 sin caché
+        end
+    end

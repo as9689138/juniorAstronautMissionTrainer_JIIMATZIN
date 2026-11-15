@@ -1,0 +1,16 @@
+stateDiagram-v2
+    [*] --> draft: escenarios crear<br/>evento created
+    draft --> draft: crear de nuevo con el mismo contenido<br/>idempotente
+    draft --> published: escenarios publicar<br/>valida el contrato de salida
+    published --> retired: escenarios retirar<br/>exige motivo
+    retired --> [*]
+
+    note right of draft
+        El borrador no aparece en la API
+        ni se exporta.
+    end note
+    note right of published
+        Visible en la API y exportable.
+        Reglas, condiciones y fichas
+        quedan inmutables.
+    end note

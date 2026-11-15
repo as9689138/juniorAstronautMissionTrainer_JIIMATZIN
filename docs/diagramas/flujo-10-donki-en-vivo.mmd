@@ -1,0 +1,16 @@
+flowchart TD
+    S(["GET /api/v1/live/donki/flares<br/>days o startDate y endDate"]) --> V{"¿Ventana válida?<br/>sin mezclar days y fechas,<br/>no futura, rango máximo"}
+    V -- no --> E400(["400 consulta_invalida"])
+    V -- sí --> C{"¿Copia en caché<br/>dentro del TTL?"}
+    C -- sí --> HIT(["200 cache hit"])
+    C -- no --> IF{"¿Ya hay una petición<br/>en vuelo para esta ventana?"}
+    IF -- sí --> ESP["Esperar el mismo resultado"]
+    IF -- no --> NASA["Pedir a NASA DONKI<br/>un solo intento, sin reintentos"]
+    NASA -- ok --> N["Normalizar eventos<br/>y calcular huella del cuerpo"]
+    ESP --> N
+    N --> G["Guardar en caché<br/>máx. 50 ventanas"]
+    G --> MISS(["200 cache miss"])
+    NASA -- falla --> OB{"¿Hay copia previa<br/>de menos de 1 h?"}
+    ESP -- falla --> OB
+    OB -- sí --> STALE(["200 marcada stale"])
+    OB -- no --> ERR(["502 · 503 · 504<br/>fuente externa no disponible,<br/>limitada o sin respuesta"])
