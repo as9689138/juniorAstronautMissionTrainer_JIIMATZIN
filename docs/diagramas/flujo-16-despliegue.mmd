@@ -1,0 +1,18 @@
+flowchart LR
+    DEV["Equipo<br/>push a main"] --> GHA["GitHub Actions<br/>pages.yml: pnpm construir"]
+    GHA --> GHP["GitHub Pages<br/>frontend/dist estático"]
+    DEV -. "firebase deploy" .-> FH["Firebase Hosting<br/>frontend/dist"]
+    DEV -. "gcloud builds submit" .-> AR["Artifact Registry<br/>imagen del Dockerfile"]
+    AR --> CR["Cloud Run<br/>jiimatzin-api"]
+    AR --> JOB["Cloud Run Job<br/>jiimatzin-migrar"]
+    SM["Secret Manager<br/>DATABASE_URL"] --> CR
+    SM --> JOB
+    JOB -. "una vez por versión" .-> SQL[("Cloud SQL<br/>PostgreSQL 17")]
+    CR -- "socket /cloudsql" --> SQL
+    CR -- "HTTPS" --> NASA["NASA DONKI"]
+
+    N["Navegador del niño"] --> GHP
+    N --> FH
+    FH -- "/api/** y /health<br/>mismo dominio, sin CORS" --> CR
+    GHP -. "VITE_API_URL + CORS_ORIGINS<br/>dominios distintos" .-> CR
+    EQ["Equipo (CLI partidas)<br/>Cloud SQL Auth Proxy"] -.-> SQL

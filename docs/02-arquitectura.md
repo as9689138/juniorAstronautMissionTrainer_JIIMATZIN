@@ -11,7 +11,7 @@ El panorama completo (entradas administrativas, comandos, esquemas, API y fronte
 | Reglas, efectos y balance | Rol 2 |
 | Texto de historia y etiquetas | Rol 5, con revisión científica del rol 3 |
 
-Principios: el frontend **nunca** se conecta a la BD; el backend **no** consulta NASA por jugador; la lógica de recursos del juego queda en el módulo de mecánicas, no en la API.
+Principios: el frontend **nunca** se conecta a la BD; el backend **no** consulta NASA por jugador (DONKI se cachea por ventana); la lógica de recursos del juego queda en el módulo de mecánicas, no en la API; la única escritura de la API son las partidas anónimas del juego. La arquitectura del juego está en [15-frontend.md](15-frontend.md) y la de la IA guía en [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md).
 
 ## Carga de un escenario
 
@@ -19,7 +19,7 @@ La consulta del escenario en la API y su carga en el frontend, con respaldo est�
 
 ## Estructura interna del backend
 
-Se aplica **screaming architecture con MVC por funcionalidad**. Al abrir `backend/src/` se encuentran `escenarios/`, `fichas/`, `fuentes/`, `salud/` e `importador/`. Las carpetas expresan qué hace la API; cada recurso HTTP contiene su modelo, vista, controlador, rutas y repositorio.
+Se aplica **screaming architecture con MVC por funcionalidad**. Al abrir `backend/src/` se encuentran `escenarios/`, `fichas/`, `fuentes/`, `donki/`, `partidas/`, `salud/`, `importador/`, `contenido/` y `publicaciones/`. Las carpetas expresan qué hace la API; cada recurso HTTP contiene su modelo, vista, controlador, rutas y repositorio.
 
 ```mermaid
 flowchart LR
@@ -45,7 +45,7 @@ flowchart LR
 Los importadores científicos (`src/importador/`) y del desglose del juego
 (`src/contenido/`) son comandos administrativos implementados. Validan entradas,
 cargan en transacciones y conservan identidades por contenido. No exponen rutas
-de escritura. Los escenarios fijan las revisiones de ambas partes y su vista
+de escritura de contenido. La excepción es `partidas/`, que sigue el mismo patrón (sin vista, porque responde con un acuse mínimo) y expone `POST /api/v1/partidas`; su CLI resume, exporta y borra lo guardado. Los escenarios fijan las revisiones de ambas partes y su vista
 construye la respuesta pública; ver [catálogos](12-contenido-juego.md).
 
 ### Reglas para extender
@@ -65,12 +65,19 @@ Este refactor conserva los endpoints, el esquema de PostgreSQL y el contrato del
 | Producción, mismo dominio | Proxy inverso: `/api` hacia la API |
 | Producción, dominios distintos | `VITE_API_URL` apunta a la API y `CORS_ORIGINS` incluye el origen del front |
 
-## Despliegue (sin confirmar)
+## Despliegue
+
+El juego se publica hoy en **GitHub Pages** con `.github/workflows/pages.yml` en cada push a `main`. El destino previsto
+para la API es Google Cloud (Firebase Hosting, Cloud Run y Cloud SQL), con los pasos en
+[07-google-cloud.md](07-google-cloud.md); todavía no se ha ejecutado. Ver el [diagrama 16](14-flujos-backend.md#16-despliegue).
 
 ```mermaid
 flowchart LR
-    GH[GitHub Pages<br/>build de Phaser] -- HTTPS --> API[Hosting con servidor Node]
-    API --> PG[(PostgreSQL gestionado)]
+    GH[GitHub Pages<br/>build de Phaser] -- "HTTPS · VITE_API_URL" --> API[Cloud Run<br/>API Node]
+    FH[Firebase Hosting<br/>mismo dominio] -- "/api/** y /health" --> API
+    API --> PG[(Cloud SQL<br/>PostgreSQL 17)]
+    API --> NASA[NASA DONKI]
 ```
 
-GitHub Pages solo sirve estáticos: los endpoints dinámicos necesitan un host con ejecución de servidor y acceso a PostgreSQL. Ningún proveedor está elegido. Requisitos: `DATABASE_URL` solo en servidor, lista de orígenes CORS, copias de seguridad.
+GitHub Pages solo sirve estáticos: los endpoints dinámicos necesitan un host con ejecución de servidor y acceso a PostgreSQL.
+Requisitos: `DATABASE_URL` solo en servidor, lista de orígenes CORS y copias de seguridad.

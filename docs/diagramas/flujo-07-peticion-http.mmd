@@ -1,24 +1,25 @@
 flowchart TD
-    REQ(["Petición GET"]) --> H["helmet<br/>cabeceras de seguridad"]
-    H --> CO["cors<br/>solo GET, HEAD y OPTIONS"]
+    REQ(["Petición GET, o POST /partidas"]) --> H["helmet<br/>cabeceras de seguridad"]
+    H --> CO["cors<br/>GET, HEAD, POST y OPTIONS"]
     CO --> LOG["registro de solicitudes"]
     LOG --> RT{"¿Ruta?"}
     RT -- "/health" --> SALUD["salud<br/>sin caché"]
     RT -- "/api/v1/..." --> RL["límite de peticiones por IP"]
     RL -- excedido --> E429(["429 demasiadas_peticiones"])
-    RL --> CA["Cache-Control público<br/>CACHE_SECONDS"]
-    CA --> ROUTER["router del recurso<br/>scenarios · facts · sources · live/donki"]
+    RL --> CA["Cache-Control público<br/>CACHE_SECONDS<br/>(partidas: sin caché)"]
+    CA --> ROUTER["router del recurso<br/>scenarios · facts · sources · live/donki · partidas"]
     RT -- otra --> E404R(["404 ruta_no_encontrada"])
 
-    ROUTER --> CT["controlador<br/>valida parámetros con zod"]
-    CT -- inválido --> E400(["400 consulta_invalida<br/>con detalles por campo"])
+    ROUTER --> CT["controlador<br/>valida con zod<br/>(partidas: estricto, cuerpo máx. 64 KB)"]
+    CT -- inválido --> E400(["400 consulta_invalida<br/>con detalles por campo<br/>413 si el cuerpo supera 64 KB"])
     CT --> MO["modelo<br/>caso de uso"]
     MO --> RP["repositorio<br/>SQL parametrizado, una sola sentencia"]
     RP --> PG[("PostgreSQL")]
     PG --> RP
     RP --> MO
     MO -- no existe --> E404(["404 recurso no encontrado"])
+    MO -- "partida de otro jugador" --> E409(["409 partida_de_otro_jugador"])
     MO --> VI["vista<br/>proyección JSON del contrato"]
-    VI --> OK(["200 JSON"])
+    VI --> OK(["200 JSON<br/>201 al crear una partida"])
 
     MO -. error inesperado .-> E500(["500 error_interno<br/>sin detalles"])

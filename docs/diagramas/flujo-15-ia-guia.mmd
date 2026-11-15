@@ -1,0 +1,24 @@
+flowchart TD
+    P(["Prueba del niño<br/>minijuego · reparto de la consola · emergencia"]) --> OBS["Rastreador.observar(tema, acierto, tipo)"]
+    OBS --> BKT["BKT: actualiza P(L) del tema<br/>con G y S según el tipo de prueba<br/>(con pista previa se adivina más)"]
+    BKT --> REG["Registra la prueba<br/>tema · tipo · antes · después"]
+    BKT --> POL{"Política pedagógica<br/>según dominio y racha"}
+    POL -- "flojo, menos de 0,4" --> A1["Pista concreta o ejemplo resuelto"]
+    POL -- "falló 2 seguidas" --> A2["Ejemplo resuelto (andamiaje)"]
+    POL -- "a medias, 0,4 a 0,7" --> A3["Pista general o concreta"]
+    POL -- "dominado, desde 0,7" --> A4["Retira la ayuda y plantea un reto"]
+    POL -- "tema sin practicar 2 soles" --> A5["Pregunta de repaso"]
+    A1 --> TS
+    A3 --> TS{"¿Más de una ayuda posible?"}
+    TS -- sí --> BAN["Bandido de Bernoulli<br/>muestreo de Thompson Beta(éxitos+1, fallos+1)"]
+    TS -- no --> DEC
+    BAN --> DEC["Frase de la ayuda<br/>en el idioma elegido"]
+    A2 --> DEC
+    A4 --> DEC
+    A5 --> DEC
+    DEC --> NIN(["Niño: estrellas y palabras<br/>más tiempo o menos en lo flojo y lo dominado"])
+    NIN -. "siguiente prueba del mismo tema" .-> REW["Recompensa: 1 si acierta, 0 si falla<br/>se guarda solo en este navegador"]
+    REW -.-> BAN
+    REG --> SOL["Fin del sol o de la misión"]
+    SOL --> ENV["POST /api/v1/partidas<br/>anónima, con respaldo local"]
+    SOL --> ADU(["Reporte para adultos<br/>dominio en %, aciertos, descarga"])

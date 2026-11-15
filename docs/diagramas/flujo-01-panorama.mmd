@@ -9,18 +9,21 @@ flowchart LR
         PUB["publicaciones<br/>validar · publicar · retirar"]
         CON["contenido<br/>validar · importar"]
         ESC["escenarios<br/>preparar · crear · publicar<br/>retirar · exportar"]
+        PAR["partidas<br/>resumen · exportar · borrar"]
     end
 
     subgraph DB["PostgreSQL"]
         CIE[("esquema ciencia<br/>datos, fichas, revisiones")]
         JUE[("esquema juego<br/>catálogos y escenarios")]
+        APR[("esquema aprendizaje<br/>partidas anónimas y pruebas")]
     end
 
-    subgraph API["API Express (solo lectura)"]
+    subgraph API["API Express (lectura y una escritura anónima)"]
         RS["/api/v1/scenarios"]
         RF["/api/v1/facts"]
         RU["/api/v1/sources"]
         RD["/api/v1/live/donki/flares"]
+        RP["POST /api/v1/partidas"]
         RH["/health"]
     end
 
@@ -44,3 +47,7 @@ flowchart LR
     RF --> FRONT
     RD --> FRONT
     RESP -. si la API falla .-> FRONT
+
+    FRONT -- "IA guía: partida anónima" --> RP
+    RP --> APR
+    APR --> PAR

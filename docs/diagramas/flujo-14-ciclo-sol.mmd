@@ -1,0 +1,23 @@
+stateDiagram-v2
+    [*] --> Manana: iniciar partida (sol 1)
+    Manana: MAÑANA
+    Dia: DÍA
+    Emergencia: EMERGENCIA
+    Noche: NOCHE
+    Fin: FIN
+
+    Manana --> Dia: la IA anuncia la luz<br/>y se reparte la energía en la consola
+    Dia --> Dia: tarea de la ruta del personaje<br/>(paneles · filtro de CO₂ · invernadero)
+    Dia --> Emergencia: tres tareas hechas
+    Emergencia --> Noche: decisión con cuenta atrás<br/>(el sol 1 es un tutorial sin emergencia)
+    Noche --> Manana: dormir en el Refugio<br/>carta y sol siguiente
+    Noche --> Fin: sol 10 completado
+    Emergencia --> Fin: un recurso llega a cero
+    Dia --> Fin: un recurso llega a cero
+    Fin --> [*]: reporte final y medalla
+
+    note right of Dia
+        Cada minijuego, reparto de la consola
+        y decisión de emergencia es una prueba
+        de aprendizaje para la IA guía.
+    end note

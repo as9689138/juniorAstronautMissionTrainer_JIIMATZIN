@@ -1,0 +1,29 @@
+erDiagram
+    partidas ||--o{ pruebas : "registra en orden"
+
+    partidas {
+        uuid partida_id PK "lo genera el navegador"
+        uuid jugador_id "código anónimo del dispositivo"
+        text personaje "wenceslao, judith o atlas"
+        text dificultad "facil, normal o dificil"
+        text idioma "es o en"
+        timestamptz inicio
+        timestamptz fin "nulo mientras se juega"
+        text resultado "en_curso, victoria, energia, oxigeno, blindaje o sin_terminar"
+        int soles "0 a 10"
+        text medalla "oro, plata o bronce"
+        int puntaje "0 a 100"
+        jsonb dominio "P(L) por tema"
+        text version_modelo "p. ej. bkt-1"
+    }
+    pruebas {
+        uuid partida_id PK,FK
+        int orden PK
+        text tema "energia, aire, escudo o decidir"
+        text tipo "minijuego, consola, emergencia o con pista"
+        boolean correcto
+        int sol "1 a 10"
+        text detalle "máx. 200 caracteres"
+        real antes "dominio previo"
+        real despues "dominio posterior"
+    }

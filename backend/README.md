@@ -1,6 +1,6 @@
 # Backend — API de contenido
 
-Node.js (ESM) + Express 5 + PostgreSQL. **Solo lectura**: sirve escenarios, fichas y fuentes ya importados; no consulta NASA por jugador y no es el servidor autoritativo de partidas.
+Node.js (ESM) + Express 5 + PostgreSQL. **Lectura y una escritura anónima**: sirve escenarios, fichas y fuentes ya importados y recibe las partidas anónimas del juego (`POST /api/v1/partidas`); no consulta NASA por jugador y no es el servidor autoritativo de partidas.
 
 ## Estructura
 
@@ -10,10 +10,13 @@ backend/
 ├── src/
 │   ├── index.js           arranque y cierre ordenado
 │   ├── app.js             fábrica de la app Express (recibe el pool)
-│   ├── rutas.js           monta escenarios, fichas y fuentes bajo /api/v1
+│   ├── rutas.js           monta escenarios, fichas, fuentes, DONKI y partidas bajo /api/v1
 │   ├── escenarios/       contenido de la misión; MVC + repositorio, CLI y exportación
 │   ├── fichas/           fichas científicas y evidencias; MVC + repositorio
 │   ├── fuentes/          procedencia y atribución; MVC + repositorio
+│   ├── donki/            llamaradas solares en vivo: cliente NASA, normalizador y caché
+│   ├── partidas/         partidas anónimas del juego (POST) y CLI para el equipo
+│   ├── contenido/        validación e importación del desglose del juego (CLI)
 │   ├── salud/            /health, /health/listo; MVC + repositorio
 │   ├── importador/       verificación offline del ZIP y carga transaccional a ciencia
 │   ├── publicaciones/    CLI administrativa de validación, publicación y retiro
@@ -45,13 +48,13 @@ Se leen del `.env` de la raíz (ver [../.env.example](../.env.example)). `DATABA
 
 ## Pruebas
 
-`pnpm test` ejecuta 51 pruebas sin PostgreSQL: rutas, contratos, validación,
+`pnpm test` ejecuta 58 pruebas sin PostgreSQL: rutas, contratos, validación,
 cabeceras, errores, DONKI con cliente simulado y el importador con paquetes ZIP
 mínimos. Requiere Python 3; las suites de integración se omiten en esa ejecución.
 
 `pnpm test:integracion` usa `DATABASE_URL` de `../.env` para crear una BD
 temporal `jiimatzin_test_<uuid>` por suite, aplicar las migraciones necesarias desde cero y
-ejecutar 42 pruebas de API, importación, publicación, escenarios y catálogos con SQL real. Las BD se eliminan en `finally`, incluso
+ejecutar las pruebas de API, importación, publicación, escenarios, catálogos y partidas con SQL real. Las BD se eliminan en `finally`, incluso
 si falla una prueba; no se escriben fixtures en la BD de desarrollo. Requiere
 PostgreSQL accesible y un rol con permiso `CREATEDB` (el rol local de Compose lo
 tiene). Si el proceso se termina forzosamente puede quedar la BD temporal.

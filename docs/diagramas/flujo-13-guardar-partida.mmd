@@ -1,0 +1,28 @@
+sequenceDiagram
+    participant G as IA guía (navegador)
+    participant LS as localStorage
+    participant API as POST /api/v1/partidas
+    participant Z as Controlador (zod estricto)
+    participant R as Repositorio
+    participant B as PostgreSQL (aprendizaje)
+
+    G->>LS: deja la partida como pendiente
+    G->>API: JSON de máx. 64 KB (keepalive)
+    API->>Z: valida el cuerpo
+    alt campo de más, fuera de rango o más de 400 pruebas
+        Z-->>G: 400 consulta_invalida, sin tocar la BD
+        G->>LS: descarta la partida (la API no la acepta)
+    else cuerpo válido
+        Z->>R: guardar(datos)
+        R->>B: una sola sentencia atómica
+        Note over R,B: INSERT … ON CONFLICT (partida_id) DO UPDATE<br/>solo si jugador_id coincide<br/>borra pruebas sobrantes y reescribe las demás
+        alt la partida es de otro jugador
+            B-->>R: ninguna fila
+            R-->>G: 409 partida_de_otro_jugador
+        else nueva o del mismo jugador
+            B-->>R: partida_id, nueva
+            R-->>G: 201 si es nueva, 200 si se actualizó
+            G->>LS: quita la partida de los pendientes
+        end
+    end
+    Note over G,LS: Sin red, 429 o 5xx: la partida sigue pendiente<br/>y se reintenta en el siguiente guardado

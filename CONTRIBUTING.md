@@ -72,6 +72,10 @@ gitGraph
 
 - Los cambios al contrato ([contrato/scenario.schema.json](contrato/scenario.schema.json)) o al esquema de BD se avisan a los roles 1 y 2 antes de fusionar.
 
+## Documentación en dos idiomas
+
+La documentación técnica está en español (`docs/`) y en inglés (`docs/en/`, más `README.en.md`). Un cambio de documentación toca ambas versiones en el mismo commit. Los mensajes de commit siguen en español.
+
 ## Qué nunca se sube
 
 `.env`, credenciales, los ZIP de muestras y los originales de datos (se conservan fuera del repo, identificados por SHA-256). Ver [.gitignore](.gitignore).

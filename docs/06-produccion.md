@@ -42,7 +42,10 @@ flowchart LR
     F["Front estático<br/>(GitHub Pages)<br/>VITE_API_URL"] -- "HTTPS" --> A["API Node<br/>variables del panel"]
     A -- "TLS · DATABASE_SSL" --> B[(PostgreSQL gestionado)]
     M["Migraciones<br/>pnpm migrar"] -. "una vez por versión" .-> B
+    A -- "HTTPS" --> D["NASA DONKI"]
 ```
+
+El diagrama completo con Google Cloud está en el [diagrama 16](14-flujos-backend.md#16-despliegue).
 
 ## Lista de comprobación
 
@@ -58,5 +61,6 @@ flowchart LR
 
 - Hosting: Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL). Pasos en [07-google-cloud.md](07-google-cloud.md); falta ejecutarlos con la cuenta del equipo.
 - Decidir quién ejecuta las migraciones en cada despliegue (manual o paso del pipeline).
-- Limitación de tasa (`rate limit`) y registro estructurado, si el tráfico lo justifica.
+- Registro estructurado, si el tráfico lo justifica (la limitación de tasa por IP ya existe).
+- Política de conservación de las partidas anónimas (propuesta: 12 meses); ver [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md).
 - Cuando se importen datos reales: estrategia de copias de seguridad de la BD.

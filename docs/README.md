@@ -14,11 +14,16 @@ Se actualiza junto con el código (un commit `docs(...)` por cambio relevante). 
 | [11-diagrama-er.md](11-diagrama-er.md) | Diagrama completo de ciencia y su fuente Mermaid |
 | [12-contenido-juego.md](12-contenido-juego.md) | Importación del desglose, catálogos versionados, escenarios y contrato del frontend |
 | [13-modelo-juego.md](13-modelo-juego.md) | Diccionario y relaciones de las 19 tablas de juego |
-| [14-flujos-backend.md](14-flujos-backend.md) | 12 diagramas Mermaid de los flujos del backend (fuentes en `diagramas/flujo-*.mmd`) |
+| [14-flujos-backend.md](14-flujos-backend.md) | 16 diagramas Mermaid de los flujos del sistema: backend, partidas, IA guía, ciclo del sol y despliegue (fuentes en `diagramas/flujo-*.mmd`) |
+| [15-frontend.md](15-frontend.md) | Arquitectura del juego en Phaser: capas, bus de eventos, un sol de juego, carga y despliegue |
+| [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md) | IA guía (BKT y política de ayuda), esquema `aprendizaje`, guardado anónimo y privacidad |
 | [../CONTRIBUTING.md](../CONTRIBUTING.md) | Commits, ramas y flujo |
+| [en/README.md](en/README.md) | **English documentation** (traducción de los documentos principales) |
 
 ## Cómo mantener esta documentación
 
 - Cambias una ruta → actualiza `04-api.md` y el contrato de su recurso en `contrato/`.
-- Cambias una migración → actualiza el diagrama de `03-modelo-datos.md` y regenera `10`/`11` con `node scripts/documentar-bd.mjs`.
+- Cambias una migración → actualiza el diagrama de `03-modelo-datos.md` y regenera `10`/`11` con `node scripts/documentar-bd.mjs`. El esquema `aprendizaje` se documenta a mano en `16-aprendizaje-partidas.md` (el generador no lo cubre).
+- Cambias un flujo → edita su `diagramas/flujo-NN-*.mmd` y copia el contenido al bloque correspondiente de `14-flujos-backend.md`; haz lo mismo en `en/14-system-flows.md`.
+- Cada documento en español tiene su traducción en `en/`: actualiza ambos en el mismo commit.
 - Las decisiones, diseños previos y revisiones del equipo viven en `docs-internos/` (solo local, fuera del repositorio).

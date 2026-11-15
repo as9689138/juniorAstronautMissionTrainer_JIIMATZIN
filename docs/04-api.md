@@ -1,6 +1,6 @@
 # API v1
 
-Solo lectura (`GET`). No hay endpoints públicos de importación ni edición (el endpoint de DONKI en vivo consulta a NASA pero no escribe nada en la BD). Base: `/api/v1`. Contrato del escenario: [contrato/scenario.schema.json](../contrato/scenario.schema.json) (**borrador no aprobado**).
+Lectura (`GET`) y **una única escritura**: `POST /api/v1/partidas`, que guarda las partidas anónimas del juego. No hay endpoints públicos de importación ni edición de contenido (el endpoint de DONKI en vivo consulta a NASA pero no escribe nada en la BD). Base: `/api/v1`. Contrato del escenario: [contrato/scenario.schema.json](../contrato/scenario.schema.json) (**borrador no aprobado**).
 
 | Método y ruta | Respuesta | Estado |
 | --- | --- | --- |
@@ -20,8 +20,8 @@ Salud y DONKI conservan su comportamiento. Las fichas sin aprobación humana
 devuelven 404; las fuentes se sirven desde el catálogo importado.
 La importación no habilita escenarios científicos.
 
-Verificación automatizada: `pnpm test` (51 pruebas sin BD) y
-`pnpm test:integracion` (42 pruebas con PostgreSQL, migraciones desde cero y
+Verificación automatizada: `pnpm test` (58 pruebas sin BD) y
+`pnpm test:integracion` (pruebas con PostgreSQL, migraciones desde cero y
 fixtures en bases temporales eliminadas al terminar). El importador tiene una
 prueba adicional opcional con el ZIP completo; ver [05](05-importacion.md).
 

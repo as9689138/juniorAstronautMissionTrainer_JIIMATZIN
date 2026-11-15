@@ -1,9 +1,11 @@
-# Flujos del backend (diagramas)
+# Flujos del sistema (diagramas)
 
-Diagramas Mermaid del comportamiento actual del backend, listos para el entregable. Cada uno
+Diagramas Mermaid del comportamiento actual del backend y de las partes del juego que se conectan con él
+(partidas anónimas, IA guía, ciclo del sol y despliegue), listos para el entregable. Cada uno
 tiene su fuente independiente en [diagramas/](diagramas/) (`flujo-NN-*.mmd`) y se ve con la
-vista previa de Markdown de VS Code. Reflejan el código en `backend/src/` y las migraciones;
-si cambia un flujo, se actualiza el diagrama junto con el código.
+vista previa de Markdown de VS Code. Reflejan el código en `backend/src/`, `frontend/src/` y las
+migraciones; si cambia un flujo, se actualiza el diagrama junto con el código. Versión en inglés:
+[en/14-system-flows.md](en/14-system-flows.md).
 
 | N.º | Diagrama | Qué responde |
 | --- | --- | --- |
@@ -19,11 +21,16 @@ si cambia un flujo, se actualiza el diagrama junto con el código.
 | 10 | [DONKI en vivo](#10-fulguraciones-donki-en-vivo) | Caché, petición única y copia obsoleta |
 | 11 | [Carga en el frontend](#11-carga-del-escenario-en-el-frontend) | API primero, respaldo estático después |
 | 12 | [Arranque y cierre](#12-arranque-y-cierre-del-servidor) | Validación de entorno y cierre ordenado |
+| 13 | [Guardado de una partida](#13-guardado-de-una-partida-anónima) | Cola local, validación estricta y escritura atómica |
+| 14 | [Ciclo de un sol](#14-ciclo-de-un-sol-en-el-juego) | Mañana, día, emergencia y noche en el juego |
+| 15 | [IA guía](#15-la-ia-guía-mide-y-adapta-la-ayuda) | Del acierto del niño a la ayuda que recibe |
+| 16 | [Despliegue](#16-despliegue) | Dónde vive cada pieza en producción |
 
 ## 1. Panorama del sistema
 
-El contenido entra solo por comandos administrativos (nunca por HTTP). La API es de solo lectura.
-La única consulta a un servicio externo es DONKI, y no se guarda en la base de datos.
+El contenido entra solo por comandos administrativos (nunca por HTTP). La API es de lectura y tiene **una sola
+escritura**: `POST /api/v1/partidas`, que guarda partidas anónimas del juego en el esquema `aprendizaje`; solo el equipo
+las lee, con el CLI `partidas`. La única consulta a un servicio externo es DONKI, y no se guarda en la base de datos.
 
 <!-- archivo: flujo-01-panorama -->
 ```mermaid
@@ -38,18 +45,21 @@ flowchart LR
         PUB["publicaciones<br/>validar · publicar · retirar"]
         CON["contenido<br/>validar · importar"]
         ESC["escenarios<br/>preparar · crear · publicar<br/>retirar · exportar"]
+        PAR["partidas<br/>resumen · exportar · borrar"]
     end
 
     subgraph DB["PostgreSQL"]
         CIE[("esquema ciencia<br/>datos, fichas, revisiones")]
         JUE[("esquema juego<br/>catálogos y escenarios")]
+        APR[("esquema aprendizaje<br/>partidas anónimas y pruebas")]
     end
 
-    subgraph API["API Express (solo lectura)"]
+    subgraph API["API Express (lectura y una escritura anónima)"]
         RS["/api/v1/scenarios"]
         RF["/api/v1/facts"]
         RU["/api/v1/sources"]
         RD["/api/v1/live/donki/flares"]
+        RP["POST /api/v1/partidas"]
         RH["/health"]
     end
 
@@ -73,6 +83,10 @@ flowchart LR
     RF --> FRONT
     RD --> FRONT
     RESP -. si la API falla .-> FRONT
+
+    FRONT -- "IA guía: partida anónima" --> RP
+    RP --> APR
+    APR --> PAR
 ```
 
 ## 2. Ciclo de vida del contenido de punta a punta
@@ -210,32 +224,34 @@ stateDiagram-v2
 ## 7. Recorrido de una petición HTTP
 
 Cada recurso sigue las mismas capas. La validación ocurre en el controlador, el SQL solo en el
-repositorio y el formato público solo en la vista.
+repositorio y el formato público solo en la vista. `partidas` es la única ruta `POST`: valida con
+un esquema estricto (rechaza campos de más), acepta cuerpos de hasta 64 KB y responde 201, 200 o 409.
 
 <!-- archivo: flujo-07-peticion-http -->
 ```mermaid
 flowchart TD
-    REQ(["Petición GET"]) --> H["helmet<br/>cabeceras de seguridad"]
-    H --> CO["cors<br/>solo GET, HEAD y OPTIONS"]
+    REQ(["Petición GET, o POST /partidas"]) --> H["helmet<br/>cabeceras de seguridad"]
+    H --> CO["cors<br/>GET, HEAD, POST y OPTIONS"]
     CO --> LOG["registro de solicitudes"]
     LOG --> RT{"¿Ruta?"}
     RT -- "/health" --> SALUD["salud<br/>sin caché"]
     RT -- "/api/v1/..." --> RL["límite de peticiones por IP"]
     RL -- excedido --> E429(["429 demasiadas_peticiones"])
-    RL --> CA["Cache-Control público<br/>CACHE_SECONDS"]
-    CA --> ROUTER["router del recurso<br/>scenarios · facts · sources · live/donki"]
+    RL --> CA["Cache-Control público<br/>CACHE_SECONDS<br/>(partidas: sin caché)"]
+    CA --> ROUTER["router del recurso<br/>scenarios · facts · sources · live/donki · partidas"]
     RT -- otra --> E404R(["404 ruta_no_encontrada"])
 
-    ROUTER --> CT["controlador<br/>valida parámetros con zod"]
-    CT -- inválido --> E400(["400 consulta_invalida<br/>con detalles por campo"])
+    ROUTER --> CT["controlador<br/>valida con zod<br/>(partidas: estricto, cuerpo máx. 64 KB)"]
+    CT -- inválido --> E400(["400 consulta_invalida<br/>con detalles por campo<br/>413 si el cuerpo supera 64 KB"])
     CT --> MO["modelo<br/>caso de uso"]
     MO --> RP["repositorio<br/>SQL parametrizado, una sola sentencia"]
     RP --> PG[("PostgreSQL")]
     PG --> RP
     RP --> MO
     MO -- no existe --> E404(["404 recurso no encontrado"])
+    MO -- "partida de otro jugador" --> E409(["409 partida_de_otro_jugador"])
     MO --> VI["vista<br/>proyección JSON del contrato"]
-    VI --> OK(["200 JSON"])
+    VI --> OK(["200 JSON<br/>201 al crear una partida"])
 
     MO -. error inesperado .-> E500(["500 error_interno<br/>sin detalles"])
 ```
@@ -387,3 +403,143 @@ flowchart TD
     POOLEND --> FIN(["Salida"])
     CL -. "pasados 10 s" .-> FORZ(["Salida forzada"])
 ```
+
+
+## 13. Guardado de una partida anónima
+
+La IA guía deja la partida en una cola local y la manda al terminar cada sol y la misión. El
+servidor valida con un esquema estricto y escribe en una sola sentencia atómica; reenviar la
+misma partida la actualiza y nunca la duplica. Si la partida pertenece a otro jugador, no se toca.
+
+<!-- archivo: flujo-13-guardar-partida -->
+```mermaid
+sequenceDiagram
+    participant G as IA guía (navegador)
+    participant LS as localStorage
+    participant API as POST /api/v1/partidas
+    participant Z as Controlador (zod estricto)
+    participant R as Repositorio
+    participant B as PostgreSQL (aprendizaje)
+
+    G->>LS: deja la partida como pendiente
+    G->>API: JSON de máx. 64 KB (keepalive)
+    API->>Z: valida el cuerpo
+    alt campo de más, fuera de rango o más de 400 pruebas
+        Z-->>G: 400 consulta_invalida, sin tocar la BD
+        G->>LS: descarta la partida (la API no la acepta)
+    else cuerpo válido
+        Z->>R: guardar(datos)
+        R->>B: una sola sentencia atómica
+        Note over R,B: INSERT … ON CONFLICT (partida_id) DO UPDATE<br/>solo si jugador_id coincide<br/>borra pruebas sobrantes y reescribe las demás
+        alt la partida es de otro jugador
+            B-->>R: ninguna fila
+            R-->>G: 409 partida_de_otro_jugador
+        else nueva o del mismo jugador
+            B-->>R: partida_id, nueva
+            R-->>G: 201 si es nueva, 200 si se actualizó
+            G->>LS: quita la partida de los pendientes
+        end
+    end
+    Note over G,LS: Sin red, 429 o 5xx: la partida sigue pendiente<br/>y se reintenta en el siguiente guardado
+```
+
+
+## 14. Ciclo de un sol en el juego
+
+Cada sol recorre mañana, día, emergencia y noche. La IA dicta la hora que ven el mapa y la interfaz;
+el estado de las reglas (`GameState.fase`) y el reloj anunciado son distintos. Una partida termina
+al completar el sol 10 o cuando un recurso (energía, oxígeno o blindaje) llega a cero.
+
+<!-- archivo: flujo-14-ciclo-sol -->
+```mermaid
+stateDiagram-v2
+    [*] --> Manana: iniciar partida (sol 1)
+    Manana: MAÑANA
+    Dia: DÍA
+    Emergencia: EMERGENCIA
+    Noche: NOCHE
+    Fin: FIN
+
+    Manana --> Dia: la IA anuncia la luz<br/>y se reparte la energía en la consola
+    Dia --> Dia: tarea de la ruta del personaje<br/>(paneles · filtro de CO₂ · invernadero)
+    Dia --> Emergencia: tres tareas hechas
+    Emergencia --> Noche: decisión con cuenta atrás<br/>(el sol 1 es un tutorial sin emergencia)
+    Noche --> Manana: dormir en el Refugio<br/>carta y sol siguiente
+    Noche --> Fin: sol 10 completado
+    Emergencia --> Fin: un recurso llega a cero
+    Dia --> Fin: un recurso llega a cero
+    Fin --> [*]: reporte final y medalla
+
+    note right of Dia
+        Cada minijuego, reparto de la consola
+        y decisión de emergencia es una prueba
+        de aprendizaje para la IA guía.
+    end note
+```
+
+
+## 15. La IA guía mide y adapta la ayuda
+
+Todo el machine learning del juego corre en el navegador. Cada prueba actualiza el dominio del tema
+con Bayesian Knowledge Tracing; la política pedagógica elige el tipo de ayuda y, si hay varias
+posibles, un bandido con muestreo de Thompson aprende cuál le funciona a ese niño. Solo el resumen
+anónimo viaja a la API.
+
+<!-- archivo: flujo-15-ia-guia -->
+```mermaid
+flowchart TD
+    P(["Prueba del niño<br/>minijuego · reparto de la consola · emergencia"]) --> OBS["Rastreador.observar(tema, acierto, tipo)"]
+    OBS --> BKT["BKT: actualiza P(L) del tema<br/>con G y S según el tipo de prueba<br/>(con pista previa se adivina más)"]
+    BKT --> REG["Registra la prueba<br/>tema · tipo · antes · después"]
+    BKT --> POL{"Política pedagógica<br/>según dominio y racha"}
+    POL -- "flojo, menos de 0,4" --> A1["Pista concreta o ejemplo resuelto"]
+    POL -- "falló 2 seguidas" --> A2["Ejemplo resuelto (andamiaje)"]
+    POL -- "a medias, 0,4 a 0,7" --> A3["Pista general o concreta"]
+    POL -- "dominado, desde 0,7" --> A4["Retira la ayuda y plantea un reto"]
+    POL -- "tema sin practicar 2 soles" --> A5["Pregunta de repaso"]
+    A1 --> TS
+    A3 --> TS{"¿Más de una ayuda posible?"}
+    TS -- sí --> BAN["Bandido de Bernoulli<br/>muestreo de Thompson Beta(éxitos+1, fallos+1)"]
+    TS -- no --> DEC
+    BAN --> DEC["Frase de la ayuda<br/>en el idioma elegido"]
+    A2 --> DEC
+    A4 --> DEC
+    A5 --> DEC
+    DEC --> NIN(["Niño: estrellas y palabras<br/>más tiempo o menos en lo flojo y lo dominado"])
+    NIN -. "siguiente prueba del mismo tema" .-> REW["Recompensa: 1 si acierta, 0 si falla<br/>se guarda solo en este navegador"]
+    REW -.-> BAN
+    REG --> SOL["Fin del sol o de la misión"]
+    SOL --> ENV["POST /api/v1/partidas<br/>anónima, con respaldo local"]
+    SOL --> ADU(["Reporte para adultos<br/>dominio en %, aciertos, descarga"])
+```
+
+
+## 16. Despliegue
+
+El juego es estático y puede publicarse en GitHub Pages (automático con cada push a `main`) o en Firebase
+Hosting; con Firebase, `/api/**` y `/health` pasan por el mismo dominio a Cloud Run y no hace falta CORS.
+La API y las migraciones salen de la misma imagen. Pasos en [07-google-cloud.md](07-google-cloud.md); el
+despliegue en Google Cloud todavía no se ha ejecutado.
+
+<!-- archivo: flujo-16-despliegue -->
+```mermaid
+flowchart LR
+    DEV["Equipo<br/>push a main"] --> GHA["GitHub Actions<br/>pages.yml: pnpm construir"]
+    GHA --> GHP["GitHub Pages<br/>frontend/dist estático"]
+    DEV -. "firebase deploy" .-> FH["Firebase Hosting<br/>frontend/dist"]
+    DEV -. "gcloud builds submit" .-> AR["Artifact Registry<br/>imagen del Dockerfile"]
+    AR --> CR["Cloud Run<br/>jiimatzin-api"]
+    AR --> JOB["Cloud Run Job<br/>jiimatzin-migrar"]
+    SM["Secret Manager<br/>DATABASE_URL"] --> CR
+    SM --> JOB
+    JOB -. "una vez por versión" .-> SQL[("Cloud SQL<br/>PostgreSQL 17")]
+    CR -- "socket /cloudsql" --> SQL
+    CR -- "HTTPS" --> NASA["NASA DONKI"]
+
+    N["Navegador del niño"] --> GHP
+    N --> FH
+    FH -- "/api/** y /health<br/>mismo dominio, sin CORS" --> CR
+    GHP -. "VITE_API_URL + CORS_ORIGINS<br/>dominios distintos" .-> CR
+    EQ["Equipo (CLI partidas)<br/>Cloud SQL Auth Proxy"] -.-> SQL
+```
+

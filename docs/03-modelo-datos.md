@@ -10,7 +10,16 @@ El importador y el vínculo escenario-publicación están implementados;
 el esquema `juego` tiene 19 tablas: cinco de escenarios y catorce de catálogos
 y vínculos. El desglose del juego se carga por versión, separado de ciencia;
 ver [contenido](12-contenido-juego.md) y [modelo de juego](13-modelo-juego.md).
+Un cuarto esquema, `aprendizaje` (2 tablas), guarda las partidas anónimas del juego y
+sus pruebas de aprendizaje; ver [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md).
 Ver [API](04-api.md) e [importación](05-importacion.md).
+
+| Esquema | Tablas | Quién escribe | Documento |
+| --- | --- | --- | --- |
+| `public` | esquema inicial (ya no se sirve) | migración inicial | este documento |
+| `ciencia` | 28 (26 científicas y 2 de publicación) | importador y publicaciones (CLI) | [10](10-diccionario-bd.md), [11](11-diagrama-er.md) |
+| `juego` | 19 (5 de escenarios y 14 de catálogos) | contenido y escenarios (CLI) | [12](12-contenido-juego.md), [13](13-modelo-juego.md) |
+| `aprendizaje` | 2 (`partidas`, `pruebas`) | `POST /api/v1/partidas` | [16](16-aprendizaje-partidas.md) |
 
 Implementado en [backend/migrations/20261114000000_esquema-inicial.sql](../backend/migrations/20261114000000_esquema-inicial.sql). Es el esquema propuesto en el doc 04, **todavía sujeto a aprobación**.
 
