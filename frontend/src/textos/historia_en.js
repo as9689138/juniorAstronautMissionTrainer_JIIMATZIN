@@ -1,0 +1,77 @@
+// Inglés de las líneas de historia.ink que NO tienen voz (y por eso no están en la traducción del rol 5,
+// assets/audio/voces/lineas_es_en.json): prólogo, narración, cartas de personaje, opciones de las emergencias,
+// instrucciones de los minijuegos y títulos. Traducción hecha con ayuda de IA (Claude) con los mismos términos que usó
+// el rol 5 (energy, oxygen, shielding, shelter, Mars Base One). Pendiente: revisión de un hablante nativo.
+// [texto en español tal como sale de Ink, texto en inglés]
+export const HISTORIA_EN = [
+  // Prólogo "Viaje espacial"
+  ['Viaje espacial', 'Space Journey'],
+  ['Humanos, seres vivos, converjan entre sí. Afuera de este planeta hay un mundo todavía más grande… infinito, inmenso, colmado de enigmas, preguntas que esperan una respuesta y tesoros que buscan ser encontrados.',
+    'Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found.'],
+  ['Neil Armstrong, en 1969, fue el primer individuo en llegar a la Luna.', 'In 1969, Neil Armstrong was the first person to reach the Moon.'],
+  ['¿Qué nos hace humanos? ¿Qué nos hace ser lo que realmente somos? No son nuestras habilidades sociales, no es nuestra anatomía y, claramente, no es nuestra inteligencia…',
+    'What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…'],
+  ['Entonces… ¿Qué es?...', 'So… what is it?...'],
+  ['Sí, es la necesidad de saber qué más, el saber qué hay más allá de lo que nuestra visión es capaz de alcanzar a ver. Es tener esa sed de conocimiento, tener ganas de tomar al mundo y devorarlo por completo de un solo bocado, saber qué es lo que mueve al planeta, cada dimensión, cada partícula, cada onda y cada electrón.',
+    'Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron.'],
+  ['Todo se mueve gracias al querer saber más, hacer más, lograr más y llegar más alto… No solo mirar el cielo y tapar el sol con el dedo; es estar frente al sol y ver en el reflejo de tus ojos esas olas que danzan tan voraces al compás de las estrellas…',
+    'Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…'],
+  ['El tiempo pasa y, entre más pasa el tiempo, más cosas van surgiendo de entre la Tierra y el espacio. Todo esto es el legado de miles de personas, el cual ha sido transferido generación por generación y han dedicado su vida entera para encontrar respuestas.',
+    'Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers.'],
+  ['Nada es imposible, porque cuando lo intentas… no siempre será lo que esperas, pero siempre tendrás un resultado…',
+    'Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…'],
+  ['Ahora a ti te toca… Tienes la antorcha de la sabiduría, del conocimiento, de la necesidad y de la perseverancia… Demuestra tus capacidades, supérate y demuestra lo capaz que eres.',
+    'Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are.'],
+  ['Porque si lo intentas, lo logras…', 'Because if you try, you can do it…'],
+
+  // Cartas de personaje
+  ['Ingeniero Wenceslao', 'Engineer Wenceslao'],
+  ['Mecánica, Física, Electricidad, Informática, Disciplina', 'Mechanics, Physics, Electricity, Computing, Discipline'],
+  ['Construye y arregla máquinas, robots y naves espaciales.', 'Builds and fixes machines, robots and spaceships.'],
+  ['Entiende cómo se mueven las cosas y cómo viaja la electricidad.', 'Understands how things move and how electricity travels.'],
+  ['Cuida las computadoras de la base y trabaja con disciplina bajo presión.', 'Looks after the base’s computers and works with discipline under pressure.'],
+  ['Científica Judith', 'Scientist Judith'],
+  ['Botánica, Geología, Meteorología', 'Botany, Geology, Meteorology'],
+  ['Estudia las plantas y sabe cómo cuidarlas en el invernadero.', 'Studies plants and knows how to care for them in the greenhouse.'],
+  ['Lee las rocas y el suelo para entender cómo es Marte.', 'Reads the rocks and the soil to understand what Mars is like.'],
+  ['Vigila el clima: el viento, el polvo y las tormentas.', 'Watches the weather: wind, dust and storms.'],
+  ['Médico Atlas', 'Doctor Atlas'],
+  ['Anatomía, Primeros auxilios', 'Anatomy, First aid'],
+  ['Conoce el cuerpo humano y sabe cómo cuidarlo en el espacio.', 'Knows the human body and how to take care of it in space.'],
+  ['Da primeros auxilios y mantiene al equipo sano y tranquilo.', 'Gives first aid and keeps the team healthy and calm.'],
+
+  // Introducción (narración)
+  ['Año 2030', 'Year 2030'],
+  ['Año 2030…', 'Year 2030…'],
+  ['Todo empezó en 2023, cuando cuatro voluntarios de la NASA vivieron 378 días dentro de una base simulada de Marte, en Houston.',
+    'It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston.'],
+  ['Desde entonces, la humanidad se prepara para llevar personas a Marte.', 'Since then, humanity has been getting ready to send people to Mars.'],
+  ['Hoy, en 2030, un equipo pequeño hace su misión de prueba en la Base Marte Uno. Es una simulación, pero se parece mucho a la realidad.',
+    'Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing.'],
+  ['Las luces se apagan una por una.', 'The lights go out one by one.'],
+
+  // Instrucciones de los minijuegos
+  ['Desliza el dedo sobre los paneles para quitar el polvo antes de que oscurezca.', 'Swipe over the panels to remove the dust before it gets dark.'],
+  ['Arma el adaptador: junta cartón, bolsa, manguera y cinta para que el filtro cuadrado encaje en el hueco redondo antes de que se acabe el tiempo.',
+    'Build the adapter: put together cardboard, bag, hose and tape so the square filter fits the round hole before time runs out.'],
+  ['Riega cada planta justo cuando su medidor esté en amarillo. Si ves gotitas flotando, prende el ventilador.',
+    'Water each plant right when its meter turns yellow. If you see floating droplets, turn on the fan.'],
+
+  // Opciones de las emergencias
+  ['Mandar a todos al refugio (cuesta energía)', 'Send everyone to the shelter (costs energy)'],
+  ['Seguir trabajando y confiar en el blindaje (arriesgado)', 'Keep working and trust the shielding (risky)'],
+  ['Salir a limpiar los paneles (cuesta oxígeno)', 'Go out and clean the panels (costs oxygen)'],
+  ['Esperar a que pase y gastar las reservas (cuesta energía)', 'Wait for it to pass and use the reserves (costs energy)'],
+  ['Cambiar el filtro ahora (cuesta energía)', 'Change the filter now (costs energy)'],
+  ['Pedir ayuda al invernadero y esperar (cuesta oxígeno)', 'Count on the greenhouse and wait (costs oxygen)'],
+  ['Reforzar el blindaje (cuesta energía)', 'Reinforce the shielding (costs energy)'],
+  ['Cerrar el invernadero y esperar (cuesta oxígeno)', 'Close the greenhouse and wait (costs oxygen)'],
+  ['Armar una sombrilla con placas del casco (cuesta blindaje)', 'Build a sunshade with hull plates (costs shielding)'],
+  ['Poner el aire acondicionado al máximo (cuesta energía)', 'Turn the air conditioning all the way up (costs energy)'],
+  ['Cerrar ese tubo desde la computadora (cuesta energía)', 'Shut that pipe from the computer (costs energy)'],
+  ['Salir con traje espacial a repararlo (cuesta oxígeno)', 'Go out in a spacesuit to repair it (costs oxygen)'],
+  ['Cortar los cables y cerrar la puerta ya (cuesta energía)', 'Cut the cables and close the door now (costs energy)'],
+  ['Desconectar los cables con cuidado (cuesta oxígeno)', 'Disconnect the cables carefully (costs oxygen)'],
+  ['Esperar la respuesta de la Tierra (cuesta oxígeno)', 'Wait for Earth’s reply (costs oxygen)'],
+  ['Decidir solos con lo que sabemos (cuesta energía)', 'Decide on our own with what we know (costs energy)'],
+];

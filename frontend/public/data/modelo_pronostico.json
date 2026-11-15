@@ -1,0 +1,123 @@
+{
+ "nombre": "Pronóstico de llamaradas M/X para mañana",
+ "tipo": "regresión logística",
+ "entrenado": "2026-11-14",
+ "fuente": "NOAA SWPC, Daily Solar Data (ftp.swpc.noaa.gov/pub/warehouse)",
+ "periodo": "1996-01-03 a 2026-11-12",
+ "pregunta": "¿Habrá al menos una llamarada M o X mañana?",
+ "señales": [
+  {
+   "id": "flujo_radio",
+   "nombre": "Flujo de radio del Sol (10,7 cm)",
+   "media": 4.671718,
+   "desv": 0.343999,
+   "peso": 0.498123
+  },
+  {
+   "id": "manchas",
+   "nombre": "Número de manchas solares",
+   "media": 7.574018,
+   "desv": 4.332768,
+   "peso": -0.402147
+  },
+  {
+   "id": "area_manchas",
+   "nombre": "Área de las manchas",
+   "media": 5.003191,
+   "desv": 2.337545,
+   "peso": 1.026411
+  },
+  {
+   "id": "regiones_nuevas",
+   "nombre": "Regiones nuevas de manchas",
+   "media": 0.616576,
+   "desv": 0.885442,
+   "peso": 0.057477
+  },
+  {
+   "id": "llamaradas_c_hoy",
+   "nombre": "Llamaradas C de hoy",
+   "media": 0.885626,
+   "desv": 0.915959,
+   "peso": 0.599757
+  },
+  {
+   "id": "llamaradas_mx_hoy",
+   "nombre": "Llamaradas M y X de hoy",
+   "media": 0.161858,
+   "desv": 0.389077,
+   "peso": 0.2632
+  },
+  {
+   "id": "llamaradas_mx_3dias",
+   "nombre": "Llamaradas M y X de los últimos 3 días",
+   "media": 0.371798,
+   "desv": 0.636551,
+   "peso": 0.30004
+  },
+  {
+   "id": "subida_flujo_3dias",
+   "nombre": "Cuánto subió el flujo en 3 días",
+   "media": 2.7e-05,
+   "desv": 0.068433,
+   "peso": 0.155727
+  }
+ ],
+ "sesgo": -2.534763,
+ "frecuencia_historica": 0.1857,
+ "evaluacion": {
+  "nota": "Entrenado con 1996-2016 y medido con 2017-2025, años que no vio.",
+  "prueba": {
+   "dias": 3586,
+   "dias_con_llamarada": 786,
+   "brier": 0.0954,
+   "brier_adivinar_promedio": 0.1736,
+   "mejora_sobre_adivinar": 0.45,
+   "auc": 0.915,
+   "umbral_aviso": 0.15,
+   "tss": 0.674,
+   "aciertos_con_llamarada": 0.926,
+   "falsas_alarmas": 0.253
+  },
+  "entrenamiento": {
+   "dias": 7553,
+   "dias_con_llamarada": 1282,
+   "brier": 0.0969,
+   "brier_adivinar_promedio": 0.1409,
+   "mejora_sobre_adivinar": 0.312,
+   "auc": 0.878,
+   "umbral_aviso": 0.18,
+   "tss": 0.6,
+   "aciertos_con_llamarada": 0.814,
+   "falsas_alarmas": 0.215
+  },
+  "persistencia_tss": 0.531,
+  "calibracion_prueba": [
+   {
+    "dice": "0-10 %",
+    "paso_de_verdad": 0.013,
+    "dias": 1954
+   },
+   {
+    "dice": "10-20 %",
+    "paso_de_verdad": 0.209,
+    "dias": 354
+   },
+   {
+    "dice": "20-40 %",
+    "paso_de_verdad": 0.309,
+    "dias": 486
+   },
+   {
+    "dice": "40-60 %",
+    "paso_de_verdad": 0.485,
+    "dias": 295
+   },
+   {
+    "dice": "60-100 %",
+    "paso_de_verdad": 0.791,
+    "dias": 497
+   }
+  ]
+ }
+}

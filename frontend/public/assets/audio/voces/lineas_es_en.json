@@ -1,0 +1,1280 @@
+[
+ {
+  "id": "introduccion_01",
+  "personaje": "IA",
+  "texto_es": "Sistemas encendidos. Te damos la bienvenida a la Base Marte Uno, {jugador}.",
+  "texto_en": "Systems online. Welcome to Mars Base One, {jugador}."
+ },
+ {
+  "id": "introduccion_02",
+  "personaje": "IA",
+  "texto_es": "Soy la IA de la base. Cuidaré de ustedes y les explicaré lo que pase.",
+  "texto_en": "I'm the base AI. I'll take care of you and explain whatever happens."
+ },
+ {
+  "id": "introduccion_03",
+  "personaje": "WEN",
+  "texto_es": "Yo soy Wenceslao, ingeniero. Si algo se rompe, es mío. Si algo explota, también es mío.",
+  "texto_en": "I'm Wenceslao, the engineer. If something breaks, it's mine. If something explodes, that's mine too."
+ },
+ {
+  "id": "introduccion_04",
+  "personaje": "JUD",
+  "texto_es": "Yo soy Judith, científica. Estudio las plantas, las rocas y el clima. Y a las plantas les hablo, por si acaso.",
+  "texto_en": "I'm Judith, the scientist. I study plants, rocks, and the weather. And I talk to the plants, just in case."
+ },
+ {
+  "id": "introduccion_05",
+  "personaje": "ATL",
+  "texto_es": "Yo soy Atlas, médico. Mi trabajo es que todos estemos bien.",
+  "texto_en": "I'm Atlas, the doctor. My job is making sure we're all okay."
+ },
+ {
+  "id": "introduccion_06",
+  "personaje": "IA",
+  "texto_es": "Aviso importante: esto es la misión de prueba antes de ir a Marte. Nadie corre peligro. Aquí se aprende.",
+  "texto_en": "Important notice: this is a practice mission before going to Mars. Nobody is in danger. Here, we learn."
+ },
+ {
+  "id": "introduccion_07",
+  "personaje": "ATL",
+  "texto_es": "Vamos a vivir diez soles. Un sol es un día en Marte.",
+  "texto_en": "We're going to live ten sols. A sol is a day on Mars."
+ },
+ {
+  "id": "introduccion_08",
+  "personaje": "IA",
+  "texto_es": "La base usa tres recursos: energía, oxígeno y blindaje. Cada uno tiene tres niveles: bajo, medio y alto. Si uno llega a cero, la base se apaga y la misión se reinicia.",
+  "texto_en": "The base uses three resources: energy, oxygen, and shielding. Each one has three levels: low, medium, and high. If one hits zero, the base shuts down and the mission restarts."
+ },
+ {
+  "id": "introduccion_09",
+  "personaje": "WEN",
+  "texto_es": "Spoiler: la energía nunca alcanza para todo.",
+  "texto_en": "Spoiler: there's never enough energy for everything."
+ },
+ {
+  "id": "introduccion_10",
+  "personaje": "ATL",
+  "texto_es": "Por eso hay que decidir en equipo. Respiramos hondo y decidimos.",
+  "texto_en": "That's why we decide as a team. We take a deep breath, and we decide."
+ },
+ {
+  "id": "introduccion_11",
+  "personaje": "JUD",
+  "texto_es": "¿Ya dije que las plantas también cuentan?",
+  "texto_en": "Did I mention the plants count too?"
+ },
+ {
+  "id": "introduccion_12",
+  "personaje": "ATL",
+  "texto_es": "Listo, equipo. A la consola.",
+  "texto_en": "All set, team. To the console."
+ },
+ {
+  "id": "saludo_01",
+  "personaje": "IA",
+  "texto_es": "¡Hola, Ingeniero {WEN}! Tú sabes cómo funciona cada cable y cada motor de la base. La energía nunca alcanza para prender todo a la vez, así que tú decides qué máquinas reciben poder.",
+  "texto_en": "Hello, Engineer {WEN}! You know how every cable and every motor in the base works. There's never enough energy to power everything at once, so you decide which machines get power."
+ },
+ {
+  "id": "saludo_02",
+  "personaje": "IA",
+  "texto_es": "¡Lista para explorar, Científica {JUD}! Afuera hay un planeta misterioso, tormentas de polvo y rocas increíbles. Tu amor por las plantas mantendrá viva la base.",
+  "texto_en": "Ready to explore, Scientist {JUD}! Out there is a mysterious planet, dust storms, and incredible rocks. Your love of plants will keep the base alive."
+ },
+ {
+  "id": "saludo_03",
+  "personaje": "IA",
+  "texto_es": "¡Qué bueno tenerte a bordo, Médico {ATL}! En el espacio hay que cuidar muy bien la salud y el aire. Tú vigilarás que toda la tripulación esté fuerte y lista para la aventura.",
+  "texto_en": "Great to have you on board, Doctor {ATL}! In space you have to take very good care of health and air. You'll make sure the whole crew is strong and ready for the adventure."
+ },
+ {
+  "id": "manana_01",
+  "personaje": "ATL",
+  "texto_es": "Buenos días. Hoy aprendemos a repartir la energía de la base.",
+  "texto_en": "Good morning. Today we learn to share the base's energy."
+ },
+ {
+  "id": "manana_02",
+  "personaje": "IA",
+  "texto_es": "La batería no alcanza para todo. Usa la consola de mando para elegir dónde va la energía hoy.",
+  "texto_en": "The battery can't power everything. Use the command console to choose where the energy goes today."
+ },
+ {
+  "id": "manana_03",
+  "personaje": "ATL",
+  "texto_es": "Las luces de hoy dependen del sol. Revisemos los paneles.",
+  "texto_en": "Today's lights depend on the Sun. Let's check the panels."
+ },
+ {
+  "id": "manana_04",
+  "personaje": "ATL",
+  "texto_es": "Hoy el viento suena fuerte afuera. Mantengamos el oído atento.",
+  "texto_en": "The wind is loud outside today. Let's keep our ears open."
+ },
+ {
+  "id": "manana_05",
+  "personaje": "ATL",
+  "texto_es": "El aire es nuestro tesoro. Cuidemos el filtro de CO₂.",
+  "texto_en": "Air is our treasure. Let's take care of the CO₂ filter."
+ },
+ {
+  "id": "manana_06",
+  "personaje": "ATL",
+  "texto_es": "Hoy toca revisar el blindaje. Es nuestro paraguas contra la radiación.",
+  "texto_en": "Today we check the shielding. It's our umbrella against radiation."
+ },
+ {
+  "id": "manana_07",
+  "personaje": "ATL",
+  "texto_es": "Hay polvo en el cielo. Que no nos pille sin energía.",
+  "texto_en": "There's dust in the sky. Let's not get caught without power."
+ },
+ {
+  "id": "manana_08",
+  "personaje": "ATL",
+  "texto_es": "El invernadero espera. Las plantas también son parte de la tripulación.",
+  "texto_en": "The greenhouse is waiting. The plants are part of the crew too."
+ },
+ {
+  "id": "manana_09",
+  "personaje": "ATL",
+  "texto_es": "Aquí pesamos menos. Nos movemos con cuidado, aunque parezca divertido.",
+  "texto_en": "Here we weigh less. We move carefully, even if it feels like fun."
+ },
+ {
+  "id": "manana_10",
+  "personaje": "IA",
+  "texto_es": "Aviso: la señal con la Tierra va lenta. Cada mensaje tarda varios minutos.",
+  "texto_en": "Notice: the signal to Earth is slow. Every message takes several minutes."
+ },
+ {
+  "id": "manana_11",
+  "personaje": "ATL",
+  "texto_es": "Hay noticias del Sol. Atentos a los avisos.",
+  "texto_en": "There's news from the Sun. Stay alert for the warnings."
+ },
+ {
+  "id": "manana_12",
+  "personaje": "ATL",
+  "texto_es": "Último sol. Hemos llegado lejos, equipo. Un esfuerzo más.",
+  "texto_en": "Last sol. We've come a long way, team. One more push."
+ },
+ {
+  "id": "dia_01",
+  "personaje": "IA",
+  "texto_es": "Hay luz solar. ¡Manos a la obra! Limpiar paneles, cambiar el filtro y regar las plantas antes de que oscurezca.",
+  "texto_en": "There's sunlight. Let's get to work! Clean the panels, change the filter, and water the plants before dark."
+ },
+ {
+  "id": "mini_paneles_01",
+  "personaje": "IA",
+  "texto_es": "Aviso: el polvo cubrió los paneles solares y la batería no carga.",
+  "texto_en": "Notice: dust covered the solar panels and the battery isn't charging."
+ },
+ {
+  "id": "mini_paneles_02",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: a los robots Spirit y Opportunity les pasaba lo mismo en Marte. A veces el viento los limpiaba solo, pero no se puede contar con eso.",
+  "texto_en": "Fun fact: the Spirit and Opportunity robots had the same problem on Mars. Sometimes the wind cleaned them off, but you can't count on that."
+ },
+ {
+  "id": "mini_paneles_03",
+  "personaje": "IA",
+  "texto_es": "Otra vez hay polvo en los paneles. Aquí no hay viento que nos ayude.",
+  "texto_en": "There's dust on the panels again. There's no wind here to help us."
+ },
+ {
+  "id": "consejo_paneles_01",
+  "personaje": "JUD",
+  "texto_es": "Este polvo es finito y se pega. Límpialo con movimientos suaves para no rayar los paneles.",
+  "texto_en": "This dust is fine and it sticks. Clean it with gentle motions so you don't scratch the panels."
+ },
+ {
+  "id": "consejo_paneles_02",
+  "personaje": "WEN",
+  "texto_es": "Empieza por los paneles más tapados: ahí se pierde más luz.",
+  "texto_en": "Start with the most covered panels: that's where the most light is lost."
+ },
+ {
+  "id": "mini_paneles_gana_01",
+  "personaje": "IA",
+  "texto_es": "¡Genial! Los paneles brillan otra vez y la batería sube. Habrá buena luz toda la noche.",
+  "texto_en": "Great! The panels are shining again and the battery is rising. We'll have good light all night."
+ },
+ {
+  "id": "mini_paneles_falla_01",
+  "personaje": "WEN",
+  "texto_es": "Quedó mucho polvo. Esta noche habrá poca batería y la cabina estará oscura.",
+  "texto_en": "There's a lot of dust left. Tonight the battery will be low and the cabin will be dark."
+ },
+ {
+  "id": "mini_filtro_01",
+  "personaje": "IA",
+  "texto_es": "¡Alerta de aire! El filtro de CO₂ se tapó y el repuesto no encaja en el hueco.",
+  "texto_en": "Air alert! The CO₂ filter is clogged and the spare doesn't fit in the slot."
+ },
+ {
+  "id": "mini_filtro_02",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: en 1970 la nave Apolo 13 tuvo el mismo problema. Los ingenieros inventaron un adaptador con bolsas de plástico, cartón, mangueras y cinta.",
+  "texto_en": "Fun fact: in 1970, the Apollo 13 spacecraft had this same problem. The engineers invented an adapter out of plastic bags, cardboard, hoses, and tape."
+ },
+ {
+  "id": "mini_filtro_03",
+  "personaje": "IA",
+  "texto_es": "El filtro se saturó otra vez. A armar el adaptador.",
+  "texto_en": "The filter is saturated again. Time to build the adapter."
+ },
+ {
+  "id": "consejo_filtro_01",
+  "personaje": "ATL",
+  "texto_es": "Si no limpiamos el aire rápido, nos marearemos y costará ver bien. Concéntrate, tú puedes.",
+  "texto_en": "If we don't clean the air fast, we'll get dizzy and it'll be hard to see. Focus, you can do it."
+ },
+ {
+  "id": "consejo_filtro_02",
+  "personaje": "WEN",
+  "texto_es": "No lo metas a la fuerza. Usa el cartón como embudo y pega bien los bordes con cinta.",
+  "texto_en": "Don't force it in. Use the cardboard as a funnel and seal the edges well with tape."
+ },
+ {
+  "id": "mini_filtro_gana_01",
+  "personaje": "IA",
+  "texto_es": "¡Lo lograste! El filtro quedó bien sellado y ya respiramos aire fresco. Gran trabajo en equipo.",
+  "texto_en": "You did it! The filter is sealed tight and we're breathing fresh air. Great teamwork."
+ },
+ {
+  "id": "mini_filtro_falla_01",
+  "personaje": "IA",
+  "texto_es": "Se escapó un poco de aire cargado. Estamos cansados y el aire bajó.",
+  "texto_en": "A little bad air got out. We're tired and the air is getting low."
+ },
+ {
+  "id": "mini_riego_01",
+  "personaje": "IA",
+  "texto_es": "¡Hora de cuidar el jardín! Estas plantas nos ayudan a tener oxígeno. En el espacio el agua flota en burbujas: dales solo las gotas que necesitan.",
+  "texto_en": "Time to tend the garden! These plants help us have oxygen. In space, water floats in bubbles: give them only the drops they need."
+ },
+ {
+  "id": "mini_riego_02",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: en 2016 el astronauta Scott Kelly cuidó las primeras zinnias que florecieron en la Estación Espacial. Les salió moho por la humedad, y él las salvó.",
+  "texto_en": "Fun fact: in 2016, astronaut Scott Kelly tended the first zinnias to bloom on the Space Station. They got mold from the humidity, and he saved them."
+ },
+ {
+  "id": "mini_riego_03",
+  "personaje": "IA",
+  "texto_es": "Las plantas tienen sed, pero ojo con el exceso de agua.",
+  "texto_en": "The plants are thirsty, but watch out for too much water."
+ },
+ {
+  "id": "consejo_riego_01",
+  "personaje": "JUD",
+  "texto_es": "Mira el medidor de cada maceta: agua solo cuando esté en amarillo, y ventilador si ves gotitas flotando.",
+  "texto_en": "Look at each pot's gauge: water only when it's in the yellow, and use the fan if you see droplets floating."
+ },
+ {
+  "id": "consejo_riego_02",
+  "personaje": "ATL",
+  "texto_es": "Si les sale moho, el aire se ensucia. Mantén las hojas limpiecitas.",
+  "texto_en": "If they get mold, the air gets dirty. Keep the leaves nice and clean."
+ },
+ {
+  "id": "mini_riego_gana_01",
+  "personaje": "JUD",
+  "texto_es": "¡Qué bonitas! Plantas sanas, felices y llenando la base de oxígeno.",
+  "texto_en": "How beautiful! Healthy, happy plants filling the base with oxygen."
+ },
+ {
+  "id": "mini_riego_falla_01",
+  "personaje": "JUD",
+  "texto_es": "Cayó demasiada agua y salió un poco de moho. Gastamos aire extra limpiando el jardín.",
+  "texto_en": "Too much water fell and a little mold showed up. We used extra air cleaning the garden."
+ },
+ {
+  "id": "comentario_estado_01",
+  "personaje": "WEN",
+  "texto_es": "Las luces parpadean. Con tan poca energía hay que elegir qué se queda encendido.",
+  "texto_en": "The lights are flickering. With so little energy, we have to choose what stays on."
+ },
+ {
+  "id": "comentario_estado_02",
+  "personaje": "IA",
+  "texto_es": "Las luces de la cabina bajan. Enciende la linterna del casco para ver los controles.",
+  "texto_en": "The cabin lights are dimming. Turn on your helmet flashlight to see the controls."
+ },
+ {
+  "id": "comentario_estado_03",
+  "personaje": "JUD",
+  "texto_es": "El aire se siente pesado. Mis plantas piden refuerzos.",
+  "texto_en": "The air feels heavy. My plants need reinforcements."
+ },
+ {
+  "id": "comentario_estado_04",
+  "personaje": "IA",
+  "texto_es": "Aviso: el blindaje está débil. Conviene reforzarlo mañana.",
+  "texto_en": "Notice: the shielding is weak. We should reinforce it tomorrow."
+ },
+ {
+  "id": "comentario_estado_05",
+  "personaje": "ATL",
+  "texto_es": "Todo en verde. Buen trabajo, equipo.",
+  "texto_en": "Everything's green. Good work, team."
+ },
+ {
+  "id": "noche_1_01",
+  "personaje": "IA",
+  "texto_es": "Fin del primer sol. Afuera hace mucho frío. En Marte la noche puede bajar de los 60 grados bajo cero.",
+  "texto_en": "End of the first sol. It's very cold outside. On Mars, the night can drop below minus sixty degrees."
+ },
+ {
+  "id": "noche_1_02",
+  "personaje": "JUD",
+  "texto_es": "¿Le ponemos un suéter a las plantas?",
+  "texto_en": "Should we put a sweater on the plants?"
+ },
+ {
+  "id": "noche_1_03",
+  "personaje": "WEN",
+  "texto_es": "Mejor un buen calentador. Y chocolate caliente para nosotros.",
+  "texto_en": "A good heater would be better. And hot chocolate for us."
+ },
+ {
+  "id": "noche_1_04",
+  "personaje": "ATL",
+  "texto_es": "Un sol dura unas 24 horas y 39 minutos. Casi como un día en la Tierra, con 39 minutos extra para soñar.",
+  "texto_en": "A sol lasts about 24 hours and 39 minutes. Almost like a day on Earth, with 39 extra minutes to dream."
+ },
+ {
+  "id": "noche_1_05",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: los equipos de las misiones reales han llegado a vivir con horario marciano para trabajar con sus robots.",
+  "texto_en": "Fun fact: teams on real missions have even lived on Mars time to work with their robots."
+ },
+ {
+  "id": "noche_1_06",
+  "personaje": "ATL",
+  "texto_es": "A dormir, equipo. Mañana aprendemos más.",
+  "texto_en": "Off to bed, team. Tomorrow we learn more."
+ },
+ {
+  "id": "noche_2_01",
+  "personaje": "WEN",
+  "texto_es": "Estuve mirando los paneles solares. Hoy dieron menos de lo que esperaba.",
+  "texto_en": "I was looking at the solar panels. They gave less today than I expected."
+ },
+ {
+  "id": "noche_2_02",
+  "personaje": "IA",
+  "texto_es": "Marte está más lejos del Sol que la Tierra. Aquí llega menos de la mitad de la luz.",
+  "texto_en": "Mars is farther from the Sun than Earth. Less than half the light reaches here."
+ },
+ {
+  "id": "noche_2_03",
+  "personaje": "JUD",
+  "texto_es": "Entonces las plantas y los paneles compiten por la luz.",
+  "texto_en": "So the plants and the panels compete for light."
+ },
+ {
+  "id": "noche_2_04",
+  "personaje": "WEN",
+  "texto_es": "Y yo que pensaba que mi mayor rival era la cinta adhesiva.",
+  "texto_en": "And here I thought my biggest rival was duct tape."
+ },
+ {
+  "id": "noche_2_05",
+  "personaje": "ATL",
+  "texto_es": "Por eso planear la energía importa. No se puede encender todo a la vez.",
+  "texto_en": "That's why planning energy matters. We can't turn everything on at once."
+ },
+ {
+  "id": "noche_2_06",
+  "personaje": "IA",
+  "texto_es": "Buenas noches. Guardando energía en modo de ahorro.",
+  "texto_en": "Good night. Saving energy in power-saving mode."
+ },
+ {
+  "id": "noche_3_01",
+  "personaje": "JUD",
+  "texto_es": "¿Escuchan eso? Es el viento de Marte.",
+  "texto_en": "Do you hear that? It's the wind on Mars."
+ },
+ {
+  "id": "noche_3_02",
+  "personaje": "IA",
+  "texto_es": "El robot Perseverance tiene micrófonos. Grabó el viento marciano, sus propias ruedas y hasta el helicóptero Ingenuity.",
+  "texto_en": "The Perseverance rover has microphones. It recorded the Martian wind, its own wheels, and even the Ingenuity helicopter."
+ },
+ {
+  "id": "noche_3_03",
+  "personaje": "WEN",
+  "texto_es": "Aquí el aire es muy delgado, por eso los sonidos suenan más suaves que en la Tierra.",
+  "texto_en": "The air here is very thin, which is why sounds are softer than on Earth."
+ },
+ {
+  "id": "noche_3_04",
+  "personaje": "ATL",
+  "texto_es": "Hasta un grito sonaría más suave.",
+  "texto_en": "Even a shout would sound softer."
+ },
+ {
+  "id": "noche_3_05",
+  "personaje": "JUD",
+  "texto_es": "Yo igual susurro a mis plantas, así no les da pena.",
+  "texto_en": "I whisper to my plants too, so they don't get embarrassed."
+ },
+ {
+  "id": "noche_3_06",
+  "personaje": "IA",
+  "texto_es": "Los sonidos de Marte que escuchas son grabaciones reales de la NASA. Buenas noches.",
+  "texto_en": "The Mars sounds you're hearing are real NASA recordings. Good night."
+ },
+ {
+  "id": "noche_4_01",
+  "personaje": "IA",
+  "texto_es": "El aire de Marte es casi todo dióxido de carbono, CO₂. No se puede respirar.",
+  "texto_en": "The air on Mars is almost all carbon dioxide, CO₂. You can't breathe it."
+ },
+ {
+  "id": "noche_4_02",
+  "personaje": "JUD",
+  "texto_es": "Menos mal que mis plantas toman CO₂ y sueltan oxígeno.",
+  "texto_en": "Good thing my plants take in CO₂ and give off oxygen."
+ },
+ {
+  "id": "noche_4_03",
+  "personaje": "WEN",
+  "texto_es": "Y tenemos filtros para quitarlo del aire de la base.",
+  "texto_en": "And we have filters to remove it from the base's air."
+ },
+ {
+  "id": "noche_4_04",
+  "personaje": "ATL",
+  "texto_es": "¿Sabían que un experimento llamado MOXIE sacó oxígeno del CO₂ marciano?",
+  "texto_en": "Did you know an experiment called MOXIE made oxygen out of Martian CO₂?"
+ },
+ {
+  "id": "noche_4_05",
+  "personaje": "IA",
+  "texto_es": "Sí. Viajó con Perseverance y demostró que se puede. En total hizo 122 gramos de oxígeno, lo que respira un perro pequeño en 10 horas.",
+  "texto_en": "Yes. It traveled with Perseverance and proved it can be done. In total it made 122 grams of oxygen, about what a small dog breathes in 10 hours."
+ },
+ {
+  "id": "noche_4_06",
+  "personaje": "JUD",
+  "texto_es": "Respirar con ayuda de plantas y máquinas. ¡Fascinante!",
+  "texto_en": "Breathing with the help of plants and machines. Fascinating!"
+ },
+ {
+  "id": "noche_5_01",
+  "personaje": "IA",
+  "texto_es": "Esta noche hablemos de la radiación.",
+  "texto_en": "Tonight, let's talk about radiation."
+ },
+ {
+  "id": "noche_5_02",
+  "personaje": "JUD",
+  "texto_es": "Marte no tiene un campo magnético global como la Tierra. Casi no se protege.",
+  "texto_en": "Mars doesn't have a global magnetic field like Earth. It's barely protected."
+ },
+ {
+  "id": "noche_5_03",
+  "personaje": "ATL",
+  "texto_es": "Por eso la base necesita blindaje. Es como un escudo invisible que cuida a todo el equipo.",
+  "texto_en": "That's why the base needs shielding. It's like an invisible shield looking after the whole team."
+ },
+ {
+  "id": "noche_5_04",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: un instrumento del robot Curiosity mide cuánta radiación llega al suelo marciano.",
+  "texto_en": "Fun fact: an instrument on the Curiosity rover measures how much radiation reaches the Martian ground."
+ },
+ {
+  "id": "noche_5_05",
+  "personaje": "JUD",
+  "texto_es": "¿La radiación llega hasta mi invernadero?",
+  "texto_en": "Does the radiation reach my greenhouse?"
+ },
+ {
+  "id": "noche_5_06",
+  "personaje": "WEN",
+  "texto_es": "Si el blindaje está fuerte, no. Tranquilo.",
+  "texto_en": "If the shielding is strong, no. Relax."
+ },
+ {
+  "id": "noche_5_07",
+  "personaje": "ATL",
+  "texto_es": "Descansa. Nuestro escudo está de guardia.",
+  "texto_en": "Rest. Our shield is on guard."
+ },
+ {
+  "id": "noche_6_01",
+  "personaje": "IA",
+  "texto_es": "Hay una tormenta de polvo en el cielo. Algunas rodean todo el planeta.",
+  "texto_en": "There's a dust storm in the sky. Some of them wrap around the whole planet."
+ },
+ {
+  "id": "noche_6_02",
+  "personaje": "JUD",
+  "texto_es": "En 2018 una tormenta global tapó la luz del Sol y el robot Opportunity dejó de comunicarse.",
+  "texto_en": "In 2018, a global storm blocked out the Sun and the Opportunity rover stopped communicating."
+ },
+ {
+  "id": "noche_6_03",
+  "personaje": "JUD",
+  "texto_es": "¿Se quedó dormido?",
+  "texto_en": "Did it fall asleep?"
+ },
+ {
+  "id": "noche_6_04",
+  "personaje": "ATL",
+  "texto_es": "Entró en hibernación. Sus paneles solares casi no recibían luz. Por eso nosotros guardamos reservas.",
+  "texto_en": "It went into hibernation. Its solar panels were barely getting any light. That's why we keep reserves."
+ },
+ {
+  "id": "noche_6_05",
+  "personaje": "WEN",
+  "texto_es": "Y limpiamos los paneles. El polvo es el enemigo.",
+  "texto_en": "And we clean the panels. Dust is the enemy."
+ },
+ {
+  "id": "noche_6_06",
+  "personaje": "IA",
+  "texto_es": "Buenas noches. Ojos abiertos.",
+  "texto_en": "Good night. Eyes open."
+ },
+ {
+  "id": "noche_7_01",
+  "personaje": "JUD",
+  "texto_es": "¡Mis tomates crecen! Bueno, mis semillas brotan. Es casi lo mismo.",
+  "texto_en": "My tomatoes are growing! Well, my seeds are sprouting. It's almost the same."
+ },
+ {
+  "id": "noche_7_02",
+  "personaje": "IA",
+  "texto_es": "El suelo de Marte tiene sales llamadas percloratos. No son buenas para plantas ni para comer sin tratar.",
+  "texto_en": "Mars soil has salts called perchlorates. They're not good for plants, or to eat untreated."
+ },
+ {
+  "id": "noche_7_03",
+  "personaje": "JUD",
+  "texto_es": "Por eso hay que limpiar la tierra marciana antes de sembrar. Los científicos prueban usar microbios para quitarle esas sales.",
+  "texto_en": "That's why Martian soil has to be cleaned before planting. Scientists are testing microbes to remove those salts."
+ },
+ {
+  "id": "noche_7_04",
+  "personaje": "WEN",
+  "texto_es": "Esto es agricultura espacial. Mitad ciencia, mitad paciencia.",
+  "texto_en": "This is space farming. Half science, half patience."
+ },
+ {
+  "id": "noche_7_05",
+  "personaje": "ATL",
+  "texto_es": "Cuidar las plantas es cuidar el aire, el agua y la comida del equipo.",
+  "texto_en": "Caring for the plants is caring for the team's air, water, and food."
+ },
+ {
+  "id": "noche_7_06",
+  "personaje": "JUD",
+  "texto_es": "Buenas noches, plantas. Prometo no cantarles.",
+  "texto_en": "Good night, plants. I promise not to sing to you."
+ },
+ {
+  "id": "noche_8_01",
+  "personaje": "WEN",
+  "texto_es": "Hoy volví a saltar en el pasillo. Aquí pesamos mucho menos.",
+  "texto_en": "Today I jumped in the hallway again. We weigh so much less here."
+ },
+ {
+  "id": "noche_8_02",
+  "personaje": "IA",
+  "texto_es": "La gravedad de Marte es poco más de un tercio de la terrestre. Un astronauta de 40 kilos pesaría unos 15.",
+  "texto_en": "Mars gravity is a little more than a third of Earth's. A 40-kilo astronaut would weigh about 15."
+ },
+ {
+  "id": "noche_8_03",
+  "personaje": "JUD",
+  "texto_es": "¡Me sentí como una pluma!",
+  "texto_en": "I felt like a feather!"
+ },
+ {
+  "id": "noche_8_04",
+  "personaje": "ATL",
+  "texto_es": "Pero ojo: como médico les digo que el cuerpo necesita ejercicio para mantenerse fuerte.",
+  "texto_en": "But careful: as your doctor, I'm telling you the body needs exercise to stay strong."
+ },
+ {
+  "id": "noche_8_05",
+  "personaje": "WEN",
+  "texto_es": "Dos horas de bicicleta mañana. Sin discusión.",
+  "texto_en": "Two hours on the bike tomorrow. No arguments."
+ },
+ {
+  "id": "noche_8_06",
+  "personaje": "IA",
+  "texto_es": "Buenas noches. Registrando un récord de saltos.",
+  "texto_en": "Good night. Recording a new jumping record."
+ },
+ {
+  "id": "noche_9_01",
+  "personaje": "IA",
+  "texto_es": "Noticias del Sol. Los científicos vigilan las tormentas solares.",
+  "texto_en": "News from the Sun. Scientists are watching the solar storms."
+ },
+ {
+  "id": "noche_9_02",
+  "personaje": "JUD",
+  "texto_es": "Una tormenta solar puede lanzar partículas al espacio. Pueden tardar de uno a tres días en llegar a la Tierra.",
+  "texto_en": "A solar storm can launch particles into space. They can take one to three days to reach Earth."
+ },
+ {
+  "id": "noche_9_03",
+  "personaje": "WEN",
+  "texto_es": "Y eso nos da tiempo para prepararnos. Para eso sirven los avisos.",
+  "texto_en": "And that gives us time to get ready. That's what the warnings are for."
+ },
+ {
+  "id": "noche_9_04",
+  "personaje": "JUD",
+  "texto_es": "La NASA ya logró predecir cuándo una tormenta solar llegaría a Marte, y la misión MAVEN lo comprobó.",
+  "texto_en": "NASA has already managed to predict when a solar storm would reach Mars, and the MAVEN mission confirmed it."
+ },
+ {
+  "id": "noche_9_05",
+  "personaje": "JUD",
+  "texto_es": "Los satélites miran el Sol y avisan a los equipos en la Tierra.",
+  "texto_en": "Satellites watch the Sun and warn the teams on Earth."
+ },
+ {
+  "id": "noche_9_06",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: servicios como DONKI, de la NASA, y NOAA registran estos eventos.",
+  "texto_en": "Fun fact: services like NASA's DONKI and NOAA record these events."
+ },
+ {
+  "id": "noche_9_07",
+  "personaje": "ATL",
+  "texto_es": "Saber lo que viene es la mitad de la protección.",
+  "texto_en": "Knowing what's coming is half the protection."
+ },
+ {
+  "id": "noche_10_01",
+  "personaje": "IA",
+  "texto_es": "Última noche. Miren hacia afuera.",
+  "texto_en": "Last night. Look outside."
+ },
+ {
+  "id": "noche_10_02",
+  "personaje": "JUD",
+  "texto_es": "Esa estrella brillante... ¿no será la Tierra?",
+  "texto_en": "That bright star... could it be Earth?"
+ },
+ {
+  "id": "noche_10_03",
+  "personaje": "IA",
+  "texto_es": "Sí. En 2014 el robot Curiosity la fotografió: se veía como una estrella brillante, con la Luna al lado.",
+  "texto_en": "Yes. In 2014, the Curiosity rover photographed it: it looked like a bright star, with the Moon beside it."
+ },
+ {
+  "id": "noche_10_04",
+  "personaje": "WEN",
+  "texto_es": "Nuestro hogar, a millones de kilómetros.",
+  "texto_en": "Our home, millions of kilometers away."
+ },
+ {
+  "id": "noche_10_05",
+  "personaje": "JUD",
+  "texto_es": "¿Cuánto tarda un mensaje en llegar hasta allá?",
+  "texto_en": "How long does a message take to get there?"
+ },
+ {
+  "id": "noche_10_06",
+  "personaje": "IA",
+  "texto_es": "De 3 a 22 minutos, según dónde estén los planetas.",
+  "texto_en": "From 3 to 22 minutes, depending on where the planets are."
+ },
+ {
+  "id": "noche_10_07",
+  "personaje": "ATL",
+  "texto_es": "Todo lo que hicimos aquí, lo hicimos juntos.",
+  "texto_en": "Everything we did here, we did together."
+ },
+ {
+  "id": "noche_10_08",
+  "personaje": "ATL",
+  "texto_es": "Mañana despertamos y cerramos la misión.",
+  "texto_en": "Tomorrow we wake up and close out the mission."
+ },
+ {
+  "id": "emergencia_solar_01",
+  "personaje": "IA",
+  "texto_es": "¡Alerta! Detecto una tormenta solar. Llegará pronto.",
+  "texto_en": "Alert! I detect a solar storm. It will arrive soon."
+ },
+ {
+  "id": "emergencia_solar_02",
+  "personaje": "ATL",
+  "texto_es": "Mantengamos la calma. Tenemos pocos minutos.",
+  "texto_en": "Let's stay calm. We have only a few minutes."
+ },
+ {
+  "id": "emergencia_solar_03",
+  "personaje": "WEN",
+  "texto_es": "Esto está cerca de ser emocionante.",
+  "texto_en": "This is getting close to exciting."
+ },
+ {
+  "id": "emergencia_solar_04",
+  "personaje": "ATL",
+  "texto_es": "Todos al refugio. Cerramos puertas.",
+  "texto_en": "Everyone to the shelter. Closing the doors."
+ },
+ {
+  "id": "emergencia_solar_05",
+  "personaje": "WEN",
+  "texto_es": "Las luces bajan, pero el equipo está seguro.",
+  "texto_en": "The lights are dimming, but the team is safe."
+ },
+ {
+  "id": "emergencia_solar_06",
+  "personaje": "ATL",
+  "texto_es": "Seguimos, pero con ojos abiertos.",
+  "texto_en": "We keep going, but with our eyes open."
+ },
+ {
+  "id": "emergencia_solar_07",
+  "personaje": "IA",
+  "texto_es": "Aviso: el blindaje recibe más carga de lo normal.",
+  "texto_en": "Notice: the shielding is taking more charge than normal."
+ },
+ {
+  "id": "solar_dato_01",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: en agosto de 1972 el Sol lanzó una tormenta enorme entre dos misiones a la Luna. Nadie estaba en el espacio, fue pura suerte. Por eso hoy se vigila el clima espacial.",
+  "texto_en": "Fun fact: in August 1972, the Sun unleashed a huge storm between two Moon missions. Nobody was in space; it was pure luck. That's why space weather is watched today."
+ },
+ {
+  "id": "emergencia_polvo_01",
+  "personaje": "IA",
+  "texto_es": "¡Alerta! Una tormenta de polvo cubre los paneles.",
+  "texto_en": "Alert! A dust storm is covering the panels."
+ },
+ {
+  "id": "emergencia_polvo_02",
+  "personaje": "WEN",
+  "texto_es": "La luz baja. Se acabaron las siestas.",
+  "texto_en": "The light is dropping. No more naps."
+ },
+ {
+  "id": "emergencia_polvo_03",
+  "personaje": "ATL",
+  "texto_es": "Decidamos rápido.",
+  "texto_en": "Let's decide quickly."
+ },
+ {
+  "id": "emergencia_polvo_04",
+  "personaje": "WEN",
+  "texto_es": "Voy yo. Con traje y buen humor.",
+  "texto_en": "I'll go. With a suit and good humor."
+ },
+ {
+  "id": "emergencia_polvo_05",
+  "personaje": "ATL",
+  "texto_es": "Vuelve pronto.",
+  "texto_en": "Come back soon."
+ },
+ {
+  "id": "emergencia_polvo_06",
+  "personaje": "ATL",
+  "texto_es": "Esperemos. Apaguemos lo que no se necesita.",
+  "texto_en": "Let's wait. Let's switch off whatever we don't need."
+ },
+ {
+  "id": "emergencia_polvo_07",
+  "personaje": "IA",
+  "texto_es": "Reservas bajando. Calculando cuánto durarán.",
+  "texto_en": "Reserves dropping. Calculating how long they'll last."
+ },
+ {
+  "id": "emergencia_co2_01",
+  "personaje": "IA",
+  "texto_es": "¡Alerta! El filtro de CO₂ está saturado. El aire se carga.",
+  "texto_en": "Alert! The CO₂ filter is saturated. The air is getting heavy."
+ },
+ {
+  "id": "emergencia_co2_02",
+  "personaje": "JUD",
+  "texto_es": "¿Será por mis suspiros dramáticos?",
+  "texto_en": "Could it be my dramatic sighing?"
+ },
+ {
+  "id": "emergencia_co2_03",
+  "personaje": "WEN",
+  "texto_es": "Hay que cambiar el filtro ya.",
+  "texto_en": "We have to change the filter right now."
+ },
+ {
+  "id": "emergencia_co2_04",
+  "personaje": "WEN",
+  "texto_es": "Filtro nuevo, aire limpio.",
+  "texto_en": "New filter, clean air."
+ },
+ {
+  "id": "emergencia_co2_05",
+  "personaje": "JUD",
+  "texto_es": "¡Respiro mejor!",
+  "texto_en": "I can breathe better!"
+ },
+ {
+  "id": "emergencia_co2_06",
+  "personaje": "JUD",
+  "texto_es": "Mis plantas ayudan, pero despacio.",
+  "texto_en": "My plants help, but slowly."
+ },
+ {
+  "id": "emergencia_co2_07",
+  "personaje": "ATL",
+  "texto_es": "Aguantamos un rato.",
+  "texto_en": "We can hold on for a while."
+ },
+ {
+  "id": "emergencia_radiacion_01",
+  "personaje": "IA",
+  "texto_es": "¡Alerta! La radiación en el exterior subió.",
+  "texto_en": "Alert! Radiation outside has gone up."
+ },
+ {
+  "id": "emergencia_radiacion_02",
+  "personaje": "ATL",
+  "texto_es": "Todos adentro y lejos de las ventanas.",
+  "texto_en": "Everyone inside and away from the windows."
+ },
+ {
+  "id": "emergencia_radiacion_03",
+  "personaje": "JUD",
+  "texto_es": "¡Mis plantas!",
+  "texto_en": "My plants!"
+ },
+ {
+  "id": "emergencia_radiacion_04",
+  "personaje": "WEN",
+  "texto_es": "Subo el escudo. Dame un momento.",
+  "texto_en": "I'm raising the shield. Give me a moment."
+ },
+ {
+  "id": "emergencia_radiacion_05",
+  "personaje": "IA",
+  "texto_es": "Blindaje reforzado.",
+  "texto_en": "Shielding reinforced."
+ },
+ {
+  "id": "emergencia_radiacion_06",
+  "personaje": "JUD",
+  "texto_es": "Cerramos. Las plantas descansan.",
+  "texto_en": "We close up. The plants get some rest."
+ },
+ {
+  "id": "emergencia_radiacion_07",
+  "personaje": "ATL",
+  "texto_es": "Decisión difícil, pero segura.",
+  "texto_en": "A hard decision, but a safe one."
+ },
+ {
+  "id": "emergencia_calor_01",
+  "personaje": "IA",
+  "texto_es": "¡Peligro de calor! Se soltó una pieza del techo protector y la cabina se calienta muy rápido.",
+  "texto_en": "Heat danger! A piece of the protective roof came loose and the cabin is heating up very fast."
+ },
+ {
+  "id": "emergencia_calor_02",
+  "personaje": "WEN",
+  "texto_es": "Esto ya parece un horno.",
+  "texto_en": "This is starting to feel like an oven."
+ },
+ {
+  "id": "emergencia_calor_03",
+  "personaje": "ATL",
+  "texto_es": "Decidamos rápido, pero con calma.",
+  "texto_en": "Let's decide quickly, but calmly."
+ },
+ {
+  "id": "emergencia_calor_04",
+  "personaje": "WEN",
+  "texto_es": "Sombrilla espacial en camino.",
+  "texto_en": "Space umbrella on the way."
+ },
+ {
+  "id": "emergencia_calor_05",
+  "personaje": "IA",
+  "texto_es": "Sombra lista. La temperatura baja.",
+  "texto_en": "Shade ready. The temperature is dropping."
+ },
+ {
+  "id": "emergencia_calor_06",
+  "personaje": "WEN",
+  "texto_es": "Aire frío a todo volumen.",
+  "texto_en": "Cold air at full blast."
+ },
+ {
+  "id": "emergencia_calor_07",
+  "personaje": "IA",
+  "texto_es": "La temperatura baja. La energía también.",
+  "texto_en": "The temperature is dropping. So is the energy."
+ },
+ {
+  "id": "calor_dato_01",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: en 1973 la estación Skylab perdió su escudo del Sol al despegar y se calentó como un horno. Su primera tripulación instaló un parasol y la salvó.",
+  "texto_en": "Fun fact: in 1973, the Skylab station lost its sun shield during launch and heated up like an oven. Its first crew installed a sunshade and saved it."
+ },
+ {
+  "id": "emergencia_fuga_01",
+  "personaje": "IA",
+  "texto_es": "¡Fuga detectada! El líquido que enfría los paneles solares se escapa al espacio.",
+  "texto_en": "Leak detected! The liquid that cools the solar panels is escaping into space."
+ },
+ {
+  "id": "emergencia_fuga_02",
+  "personaje": "WEN",
+  "texto_es": "Si no lo cerramos, los paneles se recalientan.",
+  "texto_en": "If we don't shut it off, the panels overheat."
+ },
+ {
+  "id": "emergencia_fuga_03",
+  "personaje": "ATL",
+  "texto_es": "Piensen en el equipo, no solo en la máquina.",
+  "texto_en": "Think about the team, not just the machine."
+ },
+ {
+  "id": "emergencia_fuga_04",
+  "personaje": "WEN",
+  "texto_es": "Cerrando el tubo. Perdemos un poco de potencia, pero nadie sale.",
+  "texto_en": "Closing the pipe. We lose a little power, but nobody goes out."
+ },
+ {
+  "id": "emergencia_fuga_05",
+  "personaje": "IA",
+  "texto_es": "Fuga aislada.",
+  "texto_en": "Leak isolated."
+ },
+ {
+  "id": "emergencia_fuga_06",
+  "personaje": "ATL",
+  "texto_es": "Salgan con cuidado y vuelvan pronto.",
+  "texto_en": "Go out carefully and come back soon."
+ },
+ {
+  "id": "emergencia_fuga_07",
+  "personaje": "WEN",
+  "texto_es": "Pieza cambiada. La energía sigue completa.",
+  "texto_en": "Part replaced. The energy is still full."
+ },
+ {
+  "id": "fuga_dato_01",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: en mayo de 2013 la tripulación de la Estación Espacial Internacional vio copos blancos de líquido enfriador congelado. Dos astronautas salieron en caminata espacial y cambiaron la pieza que fallaba.",
+  "texto_en": "Fun fact: in May 2013, the crew of the International Space Station saw white flakes of frozen coolant. Two astronauts went on a spacewalk and replaced the part that was failing."
+ },
+ {
+  "id": "emergencia_impacto_01",
+  "personaje": "IA",
+  "texto_es": "¡Impacto en el casco! Se escapa aire por una grieta. Hay que cerrar la compuerta ya.",
+  "texto_en": "Hull impact! Air is escaping through a crack. We have to close the hatch now."
+ },
+ {
+  "id": "emergencia_impacto_02",
+  "personaje": "ATL",
+  "texto_es": "Calma. Una cosa a la vez.",
+  "texto_en": "Calm. One thing at a time."
+ },
+ {
+  "id": "emergencia_impacto_03",
+  "personaje": "WEN",
+  "texto_es": "Los cables pasan justo por la puerta.",
+  "texto_en": "The cables run right through the door."
+ },
+ {
+  "id": "emergencia_impacto_04",
+  "personaje": "WEN",
+  "texto_es": "Cortando. Luego lo arreglo.",
+  "texto_en": "Cutting. I'll fix it later."
+ },
+ {
+  "id": "emergencia_impacto_05",
+  "personaje": "IA",
+  "texto_es": "Compuerta sellada. El aire se salvó.",
+  "texto_en": "Hatch sealed. The air was saved."
+ },
+ {
+  "id": "emergencia_impacto_06",
+  "personaje": "WEN",
+  "texto_es": "Desconecto uno por uno. Tardo un poco más.",
+  "texto_en": "I'll disconnect them one by one. It takes a little longer."
+ },
+ {
+  "id": "emergencia_impacto_07",
+  "personaje": "IA",
+  "texto_es": "Compuerta sellada. Se perdió algo de aire por el camino.",
+  "texto_en": "Hatch sealed. Some air was lost along the way."
+ },
+ {
+  "id": "impacto_dato_01",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: en 1997 una nave de carga chocó con un módulo de la estación espacial rusa Mir, con un astronauta de la NASA a bordo. La tripulación desconectó cables para sellar la puerta y la estación siguió funcionando.",
+  "texto_en": "Fun fact: in 1997, a cargo ship hit a module of the Russian space station Mir, with a NASA astronaut on board. The crew disconnected cables to seal the door, and the station kept working."
+ },
+ {
+  "id": "emergencia_comunicacion_01",
+  "personaje": "IA",
+  "texto_es": "¡Alerta! El ventilador del invernadero se detuvo y no sé qué pieza falló.",
+  "texto_en": "Alert! The greenhouse fan stopped and I don't know which part failed."
+ },
+ {
+  "id": "emergencia_comunicacion_02",
+  "personaje": "WEN",
+  "texto_es": "Mandemos un mensaje a la Tierra. Ellos tienen los planos.",
+  "texto_en": "Let's send a message to Earth. They have the blueprints."
+ },
+ {
+  "id": "emergencia_comunicacion_03",
+  "personaje": "IA",
+  "texto_es": "Aviso: un mensaje a la Tierra tarda entre 3 y 22 minutos en llegar. La respuesta tarda otro tanto.",
+  "texto_en": "Notice: a message to Earth takes between 3 and 22 minutes to arrive. The reply takes just as long."
+ },
+ {
+  "id": "emergencia_comunicacion_04",
+  "personaje": "JUD",
+  "texto_es": "¿O sea que hablar con la Tierra es como mandar una carta?",
+  "texto_en": "So talking to Earth is like sending a letter?"
+ },
+ {
+  "id": "emergencia_comunicacion_05",
+  "personaje": "ATL",
+  "texto_es": "Y mientras tanto el aire no espera. Hay que decidir.",
+  "texto_en": "And meanwhile the air won't wait. We have to decide."
+ },
+ {
+  "id": "emergencia_comunicacion_06",
+  "personaje": "ATL",
+  "texto_es": "Esperemos con calma. Cuidemos el aire que queda.",
+  "texto_en": "Let's wait calmly. Let's take care of the air we have left."
+ },
+ {
+  "id": "emergencia_comunicacion_07",
+  "personaje": "JUD",
+  "texto_es": "Las plantas no respiran sin ventilador. Hay que ahorrar.",
+  "texto_en": "The plants can't breathe without the fan. We have to save."
+ },
+ {
+  "id": "emergencia_comunicacion_08",
+  "personaje": "IA",
+  "texto_es": "Mensaje enviado. Esperando respuesta. El oxígeno baja mientras tanto.",
+  "texto_en": "Message sent. Waiting for a reply. Oxygen is dropping in the meantime."
+ },
+ {
+  "id": "emergencia_comunicacion_09",
+  "personaje": "WEN",
+  "texto_es": "Lo reiniciamos entero y probamos pieza por pieza.",
+  "texto_en": "We restart the whole thing and test it piece by piece."
+ },
+ {
+  "id": "emergencia_comunicacion_10",
+  "personaje": "IA",
+  "texto_es": "Reinicio en marcha. Las baterías trabajan de más.",
+  "texto_en": "Restart underway. The batteries are working overtime."
+ },
+ {
+  "id": "comunicacion_dato_01",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: una señal entre la Tierra y Marte tarda de 3 a 22 minutos en cada sentido, según dónde estén los planetas. Por eso una tripulación en Marte tiene que saber decidir sola.",
+  "texto_en": "Fun fact: a signal between Earth and Mars takes 3 to 22 minutes in each direction, depending on where the planets are. That's why a crew on Mars has to know how to decide on its own."
+ },
+ {
+  "id": "fin_exito_01",
+  "personaje": "ATL",
+  "texto_es": "Sol diez completado. Todos los sistemas siguen en marcha.",
+  "texto_en": "Sol ten complete. All systems are still running."
+ },
+ {
+  "id": "fin_exito_02",
+  "personaje": "WEN",
+  "texto_es": "¡La base aguantó! Y casi no tuve que usar cinta adhesiva.",
+  "texto_en": "The base held up! And I barely had to use duct tape."
+ },
+ {
+  "id": "fin_exito_03",
+  "personaje": "JUD",
+  "texto_es": "¡Mis plantas también sobrevivieron! Les dije que podían.",
+  "texto_en": "My plants survived too! I told them they could."
+ },
+ {
+  "id": "fin_exito_04",
+  "personaje": "IA",
+  "texto_es": "Han pasado diez soles enteros en este rincón del universo y seguimos aquí.",
+  "texto_en": "Ten whole sols have passed in this corner of the universe, and we're still here."
+ },
+ {
+  "id": "fin_exito_05",
+  "personaje": "IA",
+  "texto_es": "No fue solo suerte. Fue curiosidad, valentía y ganas de aprender.",
+  "texto_en": "It wasn't just luck. It was curiosity, courage, and a will to learn."
+ },
+ {
+  "id": "fin_exito_06",
+  "personaje": "IA",
+  "texto_es": "Resultado: misión exitosa. Datos reales y buenas decisiones.",
+  "texto_en": "Result: mission successful. Real data and good decisions."
+ },
+ {
+  "id": "fin_exito_07",
+  "personaje": "IA",
+  "texto_es": "{jugador}, ahora eres Astronauta Junior de la Base Marte Uno.",
+  "texto_en": "{jugador}, you are now a Junior Astronaut of Mars Base One."
+ },
+ {
+  "id": "fin_exito_08",
+  "personaje": "IA",
+  "texto_es": "Aprendiste que en Marte el trabajo en equipo y la información real salvan la misión.",
+  "texto_en": "You learned that on Mars, teamwork and real information save the mission."
+ },
+ {
+  "id": "fin_exito_09",
+  "personaje": "IA",
+  "texto_es": "Porque lo intentaron… lo lograron.",
+  "texto_en": "Because they tried... they succeeded."
+ },
+ {
+  "id": "fin_exito_10",
+  "personaje": "ATL",
+  "texto_es": "Cuando vayamos de verdad, ya sabremos cómo.",
+  "texto_en": "When we really go, we'll already know how."
+ },
+ {
+  "id": "fin_energia_01",
+  "personaje": "IA",
+  "texto_es": "Energía agotada. La base se apaga y se reinicia la misión.",
+  "texto_en": "Energy depleted. The base shuts down and the mission restarts."
+ },
+ {
+  "id": "fin_energia_02",
+  "personaje": "WEN",
+  "texto_es": "¡Estamos bien! Era una simulación. Sólo falta reiniciar.",
+  "texto_en": "We're fine! It was a simulation. We just need to restart."
+ },
+ {
+  "id": "fin_energia_03",
+  "personaje": "ATL",
+  "texto_es": "Nadie está herido. Esto es lo que se practica.",
+  "texto_en": "Nobody is hurt. This is what we practice."
+ },
+ {
+  "id": "fin_energia_04",
+  "personaje": "IA",
+  "texto_es": "Lo que aprendimos: en Marte llega menos de la mitad de luz solar. El polvo tapa los paneles y las tormentas lo empeoran.",
+  "texto_en": "What we learned: on Mars, less than half the sunlight arrives. Dust covers the panels and storms make it worse."
+ },
+ {
+  "id": "fin_energia_05",
+  "personaje": "IA",
+  "texto_es": "Cuando la energía no alcanza, hay que decidir qué se queda encendido y guardar reservas antes de la noche.",
+  "texto_en": "When there isn't enough energy, you have to decide what stays on and save reserves before nightfall."
+ },
+ {
+  "id": "fin_energia_06",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: los robots Spirit y Opportunity vivieron años porque el viento a veces les limpiaba los paneles. Tú no puedes esperar al viento: limpia los paneles a tiempo.",
+  "texto_en": "Fun fact: the Spirit and Opportunity robots lasted for years because the wind sometimes cleaned their panels. You can't wait for the wind: clean the panels in time."
+ },
+ {
+  "id": "fin_energia_07",
+  "personaje": "ATL",
+  "texto_es": "La próxima vez, repartimos mejor.",
+  "texto_en": "Next time, we'll share it better."
+ },
+ {
+  "id": "fin_oxigeno_01",
+  "personaje": "IA",
+  "texto_es": "Aire con demasiado CO₂. La base se apaga y se reinicia la misión.",
+  "texto_en": "Air with too much CO₂. The base shuts down and the mission restarts."
+ },
+ {
+  "id": "fin_oxigeno_02",
+  "personaje": "JUD",
+  "texto_es": "¡Estamos bien! Fue un buen ensayo.",
+  "texto_en": "We're fine! That was a good rehearsal."
+ },
+ {
+  "id": "fin_oxigeno_03",
+  "personaje": "ATL",
+  "texto_es": "Nadie corre peligro. La misión de prueba nos cuida.",
+  "texto_en": "Nobody is in danger. The practice mission looks after us."
+ },
+ {
+  "id": "fin_oxigeno_04",
+  "personaje": "IA",
+  "texto_es": "Lo que aprendimos: en Marte el aire es casi todo CO₂. Los filtros y las plantas mantienen el aire respirable.",
+  "texto_en": "What we learned: on Mars the air is almost all CO₂. Filters and plants keep the air breathable."
+ },
+ {
+  "id": "fin_oxigeno_05",
+  "personaje": "IA",
+  "texto_es": "Cambiar el filtro a tiempo es tan importante como la energía.",
+  "texto_en": "Changing the filter in time is just as important as energy."
+ },
+ {
+  "id": "fin_oxigeno_06",
+  "personaje": "IA",
+  "texto_es": "Dato curioso: en el Apolo 13 el aire se llenó de CO₂ y la tripulación lo arregló con cinta, cartón y mangueras. Revisa bien los filtros y las plantas en el siguiente intento.",
+  "texto_en": "Fun fact: on Apollo 13, the air filled with CO₂ and the crew fixed it with tape, cardboard, and hoses. Check the filters and the plants carefully on your next try."
+ },
+ {
+  "id": "fin_oxigeno_07",
+  "personaje": "ATL",
+  "texto_es": "Mañana lo hacemos mejor.",
+  "texto_en": "Tomorrow we do better."
+ },
+ {
+  "id": "fin_blindaje_01",
+  "personaje": "IA",
+  "texto_es": "Blindaje agotado. La base se apaga y se reinicia la misión.",
+  "texto_en": "Shielding depleted. The base shuts down and the mission restarts."
+ },
+ {
+  "id": "fin_blindaje_02",
+  "personaje": "WEN",
+  "texto_es": "Todos a salvo. Esto era para ensayar.",
+  "texto_en": "Everyone's safe. This was for practice."
+ },
+ {
+  "id": "fin_blindaje_03",
+  "personaje": "ATL",
+  "texto_es": "Nadie sufrió daño. Así se aprende.",
+  "texto_en": "Nobody was harmed. This is how we learn."
+ },
+ {
+  "id": "fin_blindaje_04",
+  "personaje": "IA",
+  "texto_es": "Lo que aprendimos: Marte casi no tiene protección natural contra la radiación. Por eso la base necesita blindaje.",
+  "texto_en": "What we learned: Mars has almost no natural protection against radiation. That's why the base needs shielding."
+ },
+ {
+  "id": "fin_blindaje_05",
+  "personaje": "IA",
+  "texto_es": "Seguir los avisos de clima espacial nos da tiempo para prepararnos.",
+  "texto_en": "Following the space weather warnings gives us time to get ready."
+ },
+ {
+  "id": "fin_blindaje_06",
+  "personaje": "IA",
+  "texto_es": "En 1972 el Sol lanzó una tormenta enorme justo entre dos misiones a la Luna. Hoy se vigila el clima espacial para estar listos.",
+  "texto_en": "In 1972, the Sun unleashed a huge storm right between two Moon missions. Today, space weather is watched so we can be ready."
+ },
+ {
+  "id": "fin_blindaje_07",
+  "personaje": "ATL",
+  "texto_es": "La próxima vez, escuchamos los avisos.",
+  "texto_en": "Next time, we listen to the warnings."
+ }
+]
