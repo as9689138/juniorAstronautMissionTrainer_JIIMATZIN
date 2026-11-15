@@ -1,0 +1,18 @@
+stateDiagram-v2
+    [*] --> candidate: importar
+    candidate --> candidate: validar<br/>registra informe checked
+    candidate --> published: publicar<br/>técnica OK y sin fichas pendientes
+    published --> retired: retirar<br/>exige motivo
+    retired --> [*]
+
+    note right of candidate
+        Bloqueos de publicación:
+        contenido inconsistente con el ZIP,
+        fichas sin aprobación humana vigente,
+        evidencia sin verificar.
+    end note
+    note right of published
+        Contenido e historial inmutables.
+        Retirar oculta la publicación
+        y los escenarios que dependen de ella.
+    end note

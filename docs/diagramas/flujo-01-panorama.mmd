@@ -1,0 +1,46 @@
+flowchart LR
+    subgraph Entradas["Entradas administrativas (CLI, sin HTTP)"]
+        ZIP["Paquete científico ZIP<br/>SHA-256 externo"]
+        DES["Desglose del juego<br/>JSON + CSV opcional"]
+    end
+
+    subgraph CLI["backend/ comandos"]
+        IMP["importar"]
+        PUB["publicaciones<br/>validar · publicar · retirar"]
+        CON["contenido<br/>validar · importar"]
+        ESC["escenarios<br/>preparar · crear · publicar<br/>retirar · exportar"]
+    end
+
+    subgraph DB["PostgreSQL"]
+        CIE[("esquema ciencia<br/>datos, fichas, revisiones")]
+        JUE[("esquema juego<br/>catálogos y escenarios")]
+    end
+
+    subgraph API["API Express (solo lectura)"]
+        RS["/api/v1/scenarios"]
+        RF["/api/v1/facts"]
+        RU["/api/v1/sources"]
+        RD["/api/v1/live/donki/flares"]
+        RH["/health"]
+    end
+
+    NASA["NASA DONKI<br/>API oficial"]
+    FRONT["Frontend Phaser<br/>src/api"]
+    RESP["frontend/public/escenarios<br/>respaldo estático"]
+
+    ZIP --> IMP --> CIE
+    ZIP --> PUB --> CIE
+    DES --> CON --> JUE
+    ESC --> JUE
+    ESC -- exportar --> RESP
+
+    CIE --> RF
+    CIE --> RU
+    CIE --> RS
+    JUE --> RS
+    RD -- consulta en vivo --> NASA
+
+    RS --> FRONT
+    RF --> FRONT
+    RD --> FRONT
+    RESP -. si la API falla .-> FRONT

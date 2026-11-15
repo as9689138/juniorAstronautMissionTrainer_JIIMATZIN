@@ -1,0 +1,16 @@
+flowchart TD
+    A(["Inicio del proceso"]) --> ENV["Leer y validar variables de entorno<br/>zod en env.js"]
+    ENV -- "inválidas o inseguras en producción" --> X(["No arranca"])
+    ENV --> POOL["Crear pool PostgreSQL<br/>TLS, tope de conexiones, timeouts"]
+    POOL --> APP["Crear app Express<br/>middlewares y rutas"]
+    APP --> LIS["Escuchar en PORT<br/>tiempos máximos de petición"]
+    LIS --> RUN{"En ejecución"}
+
+    RUN -- "SIGINT o SIGTERM" --> CL["Cierre ordenado<br/>deja de aceptar y cierra conexiones"]
+    RUN -- "excepción o promesa sin manejar" --> LOG["Registrar y cerrar con código 1<br/>el hosting reinicia el proceso"]
+    RUN -- "error en conexión inactiva de la BD" --> IGN["Se registra<br/>el proceso continúa"]
+    IGN --> RUN
+    LOG --> CL
+    CL --> POOLEND["Cerrar el pool"]
+    POOLEND --> FIN(["Salida"])
+    CL -. "pasados 10 s" .-> FORZ(["Salida forzada"])

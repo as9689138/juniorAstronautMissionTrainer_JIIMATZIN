@@ -1,0 +1,17 @@
+flowchart TD
+    A["Paso 1 · importar<br/>carga el ZIP en ciencia"] --> B["Publicación en estado candidate"]
+    B --> C["Paso 2 · Revisión humana de cada ficha<br/>decisión registrada en fact_reviews"]
+    C --> D["Paso 3 · publicaciones validar<br/>compara la BD contra el ZIP"]
+    D --> E{"¿Técnica correcta<br/>y sin fichas pendientes?"}
+    E -- no --> F["Informe con bloqueos<br/>sigue en candidate"]
+    F --> C
+    E -- sí --> G["Paso 4 · publicaciones publicar<br/>sella la publicación"]
+
+    H["Paso 5 · contenido importar<br/>catálogo del juego sellado"] --> I
+    G --> I["Paso 6 · escenarios preparar<br/>arma la definición con catálogo + publicación"]
+    I --> J["Paso 7 · escenarios crear<br/>borrador"]
+    J --> K["Paso 8 · escenarios publicar<br/>valida el contrato de salida"]
+    K --> L["Paso 9 · escenarios exportar<br/>respaldo JSON versionado"]
+    K --> M["API sirve el escenario<br/>GET /api/v1/scenarios"]
+    L --> N["Frontend usa el respaldo<br/>si la API no responde"]
+    M --> N

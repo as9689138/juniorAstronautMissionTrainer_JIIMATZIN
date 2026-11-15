@@ -2,30 +2,7 @@
 
 ## Componentes y responsabilidades
 
-```mermaid
-flowchart TD
-    subgraph Datos["Datos (fuera del repo)"]
-        Z[ZIP de muestras M01-M06<br/>SHA-256 verificado]
-    end
-    subgraph Back["backend/"]
-        IMP[importador]
-        API[API Express]
-    end
-    DB[(PostgreSQL)]
-    subgraph Front["frontend/"]
-        AD[src/api<br/>adaptador]
-        PH[Phaser: escenas y mecánicas]
-        RES[public/escenarios<br/>respaldo estático]
-    end
-    C[contrato/<br/>scenario.schema.json]
-
-    Z --> IMP --> DB
-    DB --> API
-    API -- JSON --> AD --> PH
-    RES -. si la API falla .-> AD
-    C -. define .-> API
-    C -. define .-> AD
-```
+El panorama completo (entradas administrativas, comandos, esquemas, API y frontend) está en el [diagrama 1](14-flujos-backend.md#1-panorama-del-sistema).
 
 | Componente | Responsable propuesto (doc 04) |
 | --- | --- |
@@ -38,26 +15,7 @@ Principios: el frontend **nunca** se conecta a la BD; el backend **no** consulta
 
 ## Carga de un escenario
 
-```mermaid
-sequenceDiagram
-    participant J as Phaser
-    participant A as src/api/cargarEscenario
-    participant S as API Express
-    participant B as PostgreSQL
-    J->>A: cargarEscenario("mars-demo")
-    A->>S: GET /api/v1/scenarios/mars-demo
-    alt API disponible
-        S->>B: escenario + condiciones + fichas
-        B-->>S: filas
-        S-->>A: 200 JSON (contrato v1)
-        A->>A: validarEscenario()
-        A-->>J: { escenario, origen: "api" }
-    else error, tiempo agotado o respuesta no válida
-        A->>A: GET /escenarios/mars-demo.json (respaldo)
-        A-->>J: { escenario, origen: "respaldo-local" }
-    end
-    Note over J: La misión conserva escenario y versión hasta terminar
-```
+La consulta del escenario en la API y su carga en el frontend, con respaldo estático, están en los diagramas [8](14-flujos-backend.md#8-consulta-de-un-escenario) y [11](14-flujos-backend.md#11-carga-del-escenario-en-el-frontend).
 
 ## Estructura interna del backend
 
