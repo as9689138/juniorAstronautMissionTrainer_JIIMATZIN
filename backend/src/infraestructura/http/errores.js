@@ -1,5 +1,5 @@
 import { ZodError } from 'zod';
-import { ErrorNoEncontrado, ErrorFuenteExterna } from '../../compartido/errores.js';
+import { ErrorNoEncontrado, ErrorFuenteExterna, ErrorConflicto } from '../../compartido/errores.js';
 
 export class ErrorHttp extends Error {
   constructor(estado, codigo, mensaje) {
@@ -35,6 +35,16 @@ export function manejadorErrores(err, _req, res, _next) {
   }
   if (err instanceof ErrorNoEncontrado) {
     return res.status(404).json({ error: { codigo: err.codigo, mensaje: err.message } });
+  }
+  if (err instanceof ErrorConflicto) {
+    return res.status(409).json({ error: { codigo: err.codigo, mensaje: err.message } });
+  }
+  // Cuerpos JSON (POST /api/v1/partidas): mal formado o demasiado grande
+  if (err?.type === 'entity.parse.failed') {
+    return res.status(400).json({ error: { codigo: 'json_invalido', mensaje: 'El cuerpo no es JSON válido' } });
+  }
+  if (err?.type === 'entity.too.large') {
+    return res.status(413).json({ error: { codigo: 'cuerpo_demasiado_grande', mensaje: 'El cuerpo es demasiado grande' } });
   }
   console.error(err);
   return res.status(500).json({ error: { codigo: 'error_interno', mensaje: 'Error interno del servidor' } });

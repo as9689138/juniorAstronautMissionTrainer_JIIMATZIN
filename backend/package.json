@@ -18,7 +18,8 @@
     "importar": "node --env-file-if-exists=../.env src/importador/cli.js",
     "publicaciones": "node --env-file-if-exists=../.env src/publicaciones/cli.js",
     "escenarios": "node --env-file-if-exists=../.env src/escenarios/cli.js",
-    "contenido": "node --env-file-if-exists=../.env src/contenido/cli.js"
+    "contenido": "node --env-file-if-exists=../.env src/contenido/cli.js",
+    "partidas": "node --env-file-if-exists=../.env src/partidas/cli.js"
   },
   "dependencies": {
     "cors": "^2.8.6",

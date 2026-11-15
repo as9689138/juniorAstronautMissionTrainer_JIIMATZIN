@@ -1,0 +1,17 @@
+flowchart TD
+    S(["pnpm contenido importar<br/>--archivo --sha256 --actor"]) --> F["Leer desglose<br/>máx. 5 MiB, SHA-256 externo"]
+    F --> Z["Validar esquema<br/>personajes, recursos, soles, minijuegos,<br/>emergencias, cartas, finales, datos"]
+    Z -- falla --> X1(["Aborta con el motivo"])
+    Z --> CSV{"¿Hay carpeta CSV?"}
+    CSV -- sí --> CC["Comparar cada CSV con el JSON<br/>conteos, IDs y valores"]
+    CC -- difiere --> X1
+    CC --> ID
+    CSV -- no --> ID["catalog_id = cat_ + SHA-256<br/>del contenido ordenado"]
+    ID --> TX["Transacción con bloqueo"]
+    TX --> E{"¿El catálogo<br/>ya existe?"}
+    E -- sí --> CMP["Comparar lo persistido<br/>con el contenido"]
+    E -- no --> INS["Insertar catálogo y 11 tablas<br/>recursos, personajes, minijuegos…"]
+    INS --> CMP
+    CMP -- inconsistente --> RB(["ROLLBACK"])
+    CMP -- coincide --> SEAL["Sellar catálogo<br/>sealed = true"]
+    SEAL --> OK(["COMMIT: created true o false"])

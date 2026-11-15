@@ -1,0 +1,38 @@
+JUNIOR ASTRONAUT MISSION TRAINER - CRÉDITOS
+NASA Space Apps Challenge 2026
+
+EQUIPO
+[NOMBRE] - [ROL]
+[NOMBRE] - [ROL]
+[NOMBRE] - [ROL]
+[NOMBRE] - [ROL]
+[NOMBRE] - Historia, música, sonido y voz (Rol 5)
+
+HISTORIA
+Escrita por el equipo con ayuda de IA.
+Traducción al inglés hecha con ayuda de IA.
+
+MÚSICA
+Música original del juego, "Propuesta 3" (estilo cinematográfico espacial: órgano, cuerdas, piano y celesta),
+compuesta y sintetizada con código (Python/numpy) por el equipo con ayuda de IA (Claude, Anthropic).
+No usa muestras, grabaciones ni material de terceros.
+Generada con asistencia de inteligencia artificial. Licencia: CC0 1.0 (dominio público).
+
+EFECTOS DE SONIDO
+Efectos originales del equipo, generados con código.
+
+SONIDOS DE MARTE
+Sonidos de Marte: NASA/JPL-Caltech y colaboradores (rover Perseverance, instrumento SuperCam), usados según las
+Media Usage Guidelines de NASA.
+- "First Audio Recording of Sounds on Mars": NASA/JPL-Caltech/LANL/CNES/CNRS/ISAE-Supaero
+- "NASA's Perseverance Records a Martian Dust Devil": NASA/JPL-Caltech/LANL/CNES/CNRS/INTA-CSIC/Space Science Institute/ISAE-Supaero
+Este juego no está afiliado ni respaldado por la NASA.
+
+VOCES
+Voces generadas con IA, en local.
+- Diálogos en español: Chatterbox Multilingual (Resemble AI, licencia MIT), con las voces de los personajes
+  diseñadas con Qwen3-TTS 1.7B VoiceDesign (Alibaba Qwen, licencia Apache 2.0).
+- Voz en vivo: Piper con las voces en inglés kristin, joe y norman (dominio público / CC0) y en español
+  es_MX-claude-high (Apache 2.0), es_MX-ald-medium (Unlicense) y es_AR-daniela-high (datos OpenSLR 61,
+  CC BY-SA 4.0); OpenVoice v2 (MyShell, licencia MIT).
+- Se conservan las marcas de agua de Chatterbox (PerTh) y de OpenVoice (wavmark).

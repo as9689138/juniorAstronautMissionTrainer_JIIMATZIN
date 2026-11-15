@@ -9,7 +9,7 @@ El backend se despliega configurado **solo por variables de entorno**, definidas
 | `NODE_ENV` | `production` | Activa las validaciones estrictas |
 | `PORT` | la que asigne el hosting | Casi todos la inyectan; por defecto 3000 |
 | `DATABASE_URL` | URL de la BD gestionada | Obligatoria; solo en servidor. Se rechaza si apunta a `localhost` o usa la contraseña de desarrollo |
-| `DATABASE_SSL` | `require` (o `no-verify`) | `disable` se rechaza en producción. Usa `no-verify` solo si el proveedor usa certificado propio |
+| `DATABASE_SSL` | `require` (o `no-verify`) | `disable` se rechaza en producción, salvo con Cloud SQL por su socket (`host=/cloudsql/...`), que ya va cifrado. Usa `no-verify` solo si el proveedor usa certificado propio |
 | `CORS_ORIGINS` | `https://<origen-del-front>` | Obligatoria; solo orígenes `https` exactos, sin comodín ni ruta. Varios separados por coma |
 | `TRUST_PROXY` | `1` tras un balanceador | Para IP y protocolo reales |
 | `DB_POOL_MAX` | 10 por defecto | Ajustar al límite de conexiones del plan de BD |
@@ -26,13 +26,13 @@ El backend se despliega configurado **solo por variables de entorno**, definidas
 | --- | --- |
 | La API no arranca con configuración insegura en producción | `infraestructura/config/env.js` |
 | Cabeceras de seguridad (`helmet`), sin `X-Powered-By` | `app.js` |
-| CORS cerrado: solo GET/HEAD y orígenes listados | `app.js` |
+| CORS cerrado: GET/HEAD/POST y solo orígenes listados | `app.js` |
 | Límite de peticiones por IP (429 con formato propio) | `infraestructura/http/limites.js` |
 | Tiempos máximos de petición y de cabeceras | `index.js` |
 | Cierre ordenado y salida forzada a los 10 s | `index.js` |
 | Un error en conexión inactiva de la BD no tumba el proceso | `index.js` |
 | Excepciones/promesas sin manejar: registrar y salir para que el hosting reinicie | `index.js` |
-| Sin escritura expuesta; SQL parametrizado; límites de BD (`statement_timeout` 5 s) | repositorios por funcionalidad, `infraestructura/db/pool.js` |
+| Una sola escritura: `POST /api/v1/partidas` (partidas anónimas del juego), validada con Zod estricto, cuerpo de 64 KB como máximo y sin ruta para leerlas; SQL parametrizado; límites de BD (`statement_timeout` 5 s) | `partidas/`, repositorios por funcionalidad, `infraestructura/db/pool.js` |
 | Los errores 500 no revelan detalles | `infraestructura/http/errores.js` |
 
 ## Despliegue
@@ -56,7 +56,7 @@ flowchart LR
 
 ## Pendiente
 
-- Hosting: irá a Google Cloud; el servicio concreto está pendiente (GitHub Pages no ejecuta servidor).
+- Hosting: Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL). Pasos en [07-google-cloud.md](07-google-cloud.md); falta ejecutarlos con la cuenta del equipo.
 - Decidir quién ejecuta las migraciones en cada despliegue (manual o paso del pipeline).
 - Limitación de tasa (`rate limit`) y registro estructurado, si el tráfico lo justifica.
 - Cuando se importen datos reales: estrategia de copias de seguridad de la BD.

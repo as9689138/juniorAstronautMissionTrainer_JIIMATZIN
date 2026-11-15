@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "frontend/dist",
+    "cleanUrls": false,
+    "rewrites": [
+      { "source": "/api/**", "run": { "serviceId": "jiimatzin-api", "region": "us-central1" } },
+      { "source": "/health", "run": { "serviceId": "jiimatzin-api", "region": "us-central1" } },
+      { "source": "/health/**", "run": { "serviceId": "jiimatzin-api", "region": "us-central1" } }
+    ],
+    "headers": [
+      { "source": "**/*.@(html|js|json)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+      { "source": "**/*.@(png|jpg|ogg|mp3|wav)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] }
+    ]
+  }
+}

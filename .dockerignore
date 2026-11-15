@@ -1,0 +1,18 @@
+# La imagen solo lleva el backend (ver Dockerfile)
+.git
+.githooks
+node_modules
+**/node_modules
+frontend/*
+!frontend/package.json
+docs
+docs-internos
+backend/data
+backend/test
+backend/test-support
+backups
+muestras
+*.zip
+.env
+.env.*
+*.log
