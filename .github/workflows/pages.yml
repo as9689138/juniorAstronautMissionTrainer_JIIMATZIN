@@ -1,0 +1,43 @@
+# Publica el juego (frontend/dist) en GitHub Pages con cada push a main.
+# Requiere: Settings → Pages → Source = "GitHub Actions".
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile --filter @jiimatzin/frontend... --ignore-scripts
+      - run: pnpm --filter @jiimatzin/frontend construir
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4
