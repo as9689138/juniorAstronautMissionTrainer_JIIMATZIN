@@ -18,3 +18,9 @@ yarn.lock
 
 # Documentos internos del equipo (decisiones, diseño y revisiones): solo en local
 docs-internos/
+
+# Herramientas de arte del juego (Python): cachés y datos crudos de entrenamiento
+__pycache__/
+*.pyc
+frontend/herramientas/.cache/
+frontend/datos-originales/

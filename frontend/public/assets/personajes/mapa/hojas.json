@@ -1,0 +1,20 @@
+{
+ "cuadros": 8,
+ "ancho": 110,
+ "alto": 177,
+ "alto_cuerpo": 176,
+ "personajes": {
+  "judith": {
+   "origen_x": 0.5,
+   "origen_y": 0.9963
+  },
+  "atlas": {
+   "origen_x": 0.5,
+   "origen_y": 0.9963
+  },
+  "wenceslao": {
+   "origen_x": 0.5,
+   "origen_y": 0.9963
+  }
+ }
+}

@@ -11,6 +11,7 @@ Solo lectura (`GET`). No hay endpoints públicos de importación ni edición (el
 | `GET /api/v1/facts/{id}?lang=es[&recordId={sha256}]` | Ficha científica aprobada, límites y evidencias verificadas | Adaptado a `ciencia` |
 | `GET /api/v1/sources/{id}` | Institución, producto y URL por `source_id` | Adaptado a `ciencia` |
 | `GET /api/v1/live/donki/flares` | Fulguraciones (FLR) de DONKI casi en tiempo real, formato de la limpieza | Implementado (borrador) |
+| `POST /api/v1/partidas` | El juego guarda una partida anónima y sus pruebas de aprendizaje (IA guía) | Implementado |
 
 Adaptación al modelo científico (`ciencia`) y a escenarios (`juego`).
 Fuentes y fichas consultan `ciencia`; escenarios usa `juego` y las membresías de `ciencia`.
@@ -165,6 +166,34 @@ excluyen sus resúmenes y fuentes pendientes. Los vínculos hacia `facts` son
 referencias complementarias explícitas. Ver [contrato y operación](12-contenido-juego.md).
 El campo viaja también en el respaldo exportado. Los escenarios sin catálogo
 mantienen su respuesta anterior; no se añadió un endpoint global ni de escritura.
+
+## Partidas del juego (única escritura)
+
+`POST /api/v1/partidas` con `Content-Type: application/json` (64 KB como máximo). Lo manda la IA guía del juego
+(`frontend/src/compania/guia.js`) al final de cada sol y de la misión. Crea la partida o la actualiza si ya existe y es
+del mismo jugador.
+
+```json
+{
+  "jugador": "<uuid al azar del navegador>",
+  "partida": { "id": "<uuid>", "personaje": "judith", "dificultad": "normal", "idioma": "es",
+    "inicio": "2026-11-15T16:00:00.000Z", "fin": null, "resultado": "en_curso", "soles": 2, "medalla": null, "puntaje": null },
+  "dominio": { "energia": 0.25, "aire": 0.49, "escudo": 0.22, "decidir": 0.22 },
+  "pruebas": [{ "tema": "aire", "tipo": "minijuego", "correcto": true, "sol": 1, "detalle": "invernadero: ganó", "antes": 0.19, "despues": 0.49 }],
+  "modelo": "bkt-1"
+}
+```
+
+| Respuesta | Cuándo |
+| --- | --- |
+| `201 { "guardada": true, "partida": "<uuid>" }` | Partida nueva |
+| `200` (mismo cuerpo) | Partida actualizada |
+| `400 consulta_invalida` | Campo de más (p. ej. un nombre), valor fuera de rango o más de 400 pruebas. No se toca la BD |
+| `400 json_invalido` / `413 cuerpo_demasiado_grande` | Cuerpo mal formado o de más de 64 KB |
+| `409 partida_de_otro_jugador` | Esa partida existe y es de otro jugador: no se modifica |
+
+No hay ruta para leerlas: el equipo usa `pnpm --filter @jiimatzin/backend partidas -- <resumen|exportar|borrar>`.
+Tablas `aprendizaje.partidas` y `aprendizaje.pruebas` (migración `20261119000000_partidas-aprendizaje`).
 
 ## Errores
 

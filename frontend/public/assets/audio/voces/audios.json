@@ -1,0 +1,1280 @@
+{
+ "introduccion_01": {
+  "ruta": "01_introduccion/01_IA_sistemas-encendidos-te-damos-la.mp3",
+  "personaje": "IA",
+  "escena": "introduccion",
+  "texto": "Sistemas encendidos. Te damos la bienvenida a la Base Marte Uno, {jugador}."
+ },
+ "introduccion_02": {
+  "ruta": "01_introduccion/02_IA_soy-la-ia-de-la.mp3",
+  "personaje": "IA",
+  "escena": "introduccion",
+  "texto": "Soy la IA de la base. Cuidaré de ustedes y les explicaré lo que pase."
+ },
+ "introduccion_03": {
+  "ruta": "01_introduccion/03_WEN_yo-soy-wenceslao-ingeniero-si.mp3",
+  "personaje": "WEN",
+  "escena": "introduccion",
+  "texto": "Yo soy Wenceslao, ingeniero. Si algo se rompe, es mío. Si algo explota, también es mío."
+ },
+ "introduccion_04": {
+  "ruta": "01_introduccion/04_JUD_yo-soy-judith-cientifica-estudio.mp3",
+  "personaje": "JUD",
+  "escena": "introduccion",
+  "texto": "Yo soy Judith, científica. Estudio las plantas, las rocas y el clima. Y a las plantas les hablo, por si acaso."
+ },
+ "introduccion_05": {
+  "ruta": "01_introduccion/05_ATL_yo-soy-atlas-medico-mi.mp3",
+  "personaje": "ATL",
+  "escena": "introduccion",
+  "texto": "Yo soy Atlas, médico. Mi trabajo es que todos estemos bien."
+ },
+ "introduccion_06": {
+  "ruta": "01_introduccion/06_IA_aviso-importante-esto-es-la.mp3",
+  "personaje": "IA",
+  "escena": "introduccion",
+  "texto": "Aviso importante: esto es la misión de prueba antes de ir a Marte. Nadie corre peligro. Aquí se aprende."
+ },
+ "introduccion_07": {
+  "ruta": "01_introduccion/07_ATL_vamos-a-vivir-diez-soles.mp3",
+  "personaje": "ATL",
+  "escena": "introduccion",
+  "texto": "Vamos a vivir diez soles. Un sol es un día en Marte."
+ },
+ "introduccion_08": {
+  "ruta": "01_introduccion/08_IA_la-base-usa-tres-recursos.mp3",
+  "personaje": "IA",
+  "escena": "introduccion",
+  "texto": "La base usa tres recursos: energía, oxígeno y blindaje. Cada uno tiene tres niveles: bajo, medio y alto. Si uno llega a cero, la base se apaga y la misión se reinicia."
+ },
+ "introduccion_09": {
+  "ruta": "01_introduccion/09_WEN_spoiler-la-energia-nunca-alcanza.mp3",
+  "personaje": "WEN",
+  "escena": "introduccion",
+  "texto": "Spoiler: la energía nunca alcanza para todo."
+ },
+ "introduccion_10": {
+  "ruta": "01_introduccion/10_ATL_por-eso-hay-que-decidir.mp3",
+  "personaje": "ATL",
+  "escena": "introduccion",
+  "texto": "Por eso hay que decidir en equipo. Respiramos hondo y decidimos."
+ },
+ "introduccion_11": {
+  "ruta": "01_introduccion/11_JUD_ya-dije-que-las-plantas.mp3",
+  "personaje": "JUD",
+  "escena": "introduccion",
+  "texto": "¿Ya dije que las plantas también cuentan?"
+ },
+ "introduccion_12": {
+  "ruta": "01_introduccion/12_ATL_listo-equipo-a-la-consola.mp3",
+  "personaje": "ATL",
+  "escena": "introduccion",
+  "texto": "Listo, equipo. A la consola."
+ },
+ "saludo_01": {
+  "ruta": "02_saludo/01_IA_hola-ingeniero-wenceslao-tu-sabes.mp3",
+  "personaje": "IA",
+  "escena": "saludo",
+  "texto": "¡Hola, Ingeniero {WEN}! Tú sabes cómo funciona cada cable y cada motor de la base. La energía nunca alcanza para prender todo a la vez, así que tú decides qué máquinas reciben poder."
+ },
+ "saludo_02": {
+  "ruta": "02_saludo/02_IA_lista-para-explorar-cientifica-judith.mp3",
+  "personaje": "IA",
+  "escena": "saludo",
+  "texto": "¡Lista para explorar, Científica {JUD}! Afuera hay un planeta misterioso, tormentas de polvo y rocas increíbles. Tu amor por las plantas mantendrá viva la base."
+ },
+ "saludo_03": {
+  "ruta": "02_saludo/03_IA_que-bueno-tenerte-a-bordo.mp3",
+  "personaje": "IA",
+  "escena": "saludo",
+  "texto": "¡Qué bueno tenerte a bordo, Médico {ATL}! En el espacio hay que cuidar muy bien la salud y el aire. Tú vigilarás que toda la tripulación esté fuerte y lista para la aventura."
+ },
+ "manana_01": {
+  "ruta": "03_manana/01_ATL_buenos-dias-hoy-aprendemos-a.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Buenos días. Hoy aprendemos a repartir la energía de la base."
+ },
+ "manana_02": {
+  "ruta": "03_manana/02_IA_la-bateria-no-alcanza-para.mp3",
+  "personaje": "IA",
+  "escena": "manana",
+  "texto": "La batería no alcanza para todo. Usa la consola de mando para elegir dónde va la energía hoy."
+ },
+ "manana_03": {
+  "ruta": "03_manana/03_ATL_las-luces-de-hoy-dependen.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Las luces de hoy dependen del sol. Revisemos los paneles."
+ },
+ "manana_04": {
+  "ruta": "03_manana/04_ATL_hoy-el-viento-suena-fuerte.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Hoy el viento suena fuerte afuera. Mantengamos el oído atento."
+ },
+ "manana_05": {
+  "ruta": "03_manana/05_ATL_el-aire-es-nuestro-tesoro.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "El aire es nuestro tesoro. Cuidemos el filtro de CO₂."
+ },
+ "manana_06": {
+  "ruta": "03_manana/06_ATL_hoy-toca-revisar-el-blindaje.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Hoy toca revisar el blindaje. Es nuestro paraguas contra la radiación."
+ },
+ "manana_07": {
+  "ruta": "03_manana/07_ATL_hay-polvo-en-el-cielo.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Hay polvo en el cielo. Que no nos pille sin energía."
+ },
+ "manana_08": {
+  "ruta": "03_manana/08_ATL_el-invernadero-espera-las-plantas.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "El invernadero espera. Las plantas también son parte de la tripulación."
+ },
+ "manana_09": {
+  "ruta": "03_manana/09_ATL_aqui-pesamos-menos-nos-movemos.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Aquí pesamos menos. Nos movemos con cuidado, aunque parezca divertido."
+ },
+ "manana_10": {
+  "ruta": "03_manana/10_IA_aviso-la-senal-con-la.mp3",
+  "personaje": "IA",
+  "escena": "manana",
+  "texto": "Aviso: la señal con la Tierra va lenta. Cada mensaje tarda varios minutos."
+ },
+ "manana_11": {
+  "ruta": "03_manana/11_ATL_hay-noticias-del-sol-atentos.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Hay noticias del Sol. Atentos a los avisos."
+ },
+ "manana_12": {
+  "ruta": "03_manana/12_ATL_ultimo-sol-hemos-llegado-lejos.mp3",
+  "personaje": "ATL",
+  "escena": "manana",
+  "texto": "Último sol. Hemos llegado lejos, equipo. Un esfuerzo más."
+ },
+ "dia_01": {
+  "ruta": "04_dia/01_IA_hay-luz-solar-manos-a.mp3",
+  "personaje": "IA",
+  "escena": "dia",
+  "texto": "Hay luz solar. ¡Manos a la obra! Limpiar paneles, cambiar el filtro y regar las plantas antes de que oscurezca."
+ },
+ "mini_paneles_01": {
+  "ruta": "05_mini_paneles/01_IA_aviso-el-polvo-cubrio-los.mp3",
+  "personaje": "IA",
+  "escena": "mini_paneles",
+  "texto": "Aviso: el polvo cubrió los paneles solares y la batería no carga."
+ },
+ "mini_paneles_02": {
+  "ruta": "05_mini_paneles/02_IA_dato-curioso-a-los-robots.mp3",
+  "personaje": "IA",
+  "escena": "mini_paneles",
+  "texto": "Dato curioso: a los robots Spirit y Opportunity les pasaba lo mismo en Marte. A veces el viento los limpiaba solo, pero no se puede contar con eso."
+ },
+ "mini_paneles_03": {
+  "ruta": "05_mini_paneles/03_IA_otra-vez-hay-polvo-en.mp3",
+  "personaje": "IA",
+  "escena": "mini_paneles",
+  "texto": "Otra vez hay polvo en los paneles. Aquí no hay viento que nos ayude."
+ },
+ "consejo_paneles_01": {
+  "ruta": "06_consejo_paneles/01_JUD_este-polvo-es-finito-y.mp3",
+  "personaje": "JUD",
+  "escena": "consejo_paneles",
+  "texto": "Este polvo es finito y se pega. Límpialo con movimientos suaves para no rayar los paneles."
+ },
+ "consejo_paneles_02": {
+  "ruta": "06_consejo_paneles/02_WEN_empieza-por-los-paneles-mas.mp3",
+  "personaje": "WEN",
+  "escena": "consejo_paneles",
+  "texto": "Empieza por los paneles más tapados: ahí se pierde más luz."
+ },
+ "mini_paneles_gana_01": {
+  "ruta": "07_mini_paneles_gana/01_IA_genial-los-paneles-brillan-otra.mp3",
+  "personaje": "IA",
+  "escena": "mini_paneles_gana",
+  "texto": "¡Genial! Los paneles brillan otra vez y la batería sube. Habrá buena luz toda la noche."
+ },
+ "mini_paneles_falla_01": {
+  "ruta": "08_mini_paneles_falla/01_WEN_quedo-mucho-polvo-esta-noche.mp3",
+  "personaje": "WEN",
+  "escena": "mini_paneles_falla",
+  "texto": "Quedó mucho polvo. Esta noche habrá poca batería y la cabina estará oscura."
+ },
+ "mini_filtro_01": {
+  "ruta": "09_mini_filtro/01_IA_alerta-de-aire-el-filtro.mp3",
+  "personaje": "IA",
+  "escena": "mini_filtro",
+  "texto": "¡Alerta de aire! El filtro de CO₂ se tapó y el repuesto no encaja en el hueco."
+ },
+ "mini_filtro_02": {
+  "ruta": "09_mini_filtro/02_IA_dato-curioso-en-1970-la.mp3",
+  "personaje": "IA",
+  "escena": "mini_filtro",
+  "texto": "Dato curioso: en 1970 la nave Apolo 13 tuvo el mismo problema. Los ingenieros inventaron un adaptador con bolsas de plástico, cartón, mangueras y cinta."
+ },
+ "mini_filtro_03": {
+  "ruta": "09_mini_filtro/03_IA_el-filtro-se-saturo-otra.mp3",
+  "personaje": "IA",
+  "escena": "mini_filtro",
+  "texto": "El filtro se saturó otra vez. A armar el adaptador."
+ },
+ "consejo_filtro_01": {
+  "ruta": "10_consejo_filtro/01_ATL_si-no-limpiamos-el-aire.mp3",
+  "personaje": "ATL",
+  "escena": "consejo_filtro",
+  "texto": "Si no limpiamos el aire rápido, nos marearemos y costará ver bien. Concéntrate, tú puedes."
+ },
+ "consejo_filtro_02": {
+  "ruta": "10_consejo_filtro/02_WEN_no-lo-metas-a-la.mp3",
+  "personaje": "WEN",
+  "escena": "consejo_filtro",
+  "texto": "No lo metas a la fuerza. Usa el cartón como embudo y pega bien los bordes con cinta."
+ },
+ "mini_filtro_gana_01": {
+  "ruta": "11_mini_filtro_gana/01_IA_lo-lograste-el-filtro-quedo.mp3",
+  "personaje": "IA",
+  "escena": "mini_filtro_gana",
+  "texto": "¡Lo lograste! El filtro quedó bien sellado y ya respiramos aire fresco. Gran trabajo en equipo."
+ },
+ "mini_filtro_falla_01": {
+  "ruta": "12_mini_filtro_falla/01_IA_se-escapo-un-poco-de.mp3",
+  "personaje": "IA",
+  "escena": "mini_filtro_falla",
+  "texto": "Se escapó un poco de aire cargado. Estamos cansados y el aire bajó."
+ },
+ "mini_riego_01": {
+  "ruta": "13_mini_riego/01_IA_hora-de-cuidar-el-jardin.mp3",
+  "personaje": "IA",
+  "escena": "mini_riego",
+  "texto": "¡Hora de cuidar el jardín! Estas plantas nos ayudan a tener oxígeno. En el espacio el agua flota en burbujas: dales solo las gotas que necesitan."
+ },
+ "mini_riego_02": {
+  "ruta": "13_mini_riego/02_IA_dato-curioso-en-2016-el.mp3",
+  "personaje": "IA",
+  "escena": "mini_riego",
+  "texto": "Dato curioso: en 2016 el astronauta Scott Kelly cuidó las primeras zinnias que florecieron en la Estación Espacial. Les salió moho por la humedad, y él las salvó."
+ },
+ "mini_riego_03": {
+  "ruta": "13_mini_riego/03_IA_las-plantas-tienen-sed-pero.mp3",
+  "personaje": "IA",
+  "escena": "mini_riego",
+  "texto": "Las plantas tienen sed, pero ojo con el exceso de agua."
+ },
+ "consejo_riego_01": {
+  "ruta": "14_consejo_riego/01_JUD_mira-el-medidor-de-cada.mp3",
+  "personaje": "JUD",
+  "escena": "consejo_riego",
+  "texto": "Mira el medidor de cada maceta: agua solo cuando esté en amarillo, y ventilador si ves gotitas flotando."
+ },
+ "consejo_riego_02": {
+  "ruta": "14_consejo_riego/02_ATL_si-les-sale-moho-el.mp3",
+  "personaje": "ATL",
+  "escena": "consejo_riego",
+  "texto": "Si les sale moho, el aire se ensucia. Mantén las hojas limpiecitas."
+ },
+ "mini_riego_gana_01": {
+  "ruta": "15_mini_riego_gana/01_JUD_que-bonitas-plantas-sanas-felices.mp3",
+  "personaje": "JUD",
+  "escena": "mini_riego_gana",
+  "texto": "¡Qué bonitas! Plantas sanas, felices y llenando la base de oxígeno."
+ },
+ "mini_riego_falla_01": {
+  "ruta": "16_mini_riego_falla/01_JUD_cayo-demasiada-agua-y-salio.mp3",
+  "personaje": "JUD",
+  "escena": "mini_riego_falla",
+  "texto": "Cayó demasiada agua y salió un poco de moho. Gastamos aire extra limpiando el jardín."
+ },
+ "comentario_estado_01": {
+  "ruta": "17_comentario_estado/01_WEN_las-luces-parpadean-con-tan.mp3",
+  "personaje": "WEN",
+  "escena": "comentario_estado",
+  "texto": "Las luces parpadean. Con tan poca energía hay que elegir qué se queda encendido."
+ },
+ "comentario_estado_02": {
+  "ruta": "17_comentario_estado/02_IA_las-luces-de-la-cabina.mp3",
+  "personaje": "IA",
+  "escena": "comentario_estado",
+  "texto": "Las luces de la cabina bajan. Enciende la linterna del casco para ver los controles."
+ },
+ "comentario_estado_03": {
+  "ruta": "17_comentario_estado/03_JUD_el-aire-se-siente-pesado.mp3",
+  "personaje": "JUD",
+  "escena": "comentario_estado",
+  "texto": "El aire se siente pesado. Mis plantas piden refuerzos."
+ },
+ "comentario_estado_04": {
+  "ruta": "17_comentario_estado/04_IA_aviso-el-blindaje-esta-debil.mp3",
+  "personaje": "IA",
+  "escena": "comentario_estado",
+  "texto": "Aviso: el blindaje está débil. Conviene reforzarlo mañana."
+ },
+ "comentario_estado_05": {
+  "ruta": "17_comentario_estado/05_ATL_todo-en-verde-buen-trabajo.mp3",
+  "personaje": "ATL",
+  "escena": "comentario_estado",
+  "texto": "Todo en verde. Buen trabajo, equipo."
+ },
+ "noche_1_01": {
+  "ruta": "18_noche_1/01_IA_fin-del-primer-sol-afuera.mp3",
+  "personaje": "IA",
+  "escena": "noche_1",
+  "texto": "Fin del primer sol. Afuera hace mucho frío. En Marte la noche puede bajar de los 60 grados bajo cero."
+ },
+ "noche_1_02": {
+  "ruta": "18_noche_1/02_JUD_le-ponemos-un-sueter-a.mp3",
+  "personaje": "JUD",
+  "escena": "noche_1",
+  "texto": "¿Le ponemos un suéter a las plantas?"
+ },
+ "noche_1_03": {
+  "ruta": "18_noche_1/03_WEN_mejor-un-buen-calentador-y.mp3",
+  "personaje": "WEN",
+  "escena": "noche_1",
+  "texto": "Mejor un buen calentador. Y chocolate caliente para nosotros."
+ },
+ "noche_1_04": {
+  "ruta": "18_noche_1/04_ATL_un-sol-dura-unas-24.mp3",
+  "personaje": "ATL",
+  "escena": "noche_1",
+  "texto": "Un sol dura unas 24 horas y 39 minutos. Casi como un día en la Tierra, con 39 minutos extra para soñar."
+ },
+ "noche_1_05": {
+  "ruta": "18_noche_1/05_IA_dato-curioso-los-equipos-de.mp3",
+  "personaje": "IA",
+  "escena": "noche_1",
+  "texto": "Dato curioso: los equipos de las misiones reales han llegado a vivir con horario marciano para trabajar con sus robots."
+ },
+ "noche_1_06": {
+  "ruta": "18_noche_1/06_ATL_a-dormir-equipo-manana-aprendemos.mp3",
+  "personaje": "ATL",
+  "escena": "noche_1",
+  "texto": "A dormir, equipo. Mañana aprendemos más."
+ },
+ "noche_2_01": {
+  "ruta": "19_noche_2/01_WEN_estuve-mirando-los-paneles-solares.mp3",
+  "personaje": "WEN",
+  "escena": "noche_2",
+  "texto": "Estuve mirando los paneles solares. Hoy dieron menos de lo que esperaba."
+ },
+ "noche_2_02": {
+  "ruta": "19_noche_2/02_IA_marte-esta-mas-lejos-del.mp3",
+  "personaje": "IA",
+  "escena": "noche_2",
+  "texto": "Marte está más lejos del Sol que la Tierra. Aquí llega menos de la mitad de la luz."
+ },
+ "noche_2_03": {
+  "ruta": "19_noche_2/03_JUD_entonces-las-plantas-y-los.mp3",
+  "personaje": "JUD",
+  "escena": "noche_2",
+  "texto": "Entonces las plantas y los paneles compiten por la luz."
+ },
+ "noche_2_04": {
+  "ruta": "19_noche_2/04_WEN_y-yo-que-pensaba-que.mp3",
+  "personaje": "WEN",
+  "escena": "noche_2",
+  "texto": "Y yo que pensaba que mi mayor rival era la cinta adhesiva."
+ },
+ "noche_2_05": {
+  "ruta": "19_noche_2/05_ATL_por-eso-planear-la-energia.mp3",
+  "personaje": "ATL",
+  "escena": "noche_2",
+  "texto": "Por eso planear la energía importa. No se puede encender todo a la vez."
+ },
+ "noche_2_06": {
+  "ruta": "19_noche_2/06_IA_buenas-noches-guardando-energia-en.mp3",
+  "personaje": "IA",
+  "escena": "noche_2",
+  "texto": "Buenas noches. Guardando energía en modo de ahorro."
+ },
+ "noche_3_01": {
+  "ruta": "20_noche_3/01_JUD_escuchan-eso-es-el-viento.mp3",
+  "personaje": "JUD",
+  "escena": "noche_3",
+  "texto": "¿Escuchan eso? Es el viento de Marte."
+ },
+ "noche_3_02": {
+  "ruta": "20_noche_3/02_IA_el-robot-perseverance-tiene-microfonos.mp3",
+  "personaje": "IA",
+  "escena": "noche_3",
+  "texto": "El robot Perseverance tiene micrófonos. Grabó el viento marciano, sus propias ruedas y hasta el helicóptero Ingenuity."
+ },
+ "noche_3_03": {
+  "ruta": "20_noche_3/03_WEN_aqui-el-aire-es-muy.mp3",
+  "personaje": "WEN",
+  "escena": "noche_3",
+  "texto": "Aquí el aire es muy delgado, por eso los sonidos suenan más suaves que en la Tierra."
+ },
+ "noche_3_04": {
+  "ruta": "20_noche_3/04_ATL_hasta-un-grito-sonaria-mas.mp3",
+  "personaje": "ATL",
+  "escena": "noche_3",
+  "texto": "Hasta un grito sonaría más suave."
+ },
+ "noche_3_05": {
+  "ruta": "20_noche_3/05_JUD_yo-igual-susurro-a-mis.mp3",
+  "personaje": "JUD",
+  "escena": "noche_3",
+  "texto": "Yo igual susurro a mis plantas, así no les da pena."
+ },
+ "noche_3_06": {
+  "ruta": "20_noche_3/06_IA_los-sonidos-de-marte-que.mp3",
+  "personaje": "IA",
+  "escena": "noche_3",
+  "texto": "Los sonidos de Marte que escuchas son grabaciones reales de la NASA. Buenas noches."
+ },
+ "noche_4_01": {
+  "ruta": "21_noche_4/01_IA_el-aire-de-marte-es.mp3",
+  "personaje": "IA",
+  "escena": "noche_4",
+  "texto": "El aire de Marte es casi todo dióxido de carbono, CO₂. No se puede respirar."
+ },
+ "noche_4_02": {
+  "ruta": "21_noche_4/02_JUD_menos-mal-que-mis-plantas.mp3",
+  "personaje": "JUD",
+  "escena": "noche_4",
+  "texto": "Menos mal que mis plantas toman CO₂ y sueltan oxígeno."
+ },
+ "noche_4_03": {
+  "ruta": "21_noche_4/03_WEN_y-tenemos-filtros-para-quitarlo.mp3",
+  "personaje": "WEN",
+  "escena": "noche_4",
+  "texto": "Y tenemos filtros para quitarlo del aire de la base."
+ },
+ "noche_4_04": {
+  "ruta": "21_noche_4/04_ATL_sabian-que-un-experimento-llamado.mp3",
+  "personaje": "ATL",
+  "escena": "noche_4",
+  "texto": "¿Sabían que un experimento llamado MOXIE sacó oxígeno del CO₂ marciano?"
+ },
+ "noche_4_05": {
+  "ruta": "21_noche_4/05_IA_si-viajo-con-perseverance-y.mp3",
+  "personaje": "IA",
+  "escena": "noche_4",
+  "texto": "Sí. Viajó con Perseverance y demostró que se puede. En total hizo 122 gramos de oxígeno, lo que respira un perro pequeño en 10 horas."
+ },
+ "noche_4_06": {
+  "ruta": "21_noche_4/06_JUD_respirar-con-ayuda-de-plantas.mp3",
+  "personaje": "JUD",
+  "escena": "noche_4",
+  "texto": "Respirar con ayuda de plantas y máquinas. ¡Fascinante!"
+ },
+ "noche_5_01": {
+  "ruta": "22_noche_5/01_IA_esta-noche-hablemos-de-la.mp3",
+  "personaje": "IA",
+  "escena": "noche_5",
+  "texto": "Esta noche hablemos de la radiación."
+ },
+ "noche_5_02": {
+  "ruta": "22_noche_5/02_JUD_marte-no-tiene-un-campo.mp3",
+  "personaje": "JUD",
+  "escena": "noche_5",
+  "texto": "Marte no tiene un campo magnético global como la Tierra. Casi no se protege."
+ },
+ "noche_5_03": {
+  "ruta": "22_noche_5/03_ATL_por-eso-la-base-necesita.mp3",
+  "personaje": "ATL",
+  "escena": "noche_5",
+  "texto": "Por eso la base necesita blindaje. Es como un escudo invisible que cuida a todo el equipo."
+ },
+ "noche_5_04": {
+  "ruta": "22_noche_5/04_IA_dato-curioso-un-instrumento-del.mp3",
+  "personaje": "IA",
+  "escena": "noche_5",
+  "texto": "Dato curioso: un instrumento del robot Curiosity mide cuánta radiación llega al suelo marciano."
+ },
+ "noche_5_05": {
+  "ruta": "22_noche_5/05_JUD_la-radiacion-llega-hasta-mi.mp3",
+  "personaje": "JUD",
+  "escena": "noche_5",
+  "texto": "¿La radiación llega hasta mi invernadero?"
+ },
+ "noche_5_06": {
+  "ruta": "22_noche_5/06_WEN_si-el-blindaje-esta-fuerte.mp3",
+  "personaje": "WEN",
+  "escena": "noche_5",
+  "texto": "Si el blindaje está fuerte, no. Tranquilo."
+ },
+ "noche_5_07": {
+  "ruta": "22_noche_5/07_ATL_descansa-nuestro-escudo-esta-de.mp3",
+  "personaje": "ATL",
+  "escena": "noche_5",
+  "texto": "Descansa. Nuestro escudo está de guardia."
+ },
+ "noche_6_01": {
+  "ruta": "23_noche_6/01_IA_hay-una-tormenta-de-polvo.mp3",
+  "personaje": "IA",
+  "escena": "noche_6",
+  "texto": "Hay una tormenta de polvo en el cielo. Algunas rodean todo el planeta."
+ },
+ "noche_6_02": {
+  "ruta": "23_noche_6/02_JUD_en-2018-una-tormenta-global.mp3",
+  "personaje": "JUD",
+  "escena": "noche_6",
+  "texto": "En 2018 una tormenta global tapó la luz del Sol y el robot Opportunity dejó de comunicarse."
+ },
+ "noche_6_03": {
+  "ruta": "23_noche_6/03_JUD_se-quedo-dormido.mp3",
+  "personaje": "JUD",
+  "escena": "noche_6",
+  "texto": "¿Se quedó dormido?"
+ },
+ "noche_6_04": {
+  "ruta": "23_noche_6/04_ATL_entro-en-hibernacion-sus-paneles.mp3",
+  "personaje": "ATL",
+  "escena": "noche_6",
+  "texto": "Entró en hibernación. Sus paneles solares casi no recibían luz. Por eso nosotros guardamos reservas."
+ },
+ "noche_6_05": {
+  "ruta": "23_noche_6/05_WEN_y-limpiamos-los-paneles-el.mp3",
+  "personaje": "WEN",
+  "escena": "noche_6",
+  "texto": "Y limpiamos los paneles. El polvo es el enemigo."
+ },
+ "noche_6_06": {
+  "ruta": "23_noche_6/06_IA_buenas-noches-ojos-abiertos.mp3",
+  "personaje": "IA",
+  "escena": "noche_6",
+  "texto": "Buenas noches. Ojos abiertos."
+ },
+ "noche_7_01": {
+  "ruta": "24_noche_7/01_JUD_mis-tomates-crecen-bueno-mis.mp3",
+  "personaje": "JUD",
+  "escena": "noche_7",
+  "texto": "¡Mis tomates crecen! Bueno, mis semillas brotan. Es casi lo mismo."
+ },
+ "noche_7_02": {
+  "ruta": "24_noche_7/02_IA_el-suelo-de-marte-tiene.mp3",
+  "personaje": "IA",
+  "escena": "noche_7",
+  "texto": "El suelo de Marte tiene sales llamadas percloratos. No son buenas para plantas ni para comer sin tratar."
+ },
+ "noche_7_03": {
+  "ruta": "24_noche_7/03_JUD_por-eso-hay-que-limpiar.mp3",
+  "personaje": "JUD",
+  "escena": "noche_7",
+  "texto": "Por eso hay que limpiar la tierra marciana antes de sembrar. Los científicos prueban usar microbios para quitarle esas sales."
+ },
+ "noche_7_04": {
+  "ruta": "24_noche_7/04_WEN_esto-es-agricultura-espacial-mitad.mp3",
+  "personaje": "WEN",
+  "escena": "noche_7",
+  "texto": "Esto es agricultura espacial. Mitad ciencia, mitad paciencia."
+ },
+ "noche_7_05": {
+  "ruta": "24_noche_7/05_ATL_cuidar-las-plantas-es-cuidar.mp3",
+  "personaje": "ATL",
+  "escena": "noche_7",
+  "texto": "Cuidar las plantas es cuidar el aire, el agua y la comida del equipo."
+ },
+ "noche_7_06": {
+  "ruta": "24_noche_7/06_JUD_buenas-noches-plantas-prometo-no.mp3",
+  "personaje": "JUD",
+  "escena": "noche_7",
+  "texto": "Buenas noches, plantas. Prometo no cantarles."
+ },
+ "noche_8_01": {
+  "ruta": "25_noche_8/01_WEN_hoy-volvi-a-saltar-en.mp3",
+  "personaje": "WEN",
+  "escena": "noche_8",
+  "texto": "Hoy volví a saltar en el pasillo. Aquí pesamos mucho menos."
+ },
+ "noche_8_02": {
+  "ruta": "25_noche_8/02_IA_la-gravedad-de-marte-es.mp3",
+  "personaje": "IA",
+  "escena": "noche_8",
+  "texto": "La gravedad de Marte es poco más de un tercio de la terrestre. Un astronauta de 40 kilos pesaría unos 15."
+ },
+ "noche_8_03": {
+  "ruta": "25_noche_8/03_JUD_me-senti-como-una-pluma.mp3",
+  "personaje": "JUD",
+  "escena": "noche_8",
+  "texto": "¡Me sentí como una pluma!"
+ },
+ "noche_8_04": {
+  "ruta": "25_noche_8/04_ATL_pero-ojo-como-medico-les.mp3",
+  "personaje": "ATL",
+  "escena": "noche_8",
+  "texto": "Pero ojo: como médico les digo que el cuerpo necesita ejercicio para mantenerse fuerte."
+ },
+ "noche_8_05": {
+  "ruta": "25_noche_8/05_WEN_dos-horas-de-bicicleta-manana.mp3",
+  "personaje": "WEN",
+  "escena": "noche_8",
+  "texto": "Dos horas de bicicleta mañana. Sin discusión."
+ },
+ "noche_8_06": {
+  "ruta": "25_noche_8/06_IA_buenas-noches-registrando-un-record.mp3",
+  "personaje": "IA",
+  "escena": "noche_8",
+  "texto": "Buenas noches. Registrando un récord de saltos."
+ },
+ "noche_9_01": {
+  "ruta": "26_noche_9/01_IA_noticias-del-sol-los-cientificos.mp3",
+  "personaje": "IA",
+  "escena": "noche_9",
+  "texto": "Noticias del Sol. Los científicos vigilan las tormentas solares."
+ },
+ "noche_9_02": {
+  "ruta": "26_noche_9/02_JUD_una-tormenta-solar-puede-lanzar.mp3",
+  "personaje": "JUD",
+  "escena": "noche_9",
+  "texto": "Una tormenta solar puede lanzar partículas al espacio. Pueden tardar de uno a tres días en llegar a la Tierra."
+ },
+ "noche_9_03": {
+  "ruta": "26_noche_9/03_WEN_y-eso-nos-da-tiempo.mp3",
+  "personaje": "WEN",
+  "escena": "noche_9",
+  "texto": "Y eso nos da tiempo para prepararnos. Para eso sirven los avisos."
+ },
+ "noche_9_04": {
+  "ruta": "26_noche_9/04_JUD_la-nasa-ya-logro-predecir.mp3",
+  "personaje": "JUD",
+  "escena": "noche_9",
+  "texto": "La NASA ya logró predecir cuándo una tormenta solar llegaría a Marte, y la misión MAVEN lo comprobó."
+ },
+ "noche_9_05": {
+  "ruta": "26_noche_9/05_JUD_los-satelites-miran-el-sol.mp3",
+  "personaje": "JUD",
+  "escena": "noche_9",
+  "texto": "Los satélites miran el Sol y avisan a los equipos en la Tierra."
+ },
+ "noche_9_06": {
+  "ruta": "26_noche_9/06_IA_dato-curioso-servicios-como-donki.mp3",
+  "personaje": "IA",
+  "escena": "noche_9",
+  "texto": "Dato curioso: servicios como DONKI, de la NASA, y NOAA registran estos eventos."
+ },
+ "noche_9_07": {
+  "ruta": "26_noche_9/07_ATL_saber-lo-que-viene-es.mp3",
+  "personaje": "ATL",
+  "escena": "noche_9",
+  "texto": "Saber lo que viene es la mitad de la protección."
+ },
+ "noche_10_01": {
+  "ruta": "27_noche_10/01_IA_ultima-noche-miren-hacia-afuera.mp3",
+  "personaje": "IA",
+  "escena": "noche_10",
+  "texto": "Última noche. Miren hacia afuera."
+ },
+ "noche_10_02": {
+  "ruta": "27_noche_10/02_JUD_esa-estrella-brillante-no-sera.mp3",
+  "personaje": "JUD",
+  "escena": "noche_10",
+  "texto": "Esa estrella brillante... ¿no será la Tierra?"
+ },
+ "noche_10_03": {
+  "ruta": "27_noche_10/03_IA_si-en-2014-el-robot.mp3",
+  "personaje": "IA",
+  "escena": "noche_10",
+  "texto": "Sí. En 2014 el robot Curiosity la fotografió: se veía como una estrella brillante, con la Luna al lado."
+ },
+ "noche_10_04": {
+  "ruta": "27_noche_10/04_WEN_nuestro-hogar-a-millones-de.mp3",
+  "personaje": "WEN",
+  "escena": "noche_10",
+  "texto": "Nuestro hogar, a millones de kilómetros."
+ },
+ "noche_10_05": {
+  "ruta": "27_noche_10/05_JUD_cuanto-tarda-un-mensaje-en.mp3",
+  "personaje": "JUD",
+  "escena": "noche_10",
+  "texto": "¿Cuánto tarda un mensaje en llegar hasta allá?"
+ },
+ "noche_10_06": {
+  "ruta": "27_noche_10/06_IA_de-3-a-22-minutos.mp3",
+  "personaje": "IA",
+  "escena": "noche_10",
+  "texto": "De 3 a 22 minutos, según dónde estén los planetas."
+ },
+ "noche_10_07": {
+  "ruta": "27_noche_10/07_ATL_todo-lo-que-hicimos-aqui.mp3",
+  "personaje": "ATL",
+  "escena": "noche_10",
+  "texto": "Todo lo que hicimos aquí, lo hicimos juntos."
+ },
+ "noche_10_08": {
+  "ruta": "27_noche_10/08_ATL_manana-despertamos-y-cerramos-la.mp3",
+  "personaje": "ATL",
+  "escena": "noche_10",
+  "texto": "Mañana despertamos y cerramos la misión."
+ },
+ "emergencia_solar_01": {
+  "ruta": "28_emergencia_solar/01_IA_alerta-detecto-una-tormenta-solar.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_solar",
+  "texto": "¡Alerta! Detecto una tormenta solar. Llegará pronto."
+ },
+ "emergencia_solar_02": {
+  "ruta": "28_emergencia_solar/02_ATL_mantengamos-la-calma-tenemos-pocos.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_solar",
+  "texto": "Mantengamos la calma. Tenemos pocos minutos."
+ },
+ "emergencia_solar_03": {
+  "ruta": "28_emergencia_solar/03_WEN_esto-esta-cerca-de-ser.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_solar",
+  "texto": "Esto está cerca de ser emocionante."
+ },
+ "emergencia_solar_04": {
+  "ruta": "28_emergencia_solar/04_ATL_todos-al-refugio-cerramos-puertas.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_solar",
+  "texto": "Todos al refugio. Cerramos puertas."
+ },
+ "emergencia_solar_05": {
+  "ruta": "28_emergencia_solar/05_WEN_las-luces-bajan-pero-el.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_solar",
+  "texto": "Las luces bajan, pero el equipo está seguro."
+ },
+ "emergencia_solar_06": {
+  "ruta": "28_emergencia_solar/06_ATL_seguimos-pero-con-ojos-abiertos.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_solar",
+  "texto": "Seguimos, pero con ojos abiertos."
+ },
+ "emergencia_solar_07": {
+  "ruta": "28_emergencia_solar/07_IA_aviso-el-blindaje-recibe-mas.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_solar",
+  "texto": "Aviso: el blindaje recibe más carga de lo normal."
+ },
+ "solar_dato_01": {
+  "ruta": "29_solar_dato/01_IA_dato-curioso-en-agosto-de.mp3",
+  "personaje": "IA",
+  "escena": "solar_dato",
+  "texto": "Dato curioso: en agosto de 1972 el Sol lanzó una tormenta enorme entre dos misiones a la Luna. Nadie estaba en el espacio, fue pura suerte. Por eso hoy se vigila el clima espacial."
+ },
+ "emergencia_polvo_01": {
+  "ruta": "30_emergencia_polvo/01_IA_alerta-una-tormenta-de-polvo.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_polvo",
+  "texto": "¡Alerta! Una tormenta de polvo cubre los paneles."
+ },
+ "emergencia_polvo_02": {
+  "ruta": "30_emergencia_polvo/02_WEN_la-luz-baja-se-acabaron.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_polvo",
+  "texto": "La luz baja. Se acabaron las siestas."
+ },
+ "emergencia_polvo_03": {
+  "ruta": "30_emergencia_polvo/03_ATL_decidamos-rapido.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_polvo",
+  "texto": "Decidamos rápido."
+ },
+ "emergencia_polvo_04": {
+  "ruta": "30_emergencia_polvo/04_WEN_voy-yo-con-traje-y.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_polvo",
+  "texto": "Voy yo. Con traje y buen humor."
+ },
+ "emergencia_polvo_05": {
+  "ruta": "30_emergencia_polvo/05_ATL_vuelve-pronto.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_polvo",
+  "texto": "Vuelve pronto."
+ },
+ "emergencia_polvo_06": {
+  "ruta": "30_emergencia_polvo/06_ATL_esperemos-apaguemos-lo-que-no.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_polvo",
+  "texto": "Esperemos. Apaguemos lo que no se necesita."
+ },
+ "emergencia_polvo_07": {
+  "ruta": "30_emergencia_polvo/07_IA_reservas-bajando-calculando-cuanto-duraran.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_polvo",
+  "texto": "Reservas bajando. Calculando cuánto durarán."
+ },
+ "emergencia_co2_01": {
+  "ruta": "31_emergencia_co2/01_IA_alerta-el-filtro-de-dioxido.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_co2",
+  "texto": "¡Alerta! El filtro de CO₂ está saturado. El aire se carga."
+ },
+ "emergencia_co2_02": {
+  "ruta": "31_emergencia_co2/02_JUD_sera-por-mis-suspiros-dramaticos.mp3",
+  "personaje": "JUD",
+  "escena": "emergencia_co2",
+  "texto": "¿Será por mis suspiros dramáticos?"
+ },
+ "emergencia_co2_03": {
+  "ruta": "31_emergencia_co2/03_WEN_hay-que-cambiar-el-filtro.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_co2",
+  "texto": "Hay que cambiar el filtro ya."
+ },
+ "emergencia_co2_04": {
+  "ruta": "31_emergencia_co2/04_WEN_filtro-nuevo-aire-limpio.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_co2",
+  "texto": "Filtro nuevo, aire limpio."
+ },
+ "emergencia_co2_05": {
+  "ruta": "31_emergencia_co2/05_JUD_respiro-mejor.mp3",
+  "personaje": "JUD",
+  "escena": "emergencia_co2",
+  "texto": "¡Respiro mejor!"
+ },
+ "emergencia_co2_06": {
+  "ruta": "31_emergencia_co2/06_JUD_mis-plantas-ayudan-pero-despacio.mp3",
+  "personaje": "JUD",
+  "escena": "emergencia_co2",
+  "texto": "Mis plantas ayudan, pero despacio."
+ },
+ "emergencia_co2_07": {
+  "ruta": "31_emergencia_co2/07_ATL_aguantamos-un-rato.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_co2",
+  "texto": "Aguantamos un rato."
+ },
+ "emergencia_radiacion_01": {
+  "ruta": "32_emergencia_radiacion/01_IA_alerta-la-radiacion-en-el.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_radiacion",
+  "texto": "¡Alerta! La radiación en el exterior subió."
+ },
+ "emergencia_radiacion_02": {
+  "ruta": "32_emergencia_radiacion/02_ATL_todos-adentro-y-lejos-de.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_radiacion",
+  "texto": "Todos adentro y lejos de las ventanas."
+ },
+ "emergencia_radiacion_03": {
+  "ruta": "32_emergencia_radiacion/03_JUD_mis-plantas.mp3",
+  "personaje": "JUD",
+  "escena": "emergencia_radiacion",
+  "texto": "¡Mis plantas!"
+ },
+ "emergencia_radiacion_04": {
+  "ruta": "32_emergencia_radiacion/04_WEN_subo-el-escudo-dame-un.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_radiacion",
+  "texto": "Subo el escudo. Dame un momento."
+ },
+ "emergencia_radiacion_05": {
+  "ruta": "32_emergencia_radiacion/05_IA_blindaje-reforzado.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_radiacion",
+  "texto": "Blindaje reforzado."
+ },
+ "emergencia_radiacion_06": {
+  "ruta": "32_emergencia_radiacion/06_JUD_cerramos-las-plantas-descansan.mp3",
+  "personaje": "JUD",
+  "escena": "emergencia_radiacion",
+  "texto": "Cerramos. Las plantas descansan."
+ },
+ "emergencia_radiacion_07": {
+  "ruta": "32_emergencia_radiacion/07_ATL_decision-dificil-pero-segura.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_radiacion",
+  "texto": "Decisión difícil, pero segura."
+ },
+ "emergencia_calor_01": {
+  "ruta": "33_emergencia_calor/01_IA_peligro-de-calor-se-solto.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_calor",
+  "texto": "¡Peligro de calor! Se soltó una pieza del techo protector y la cabina se calienta muy rápido."
+ },
+ "emergencia_calor_02": {
+  "ruta": "33_emergencia_calor/02_WEN_esto-ya-parece-un-horno.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_calor",
+  "texto": "Esto ya parece un horno."
+ },
+ "emergencia_calor_03": {
+  "ruta": "33_emergencia_calor/03_ATL_decidamos-rapido-pero-con-calma.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_calor",
+  "texto": "Decidamos rápido, pero con calma."
+ },
+ "emergencia_calor_04": {
+  "ruta": "33_emergencia_calor/04_WEN_sombrilla-espacial-en-camino.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_calor",
+  "texto": "Sombrilla espacial en camino."
+ },
+ "emergencia_calor_05": {
+  "ruta": "33_emergencia_calor/05_IA_sombra-lista-la-temperatura-baja.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_calor",
+  "texto": "Sombra lista. La temperatura baja."
+ },
+ "emergencia_calor_06": {
+  "ruta": "33_emergencia_calor/06_WEN_aire-frio-a-todo-volumen.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_calor",
+  "texto": "Aire frío a todo volumen."
+ },
+ "emergencia_calor_07": {
+  "ruta": "33_emergencia_calor/07_IA_la-temperatura-baja-la-energia.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_calor",
+  "texto": "La temperatura baja. La energía también."
+ },
+ "calor_dato_01": {
+  "ruta": "34_calor_dato/01_IA_dato-curioso-en-1973-la.mp3",
+  "personaje": "IA",
+  "escena": "calor_dato",
+  "texto": "Dato curioso: en 1973 la estación Skylab perdió su escudo del Sol al despegar y se calentó como un horno. Su primera tripulación instaló un parasol y la salvó."
+ },
+ "emergencia_fuga_01": {
+  "ruta": "35_emergencia_fuga/01_IA_fuga-detectada-el-liquido-que.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_fuga",
+  "texto": "¡Fuga detectada! El líquido que enfría los paneles solares se escapa al espacio."
+ },
+ "emergencia_fuga_02": {
+  "ruta": "35_emergencia_fuga/02_WEN_si-no-lo-cerramos-los.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_fuga",
+  "texto": "Si no lo cerramos, los paneles se recalientan."
+ },
+ "emergencia_fuga_03": {
+  "ruta": "35_emergencia_fuga/03_ATL_piensen-en-el-equipo-no.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_fuga",
+  "texto": "Piensen en el equipo, no solo en la máquina."
+ },
+ "emergencia_fuga_04": {
+  "ruta": "35_emergencia_fuga/04_WEN_cerrando-el-tubo-perdemos-un.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_fuga",
+  "texto": "Cerrando el tubo. Perdemos un poco de potencia, pero nadie sale."
+ },
+ "emergencia_fuga_05": {
+  "ruta": "35_emergencia_fuga/05_IA_fuga-aislada.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_fuga",
+  "texto": "Fuga aislada."
+ },
+ "emergencia_fuga_06": {
+  "ruta": "35_emergencia_fuga/06_ATL_salgan-con-cuidado-y-vuelvan.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_fuga",
+  "texto": "Salgan con cuidado y vuelvan pronto."
+ },
+ "emergencia_fuga_07": {
+  "ruta": "35_emergencia_fuga/07_WEN_pieza-cambiada-la-energia-sigue.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_fuga",
+  "texto": "Pieza cambiada. La energía sigue completa."
+ },
+ "fuga_dato_01": {
+  "ruta": "36_fuga_dato/01_IA_dato-curioso-en-mayo-de.mp3",
+  "personaje": "IA",
+  "escena": "fuga_dato",
+  "texto": "Dato curioso: en mayo de 2013 la tripulación de la Estación Espacial Internacional vio copos blancos de líquido enfriador congelado. Dos astronautas salieron en caminata espacial y cambiaron la pieza que fallaba."
+ },
+ "emergencia_impacto_01": {
+  "ruta": "37_emergencia_impacto/01_IA_impacto-en-el-casco-se.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_impacto",
+  "texto": "¡Impacto en el casco! Se escapa aire por una grieta. Hay que cerrar la compuerta ya."
+ },
+ "emergencia_impacto_02": {
+  "ruta": "37_emergencia_impacto/02_ATL_calma-una-cosa-a-la.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_impacto",
+  "texto": "Calma. Una cosa a la vez."
+ },
+ "emergencia_impacto_03": {
+  "ruta": "37_emergencia_impacto/03_WEN_los-cables-pasan-justo-por.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_impacto",
+  "texto": "Los cables pasan justo por la puerta."
+ },
+ "emergencia_impacto_04": {
+  "ruta": "37_emergencia_impacto/04_WEN_cortando-luego-lo-arreglo.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_impacto",
+  "texto": "Cortando. Luego lo arreglo."
+ },
+ "emergencia_impacto_05": {
+  "ruta": "37_emergencia_impacto/05_IA_compuerta-sellada-el-aire-se.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_impacto",
+  "texto": "Compuerta sellada. El aire se salvó."
+ },
+ "emergencia_impacto_06": {
+  "ruta": "37_emergencia_impacto/06_WEN_desconecto-uno-por-uno-tardo.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_impacto",
+  "texto": "Desconecto uno por uno. Tardo un poco más."
+ },
+ "emergencia_impacto_07": {
+  "ruta": "37_emergencia_impacto/07_IA_compuerta-sellada-se-perdio-algo.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_impacto",
+  "texto": "Compuerta sellada. Se perdió algo de aire por el camino."
+ },
+ "impacto_dato_01": {
+  "ruta": "38_impacto_dato/01_IA_dato-curioso-en-1997-una.mp3",
+  "personaje": "IA",
+  "escena": "impacto_dato",
+  "texto": "Dato curioso: en 1997 una nave de carga chocó con un módulo de la estación espacial rusa Mir, con un astronauta de la NASA a bordo. La tripulación desconectó cables para sellar la puerta y la estación siguió funcionando."
+ },
+ "emergencia_comunicacion_01": {
+  "ruta": "39_emergencia_comunicacion/01_IA_alerta-el-ventilador-del-invernadero.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_comunicacion",
+  "texto": "¡Alerta! El ventilador del invernadero se detuvo y no sé qué pieza falló."
+ },
+ "emergencia_comunicacion_02": {
+  "ruta": "39_emergencia_comunicacion/02_WEN_mandemos-un-mensaje-a-la.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_comunicacion",
+  "texto": "Mandemos un mensaje a la Tierra. Ellos tienen los planos."
+ },
+ "emergencia_comunicacion_03": {
+  "ruta": "39_emergencia_comunicacion/03_IA_aviso-un-mensaje-a-la.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_comunicacion",
+  "texto": "Aviso: un mensaje a la Tierra tarda entre 3 y 22 minutos en llegar. La respuesta tarda otro tanto."
+ },
+ "emergencia_comunicacion_04": {
+  "ruta": "39_emergencia_comunicacion/04_JUD_o-sea-que-hablar-con.mp3",
+  "personaje": "JUD",
+  "escena": "emergencia_comunicacion",
+  "texto": "¿O sea que hablar con la Tierra es como mandar una carta?"
+ },
+ "emergencia_comunicacion_05": {
+  "ruta": "39_emergencia_comunicacion/05_ATL_y-mientras-tanto-el-aire.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_comunicacion",
+  "texto": "Y mientras tanto el aire no espera. Hay que decidir."
+ },
+ "emergencia_comunicacion_06": {
+  "ruta": "39_emergencia_comunicacion/06_ATL_esperemos-con-calma-cuidemos-el.mp3",
+  "personaje": "ATL",
+  "escena": "emergencia_comunicacion",
+  "texto": "Esperemos con calma. Cuidemos el aire que queda."
+ },
+ "emergencia_comunicacion_07": {
+  "ruta": "39_emergencia_comunicacion/07_JUD_las-plantas-no-respiran-sin.mp3",
+  "personaje": "JUD",
+  "escena": "emergencia_comunicacion",
+  "texto": "Las plantas no respiran sin ventilador. Hay que ahorrar."
+ },
+ "emergencia_comunicacion_08": {
+  "ruta": "39_emergencia_comunicacion/08_IA_mensaje-enviado-esperando-respuesta-el.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_comunicacion",
+  "texto": "Mensaje enviado. Esperando respuesta. El oxígeno baja mientras tanto."
+ },
+ "emergencia_comunicacion_09": {
+  "ruta": "39_emergencia_comunicacion/09_WEN_lo-reiniciamos-entero-y-probamos.mp3",
+  "personaje": "WEN",
+  "escena": "emergencia_comunicacion",
+  "texto": "Lo reiniciamos entero y probamos pieza por pieza."
+ },
+ "emergencia_comunicacion_10": {
+  "ruta": "39_emergencia_comunicacion/10_IA_reinicio-en-marcha-las-baterias.mp3",
+  "personaje": "IA",
+  "escena": "emergencia_comunicacion",
+  "texto": "Reinicio en marcha. Las baterías trabajan de más."
+ },
+ "comunicacion_dato_01": {
+  "ruta": "40_comunicacion_dato/01_IA_dato-curioso-una-senal-entre.mp3",
+  "personaje": "IA",
+  "escena": "comunicacion_dato",
+  "texto": "Dato curioso: una señal entre la Tierra y Marte tarda de 3 a 22 minutos en cada sentido, según dónde estén los planetas. Por eso una tripulación en Marte tiene que saber decidir sola."
+ },
+ "fin_exito_01": {
+  "ruta": "41_fin_exito/01_ATL_sol-diez-completado-todos-los.mp3",
+  "personaje": "ATL",
+  "escena": "fin_exito",
+  "texto": "Sol diez completado. Todos los sistemas siguen en marcha."
+ },
+ "fin_exito_02": {
+  "ruta": "41_fin_exito/02_WEN_la-base-aguanto-y-casi.mp3",
+  "personaje": "WEN",
+  "escena": "fin_exito",
+  "texto": "¡La base aguantó! Y casi no tuve que usar cinta adhesiva."
+ },
+ "fin_exito_03": {
+  "ruta": "41_fin_exito/03_JUD_mis-plantas-tambien-sobrevivieron-les.mp3",
+  "personaje": "JUD",
+  "escena": "fin_exito",
+  "texto": "¡Mis plantas también sobrevivieron! Les dije que podían."
+ },
+ "fin_exito_04": {
+  "ruta": "41_fin_exito/04_IA_han-pasado-diez-soles-enteros.mp3",
+  "personaje": "IA",
+  "escena": "fin_exito",
+  "texto": "Han pasado diez soles enteros en este rincón del universo y seguimos aquí."
+ },
+ "fin_exito_05": {
+  "ruta": "41_fin_exito/05_IA_no-fue-solo-suerte-fue.mp3",
+  "personaje": "IA",
+  "escena": "fin_exito",
+  "texto": "No fue solo suerte. Fue curiosidad, valentía y ganas de aprender."
+ },
+ "fin_exito_06": {
+  "ruta": "41_fin_exito/06_IA_resultado-mision-exitosa-datos-reales.mp3",
+  "personaje": "IA",
+  "escena": "fin_exito",
+  "texto": "Resultado: misión exitosa. Datos reales y buenas decisiones."
+ },
+ "fin_exito_07": {
+  "ruta": "41_fin_exito/07_IA_astronauta-ahora-eres-astronauta-junior.mp3",
+  "personaje": "IA",
+  "escena": "fin_exito",
+  "texto": "{jugador}, ahora eres Astronauta Junior de la Base Marte Uno."
+ },
+ "fin_exito_08": {
+  "ruta": "41_fin_exito/08_IA_aprendiste-que-en-marte-el.mp3",
+  "personaje": "IA",
+  "escena": "fin_exito",
+  "texto": "Aprendiste que en Marte el trabajo en equipo y la información real salvan la misión."
+ },
+ "fin_exito_09": {
+  "ruta": "41_fin_exito/09_IA_porque-lo-intentaron-lo-lograron.mp3",
+  "personaje": "IA",
+  "escena": "fin_exito",
+  "texto": "Porque lo intentaron… lo lograron."
+ },
+ "fin_exito_10": {
+  "ruta": "41_fin_exito/10_ATL_cuando-vayamos-de-verdad-ya.mp3",
+  "personaje": "ATL",
+  "escena": "fin_exito",
+  "texto": "Cuando vayamos de verdad, ya sabremos cómo."
+ },
+ "fin_energia_01": {
+  "ruta": "42_fin_energia/01_IA_energia-agotada-la-base-se.mp3",
+  "personaje": "IA",
+  "escena": "fin_energia",
+  "texto": "Energía agotada. La base se apaga y se reinicia la misión."
+ },
+ "fin_energia_02": {
+  "ruta": "42_fin_energia/02_WEN_estamos-bien-era-una-simulacion.mp3",
+  "personaje": "WEN",
+  "escena": "fin_energia",
+  "texto": "¡Estamos bien! Era una simulación. Sólo falta reiniciar."
+ },
+ "fin_energia_03": {
+  "ruta": "42_fin_energia/03_ATL_nadie-esta-herido-esto-es.mp3",
+  "personaje": "ATL",
+  "escena": "fin_energia",
+  "texto": "Nadie está herido. Esto es lo que se practica."
+ },
+ "fin_energia_04": {
+  "ruta": "42_fin_energia/04_IA_lo-que-aprendimos-en-marte.mp3",
+  "personaje": "IA",
+  "escena": "fin_energia",
+  "texto": "Lo que aprendimos: en Marte llega menos de la mitad de luz solar. El polvo tapa los paneles y las tormentas lo empeoran."
+ },
+ "fin_energia_05": {
+  "ruta": "42_fin_energia/05_IA_cuando-la-energia-no-alcanza.mp3",
+  "personaje": "IA",
+  "escena": "fin_energia",
+  "texto": "Cuando la energía no alcanza, hay que decidir qué se queda encendido y guardar reservas antes de la noche."
+ },
+ "fin_energia_06": {
+  "ruta": "42_fin_energia/06_IA_dato-curioso-los-robots-spirit.mp3",
+  "personaje": "IA",
+  "escena": "fin_energia",
+  "texto": "Dato curioso: los robots Spirit y Opportunity vivieron años porque el viento a veces les limpiaba los paneles. Tú no puedes esperar al viento: limpia los paneles a tiempo."
+ },
+ "fin_energia_07": {
+  "ruta": "42_fin_energia/07_ATL_la-proxima-vez-repartimos-mejor.mp3",
+  "personaje": "ATL",
+  "escena": "fin_energia",
+  "texto": "La próxima vez, repartimos mejor."
+ },
+ "fin_oxigeno_01": {
+  "ruta": "43_fin_oxigeno/01_IA_aire-con-demasiado-dioxido-de.mp3",
+  "personaje": "IA",
+  "escena": "fin_oxigeno",
+  "texto": "Aire con demasiado CO₂. La base se apaga y se reinicia la misión."
+ },
+ "fin_oxigeno_02": {
+  "ruta": "43_fin_oxigeno/02_JUD_estamos-bien-fue-un-buen.mp3",
+  "personaje": "JUD",
+  "escena": "fin_oxigeno",
+  "texto": "¡Estamos bien! Fue un buen ensayo."
+ },
+ "fin_oxigeno_03": {
+  "ruta": "43_fin_oxigeno/03_ATL_nadie-corre-peligro-la-mision.mp3",
+  "personaje": "ATL",
+  "escena": "fin_oxigeno",
+  "texto": "Nadie corre peligro. La misión de prueba nos cuida."
+ },
+ "fin_oxigeno_04": {
+  "ruta": "43_fin_oxigeno/04_IA_lo-que-aprendimos-en-marte.mp3",
+  "personaje": "IA",
+  "escena": "fin_oxigeno",
+  "texto": "Lo que aprendimos: en Marte el aire es casi todo CO₂. Los filtros y las plantas mantienen el aire respirable."
+ },
+ "fin_oxigeno_05": {
+  "ruta": "43_fin_oxigeno/05_IA_cambiar-el-filtro-a-tiempo.mp3",
+  "personaje": "IA",
+  "escena": "fin_oxigeno",
+  "texto": "Cambiar el filtro a tiempo es tan importante como la energía."
+ },
+ "fin_oxigeno_06": {
+  "ruta": "43_fin_oxigeno/06_IA_dato-curioso-en-el-apolo.mp3",
+  "personaje": "IA",
+  "escena": "fin_oxigeno",
+  "texto": "Dato curioso: en el Apolo 13 el aire se llenó de CO₂ y la tripulación lo arregló con cinta, cartón y mangueras. Revisa bien los filtros y las plantas en el siguiente intento."
+ },
+ "fin_oxigeno_07": {
+  "ruta": "43_fin_oxigeno/07_ATL_manana-lo-hacemos-mejor.mp3",
+  "personaje": "ATL",
+  "escena": "fin_oxigeno",
+  "texto": "Mañana lo hacemos mejor."
+ },
+ "fin_blindaje_01": {
+  "ruta": "44_fin_blindaje/01_IA_blindaje-agotado-la-base-se.mp3",
+  "personaje": "IA",
+  "escena": "fin_blindaje",
+  "texto": "Blindaje agotado. La base se apaga y se reinicia la misión."
+ },
+ "fin_blindaje_02": {
+  "ruta": "44_fin_blindaje/02_WEN_todos-a-salvo-esto-era.mp3",
+  "personaje": "WEN",
+  "escena": "fin_blindaje",
+  "texto": "Todos a salvo. Esto era para ensayar."
+ },
+ "fin_blindaje_03": {
+  "ruta": "44_fin_blindaje/03_ATL_nadie-sufrio-dano-asi-se.mp3",
+  "personaje": "ATL",
+  "escena": "fin_blindaje",
+  "texto": "Nadie sufrió daño. Así se aprende."
+ },
+ "fin_blindaje_04": {
+  "ruta": "44_fin_blindaje/04_IA_lo-que-aprendimos-marte-casi.mp3",
+  "personaje": "IA",
+  "escena": "fin_blindaje",
+  "texto": "Lo que aprendimos: Marte casi no tiene protección natural contra la radiación. Por eso la base necesita blindaje."
+ },
+ "fin_blindaje_05": {
+  "ruta": "44_fin_blindaje/05_IA_seguir-los-avisos-de-clima.mp3",
+  "personaje": "IA",
+  "escena": "fin_blindaje",
+  "texto": "Seguir los avisos de clima espacial nos da tiempo para prepararnos."
+ },
+ "fin_blindaje_06": {
+  "ruta": "44_fin_blindaje/06_IA_en-1972-el-sol-lanzo.mp3",
+  "personaje": "IA",
+  "escena": "fin_blindaje",
+  "texto": "En 1972 el Sol lanzó una tormenta enorme justo entre dos misiones a la Luna. Hoy se vigila el clima espacial para estar listos."
+ },
+ "fin_blindaje_07": {
+  "ruta": "44_fin_blindaje/07_ATL_la-proxima-vez-escuchamos-los.mp3",
+  "personaje": "ATL",
+  "escena": "fin_blindaje",
+  "texto": "La próxima vez, escuchamos los avisos."
+ }
+}

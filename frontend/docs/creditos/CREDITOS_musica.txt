@@ -1,0 +1,8 @@
+Música original del juego "Junior Astronaut Mission Trainer" · Propuesta 3 (estilo cinematográfico espacial)
+Compuesta y sintetizada con código (Python/numpy; órgano, cuerdas, piano y celesta) por el equipo con ayuda de IA
+(Claude, Anthropic). Está en public/assets/audio/musica/propuesta3/. La versión anterior (rol 5) sigue en
+public/assets/audio/musica/, sin usar.
+No usa muestras, grabaciones ni material de terceros.
+Declaración de IA: generada con asistencia de inteligencia artificial.
+Licencia: CC0 1.0 (dominio público) -- confirmen con su líder local de Space Apps que esta licencia les sirve.
+Archivos: musica_dia (también inicio), musica_emergencia, musica_noche, musica_exito, musica_fracaso.

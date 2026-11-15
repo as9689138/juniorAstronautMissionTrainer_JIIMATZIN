@@ -9,6 +9,7 @@ Se actualiza junto con el código (un commit `docs(...)` por cambio relevante). 
 | [04-api.md](04-api.md) | Endpoints, errores y ejemplos |
 | [05-importacion.md](05-importacion.md) | Flujo del importador y política de calidad |
 | [06-produccion.md](06-produccion.md) | Variables de entorno, despliegue y lista de comprobación |
+| [07-google-cloud.md](07-google-cloud.md) | Despliegue en Google Cloud (Firebase Hosting, Cloud Run, Cloud SQL) y los datos de los jugadores |
 | [10-diccionario-bd.md](10-diccionario-bd.md) | Propósito, columnas, tipos, PK, FK y restricciones de las tablas de ciencia |
 | [11-diagrama-er.md](11-diagrama-er.md) | Diagrama completo de ciencia y su fuente Mermaid |
 | [12-contenido-juego.md](12-contenido-juego.md) | Importación del desglose, catálogos versionados, escenarios y contrato del frontend |

@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Frontend de JIIMATZIN (Phaser). Aquí se integra el trabajo del rol 1; ver README.md.",
+  "description": "Frontend de JIIMATZIN: el juego en Phaser 4 (mapa de la base, historia, minijuegos) y el adaptador de la API.",
   "scripts": {
-    "dev": "echo \"El frontend aún no tiene servidor de desarrollo. Ver frontend/README.md\""
+    "dev": "node scripts/servidor.mjs",
+    "construir": "node scripts/construir.mjs"
   }
 }

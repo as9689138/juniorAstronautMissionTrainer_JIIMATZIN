@@ -1,0 +1,21 @@
+Sonidos reales de Marte usados en el juego (recortados, con fundidos y volumen igualado; sin otras alteraciones)
+
+1) sfx_primer_audio_marte  -  "First Audio Recording of Sounds on Mars"
+   Grabado por el instrumento SuperCam del rover Perseverance de la NASA el 19 de febrero de 2021, unas 18 horas despues del aterrizaje (sol 1).
+   El mastil seguia plegado, por eso suena apagado. Se oye un poco de viento.
+   Credito: NASA/JPL-Caltech/LANL/CNES/CNRS/ISAE-Supaero
+   Fuente: https://www.nasa.gov/wp-content/uploads/2024/05/scam-mic-sol001-run001.wav
+   Uso: noche_3 (sfx_viento_marte y mencion de los microfonos de Perseverance)
+
+2) sfx_viento_marte_real_loop  -  tramo tranquilo (13.5 a 19.9 s) del mismo archivo, en bucle con fundido cruzado.
+   Credito y fuente: los mismos que el punto 1.
+
+3) sfx_remolino_polvo / sfx_remolino_corto  -  "NASA's Perseverance Records a Martian Dust Devil"
+   Un remolino de polvo paso sobre Perseverance el 27 de septiembre de 2021 (sol 215); primera grabacion de este tipo.
+   Credito: NASA/JPL-Caltech/LANL/CNES/CNRS/INTA-CSIC/Space Science Institute/ISAE-Supaero
+   Fuente: https://www.nasa.gov/wp-content/uploads/2024/05/pia25657.wav
+   Uso: emergencia_polvo, noche_6 y minijuego de los paneles
+
+Fecha de descarga: 14 de noviembre de 2026
+Texto para la pantalla de creditos:
+"Sonidos de Marte: NASA/JPL-Caltech y colaboradores (rover Perseverance, instrumento SuperCam), usados segun las Media Usage Guidelines de NASA. Este juego no esta afiliado ni respaldado por la NASA."

@@ -49,7 +49,8 @@ const esquema = z
     if (!cfg.DONKI_BASE_URL.startsWith('https://')) {
       falla('DONKI_BASE_URL', 'en producción debe ser https');
     }
-    if (cfg.DATABASE_SSL === 'disable') {
+    // Excepción: Cloud SQL desde Cloud Run por su socket (host=/cloudsql/...), que ya va cifrado y no admite TLS
+    if (cfg.DATABASE_SSL === 'disable' && !/[?&]host=\/cloudsql\//.test(cfg.DATABASE_URL)) {
       falla('DATABASE_SSL', 'en producción usa "require" (o "no-verify" si el proveedor lo exige)');
     }
   });
