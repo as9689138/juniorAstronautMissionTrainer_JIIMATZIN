@@ -13,6 +13,7 @@
 // EL TIEMPO LO DICTA LA IA: la fase que ven el mapa (luz) y la interfaz (ficha del Sol) solo cambia cuando la IA la
 // anuncia en un diálogo (EV.HORA, ver Dialogo.darHora). GameState.fase es la fase de las reglas; GameState.reloj, la
 // que anunció la IA.
+import { verCine } from '../motor/cine.js';
 import { bus, EV, control } from '../motor/eventos.js';
 import { sonido } from '../motor/sonido.js';
 import { GameState } from './estado.js';
@@ -107,7 +108,9 @@ export const ciclo = {
         energia: GameState.nivel('energia'), oxigeno: GameState.nivel('oxigeno'), blindaje: GameState.nivel('blindaje'),
         sol: Math.min(GameState.sol, GameState.maxSoles),
       });
-      this.abrir('Dialogo', { nudo, narrador: this.narrador, ...opciones, alTerminar: resolver });
+      // saltar: n líneas del principio del nudo que ya contó otra cosa (el video de la introducción)
+      const narrador = opciones.saltar ? this.narradorSaltando(opciones.saltar) : this.narrador;
+      this.abrir('Dialogo', { nudo, ...opciones, narrador, alTerminar: resolver });
     })).then(async tags => {
       // # dato:<id> de la historia: si el escenario lo vincula a una ficha aprobada, la IA la cuenta (Dato real)
       const fichas = [...new Set(tags.dato ?? [])].map(d => datosReales.fichaDeDato(d)).filter(Boolean);
@@ -116,6 +119,19 @@ export const ciclo = {
     });
     this.cola = tarea.catch(() => {});
     return tarea;
+  },
+
+  // El mismo narrador, pero al empezar un nudo se salta sus n primeras líneas (sus etiquetas también)
+  narradorSaltando(n) {
+    const real = this.narrador;
+    return Object.assign(Object.create(real), {
+      empezar(nudo) {
+        if (!real.empezar(nudo)) return false;
+        for (let k = 0; k < n;) { const p = real.paso(); if (!p || p.tipo === 'opciones') break; if (p.tipo === 'linea') k++; }
+        return true;
+      },
+      paso: () => real.paso(),
+    });
   },
 
   // Abre el diálogo con líneas sueltas sin pasar por la cola (para usar dentro de otra narración)
@@ -193,7 +209,9 @@ export const ciclo = {
     await new Promise(r => setTimeout(r, 400));
     GameState.publicar();
     sonido.ambiente(true);
-    await this.narrar('introduccion');
+    // la introducción: el video (pkt/cine-intro) cuenta sus 4 primeras líneas; el diálogo sigue desde la IA
+    const vioIntro = await verCine('intro');
+    await this.narrar('introduccion', vioIntro ? { saltar: 4 } : {});
     await this.manana();
   },
 
@@ -204,13 +222,15 @@ export const ciclo = {
     // La IA abre el sol: con su aviso amanece en el mapa y cambia la ficha del Sol
     await this.decir([{ quien: 'ia', cara: 'feliz', hora: this.hora('manana'), texto: this.textoAmanecer() }]);
     await this.narrar('manana');
+    const repaso = guia.repasoDelDia();                          // repaso espaciado: pregunta y, después, la respuesta
+    if (repaso) await this.decir(repaso.map(texto => ({ quien: 'ia', cara: 'procesando', texto, traducido: true })));
     const clima = datosReales.lineaClima(GameState.sol);          // medición real de Marte para este sol
     if (clima) await this.decir([{ quien: 'ia', cara: 'feliz', texto: clima }]);
     await this.fichasDeFase('manana');
     // Si el tema del recurso más bajo está flojo, la IA guía da una pista antes de repartir
     const pista = guia.pistaConsola();
-    this.pistaConsolaDada = !!pista;
-    if (pista) await this.decir([{ quien: 'ia', cara: 'procesando', texto: pista }]);
+    this.pistaConsolaDada = guia.conPistaConsola;     // un reto no cuenta como pista
+    if (pista) await this.decir(pista.map(texto => ({ quien: 'ia', cara: 'procesando', texto, traducido: true })));
     this.objetivo('consola');
     this.soltar();
   },
@@ -263,7 +283,7 @@ export const ciclo = {
     cargas.precargar(Object.values(TAREAS).map(t => `minijuego:${t.escena}`));   // el arte de los 3 minijuegos, mientras habla la IA
     // El reparto es una prueba de aprendizaje; si no fue el mejor, la IA explica por qué
     const porque = guia.evidenciaConsola(GameState.asignacionEnergia, this.recursosConsola ?? GameState.recursos, this.pistaConsolaDada);
-    if (porque) await this.decir([{ quien: 'ia', cara: 'neutral', texto: porque }]);
+    if (porque) await this.decir(porque.map(texto => ({ quien: 'ia', cara: 'neutral', texto, traducido: true })));
     await this.narrar('dia', { hora: this.hora('dia') });                       // "Hay luz solar. ¡Manos a la obra!"
     await this.fichasDeFase('dia');
     this.objetivo(this.siguienteTarea());
@@ -305,8 +325,8 @@ export const ciclo = {
       const recursos = { ...GameState.recursos };
       const pista = guia.pistaEmergencia(nudo);
       const tags = await this.narrar(nudo, { cuentaAtras: segundos, hora: this.hora('emergencia'), pista });
-      const porque = guia.evidenciaEmergencia(nudo, tags.eleccion?.[0], tags.agotado, recursos, !!pista);
-      if (porque) await this.decir([{ quien: 'ia', cara: 'feliz', texto: porque }]);
+      const porque = guia.evidenciaEmergencia(nudo, tags.eleccion?.[0], tags.agotado, recursos, guia.conPistaEmergencia);
+      if (porque) await this.decir(porque.map(texto => ({ quien: 'ia', cara: 'feliz', texto, traducido: true })));
       if (nudo === 'emergencia_solar' && datosReales.lineasSol()) await this.decir(datosReales.lineasSol());   // y lo real de esta semana
       await this.fichasDeFase('emergencia');
       for (const c of tags.costo ?? []) {              // costo:energia-1 -> -20 de energía (o menos, con la ventaja del personaje)

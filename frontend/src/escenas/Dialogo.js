@@ -43,7 +43,8 @@ export default class Dialogo extends Phaser.Scene {
     control.modal = true;
     sonido.dialogo(true);                      // la música y el viento bajan mientras dure el diálogo
     const { width: w, height: h } = this.scale;
-    this.velo = this.add.rectangle(0, 0, w, h, 0x07051a, this.datos.fondo ? 0.92 : 0.35).setOrigin(0).setDepth(-2);
+    this.velo = this.add.rectangle(0, 0, w, h, 0x07051a, this.datos.fondo ? 1 : 0.35)   // con fondo (prólogo): opaco, no se ve la portada detrás
+      .setOrigin(0).setDepth(-2);
     this.panel = this.add.graphics();
     this.retrato = this.add.image(0, 0, '__DEFAULT').setOrigin(0.5, 1).setVisible(false);
     this.robot = this.add.sprite(0, 0, 'robot_ia', 0).setOrigin(0.5, 1).setVisible(false);
@@ -59,7 +60,7 @@ export default class Dialogo extends Phaser.Scene {
     this.saltar.on('pointerup', e => { e?.event?.stopPropagation?.(); this.saltarNudo(); });
     this.botones = [];
     this.reloj = this.add.text(0, 0, '', { fontFamily: FUENTE, fontSize: '22px', fontStyle: 'bold', color: '#ffc83d',
-      backgroundColor: '#141026', padding: { x: 14, y: 6 } }).setOrigin(0.5);
+      backgroundColor: '#141026', padding: { x: 14, y: 6 } }).setOrigin(0.5).setVisible(false);   // vacío y con fondo se veía como un cuadro oscuro
     // Pista de la IA guía en las decisiones (solo si el tema está flojo: src/compania/guia.js)
     this.pista = this.add.text(0, 0, '', { fontFamily: FUENTE, fontSize: '17px', fontStyle: 'bold', color: '#141026',
       backgroundColor: '#8fe3ff', padding: { x: 12, y: 7 }, align: 'center' }).setOrigin(0.5).setVisible(false);
@@ -94,7 +95,8 @@ export default class Dialogo extends Phaser.Scene {
       g.lineStyle(2, this.colorActual ?? 0xb0acf4, 0.9).strokeRoundedRect(x0 + 6, y0 + 6, ancho - 12, alto - 12, 10);
     }
     const conRetrato = this.retrato.visible || this.robot.visible;
-    const izq = conRetrato && !this.modoNarracion ? Math.min(210 * e, ancho * 0.3) : 26 * e;
+    // columna del retrato: nunca más de un 28 % del panel, para que el texto tenga sitio en pantallas angostas
+    const izq = conRetrato && !this.modoNarracion ? Phaser.Math.Clamp(ancho * 0.28, 96 * e, 210 * e) : 26 * e;
     const tam = Math.max(16, Math.round(19 * e));
     this.texto.setFontSize(tam).setWordWrapWidth(ancho - izq - 40 * e);
     if (this.modoNarracion) {
@@ -105,11 +107,13 @@ export default class Dialogo extends Phaser.Scene {
     this.nombre.setFontSize(Math.max(16, Math.round(17 * e))).setPosition(x0 + izq + 12 * e, y0 + 4 * e);
     this.dibujarEtiqueta();
     // el retrato asoma por encima del panel, sin pisar el nombre ni el texto
-    const lado = Math.min(h * 0.4, izq + 26 * e);
+    // (cabe en su columna: antes era más ancho que ella y tapaba el principio del texto)
+    const lado = Math.min(h * 0.4, izq - 4 * e);
     if (this.retrato.visible) {
-      this.retrato.setDisplaySize(lado, lado).setPosition(x0 + lado / 2 - 10 * e, y0 + alto - 8 * e);
+      this.retrato.setDisplaySize(lado, lado).setPosition(x0 + izq / 2, y0 + alto - 8 * e);
     }
-    this.robot.setScale(1.5 * e).setPosition(x0 + izq / 2, y0 + alto * 0.72);
+    this.texto.setDepth(3);                        // el texto siempre encima del retrato y del robot
+    this.robot.setScale(0.9 * e).setPosition(x0 + izq / 2, y0 + alto * 0.72);
     this.sigue.setPosition(x0 + ancho - 18 * e, y0 + alto - 12 * e).setFontSize(Math.round(18 * e));
     // "Saltar", encima del panel a la derecha (arriba quedan el tablero y el sol de la interfaz)
     if (this.modoNarracion) this.saltar.setOrigin(1, 0).setPosition(w - 12, 12);

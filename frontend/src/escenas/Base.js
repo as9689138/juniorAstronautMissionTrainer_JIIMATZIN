@@ -9,6 +9,7 @@ import Luces from '../motor/luces.js';
 import { asegurarFlecha } from '../motor/flecha.js';
 import { sonido } from '../motor/sonido.js';
 import { cargas, ZONA_INICIAL } from '../motor/cargas.js';
+import { idioma } from '../motor/idioma.js';
 
 const RADIO = 0.27;          // radio de los pies del astronauta, en casillas
 const ESCALA_ARTE = 0.5;     // el arte de las salas está pintado al doble
@@ -38,6 +39,11 @@ export default class Base extends Phaser.Scene {
 
     // --- Arte de la sala ---
     this.add.image(0, 0, `zona_${id}_fondo`).setOrigin(0).setScale(ESCALA_ARTE).setDepth(0);
+    // Letreros del muro y del suelo en el idioma del juego (encima del fondo y debajo de los objetos)
+    (z.letreros ?? []).forEach((l, i) => {
+      const lengua = idioma.ingles && l.en ? 'en' : 'es', d = l[lengua], clave = `letrero_${id}_${i}_${lengua}`;
+      if (d && this.textures.exists(clave)) this.add.image(d.x, d.y, clave).setOrigin(0).setScale(ESCALA_ARTE).setDepth(0.02);
+    });
     // el frente viene recortado a lo que tiene dibujo (el murete delantero): se coloca en su sitio
     this.add.image(z.frente_x ?? 0, z.frente_y ?? 0, `zona_${id}_frente`).setOrigin(0).setScale(ESCALA_ARTE).setDepth(9);
     this.props = z.props.map(p => {

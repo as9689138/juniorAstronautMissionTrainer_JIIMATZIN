@@ -1,0 +1,47 @@
+{
+ "duracion": 36,
+ "es": [
+  {
+   "desde": 0.75,
+   "hasta": 3.25,
+   "texto": "Año 2030…"
+  },
+  {
+   "desde": 3.75,
+   "hasta": 14.95,
+   "texto": "Todo empezó en 2023, cuando cuatro voluntarios de la NASA vivieron 378 días dentro de una base simulada de Marte, en Houston."
+  },
+  {
+   "desde": 15.75,
+   "hasta": 22.47,
+   "texto": "Desde entonces, la humanidad se prepara para llevar personas a Marte."
+  },
+  {
+   "desde": 23.25,
+   "hasta": 35.09,
+   "texto": "Hoy, en 2030, un equipo pequeño hace su misión de prueba en la Base Marte Uno. Es una simulación, pero se parece mucho a la realidad."
+  }
+ ],
+ "en": [
+  {
+   "desde": 0.75,
+   "hasta": 3.25,
+   "texto": "Year 2030…"
+  },
+  {
+   "desde": 3.75,
+   "hasta": 14.95,
+   "texto": "It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston."
+  },
+  {
+   "desde": 15.75,
+   "hasta": 22.47,
+   "texto": "Since then, humanity has been getting ready to send people to Mars."
+  },
+  {
+   "desde": 23.25,
+   "hasta": 35.09,
+   "texto": "Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing."
+  }
+ ]
+}

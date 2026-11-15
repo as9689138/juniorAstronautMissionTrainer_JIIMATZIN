@@ -1,4 +1,4 @@
-// La IA de la base: un robot que flota detrás del jugador, habla en burbujas cortas
+// P.I.E.D.R.A, la IA de la base: un robot con ruedas que rueda junto al jugador, habla en burbujas cortas
 // y cada mañana pronostica el clima espacial con su modelo (src/ml/pronostico.js).
 // Su "cerebro" es la IA guía (src/compania/guia.js): ahí están el pronóstico y la medición del aprendizaje; el robot
 // es su cara en el mapa (pistas más claras en lo flojo y una felicitación al subir de nivel).
@@ -15,7 +15,8 @@ import { idioma } from '../motor/idioma.js';
 
 const CARAS = { neutral: 0, feliz: 1, procesando: 2 };
 const COLOR_CARA = { neutral: 0x5ec8f2, feliz: 0x7cf0a0, procesando: 0xffc83d, alarma: 0xff5a4e };
-const ESCALA = 0.5;                       // el dibujo está al doble de resolución
+const ESCALA = 0.25;                      // hoja de 128x144 (herramientas/robot_piedra.py), se dibuja a 32x36
+const ALTO = 36;                          // alto del robot en el mapa antes de la escala real
 const FUENTE = 'system-ui, -apple-system, "Segoe UI", sans-serif';
 const LETRA_PANTALLA = 16;                // px mínimos EN PANTALLA, sea cual sea el zoom
 const TINTA = 0x141026;
@@ -59,7 +60,7 @@ export default class Robot {
 
     this.sombra = escena.add.ellipse(x, y + 20 * s, 16 * s, 5 * s, 0x000000, 0.3).setDepth(4);
     this.halo = escena.add.circle(x, y, 7 * s, COLOR_CARA.neutral, 0.35).setDepth(5);
-    this.cuerpo = escena.add.sprite(x - 20 * s, y - 10 * s, 'robot_ia', CARAS.neutral).setScale(ESCALA * s).setDepth(6);
+    this.cuerpo = escena.add.sprite(x - 20 * s, y, 'robot_ia', CARAS.neutral).setOrigin(0.5, 1).setScale(ESCALA * s).setDepth(6);
     this.puntos = [0, 1, 2].map(() => escena.add.circle(x, y, 1.6 * s, COLOR_CARA.procesando).setDepth(7).setVisible(false));
     this.burbuja = this.crearBurbuja();
 
@@ -123,7 +124,7 @@ export default class Robot {
     escena.time.delayedCall(1200, async () => {
       if (!this.vivo) return;
       const tactil = escena.sys.game.device.input.touch && !escena.sys.game.device.os.desktop;
-      this.decir(`¡Bip-bup! Soy la IA de la base. Te sigo a todas partes.${tactil ? '' : ' Pulsa Q si me necesitas.'}`, { cara: 'feliz', duracion: 4200 });
+      this.decir(`¡Bip-bup! Soy P.I.E.D.R.A, la IA de la base. Te sigo a todas partes.${tactil ? '' : ' Pulsa Q si me necesitas.'}`, { cara: 'feliz', duracion: 4200 });
       if (this.ml) await this.ml.actualizarEnVivo();
       const estado = escena.registry.get('estado');
       if (!estado && this.vivo) escena.time.delayedCall(4600, () => this.vivo && this.pronosticar(1, 10));
@@ -379,27 +380,28 @@ export default class Robot {
   update(t, dt) {
     const pj = this.pj, c = this.cuerpo;
     if (!pj?.body) return;
-    // Posición lógica (sin balanceo): flota detrás del jugador, un poco arriba
+    // Posición lógica: rueda por el suelo junto al jugador, un poco detrás
     const lado = pj.flipX ? 1 : -1;
     const s = this.s;
-    const ox = pj.body.center.x + lado * 22 * s, oy = pj.body.center.y - 26 * s;
+    const ox = pj.body.center.x + lado * 24 * s, oy = pj.body.center.y - 4 * s;
     const k = 1 - Math.exp(-4 * (dt ?? 16.67) / 1000);
     this.px ??= c.x; this.py ??= c.y;
     if (Phaser.Math.Distance.Between(this.px, this.py, ox, oy) > 3) {
       this.px += (ox - this.px) * k;
       this.py += (oy - this.py) * k;
     }
-    // Dibujo: con balanceo e inclinación al moverse
-    const flota = Math.sin(t / 380) * 2.2 * s;
-    const dibY = this.py + flota;
-    c.setPosition(this.px, dibY).setFlipX(pj.x < this.px)
-      .setAngle(Phaser.Math.Clamp((ox - this.px) * 0.8, -12, 12))
-      .setDepth(this.py + 30 * s > pj.body.center.y ? 6 : 4.5);   // delante o detrás del astronauta
+    // Dibujo: las ruedas en el suelo; al rodar, un traqueteo pequeño y se inclina hacia donde va
+    const rodando = Phaser.Math.Distance.Between(this.px, this.py, ox, oy) > 3;
+    const flota = rodando ? -Math.abs(Math.sin(t / 60)) * 0.9 * s : 0;          // baches del suelo
+    const suelo = this.py, dibY = suelo + flota - ALTO * 0.5 * s;              // dibY: centro del cuerpo
+    c.setPosition(this.px, suelo + flota).setFlipX(pj.x < this.px)
+      .setAngle(Phaser.Math.Clamp((ox - this.px) * 0.4, -6, 6))
+      .setDepth(this.py > pj.body.center.y ? 6 : 4.5);                         // delante o detrás del astronauta
 
-    this.sombra.setPosition(this.px, this.py + 26 * s).setScale(1 - flota / s * 0.04);
+    this.sombra.setPosition(this.px, suelo + 1 * s).setScale(1.5, 1);
     const color = this.alarma ? COLOR_CARA.alarma : COLOR_CARA[this.caraActual];
     const pulso = 0.25 + 0.15 * Math.sin(t / (this.alarma ? 90 : 300));   // < 3 destellos por segundo
-    this.halo.setPosition(this.px, dibY - 17 * s).setFillStyle(color, pulso).setRadius((this.alarma ? 9 : 6) * s);
+    this.halo.setPosition(this.px, dibY - 8 * s).setFillStyle(color, pulso).setRadius((this.alarma ? 9 : 6) * s);
     if (this.caraActual === 'procesando') {
       this.puntos.forEach((p, i) => {
         const a = t / 180 + i * 2.1;

@@ -59,6 +59,8 @@ export const cargas = {
       const z = this.juego?.cache.json.get('zonas')?.zonas?.[id];
       if (!z) return [];
       return [['image', `zona_${id}_fondo`, z.fondo], ['image', `zona_${id}_frente`, z.frente],
+        // letreros pintados en el muro y el suelo, uno por idioma (herramientas/pintar_zonas.py)
+        ...(z.letreros ?? []).flatMap((l, i) => Object.entries(l).map(([lengua, d]) => ['image', `letrero_${id}_${i}_${lengua}`, d.archivo])),
         ...z.props.flatMap(p => [['image', p.clave, p.archivo],
           ...(p.anim ? [['spritesheet', p.animClave, p.anim, { frameWidth: p.fw, frameHeight: p.fh }]] : [])])];
     }

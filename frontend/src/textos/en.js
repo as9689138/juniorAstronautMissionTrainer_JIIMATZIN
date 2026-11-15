@@ -6,7 +6,7 @@
 // Si cambia un texto en español en el código, hay que cambiar aquí su clave (lo que falte sale en __idioma.faltan).
 export default {
   // ---------- Portada, carga y selección ----------
-  'Misión Marte': 'Mission Mars',
+  'Misión P.I.E.D.R.A': 'Mission P.I.E.D.R.A',
   'Base Marte Uno · 10 soles de entrenamiento': 'Mars Base One · 10 training sols',
   'Comenzar misión': 'Start mission',
   'Enter o toca el botón': 'Press Enter or tap the button',
@@ -27,6 +27,7 @@ export default {
 
   // ---------- Personajes y rutas ----------
   'IA': 'AI',
+  'P.I.E.D.R.A': 'P.I.E.D.R.A',
   'Ingeniero': 'Engineer', 'Científica': 'Scientist', 'Médico': 'Doctor',
   'ingeniero': 'engineer', 'científica': 'scientist', 'médico': 'doctor',
   'De noche, la base gasta menos energía': 'At night, the base uses less energy',
@@ -115,7 +116,7 @@ export default {
   'Noche del sol {n}': 'Night of sol {n}', 'Al empezar la misión': 'At the start of the mission',
 
   // ---------- Álbum ----------
-  'Archivos de memoria de la IA': 'The AI’s memory files',
+  'Archivos de memoria de P.I.E.D.R.A': 'P.I.E.D.R.A’s memory files',
   'Abiertos: {a} de {b}': 'Unlocked: {a} of {b}',
   'Abiertos: {a} de {b}  ·  página {p} de {q}': 'Unlocked: {a} of {b}  ·  page {p} of {q}',
   'ARCHIVO': 'FILE',
@@ -137,8 +138,8 @@ export default {
   'Si ves girar mis puntitos no estoy mareado: estoy pensando.': 'If you see my dots spinning, I’m not dizzy: I’m thinking.',
   'Se me aflojó un tornillo de tanto reír. ¿Me prestas cinta adhesiva?': 'I laughed so hard a screw came loose. Can I borrow some tape?',
   '¿Mi música favorita? ¡El heavy metal, claro! Bip-bup.': 'My favorite music? Heavy metal, of course! Beep-boop.',
-  '¡Bip-bup! Soy la IA de la base. Te sigo a todas partes.': 'Beep-boop! I’m the base AI. I follow you everywhere.',
-  '¡Bip-bup! Soy la IA de la base. Te sigo a todas partes. Pulsa Q si me necesitas.': 'Beep-boop! I’m the base AI. I follow you everywhere. Press Q if you need me.',
+  '¡Bip-bup! Soy P.I.E.D.R.A, la IA de la base. Te sigo a todas partes.': 'Beep-boop! I’m P.I.E.D.R.A, the base AI. I follow you everywhere.',
+  '¡Bip-bup! Soy P.I.E.D.R.A, la IA de la base. Te sigo a todas partes. Pulsa Q si me necesitas.': 'Beep-boop! I’m P.I.E.D.R.A, the base AI. I follow you everywhere. Press Q if you need me.',
   'Calculando… ¡ups! Esa era la receta de los frijoles. Otra vez…': 'Calculating… oops! That was the bean recipe. Again…',
   'Todavía estoy leyendo los datos del Sol… ¡bip!': 'I’m still reading the Sun data… beep!',
   'Pronóstico: de 10 días como hoy, en casi ninguno hubo llamarada fuerte ({p} %). ¡Puedo fallar!': 'Forecast: out of 10 days like today, almost none had a strong flare ({p} %). I can be wrong!',
@@ -207,6 +208,12 @@ export default {
   'Hoy aprendiste más sobre {x}.': 'Today you learned more about {x}.',
   'Mañana practiquemos {x}.': 'Tomorrow let’s practice {x}.',
   '¡Vas muy bien en todo!': 'You’re doing great at everything!',
+  // ayudas de la IA (src/ml/politica.js) en el reporte
+  'QUÉ AYUDA LE FUNCIONA (aciertos en la prueba siguiente a cada tipo de ayuda de la IA)': 'WHAT HELP WORKS (correct answers on the next test after each kind of AI help)',
+  '- {m}: {p} de aciertos en {n} usos': '- {m}: {p} correct in {n} uses',
+  'pista general': 'general hint', 'pista concreta': 'specific hint', 'ejemplo resuelto': 'worked example',
+  'reto sin ayuda': 'challenge without help', 'elogio de la estrategia': 'praise for the strategy',
+  'pregunta del porqué': 'why question', 'corrección con el porqué': 'correction with the reason', 'pregunta de repaso': 'review question',
   // detalle de cada prueba (reporte del adulto)
   '{n} núcleo': '{n} core', '{n} núcleos': '{n} cores',
   'consola: {r} era lo más bajo y {s} recibió {n}': 'console: {r} was the lowest and {s} got {n}',
@@ -231,10 +238,10 @@ export default {
   'Empezando': 'Getting started', 'Aprendiendo': 'Learning', '¡Casi lo dominas!': 'Almost mastered!', '¡Dominado!': 'Mastered!',
   'Avance': 'Progress',
   'Lo que estás aprendiendo': 'What you are learning',
-  'La IA de la base lo ve en lo que haces: minijuegos, energía y emergencias': 'The base AI sees it in what you do: minigames, energy and emergencies',
-  'IA: «Practiquemos {x}: ahí te daré pistas y más tiempo.»': 'AI: “Let’s practice {x}: I’ll give you hints and more time there.”',
-  'IA: «¡Vas muy bien en todo! Ahora te doy menos pistas.»': 'AI: “You’re doing great at everything! Now I’ll give you fewer hints.”',
-  'IA: «Todavía no hay pruebas: juega un minijuego o reparte la energía.»': 'AI: “No evidence yet: play a minigame or share out the energy.”',
+  'P.I.E.D.R.A lo ve en lo que haces: minijuegos, energía y emergencias': 'P.I.E.D.R.A sees it in what you do: minigames, energy and emergencies',
+  'P.I.E.D.R.A: «Practiquemos {x}: ahí te daré pistas y más tiempo.»': 'P.I.E.D.R.A: “Let’s practice {x}: I’ll give you hints and more time there.”',
+  'P.I.E.D.R.A: «¡Vas muy bien en todo! Ahora te doy menos pistas.»': 'P.I.E.D.R.A: “You’re doing great at everything! Now I’ll give you fewer hints.”',
+  'P.I.E.D.R.A: «Todavía no hay pruebas: juega un minijuego o reparte la energía.»': 'P.I.E.D.R.A: “No evidence yet: play a minigame or share out the energy.”',
   'Para adultos': 'For adults', 'Cerrar · P': 'Close · P', 'Reporte para el adulto': 'Report for adults',
   'Personaje: {p} · Sol {s} de 10 · {n} pruebas registradas': 'Character: {p} · Sol {s} of 10 · {n} pieces of evidence recorded',
   '{tema}: dominio estimado {pct} ({nivel})': '{tema}: estimated mastery {pct} ({nivel})',
@@ -290,7 +297,7 @@ export default {
   'SOL {n} / 10 · CONSOLA DE MANDO': 'SOL {n} / 10 · COMMAND CONSOLE',
   'La batería no alcanza para todo. Reparte los 6 núcleos de energía antes de iniciar el día.': 'The battery can’t power everything. Share out the 6 energy cores before the day starts.',
   'SOL {n} / 10 · RECUERDO DESBLOQUEADO': 'SOL {n} / 10 · MEMORY UNLOCKED',
-  'La IA desbloqueó un recuerdo histórico. Elige una carta de mejora.': 'The AI unlocked a historic memory. Choose an upgrade card.',
+  'P.I.E.D.R.A desbloqueó un recuerdo histórico. Elige una carta de mejora.': 'P.I.E.D.R.A unlocked a historic memory. Choose an upgrade card.',
   '⚡ Energía: {a}/{b}': '⚡ Energy: {a}/{b}', '🫧 Oxígeno: {a}/{b}': '🫧 Oxygen: {a}/{b}', '🛡️ Blindaje: {a}/{b}': '🛡️ Shielding: {a}/{b}',
   'Colectores Solares': 'Solar Collectors',
   'Más tiempo y +Energía al limpiar paneles': 'More time and +Energy when cleaning panels',
@@ -321,15 +328,15 @@ export default {
   '🛡️ FIN DE LA MISIÓN · ESCUDO ROTO': '🛡️ MISSION OVER · SHIELD BROKEN',
   '«El escudo de la nave recibió demasiados golpes del espacio y debemos regresar a reparar. ¡Ya sabes cómo enfrentar las tormentas espaciales, inténtalo otra vez!»':
     '“The ship’s shield took too many hits from space and we have to go back for repairs. You know how to face space storms now, try again!”',
-  'Reporte final de la IA de la Base Marte Uno': 'Final report from the Mars Base One AI',
+  'Reporte final de P.I.E.D.R.A · Base Marte Uno': 'Final report from P.I.E.D.R.A · Mars Base One',
   'VER LO QUE APRENDÍ': 'SEE WHAT I LEARNED', 'VOLVER A INTENTAR': 'TRY AGAIN',
   // calificación de misión
   'CALIFICACIÓN DE MISIÓN': 'MISSION GRADE',
   'Medalla de oro': 'Gold medal', 'Medalla de plata': 'Silver medal', 'Medalla de bronce': 'Bronze medal',
   'Puntaje: {n} de 100': 'Score: {n} out of 100',
-  'IA: «¡Dominas la base! Eres un gran astronauta.»': 'AI: “You’ve mastered the base! You’re a great astronaut.”',
-  'IA: «¡Vas muy bien! Un poco más de práctica y es de oro.»': 'AI: “You’re doing great! A little more practice and it’ll be gold.”',
-  'IA: «¡Buen comienzo! Cada misión te enseña algo nuevo.»': 'AI: “Great start! Every mission teaches you something new.”',
+  'P.I.E.D.R.A: «¡Dominas la base! Eres un gran astronauta.»': 'P.I.E.D.R.A: “You’ve mastered the base! You’re a great astronaut.”',
+  'P.I.E.D.R.A: «¡Vas muy bien! Un poco más de práctica y es de oro.»': 'P.I.E.D.R.A: “You’re doing great! A little more practice and it’ll be gold.”',
+  'P.I.E.D.R.A: «¡Buen comienzo! Cada misión te enseña algo nuevo.»': 'P.I.E.D.R.A: “Great start! Every mission teaches you something new.”',
   'Calificación de misión: {m} · puntaje {p} de 100 (70 % aprendizaje + 30 % soles que aguantó la base)':
     'Mission grade: {m} · score {p} out of 100 (70 % learning + 30 % sols the base held out)',
 

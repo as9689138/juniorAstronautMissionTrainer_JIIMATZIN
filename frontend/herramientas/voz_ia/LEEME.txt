@@ -1,0 +1,59 @@
+VOZ DE LA IA: LÍNEAS QUE FALTAN (para el rol 5)
+==================================================
+
+El juego ya no usa la voz del navegador para la IA. Todo lo que dice la IA tiene que sonar con TU voz de la IA
+(Chatterbox clonando voces/IA.wav), igual que las 86 líneas que ya grabaste. Faltan:
+
+  - 360 líneas en español: los avisos que arma el juego. Son el amanecer de cada sol y personaje, los avisos de
+    las estaciones, la antena, el anochecer con su gasto de energía, el resumen del día, las pistas y el porqué de
+    la IA guía y las noticias del Sol.
+  - 450 líneas en inglés: lo mismo en inglés, más tus 90 líneas de la IA de historia.ink en inglés.
+
+Todas están en lineas_ia.json, con estos campos:
+  - id
+  - idioma
+  - texto: tal cual sale en pantalla
+  - texto_tts: lo que se lee, con los números en palabras y CO₂ dicho completo
+  - cara
+
+QUÉ HAY EN ESTE ZIP
+  lineas_ia.json   la lista de líneas
+  generar.py       genera y convierte con TUS ajustes de 8_casting_voces:
+                     - expresividad 0,55 y ajuste por cara
+                     - variantes B y C
+                     - semilla 7
+                     - −16 LUFS, silencios de 0,12 y 0,25 s
+                     - MP3 a 24 kHz
+  enumerar.mjs     arma lineas_ia.json desde el código del juego (solo si cambia algún texto)
+
+CÓMO GENERARLAS (desde frontend/herramientas/voz_ia, con tu entorno .venv-cb de 8_casting_voces)
+  1. Pon voces/IA.wav junto a generar.py.
+  2. Crea la carpeta modelos/ con:
+       - de ResembleAI/Chatterbox-Multilingual-es-mx-latam:
+           t3_es_mx_latam.safetensors
+           grapheme_mtl_merged_expanded_v1.json
+           s3gen_v3.pt  (renómbralo a s3gen.pt)
+       - de ResembleAI/chatterbox:
+           ve.pt
+           conds.pt
+           mtl_tokenizer.json
+           Cangjie5_TC.json
+           t3_mtl23ls_v3.safetensors  (es el del inglés)
+     Si ya tienes chatterbox_latam/, son los mismos archivos.
+  3. Genera, primero el español y luego el inglés:
+       .venv-cb\Scripts\python generar.py <ruta a jiimatzin\frontend> --idioma es
+       .venv-cb\Scripts\python generar.py <ruta a jiimatzin\frontend> --idioma en
+     Para probar antes con 3 líneas: añade --limite 3.
+     Se puede cortar y retomar.
+
+QUÉ PRODUCE (en el repo, rama front)
+  frontend/public/assets/audio/voces/ia/es/*.mp3
+  frontend/public/assets/audio/voces/ia/en/*.mp3
+  frontend/public/assets/audio/voces/ia/indice.json   (lo lee el juego: texto normalizado -> archivo)
+  frontend/public/assets/audio/voces/ia/textos_es.json, textos_en.json   (para revisar qué dice cada archivo)
+
+El juego las encuentra solas. No hay que tocar código. Escucha unas cuantas antes de subirlas.
+Detalles en frontend/public/assets/audio/voces/ia/LEEME.md.
+
+TIEMPO: tu README medía 25 a 36 s por frase en CPU (Ryzen 5 5500). Son unas 810 líneas cortas, así que calcula
+5 a 7 horas en total. Conviene empezar por el español (unas 2,5 a 3,5 horas). Se puede cortar y retomar.

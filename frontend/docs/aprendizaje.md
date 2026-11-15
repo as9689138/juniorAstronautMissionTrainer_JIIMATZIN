@@ -117,3 +117,32 @@ el dominio en % y un reporte. Detalle técnico: `docs/acuerdos.md`, punto 11.
 - Arranque en apps infantiles: [Budge Studios (Android Developers)](https://android-developers.googleblog.com/2017/04/app-onboarding-for-kids-how-budge.html)
 - Límites éticos: [FTC y Epic Games (Orrick)](https://www.orrick.com/en/Insights/2023/02/6-Top-Takeaways-from-FTCs-Landmark-Epic-Games-Settlements) · [Fairplay sobre trucos de diseño](https://fairplayforkids.org/?p=27097) · [ICO, código para niños: técnicas de empujón](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/13-nudge-techniques/)
 
+
+## La IA guía dinámica: política pedagógica y aprendizaje por refuerzo
+
+P.I.E.D.R.A ya no tiene una frase fija para cada caso. Funciona en tres capas:
+
+1. **Política pedagógica** (`src/ml/politica.js`). Con el dominio que estima el BKT y lo que acaba de pasar, decide
+   qué *tipo* de ayuda dar:
+   - **tema flojo:** pista concreta o ejemplo resuelto con los datos del niño;
+   - **dos fallos seguidos:** ejemplo resuelto;
+   - **tema a medias:** pista general o concreta;
+   - **tema dominado:** retira la ayuda y plantea un reto;
+   - **acierto:** elogio de la estrategia o pregunta del porqué (autoexplicación);
+   - **error:** corrección con el porqué o ejemplo resuelto;
+   - **tema sin practicar desde hace 2 soles:** pregunta de repaso al amanecer, con la respuesta en el globo siguiente.
+2. **Frases con variantes y datos reales** (`src/compania/frases.js`). Cada tipo de ayuda tiene varias formas de
+   decirse y se llena con los datos de la partida:
+   - el recurso más bajo y qué tan bajo está;
+   - el recurso que sobra;
+   - el pronóstico de llamaradas;
+   - el nombre del personaje.
+
+   No repite la variante de las dos últimas veces y nunca inventa datos.
+3. **Bandido de Thompson** (aprendizaje por refuerzo, en `politica.js`). Cuando hay más de una ayuda posible, elige
+   con muestreo de Thompson sobre una Beta por momento, nivel de dominio y tipo de ayuda. La recompensa es si el niño
+   acierta en la siguiente prueba del mismo tema. Así aprende qué ayuda le funciona a ese niño, solo en su navegador
+   y sin pruebas con niños. El reporte del adulto muestra qué tipo de ayuda le ha funcionado mejor.
+
+Las líneas que esto puede decir están en `herramientas/voz_ia/lineas_ia.json`, listas para grabarlas con la voz de
+la IA (`herramientas/voz_ia/LEEME.txt`).

@@ -143,10 +143,12 @@ export default class Interfaz extends Phaser.Scene {
     this.cartel = this.add.container(0, 0).setAlpha(0).setDepth(30);
     this.cartelTitulo = texto(this, 0, 0, '', { fontSize: '44px', fontStyle: 'bold', color: LUZ, letterSpacing: 8,
       stroke: TINTA, strokeThickness: 8 }).setOrigin(0.5);
-    this.cartelLema = texto(this, 0, 42, '', { fontSize: '16px', fontStyle: 'bold', color: LUZ, stroke: TINTA, strokeThickness: 5 }).setOrigin(0.5);
-    this.cartelRayaI = this.add.rectangle(0, 24, 10, 3, 0xffffff).setOrigin(1, 0.5);
-    this.cartelRayaD = this.add.rectangle(0, 24, 10, 3, 0xffffff).setOrigin(0, 0.5);
-    this.cartel.add([this.cartelRayaI, this.cartelRayaD, this.cartelTitulo, this.cartelLema]);
+    this.cartelLema = texto(this, 0, 50, '', { fontSize: '16px', fontStyle: 'bold', color: LUZ, stroke: TINTA, strokeThickness: 5 }).setOrigin(0.5);
+    // la raya va entre el título y el lema, sin tocarlos (antes pasaba encima del lema)
+    this.cartelRayaI = this.add.rectangle(0, 33, 10, 3, 0xffffff).setOrigin(1, 0.5);
+    this.cartelRayaD = this.add.rectangle(0, 33, 10, 3, 0xffffff).setOrigin(0, 0.5);
+    this.cartelBanda = this.add.rectangle(0, 22, 10, 96, 0x0b0820, 0.55).setOrigin(0.5);   // para leerse sobre el arte
+    this.cartel.add([this.cartelBanda, this.cartelRayaI, this.cartelRayaD, this.cartelTitulo, this.cartelLema]);
   }
 
   // --- Aviso de interacción: tecla E (o "toca") + nombre de la estación ------------
@@ -400,6 +402,7 @@ export default class Interfaz extends Phaser.Scene {
     this.cartelTitulo.setText(titulo).setScale(1.25);
     this.cartelLema.setText(lema);
     const ancho = Math.max(this.cartelTitulo.width, this.cartelLema.width) / 2 + 30;
+    this.cartelBanda.setSize(ancho * 2 + 40, 96).setDisplaySize(ancho * 2 + 40, 96);
     this.cartelRayaI.setFillStyle(color).setSize(0, 3).setX(-20);
     this.cartelRayaD.setFillStyle(color).setSize(0, 3).setX(20);
     c.setAlpha(0);
