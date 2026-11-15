@@ -13,6 +13,92 @@
    "oy": 300,
    "ancho": 1368.0,
    "alto": 942.0,
+   "letreros": [
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/pasillo_0_es.png",
+      "x": 575.3,
+      "y": 529.7
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/pasillo_0_en.png",
+      "x": 570.7,
+      "y": 527.3
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/pasillo_1_es.png",
+      "x": 589.3,
+      "y": 207.0
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/pasillo_1_en.png",
+      "x": 591.0,
+      "y": 208.7
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/pasillo_2_es.png",
+      "x": 785.3,
+      "y": 305.7
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/pasillo_2_en.png",
+      "x": 778.0,
+      "y": 302.0
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/pasillo_3_es.png",
+      "x": 951.7,
+      "y": 388.7
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/pasillo_3_en.png",
+      "x": 951.3,
+      "y": 388.7
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/pasillo_4_es.png",
+      "x": 255.0,
+      "y": 490.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/pasillo_4_en.png",
+      "x": 256.3,
+      "y": 490.3
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/pasillo_5_es.png",
+      "x": 444.0,
+      "y": 586.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/pasillo_5_en.png",
+      "x": 447.3,
+      "y": 586.3
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/pasillo_6_es.png",
+      "x": 652.0,
+      "y": 682.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/pasillo_6_en.png",
+      "x": 651.7,
+      "y": 682.3
+     }
+    }
+   ],
    "horizonte": 260,
    "muro": 128,
    "losa": 28,
@@ -285,6 +371,20 @@
    "oy": 300,
    "ancho": 1176.0,
    "alto": 846.0,
+   "letreros": [
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/energia_0_es.png",
+      "x": 365.0,
+      "y": 538.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/energia_0_en.png",
+      "x": 359.7,
+      "y": 538.3
+     }
+    }
+   ],
    "horizonte": 260,
    "muro": 128,
    "losa": 28,
@@ -501,6 +601,32 @@
    "oy": 300,
    "ancho": 1224.0,
    "alto": 870.0,
+   "letreros": [
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/mando_0_es.png",
+      "x": 371.3,
+      "y": 307.0
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/mando_0_en.png",
+      "x": 374.0,
+      "y": 309.0
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/mando_1_es.png",
+      "x": 461.0,
+      "y": 586.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/mando_1_en.png",
+      "x": 455.7,
+      "y": 586.3
+     }
+    }
+   ],
    "horizonte": 260,
    "muro": 128,
    "losa": 28,
@@ -708,6 +834,20 @@
    "oy": 300,
    "ancho": 1176.0,
    "alto": 846.0,
+   "letreros": [
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/comunicaciones_0_es.png",
+      "x": 317.0,
+      "y": 514.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/comunicaciones_0_en.png",
+      "x": 311.7,
+      "y": 514.3
+     }
+    }
+   ],
    "horizonte": 260,
    "muro": 128,
    "losa": 28,
@@ -906,6 +1046,20 @@
    "oy": 300,
    "ancho": 1176.0,
    "alto": 846.0,
+   "letreros": [
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/invernadero_0_es.png",
+      "x": 734.7,
+      "y": 280.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/invernadero_0_en.png",
+      "x": 729.3,
+      "y": 277.7
+     }
+    }
+   ],
    "horizonte": 260,
    "muro": 128,
    "losa": 28,
@@ -1092,6 +1246,20 @@
    "oy": 300,
    "ancho": 1176.0,
    "alto": 846.0,
+   "letreros": [
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/soporte_0_es.png",
+      "x": 638.7,
+      "y": 232.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/soporte_0_en.png",
+      "x": 633.3,
+      "y": 229.7
+     }
+    }
+   ],
    "horizonte": 260,
    "muro": 128,
    "losa": 28,
@@ -1290,6 +1458,44 @@
    "oy": 300,
    "ancho": 1272.0,
    "alto": 894.0,
+   "letreros": [
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/refugio_0_es.png",
+      "x": 518.3,
+      "y": 500.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/refugio_0_en.png",
+      "x": 523.7,
+      "y": 503.0
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/refugio_1_es.png",
+      "x": 590.7,
+      "y": 208.3
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/refugio_1_en.png",
+      "x": 585.3,
+      "y": 205.7
+     }
+    },
+    {
+     "es": {
+      "archivo": "assets/zonas/letreros/refugio_2_es.png",
+      "x": 388.0,
+      "y": 230.0
+     },
+     "en": {
+      "archivo": "assets/zonas/letreros/refugio_2_en.png",
+      "x": 392.0,
+      "y": 232.0
+     }
+    }
+   ],
    "horizonte": 260,
    "muro": 128,
    "losa": 28,

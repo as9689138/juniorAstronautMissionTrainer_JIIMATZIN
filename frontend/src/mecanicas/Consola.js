@@ -28,7 +28,7 @@ export default class Consola extends Phaser.Scene {
   create() {
     const titulos = {
       'MAÑANA': [`SOL ${GameState.sol} / 10 · CONSOLA DE MANDO`, 'La batería no alcanza para todo. Reparte los 6 núcleos de energía antes de iniciar el día.'],
-      MEJORA: [`SOL ${GameState.sol} / 10 · RECUERDO DESBLOQUEADO`, 'La IA desbloqueó un recuerdo histórico. Elige una carta de mejora.'],
+      MEJORA: [`SOL ${GameState.sol} / 10 · RECUERDO DESBLOQUEADO`, 'P.I.E.D.R.A desbloqueó un recuerdo histórico. Elige una carta de mejora.'],
     };
     if (this.modo === 'FINAL') { this.renderPantallaFinal(this.motivo); return; }
     drawPanel(this, ...titulos[this.modo], 'consola');
@@ -132,7 +132,7 @@ export default class Consola extends Phaser.Scene {
         cuerpo: '«El escudo de la nave recibió demasiados golpes del espacio y debemos regresar a reparar. ¡Ya sabes cómo enfrentar las tormentas espaciales, inténtalo otra vez!»' },
     };
     const info = textos[motivo] ?? textos.VICTORIA;
-    drawPanel(this, info.titulo, 'Reporte final de la IA de la Base Marte Uno', 'consola');
+    drawPanel(this, info.titulo, 'Reporte final de P.I.E.D.R.A · Base Marte Uno', 'consola');
     this.dibujarBarraRecursos();
     this.add.text(480, 206, info.cuerpo, { fontSize: '15px', color: info.color, align: 'center', wordWrap: { width: 820 }, lineSpacing: 5,
       fontFamily: 'Inter, system-ui, -apple-system, sans-serif', resolution: 2 }).setOrigin(0.5);
@@ -164,7 +164,7 @@ export default class Consola extends Phaser.Scene {
       for (let k = 0; k < 4; k++) this.estrellaFinal(g, 650 + k * 30, y, 11, k < t.nivel.estrellas, 0x141026);
       addText(this, 780, y, t.nivel.texto, 13, '#fbbf24', 'left').setOrigin(0, 0.5);
     });
-    addText(this, 620, 490, `IA: «${m.frase}»`, 14, '#cbd5e1');
+    addText(this, 620, 490, `P.I.E.D.R.A: «${m.frase}»`, 14, '#cbd5e1');
     sonido.efecto(c.medalla === 'bronce' ? 'ui_carta_voltea' : 'ui_carta_mejora', 0.8);
   }
 

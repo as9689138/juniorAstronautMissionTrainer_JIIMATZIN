@@ -8,6 +8,7 @@ import { bus, EV, control } from '../motor/eventos.js';
 import { guia } from './guia.js';
 import { TEMAS } from '../ml/aprendizaje.js';
 import { idioma } from '../motor/idioma.js';
+import { GameState } from '../mecanicas/estado.js';
 
 const FUENTE = '"Trebuchet MS", "Segoe UI", system-ui, sans-serif';
 const TINTA = 0x141026, TINTA_TXT = '#141026', LUZ_TXT = '#f3e3c3', SELLO_TXT = '#b8473d';
@@ -68,6 +69,7 @@ export default class Aprendizaje extends Phaser.Scene {
   colocarBoton() {
     const { width: w, height: h } = this.scale;
     this.boton.setPosition(w - BOTON * 1.5 - 16 - 12, h - BOTON / 2 - 34);
+    this.boton.setVisible(this.alFinal());              // el botón de la esquina aparece solo al final
   }
 
   avisarBoton() {
@@ -104,10 +106,14 @@ export default class Aprendizaje extends Phaser.Scene {
   }
 
   // ---------- Abrir y cerrar ----------
+  // Los reportes de avance se ven solo al final de la misión (pantalla final: «VER LO QUE APRENDÍ»)
+  alFinal() { return GameState.fase === 'FIN'; }
+
   alternar() { this.abierto ? this.cerrar() : this.abrir(); }
 
   /** forzar: abrir aunque haya otra pantalla (la pantalla final) */
   abrir(forzar = false) {
+    if (!forzar && !this.alFinal()) return;          // durante la misión no se abre (ni con P)
     if (control.bloqueado && !forzar) return;
     this.abierto = true;
     this.forzado = forzar;
@@ -152,7 +158,7 @@ export default class Aprendizaje extends Phaser.Scene {
 
   vistaNino(capa, cx, arriba, izq, hojaW, hojaH) {
     capa.add(texto(this, cx, arriba + 20, 'Lo que estás aprendiendo', { fontSize: hojaW < 420 ? '20px' : '24px', fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0.5, 0));
-    capa.add(texto(this, cx, arriba + 54, 'La IA de la base lo ve en lo que haces: minijuegos, energía y emergencias', {
+    capa.add(texto(this, cx, arriba + 54, 'P.I.E.D.R.A lo ve en lo que haces: minijuegos, energía y emergencias', {
       fontSize: '14px', color: TINTA_TXT, align: 'center', wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0).setAlpha(0.8));
     const r = guia.rastreador;
     const filaH = Math.min(92, (hojaH - 200) / 4), y0 = arriba + 98;
@@ -175,8 +181,8 @@ export default class Aprendizaje extends Phaser.Scene {
     // lo que dice la IA
     const flojo = r.masFlojo();
     const frase = r.pruebas.length
-      ? (r.dominio[flojo] < 0.7 ? `IA: «Practiquemos ${SOBRE[flojo]}: ahí te daré pistas y más tiempo.»` : 'IA: «¡Vas muy bien en todo! Ahora te doy menos pistas.»')
-      : 'IA: «Todavía no hay pruebas: juega un minijuego o reparte la energía.»';
+      ? (r.dominio[flojo] < 0.7 ? `P.I.E.D.R.A: «Practiquemos ${SOBRE[flojo]}: ahí te daré pistas y más tiempo.»` : 'P.I.E.D.R.A: «¡Vas muy bien en todo! Ahora te doy menos pistas.»')
+      : 'P.I.E.D.R.A: «Todavía no hay pruebas: juega un minijuego o reparte la energía.»';
     capa.add(texto(this, cx, y0 + 4 * filaH + 4, frase, { fontSize: '15px', fontStyle: 'bold', color: TINTA_TXT, align: 'center',
       wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0));
     const yb = arriba + hojaH - 34;

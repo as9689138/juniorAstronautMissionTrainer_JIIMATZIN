@@ -69,7 +69,8 @@ export default class Seleccion extends Phaser.Scene {
     g.fillStyle(0x141026, 1).fillRoundedRect(-a / 2 - 4, -4, a + 8, h + 8, 20);
     g.fillStyle(cont.encima ? 0x2c2466 : 0x1d1840, 1).fillRoundedRect(-a / 2, 0, a, h, 16);
     g.lineStyle(3, cont.c.color, cont.encima ? 1 : 0.6).strokeRoundedRect(-a / 2 + 6, 6, a - 12, h - 12, 12);
-    g.fillStyle(cont.c.color, 0.16).fillCircle(0, h * 0.3, a * 0.36);
+    const ci = cont.circulo ?? { y: h * 0.3, r: a * 0.36 };
+    g.fillStyle(cont.c.color, 0.16).fillCircle(0, ci.y, ci.r);
   }
 
   colocar() {
@@ -89,6 +90,7 @@ export default class Seleccion extends Phaser.Scene {
       const y = vertical ? 104 + i * (alto + sep) : 104;
       cont.setPosition(x, y);
       this.dibujarCarta(cont);
+      if (vertical) cont.circulo = null;
       if (vertical) {          // en el teléfono: retrato a la izquierda y texto a la derecha
         const lado = Math.min(alto - 20, ancho * 0.42);
         cont.retrato.setDisplaySize(lado, lado).setPosition(-ancho / 2 + lado / 2 + 8, alto - 6);
@@ -99,19 +101,34 @@ export default class Seleccion extends Phaser.Scene {
         cont.texto.setVisible(false);
         cont.bonus.setPosition(tx, cont.habil.y + cont.habil.height + 8).setFontSize(16);
       } else {
-        const lado = Math.min(ancho - 30, alto * 0.48);
-        cont.retrato.setDisplaySize(lado, lado).setPosition(0, lado + 10);
+        // Primero se miden los textos y el retrato toma lo que sobra (en ventanas bajas se encimaban la ruta y el título,
+        // y la descripción desaparecía). Los tres retratos van del mismo tamaño: el que quepa en la carta más llena.
+        const f = Math.max(14, Math.round(15 * e));
         for (const t of [cont.titulo, cont.habil, cont.texto, cont.bonus]) t.setOrigin(0.5, 0).setAlign('center').setWordWrapWidth(ancho - 30);
-        cont.titulo.setPosition(0, lado + 18).setFontSize(Math.round(21 * e));
-        cont.habil.setPosition(0, cont.titulo.y + cont.titulo.height + 4).setFontSize(Math.max(16, Math.round(15 * e)));
-        cont.bonus.setOrigin(0.5, 1).setPosition(0, alto - 14).setFontSize(Math.max(16, Math.round(15 * e)));
-        cont.texto.setPosition(0, cont.habil.y + cont.habil.height + 8).setFontSize(16);
-        // el texto de la carta solo si cabe sin tocar la ruta (no se enciman)
-        cont.texto.setVisible(cont.texto.y + cont.texto.height < cont.bonus.y - cont.bonus.height - 8);
+        cont.titulo.setFontSize(Math.max(17, Math.round(21 * e)));
+        cont.habil.setFontSize(f);
+        cont.texto.setFontSize(Math.max(14, Math.round(16 * e)));
+        cont.bonus.setFontSize(f);
+        cont.base = 18 + cont.titulo.height + 4 + cont.habil.height + 10 + cont.bonus.height + 16;
       }
       cont.zona.setPosition(0, alto / 2).setSize(ancho, alto);
       cont.zona.input.hitArea.setTo(0, 0, ancho, alto);
     });
+    if (!vertical) {
+      const sinTexto = Math.min(...this.cartas.map(c => alto - c.base));
+      const conTexto = Math.min(...this.cartas.map(c => alto - c.base - c.texto.height - 8));
+      const mostrar = conTexto >= Math.min(ancho - 30, alto * 0.3);           // la descripción, en las tres o en ninguna
+      const lado = Math.max(36, Math.min(ancho - 30, alto * 0.48, mostrar ? conTexto : sinTexto));
+      for (const cont of this.cartas) {
+        cont.retrato.setDisplaySize(lado, lado).setPosition(0, lado + 10);
+        cont.circulo = { y: 10 + lado * 0.55, r: lado * 0.62 };               // el círculo de color, detrás del retrato
+        this.dibujarCarta(cont);
+        cont.titulo.setPosition(0, lado + 18);
+        cont.habil.setPosition(0, cont.titulo.y + cont.titulo.height + 4);
+        cont.texto.setPosition(0, cont.habil.y + cont.habil.height + 8).setVisible(mostrar);
+        cont.bonus.setOrigin(0.5, 1).setPosition(0, alto - 14);
+      }
+    }
     const yDif = h - 34;
     this.difTxt.setPosition(w / 2 - 150, yDif);
     this.difBotones.forEach((b, i) => b.setPosition(w / 2 - 80 + i * 110, yDif));

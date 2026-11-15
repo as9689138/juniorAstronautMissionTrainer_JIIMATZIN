@@ -37,14 +37,14 @@ export const idioma = {
   iniciar() {
     try { this.actual = localStorage.getItem(CLAVE) === 'en' ? 'en' : 'es'; } catch { /* sin almacenamiento */ }
     document.documentElement.lang = this.actual;
-    if (this.ingles) document.title = 'Mission Mars';
+    if (this.ingles) document.title = 'Mission P.I.E.D.R.A';
   },
 
   elegir(codigo) {
     this.actual = codigo === 'en' ? 'en' : 'es';
     this.memo.clear();
     document.documentElement.lang = this.actual;
-    document.title = this.ingles ? 'Mission Mars' : 'Misión Marte';
+    document.title = this.ingles ? 'Mission P.I.E.D.R.A' : 'Misión P.I.E.D.R.A';
     try { localStorage.setItem(CLAVE, this.actual); } catch { /* sin almacenamiento */ }
   },
 

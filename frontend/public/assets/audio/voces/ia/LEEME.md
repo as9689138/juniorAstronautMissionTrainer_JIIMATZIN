@@ -18,7 +18,7 @@ La IA ya no usa la voz del navegador. La narración y, en inglés, Wenceslao, Ju
 
 ## Regenerar
 
-Los scripts están fuera del repositorio, en `pkt/voces_ia/`:
+Los scripts están en `frontend/herramientas/voz_ia/` (instrucciones en su `LEEME.txt`):
 `enumerar.mjs` arma la lista y `generar.py` la genera con los mismos ajustes que el rol 5
 (`8_casting_voces/generar_voz.py` y `organiza.py`). Esos ajustes son:
 
@@ -30,8 +30,10 @@ Para el español se usa el modelo latinoamericano (`t3_es_mx_latam`) y para el i
 Si cambia un texto en el código, hay que volver a correr los dos scripts.
 
 ```bash
-node enumerar.mjs ../jiimatzin/frontend
-.venv-cb/Scripts/python generar.py ../jiimatzin/frontend
+cd frontend/herramientas/voz_ia
+node enumerar.mjs ../..
+.venv-cb/Scripts/python generar.py ../.. --idioma es
+.venv-cb/Scripts/python generar.py ../.. --idioma en
 ```
 
 Créditos: voces generadas con IA, en local. Usan Chatterbox Multilingual (Resemble AI, licencia MIT) y la voz de

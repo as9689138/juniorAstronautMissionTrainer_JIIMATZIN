@@ -1,0 +1,107 @@
+{
+ "duracion": 162,
+ "es": [
+  {
+   "desde": 6,
+   "hasta": 24,
+   "texto": "Humanos, seres vivos, converjan entre sí. Afuera de este planeta hay un mundo todavía más grande… infinito, inmenso, colmado de enigmas, preguntas que esperan una respuesta y tesoros que buscan ser encontrados."
+  },
+  {
+   "desde": 24.75,
+   "hasta": 31.47,
+   "texto": "Neil Armstrong, en 1969, fue el primer individuo en llegar a la Luna."
+  },
+  {
+   "desde": 33.75,
+   "hasta": 48.35,
+   "texto": "¿Qué nos hace humanos? ¿Qué nos hace ser lo que realmente somos? No son nuestras habilidades sociales, no es nuestra anatomía y, claramente, no es nuestra inteligencia…"
+  },
+  {
+   "desde": 48.75,
+   "hasta": 51.63,
+   "texto": "Entonces… ¿Qué es?..."
+  },
+  {
+   "desde": 54.75,
+   "hasta": 81.35,
+   "texto": "Sí, es la necesidad de saber qué más, el saber qué hay más allá de lo que nuestra visión es capaz de alcanzar a ver. Es tener esa sed de conocimiento, tener ganas de tomar al mundo y devorarlo por completo de un solo bocado, saber qué es lo que mueve al planeta, cada dimensión, cada partícula, cada onda y cada electrón."
+  },
+  {
+   "desde": 81.75,
+   "hasta": 102.35,
+   "texto": "Todo se mueve gracias al querer saber más, hacer más, lograr más y llegar más alto… No solo mirar el cielo y tapar el sol con el dedo; es estar frente al sol y ver en el reflejo de tus ojos esas olas que danzan tan voraces al compás de las estrellas…"
+  },
+  {
+   "desde": 102.75,
+   "hasta": 123.35,
+   "texto": "El tiempo pasa y, entre más pasa el tiempo, más cosas van surgiendo de entre la Tierra y el espacio. Todo esto es el legado de miles de personas, el cual ha sido transferido generación por generación y han dedicado su vida entera para encontrar respuestas."
+  },
+  {
+   "desde": 123.75,
+   "hasta": 133.91,
+   "texto": "Nada es imposible, porque cuando lo intentas… no siempre será lo que esperas, pero siempre tendrás un resultado…"
+  },
+  {
+   "desde": 135.75,
+   "hasta": 150.35,
+   "texto": "Ahora a ti te toca… Tienes la antorcha de la sabiduría, del conocimiento, de la necesidad y de la perseverancia… Demuestra tus capacidades, supérate y demuestra lo capaz que eres."
+  },
+  {
+   "desde": 150.75,
+   "hasta": 154.59,
+   "texto": "Porque si lo intentas, lo logras…"
+  }
+ ],
+ "en": [
+  {
+   "desde": 6,
+   "hasta": 24,
+   "texto": "Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found."
+  },
+  {
+   "desde": 24.75,
+   "hasta": 31.47,
+   "texto": "In 1969, Neil Armstrong was the first person to reach the Moon."
+  },
+  {
+   "desde": 33.75,
+   "hasta": 48.35,
+   "texto": "What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…"
+  },
+  {
+   "desde": 48.75,
+   "hasta": 51.63,
+   "texto": "So… what is it?..."
+  },
+  {
+   "desde": 54.75,
+   "hasta": 81.35,
+   "texto": "Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron."
+  },
+  {
+   "desde": 81.75,
+   "hasta": 102.35,
+   "texto": "Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…"
+  },
+  {
+   "desde": 102.75,
+   "hasta": 123.35,
+   "texto": "Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers."
+  },
+  {
+   "desde": 123.75,
+   "hasta": 133.91,
+   "texto": "Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…"
+  },
+  {
+   "desde": 135.75,
+   "hasta": 150.35,
+   "texto": "Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are."
+  },
+  {
+   "desde": 150.75,
+   "hasta": 154.59,
+   "texto": "Because if you try, you can do it…"
+  }
+ ]
+}

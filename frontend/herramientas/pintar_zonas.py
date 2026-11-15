@@ -101,6 +101,20 @@ ZONAS = {
                     estaciones=[("R", 4, 2)], lamparas=[(4.5, 2.5)],
                     puertas=[("n", 1, "pasillo", 5)]),
 }
+# Letreros que se traducen: no se pintan en el fondo; van en imágenes aparte por idioma (assets/zonas/letreros/) y el
+# juego pone la del idioma elegido (src/escenas/Base.js). Lo demás (SOL 04, H₂O, O₂, CO₂) se lee igual en los dos.
+LETREROS_EN = {"PASILLO": "CORRIDOR", "ENERGÍA": "ENERGY", "MANDO": "COMMAND", "COMUNICACIONES": "COMMUNICATIONS",
+               "INVERNADERO": "GREENHOUSE", "SOPORTE VITAL": "LIFE SUPPORT", "REFUGIO": "SHELTER",
+               "ZONA SEGURA": "SAFE ZONE", "CARGA IA": "AI CHARGING", "SOL 04 · ÓRBITA": "SOL 04 · ORBIT",
+               "MUROS DE AGUA": "WATER WALLS"}
+
+
+def traducir_letrero(t):
+    if t.startswith("▼ "):
+        return "▼ " + LETREROS_EN.get(t[2:], t[2:])
+    return LETREROS_EN.get(t)
+
+
 NOMBRE_VISIBLE = {"pasillo": "PASILLO", "energia": "ENERGÍA", "mando": "MANDO", "comunicaciones": "COMUNICACIONES",
                   "invernadero": "INVERNADERO", "soporte": "SOPORTE VITAL", "refugio": "REFUGIO"}
 
@@ -112,6 +126,8 @@ def mezcla(a, b, t):
 # --- Lienzo con coordenadas de juego ------------------------------------------------
 class Lienzo:
     grosor = 1.0                                     # se sube al dibujar algo que luego se encoge (utilería a escala real)
+
+    letreros = None                                  # en el fondo de una sala: lista de letreros traducibles
 
     def __init__(self, w, h, fondo=(0, 0, 0, 0)):
         self.w, self.h = w, h
@@ -166,11 +182,37 @@ class Lienzo:
         self.d.ellipse([x0 * K, y0 * K, x1 * K, y1 * K], fill=fill, outline=outline, width=int(ancho * K))
 
     def texto(self, x, y, t, tam, color, ancla="mm"):
+        if self.capturar(t, lambda tt: self.img_texto(x, y, tt, tam, color, ancla)):
+            return
         self.d.text((x * K, y * K), t, font=PM.fuente(int(tam * K)), fill=color, anchor=ancla)
+
+    def capturar(self, t, hacer):
+        """En el fondo de una sala, los letreros traducibles se guardan aparte (uno por idioma) y no se pintan."""
+        en = traducir_letrero(t)
+        if self.letreros is None or en is None:
+            return False
+        self.letreros.append({"es": hacer(t), "en": hacer(en)})
+        return True
+
+    def img_texto(self, x, y, t, tam, color, ancla):
+        f = PM.fuente(int(tam * K))
+        bb = f.getbbox(t, anchor=ancla)
+        capa = Image.new("RGBA", (bb[2] - bb[0] + 4, bb[3] - bb[1] + 4), (0, 0, 0, 0))
+        ImageDraw.Draw(capa).text((2 - bb[0], 2 - bb[1]), t, font=f, fill=color, anchor=ancla)
+        return capa, int(round(x * K + bb[0] - 2)), int(round(y * K + bb[1] - 2))
 
     def texto_plano(self, x, y, t, tam, color, plano, contorno=None):
         """Texto pintado SOBRE un plano de la isométrica, centrado en (x, y): 'n' (muro del fondo, baja hacia la
         derecha), 'o' (muro izquierdo, sube hacia la derecha) o 'suelo' (sigue las dos diagonales de la rejilla)."""
+        if self.capturar(t, lambda tt: self.img_plano(x, y, tt, tam, color, plano, contorno)):
+            return
+        out, px, py = self.img_plano(x, y, t, tam, color, plano, contorno)
+        cx0, cy0 = max(0, -px), max(0, -py)                      # recortar si se sale por arriba o la izquierda
+        out = out.crop((cx0, cy0, out.width, out.height))
+        if out.width > 0 and out.height > 0:
+            self.img.alpha_composite(out, (px + cx0, py + cy0))
+
+    def img_plano(self, x, y, t, tam, color, plano, contorno=None):
         f = PM.fuente(int(tam * K))
         bb = f.getbbox(t)
         borde = int(K * 1.2) if contorno else 0
@@ -188,11 +230,7 @@ class Lienzo:
         ia, ib, ic, id_ = d / det, -b / det, -c / det, a / det
         datos = (ia, ib, -ia * ox - ib * oy + w / 2, ic, id_, -ic * ox - id_ * oy + h / 2)
         out = capa.transform((W, H), Image.AFFINE, datos, Image.BICUBIC)
-        px, py = int(round(x * K - ox)), int(round(y * K - oy))
-        cx0, cy0 = max(0, -px), max(0, -py)                      # recortar si se sale por arriba o la izquierda
-        out = out.crop((cx0, cy0, W, H))
-        if out.width > 0 and out.height > 0:
-            self.img.alpha_composite(out, (px + cx0, py + cy0))
+        return out, int(round(x * K - ox)), int(round(y * K - oy))
 
     def rayado(self, ps, color, paso=5.0, ang=-60, grosor=1.0, cruzado=False):
         """Rayado de grabado dentro de un polígono (solo en su caja, para ir rápido)."""
@@ -403,6 +441,15 @@ def tubo_iso(lz, P, c0, r0, c1, r1):
             lz.linea([P(cc, r0 + 0.9, 0), P(cc, r0 + 0.9, 40), P(cc, r0 + 0.1, 40)], PM.NERVIO, 0.9)
 
 
+def modulo_iso(lz, P, c, r, color):
+    """Módulo de la base al final de un túnel: una caja baja con escotilla y una franja del color de su sala."""
+    caja(lz, P, c - 0.45, r, 1.9, 1.5, 0, 46, PM.MURO_TAPA, V3, V2, 1.6)
+    lz.poli([P(c - 0.45, r + 1.5, 36), P(c + 1.45, r + 1.5, 36), P(c + 1.45, r + 1.5, 41), P(c - 0.45, r + 1.5, 41)], fill=color)
+    x, y = P(c + 0.5, r + 0.75, 46)
+    lz.elipse(x - 12, y - 6, x + 12, y + 6, fill=V2, outline=TINTA, ancho=1.2)
+    lz.elipse(x - 6, y - 3, x + 6, y + 3, outline=color, ancho=1)
+
+
 def paisaje_iso(lz, P, ancho, alto, cols, filas, z, semilla):
     """Suelo de Gale visto con la misma cámara que la sala: sin horizonte de frente, todo en isométrico."""
     r = random.Random(semilla)
@@ -500,10 +547,13 @@ def paisaje_iso(lz, P, ancho, alto, cols, filas, z, semilla):
         for k in (0.2, 0.75):
             lz.linea([P(c - 8, rr + k), P(c, rr + k)], (120, 66, 44), 2.2)
         rover_iso(lz, P, c, rr)
-    # túneles presurizados desde las puertas delanteras hacia el resto de la base
+    # túneles presurizados desde las puertas delanteras: cortos (no se enciman entre puertas vecinas) y cada uno
+    # termina en el módulo de su sala, con el color de esa sala
     for lado, pos, destino, _ in z["puertas"]:
         if lado == "s":
-            tubo_iso(lz, P, pos, filas + 1.1, pos, filas + 7)
+            largo = 2.6
+            tubo_iso(lz, P, pos, filas + 1.1, pos, filas + 1.1 + largo)
+            modulo_iso(lz, P, pos, filas + 1.1 + largo, ACENTO.get(ZONAS[destino]["sistema"], (176, 168, 236)))
 
 
 def paisaje(lz, ancho, alto, horizonte, semilla):
@@ -2298,6 +2348,7 @@ def pintar_zona(id_z, z):
     semilla = sum(map(ord, id_z))
 
     fondo = Lienzo(ancho, alto, (0, 0, 0, 255))
+    fondo.letreros = []
     frente = Lienzo(ancho, alto)
     # máscaras de lo que no se puede tapar (para la compuerta en píxeles)
     marcas = {k: Lienzo(ancho, alto) for k in ("puerta", "ventana", "decoración del muro", "estación")}
@@ -2354,12 +2405,14 @@ def pintar_zona(id_z, z):
     fondo.rayado([P(0, 0), P(cols, 0), P(cols, 0.45), P(0.45, 0.45), P(0.45, filas), P(0, filas)], PM.NERVIO, 4, -60, 0.9)
     # alfombra / zona marcada según la sala
     for e, c, r in z["estaciones"]:
-        if sala == "Refugio":
-            fondo.poli([P(c - 1, r - 1), P(c + 2, r - 1), P(c + 2, r + 2), P(c - 1, r + 2)], outline=(181, 140, 255), ancho=1.6)
-            x, y = P(c + 0.5, r + 2.4)
+        if sala == "Refugio":                         # (recortada a la losa: no se sale por debajo del murete)
+            a0, b0, a1, b1 = max(0.1, c - 1), max(0.1, r - 1), min(cols - 0.1, c + 2), min(filas - 0.1, r + 2)
+            fondo.poli([P(a0, b0), P(a1, b0), P(a1, b1), P(a0, b1)], outline=(181, 140, 255), ancho=1.6)
+            x, y = P(c + 0.5, min(r + 2.4, filas - 0.35))
             fondo.texto_plano(x, y, "ZONA SEGURA", 8, (181, 140, 255), "suelo")
         if sala == "Mando":
-            pts = [P(c + 0.5 + math.cos(a) * 1.4, r + 0.5 + math.sin(a) * 1.4) for a in np.linspace(0, math.tau, 40)]
+            rad = max(0.6, min(1.4, c + 0.4, cols - c - 0.6, r + 0.4, filas - r - 0.6))   # dentro de la losa
+            pts = [P(c + 0.5 + math.cos(a) * rad, r + 0.5 + math.sin(a) * rad) for a in np.linspace(0, math.tau, 40)]
             fondo.poli(pts, fill=mezcla(PM.SUELO, ROSA, 0.25), outline=ROSA, ancho=1.2)
 
     detalle_suelo(fondo, P, z, sala, cols, filas, semilla)
@@ -2408,8 +2461,17 @@ def pintar_zona(id_z, z):
             largo = cols if lado == "n" else filas
             puerta_fondo(fondo, P, lado, pos, NOMBRE_VISIBLE[destino], ACENTO.get(ZONAS[destino]["sistema"], (176, 168, 236)), largo)
             puerta_fondo(marcas["puerta"], P, lado, pos, NOMBRE_VISIBLE[destino], (255, 255, 255), largo)
+    # tuberías a lo largo del muro del fondo: se cortan en cada puerta (antes la cruzaban como un barandal)
+    tramos, u0 = [], 0.1
+    for pos in sorted(pos for l, pos in huecos if l == "n"):
+        if pos - 0.08 > u0:
+            tramos.append((u0, pos - 0.08))
+        u0 = pos + 1.08
+    if cols - 0.1 > u0:
+        tramos.append((u0, cols - 0.1))
     for zz, col in ((20, mezcla(ACENTO["oxigeno"], V0, 0.45)), (26, (150, 146, 140))):
-        fondo.poli(muro_cara(P, "n", 0.1, cols - 0.1, zz, zz + 4, 0), fill=col, outline=TINTA, ancho=0.8)
+        for a, b in tramos:
+            fondo.poli(muro_cara(P, "n", a, b, zz, zz + 4, 0), fill=col, outline=TINTA, ancho=0.8)
     for u in range(1, cols, 3):
         if not any(l == "n" and abs(pos + 0.5 - u) < 1 for l, pos in huecos):
             fondo.poli(muro_cara(P, "n", u - 0.06, u + 0.06, 18, 32, 0), fill=V1, outline=TINTA, ancho=0.6)   # abrazadera
@@ -2549,7 +2611,20 @@ def pintar_zona(id_z, z):
     bb_f = img.getbbox() or (0, 0, 1, 1)             # solo lo que tiene dibujo (el murete): ~10 veces menos memoria de video
     img.crop(bb_f).quantize(colors=96, method=Image.Quantize.FASTOCTREE).save(SALIDA / f"{id_z}_frente.png", optimize=True)
 
+    # letreros por idioma: pequeños, a la resolución del fondo, con su posición en el mundo
+    (SALIDA / "letreros").mkdir(exist_ok=True)
+    letreros = []
+    for i, le in enumerate(fondo.letreros):
+        item = {}
+        for lengua, (im, px, py) in le.items():
+            red = im.resize((max(1, round(im.width * FINAL / K)), max(1, round(im.height * FINAL / K))), Image.LANCZOS)
+            nombre = f"{id_z}_{i}_{lengua}.png"
+            red.save(SALIDA / "letreros" / nombre, optimize=True)
+            item[lengua] = dict(archivo=f"assets/zonas/letreros/{nombre}", x=round(px / K, 1), y=round(py / K, 1))
+        letreros.append(item)
+
     return dict(id=id_z, nombre=sala, sistema=sist, cols=cols, rows=filas, ox=P.ox, oy=P.oy, ancho=ancho, alto=alto,
+                letreros=letreros,
                 horizonte=MARR - 40, muro=MURO, losa=LOSA,
                 bloq=bloq, estaciones=estaciones, props=props,
                 puertas=[dict(lado=l, pos=p, destino=d, llegada=ll, etiqueta=NOMBRE_VISIBLE[d]) for l, p, d, ll in puertas],

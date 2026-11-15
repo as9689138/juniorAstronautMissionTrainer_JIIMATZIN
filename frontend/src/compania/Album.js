@@ -143,7 +143,7 @@ export default class Album extends Phaser.Scene {
 
     const ms = this.memorias, abiertas = ms.filter(m => m.abierto).length;
     const arriba = cy - hojaH / 2;
-    capa.add(texto(this, cx, arriba + 22, 'Archivos de memoria de la IA', {
+    capa.add(texto(this, cx, arriba + 22, 'Archivos de memoria de P.I.E.D.R.A', {
       fontSize: hojaW < 420 ? '19px' : '22px', fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0.5, 0));
     if (ms.length <= 8) capa.add(texto(this, cx, arriba + 52, `Abiertos: ${abiertas} de ${ms.length}`, {
       fontSize: '16px', color: TINTA_TXT }).setOrigin(0.5, 0));

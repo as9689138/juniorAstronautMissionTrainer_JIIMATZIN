@@ -6,7 +6,7 @@ import { recuerdoDeLinea, textoDeRecuerdo, SALTO_VOZ } from './recuerdos.js';
 import { idioma } from '../motor/idioma.js';
 
 export const PERSONAS = {
-  ia: { nombre: 'IA', color: 0x5ec8f2, retrato: null },
+  ia: { nombre: 'P.I.E.D.R.A', ink: 'IA', color: 0x5ec8f2, retrato: null },   // su dibujo es el sprite robot_ia (con caras)
   wen: { nombre: 'Wenceslao', color: 0xf07a3a, retrato: 'retrato_wenceslao' },
   jud: { nombre: 'Judith', color: 0x7cf0a0, retrato: 'retrato_judith' },
   atl: { nombre: 'Atlas', color: 0xffc83d, retrato: 'retrato_atlas' },
@@ -81,8 +81,9 @@ export class Narrador {
     const quien = tags.hab?.[0] ?? null;
     let dicho = texto;
     if (quien && PERSONAS[quien]) {                       // "Wenceslao: Si algo se rompe..." -> quita el nombre
-      const pref = `${PERSONAS[quien].nombre}:`;
-      if (dicho.startsWith(pref)) dicho = dicho.slice(pref.length).trim();
+      for (const n of [PERSONAS[quien].nombre, PERSONAS[quien].ink].filter(Boolean)) {
+        if (dicho.startsWith(`${n}:`)) { dicho = dicho.slice(n.length + 1).trim(); break; }
+      }
     }
     // La voz: primero tal cual; si no, con el nombre del jugador como {jugador}. (Al revés, "Yo soy Wenceslao" y
     // "¡Hola, Ingeniero Wenceslao!" se quedaban sin voz cuando el jugador era Wenceslao.)

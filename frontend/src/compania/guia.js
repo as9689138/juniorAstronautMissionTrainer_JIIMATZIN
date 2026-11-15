@@ -14,6 +14,9 @@
 // de cada sol y de la misión, para que el equipo estudie el aprendizaje. El jugador es un código al azar de este
 // dispositivo (sin nombres ni otros datos personales). Sin conexión, la partida espera y se manda después.
 import { Rastreador, TEMAS, NIVELES } from '../ml/aprendizaje.js';
+import { politica } from '../ml/politica.js';
+import { frase, nivelDe } from './frases.js';
+const NOMBRE_PJ = { wenceslao: 'Wenceslao', judith: 'Judith', atlas: 'Atlas' };
 import Pronosticador from '../ml/pronostico.js';
 import { GameState } from '../mecanicas/estado.js';
 import { bus, EV } from '../motor/eventos.js';
@@ -34,7 +37,6 @@ const TEMA_DE_RECURSO = { energia: 'energia', oxigeno: 'aire', blindaje: 'escudo
 const SISTEMA_DE_RECURSO = { energia: 'paneles', oxigeno: 'soporteVital', blindaje: 'escudos' };
 const NOMBRE_SISTEMA = { paneles: 'los Colectores Solares', soporteVital: 'el Soporte Vital', escudos: 'los Escudos del Casco' };
 const A_SISTEMA = { paneles: 'a los Colectores Solares', soporteVital: 'al Soporte Vital', escudos: 'a los Escudos del Casco' };
-const SOBRE_TEMA = { energia: 'la energía', aire: 'el aire', escudo: 'el escudo contra la radiación', decidir: 'decidir con datos' };
 const nucleos = n => `${n} núcleo${n === 1 ? '' : 's'}`;
 const TEMA_DE_MINIJUEGO = { paneles: 'energia', co2: 'aire', invernadero: 'aire' };
 // Qué recurso gasta cada opción de cada emergencia, en orden (historia.ink: el costo:<recurso>-1 de cada rama)
@@ -63,6 +65,7 @@ export const guia = {
       if (g) { this.historial = g.historial ?? []; this.partida = g.partida ?? null; this.rastreador = new Rastreador(g.rastreador); }
     } catch { /* sin almacenamiento: se mide igual, sin guardar */ }
     bus.on(EV.PRONOSTICO, p => { this.pronosticoHoy = p; });
+    politica.iniciar();
     setTimeout(() => this.mandarPendientes(), 4000);      // lo que no llegó la vez pasada
   },
 
@@ -139,6 +142,7 @@ export const guia = {
       this.sincronizar();
     }
     this.rastreador = new Rastreador();
+    politica.nuevaPartida();
     this.partida = { id: uuid(), personaje, dificultad, inicio: new Date().toISOString(), fin: null, resultado: null, codigo: 'en_curso' };
     this.guardar();
   },
@@ -184,6 +188,7 @@ export const guia = {
     const nivelAntes = this.rastreador.nivel(tema);
     const p = this.rastreador.observar(tema, correcto, tipo, { sol: Math.min(GameState.sol, GameState.maxSoles), detalle });
     if (!p) return null;
+    politica.observar(tema, correcto, p.sol);         // recompensa a la ayuda que dio la IA antes (aprendizaje por refuerzo)
     const nivel = this.rastreador.nivel(tema);
     bus.emit(EV.APRENDIZAJE, { ...p, nivel, subio: nivel.estrellas > nivelAntes.estrellas, nombre: TEMAS[tema].nombre });
     this.guardar();
@@ -196,37 +201,50 @@ export const guia = {
     if (tema) this.observar(tema, exito, 'minijuego', `${clave}: ${exito ? 'ganó' : 'falló'}`);
   },
 
+  // Datos de la situación para las frases: recurso más bajo y más alto, qué tan bajo, personaje y pronóstico
+  situacion(recursos = GameState.recursos, entre = RECURSOS) {
+    const orden = [...entre].sort((a, b) => this.porcentaje(a, recursos) - this.porcentaje(b, recursos));
+    const bajo = orden[0], alto = orden.at(-1);
+    return { bajo, alto, claro: this.porcentaje(alto, recursos) - this.porcentaje(bajo, recursos) >= CLARO,
+      nivel: nivelDe(this.porcentaje(bajo, recursos)), nombre: NOMBRE_PJ[this.partida?.personaje] ?? '',
+      n: this.pronosticoHoy ? Math.round(this.pronosticoHoy.porcentaje / 10) : null };
+  },
+  // Las líneas de una ayuda en el idioma del juego (o null)
+  decirAyuda(momento, movida, datos) { return movida ? frase(momento, movida, datos, idioma.ingles) : null; },
+
   // Reparto de la consola. recursos: como estaban al abrirla. conPista: si la IA dio una pista antes.
-  // Devuelve una frase con el porqué si conviene decirla (o null).
+  // Devuelve las líneas que dice la IA después (o null): la política elige el tipo de ayuda según lo medido.
   evidenciaConsola(asig, recursos, conPista = false) {
     const tipo = conPista ? 'consolaConPista' : 'consola';
-    const orden = [...RECURSOS].sort((a, b) => this.porcentaje(a, recursos) - this.porcentaje(b, recursos));
-    const bajo = orden[0], alto = orden[2];
-    let frase = null;
-    if (this.porcentaje(alto, recursos) - this.porcentaje(bajo, recursos) >= CLARO) {
-      const sis = SISTEMA_DE_RECURSO[bajo];
+    const d = this.situacion(recursos);
+    const pruebas = [];
+    if (d.claro) {
+      const sis = SISTEMA_DE_RECURSO[d.bajo];
       const max = Math.max(asig.paneles, asig.soporteVital, asig.escudos);
       const bien = asig[sis] >= 2 && asig[sis] === max;
-      this.observar(TEMA_DE_RECURSO[bajo], bien, tipo, `consola: ${NOMBRE_RECURSO[bajo]} era lo más bajo y ${NOMBRE_SISTEMA[sis]} recibió ${nucleos(asig[sis])}`);
-      if (!bien) frase = `Un consejo: tu ${NOMBRE_RECURSO[bajo]} era lo más bajo; había que darle más núcleos ${A_SISTEMA[sis]}.`;
+      this.observar(TEMA_DE_RECURSO[d.bajo], bien, tipo, `consola: ${NOMBRE_RECURSO[d.bajo]} era lo más bajo y ${NOMBRE_SISTEMA[sis]} recibió ${nucleos(asig[sis])}`);
+      pruebas.push({ tema: TEMA_DE_RECURSO[d.bajo], bien, llamarada: false });
     }
     if (this.pronosticoHoy?.nivel === 'alto') {
       const bien = asig.escudos >= 2;
       this.observar('escudo', bien, tipo, `consola: pronóstico de llamarada alto y ${nucleos(asig.escudos)} a los escudos`);
-      if (!bien && !frase) frase = 'Un consejo: mi pronóstico decía llamarada fuerte; con más núcleos en los Escudos el blindaje se cuida.';
+      pruebas.push({ tema: 'escudo', bien, llamarada: true });
     }
-    return frase;
+    const p = pruebas.find(x => !x.bien) ?? pruebas[0];          // primero se explica lo que salió mal
+    if (!p) return null;
+    const momento = p.bien ? 'consola_bien' : p.llamarada ? 'consola_mal_llamarada' : 'consola_mal';
+    return this.decirAyuda(momento, politica.despues(momento, p.tema, this.dominio(p.tema), p.bien), d);
   },
 
   // Decisión de una emergencia. eleccion: índice de la opción; agotado: si se acabó el tiempo.
-  // Devuelve la frase con el porqué (la IA la dice después de la decisión).
+  // Devuelve las líneas que dice la IA después de la decisión (o null).
   evidenciaEmergencia(nudo, eleccion, agotado, recursos, conPista = false) {
     const costes = COSTES[nudo];
     if (!costes || eleccion == null) return null;
     const tipo = conPista ? 'emergenciaConPista' : 'emergencia';
     if (agotado) {
       this.observar('decidir', false, tipo, `${nombreEmergencia(nudo)}: se acabó el tiempo`);
-      return 'Se acabó el tiempo y la base eligió sola. Si miras las barras primero, decides más rápido.';
+      return this.decirAyuda('emergencia_tiempo', 'correccion', {});
     }
     const [a, b] = costes, pa = this.porcentaje(a, recursos), pb = this.porcentaje(b, recursos);
     if (Math.abs(pa - pb) < CLARO) return null;                       // las dos opciones eran parecidas: no hay prueba
@@ -234,9 +252,9 @@ export const guia = {
     const bien = eleccion === mejor;
     this.observar(TEMA_DE_RECURSO[falta], bien, tipo, `${nombreEmergencia(nudo)}: ${bien ? 'cuidó' : 'gastó'} ${NOMBRE_RECURSO[falta]} (lo más bajo)`);
     this.observar('decidir', bien, tipo, `${nombreEmergencia(nudo)}: eligió ${bien ? 'gastar lo que sobraba' : 'gastar lo más bajo'}`);
-    return bien
-      ? `¡Bien pensado! Gastaste ${CON_ARTICULO[sobra]}, que tenías de sobra, y cuidaste ${CON_ARTICULO[falta]}, que era lo más bajo.`
-      : `Ojo: ${CON_ARTICULO[falta]} era lo más bajo y gastaste justo eso. La próxima vez, gasta lo que más tienes: ${CON_ARTICULO[sobra]}.`;
+    const momento = bien ? 'emergencia_bien' : 'emergencia_mal';
+    const d = { ...this.situacion(recursos, [falta, sobra]), bajo: falta, alto: sobra };
+    return this.decirAyuda(momento, politica.despues(momento, 'decidir', this.dominio('decidir'), bien), d);
   },
 
   // --- 4. Adaptación: según lo que mide ---
@@ -248,28 +266,39 @@ export const guia = {
     return p < 0.4 ? 1.2 : p >= 0.9 ? 0.9 : 1;
   },
 
-  // Pista antes de la consola, solo si el tema del recurso más bajo (o el escudo con pronóstico alto) está flojo
+  // Antes de la consola: la política decide si ayudar y cómo (pista general, concreta, ejemplo resuelto o reto).
+  // Con pronóstico de llamarada fuerte, la ayuda es sobre los Escudos. Devuelve las líneas (o null).
   pistaConsola() {
-    const orden = [...RECURSOS].sort((a, b) => this.porcentaje(a) - this.porcentaje(b));
-    const bajo = orden[0];
-    if (this.porcentaje(orden[2]) - this.porcentaje(bajo) >= CLARO && this.dominio(TEMA_DE_RECURSO[bajo]) < 0.7) {
-      return `Pista de la IA: tu ${NOMBRE_RECURSO[bajo]} es lo más bajo hoy. Dale más núcleos ${A_SISTEMA[SISTEMA_DE_RECURSO[bajo]]}.`;
-    }
-    if (this.pronosticoHoy?.nivel === 'alto' && this.dominio('escudo') < 0.7) {
-      return 'Pista de la IA: mi pronóstico dice llamarada fuerte. Los Escudos del Casco van a necesitar núcleos.';
-    }
-    return null;
+    const d = this.situacion();
+    const llamarada = this.pronosticoHoy?.nivel === 'alto' && (!d.claro || this.dominio('escudo') < this.dominio(TEMA_DE_RECURSO[d.bajo]));
+    const tema = llamarada ? 'escudo' : TEMA_DE_RECURSO[d.bajo];
+    const momento = llamarada ? 'consola_antes_llamarada' : 'consola_antes';
+    const movida = politica.antes(momento, tema, this.dominio(tema), d.claro || llamarada);
+    this.ayudaConsola = movida;
+    return this.decirAyuda(momento, movida, d);
   },
+  // ¿La ayuda cuenta como pista? (un reto no ayuda: el acierto vale como sin pista)
+  get conPistaConsola() { return !!this.ayudaConsola && this.ayudaConsola !== 'reto'; },
 
-  // Pista antes de decidir en una emergencia, solo si "decidir con datos" está flojo (más clara si está muy flojo)
+  // Antes de decidir en una emergencia: una sola línea, va encima de las opciones (o null)
   pistaEmergencia(nudo) {
     const costes = COSTES[nudo];
-    const p = this.dominio('decidir');
-    if (!costes || p >= 0.7) return null;
-    if (p >= 0.4) return 'Pista: antes de elegir, mira cuál de tus recursos está más alto.';
-    const [a, b] = costes;
-    const mas = this.porcentaje(a) >= this.porcentaje(b) ? a : b;
-    return `Pista: ahora tienes más ${NOMBRE_RECURSO[mas]}. Gasta lo que tienes de sobra.`;
+    if (!costes) return null;
+    const d = this.situacion(GameState.recursos, costes);
+    const movida = politica.antes('emergencia_antes', 'decidir', this.dominio('decidir'), d.claro);
+    this.ayudaEmergencia = movida;
+    return this.decirAyuda('emergencia_antes', movida, d)?.join(' ') ?? null;
+  },
+  get conPistaEmergencia() { return !!this.ayudaEmergencia && this.ayudaEmergencia !== 'reto'; },
+
+  // Al amanecer: una pregunta de repaso de un tema que no se practica desde hace 2 soles (y su respuesta)
+  repasoDelDia() {
+    const sol = Math.min(GameState.sol, GameState.maxSoles);
+    if (sol < 3) return null;
+    const tema = politica.repaso(this.rastreador.dominio, sol);
+    if (!tema) return null;
+    politica.ultimaPrueba[tema] = sol;                  // no preguntar lo mismo mañana
+    return frase('repaso', tema, {}, idioma.ingles);
   },
 
   // Pista del robot al acercarse a una estación: más explicada si el tema está flojo
@@ -291,11 +320,11 @@ export const guia = {
     const r = this.rastreador;
     const subidas = Object.keys(TEMAS).map(t => [t, r.dominio[t] - (antes[t] ?? r.dominio[t])]).sort((x, y) => y[1] - x[1]);
     const flojo = r.masFlojo();
-    const partes = [];
-    if (subidas[0][1] > 0.05) partes.push(`Hoy aprendiste más sobre ${SOBRE_TEMA[subidas[0][0]]}.`);
-    if (r.dominio[flojo] < 0.7) partes.push(`Mañana practiquemos ${SOBRE_TEMA[flojo]}.`);
-    else partes.push('¡Vas muy bien en todo!');
-    return partes.map(x => idioma.traducir(x)).join(' ');
+    const en = idioma.ingles, partes = [];
+    if (subidas[0][1] > 0.05) partes.push(...frase('resumen_subio', 'x', { tema: subidas[0][0] }, en));
+    if (r.dominio[flojo] < 0.7) partes.push(...frase('resumen_flojo', 'x', { tema: flojo }, en));
+    else partes.push(...frase('resumen_bien', 'x', {}, en));
+    return partes.join(' ');
   },
 
   // --- 5. Reporte para el adulto ---
@@ -336,6 +365,13 @@ export const guia = {
     }
     const flojo = [...r.temas].sort((a, b) => a.dominio - b.dominio)[0];
     l.push('', t('QUÉ PRACTICAR'), t('- {tema}: {explica}. En el juego, la IA ya da más pistas y más tiempo en este tema.', { tema: flojo.nombre, explica: flojo.explica }), '');
+    // Qué tipo de ayuda le funciona (aprendizaje por refuerzo de src/ml/politica.js: acierto en la siguiente prueba)
+    const ayudas = politica.resumen();
+    if (ayudas.length) {
+      l.push(t('QUÉ AYUDA LE FUNCIONA (aciertos en la prueba siguiente a cada tipo de ayuda de la IA)'));
+      for (const a of ayudas) l.push(t('- {m}: {p} de aciertos en {n} usos', { m: t(a.nombre), p: pct(a.tasa), n: a.usos }));
+      l.push('');
+    }
     l.push(t('PRUEBAS REGISTRADAS (sol · tema · tipo · resultado · detalle)'));
     for (const p of r.pruebas) {
       l.push(`- sol ${p.sol} · ${tr(TEMAS[p.tema].nombre)} · ${t(NOMBRE_TIPO[p.tipo])} · ${t(p.correcto ? 'acierto' : 'fallo')} · ${tr(p.detalle)} (${pct(p.antes)} → ${pct(p.despues)})`);
