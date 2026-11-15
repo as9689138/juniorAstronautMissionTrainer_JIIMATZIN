@@ -50,9 +50,25 @@ export default class Inicio extends Phaser.Scene {
   colocar(w, h) {
     if (this.portada) {
       // la portada cubre la pantalla (se recorta lo que sobre) y los botones van en una banda abajo
-      const s = Math.max(w / this.portada.width, h / this.portada.height);
-      this.portada.setScale(s).setPosition(w / 2, h / 2);
+      // horizontal: la portada cubre la pantalla; vertical (o casi): se ajusta al ancho para que el título no se corte
+      const ancha = w / h >= 1.2;
+      const s = ancha ? Math.max(w / this.portada.width, h / this.portada.height) : w / this.portada.width;
+      this.portada.setScale(s).setPosition(w / 2, ancha ? h / 2 : Math.max(this.portada.height * s / 2, h * 0.36));
+      this.cameras.main.setBackgroundColor(0x1d1238);
       this.titulo.setVisible(false); this.sub.setVisible(false);
+      if (h < 520) {
+        // pantalla baja (teléfono en horizontal): una sola fila [Español] [Comenzar] [English] y el aviso debajo
+        const y0 = h - 104;
+        this.banda.setVisible(true).setPosition(w / 2, y0).setSize(w, h - y0);
+        this.boton.setPosition(w / 2, y0 + 36); this.textoBoton.setPosition(w / 2, y0 + 36);
+        this.ayuda.setVisible(false);
+        const sep = Math.min(220, w / 2 - 70);
+        this.idiomas.forEach((b, i) => b.setPosition(w / 2 + (i ? sep : -sep), y0 + 36));
+        this.aviso.setFontSize(12).setWordWrapWidth(Math.min(w - 32, 640)).setPosition(w / 2, y0 + 82);
+        return;
+      }
+      this.ayuda.setVisible(true);
+      this.aviso.setFontSize(14);
       const y0 = Math.max(h * 0.66, h - 250);
       this.banda.setVisible(true).setPosition(w / 2, y0).setSize(w, h - y0);
       this.boton.setPosition(w / 2, y0 + 44); this.textoBoton.setPosition(w / 2, y0 + 44);
@@ -74,6 +90,11 @@ export default class Inicio extends Phaser.Scene {
   comenzar() {
     if (this.empezado) return;
     this.empezado = true;
+    // en teléfonos: pantalla completa y horizontal (Android; iOS no lo permite y ahí se pide girar el teléfono)
+    if (window.matchMedia?.('(pointer: coarse)').matches && !document.fullscreenElement) {
+      document.documentElement.requestFullscreen?.({ navigationUI: 'hide' })
+        .then(() => screen.orientation?.lock?.('landscape')).catch(() => { /* el navegador no lo permite */ });
+    }
     sonido.musica('inicio');
     // la portada se esconde: si no, su título se transparenta debajo de "Viaje espacial" (textos encimados)
     this.tweens.add({ targets: [this.titulo, this.sub, this.boton, ...[this.portada, this.banda].filter(Boolean), this.textoBoton, this.ayuda, this.aviso, ...this.idiomas], alpha: 0, duration: 250 });
