@@ -55,8 +55,9 @@ export default class Dialogo extends Phaser.Scene {
       .setOrigin(0.5).setAlpha(0);
     this.sigue = this.add.text(0, 0, '▶', { fontFamily: FUENTE, fontSize: '18px', color: '#ffc83d' }).setOrigin(1, 1);
     this.tweens.add({ targets: this.sigue, alpha: 0.25, duration: 520, yoyo: true, repeat: -1 });
-    this.saltar = this.add.text(0, 0, 'Saltar ⏭', { fontFamily: FUENTE, fontSize: '16px', color: '#cfc6ff', backgroundColor: '#2a2358',
-      padding: { x: 12, y: 8 } }).setOrigin(1, 0).setInteractive({ useHandCursor: true });
+    // "Saltar": placa de tinta de al menos 46 px de alto (cómoda para el dedo en el teléfono)
+    this.saltar = this.add.text(0, 0, 'Saltar ⏭', { fontFamily: FUENTE, fontSize: '16px', fontStyle: 'bold', color: '#f3e3c3',
+      backgroundColor: '#1d1840', padding: { x: 18, y: 13 } }).setOrigin(1, 0).setInteractive({ useHandCursor: true });
     this.saltar.on('pointerup', e => { e?.event?.stopPropagation?.(); this.saltarNudo(); });
     this.botones = [];
     this.reloj = this.add.text(0, 0, '', { fontFamily: FUENTE, fontSize: '22px', fontStyle: 'bold', color: '#ffc83d',
@@ -114,11 +115,12 @@ export default class Dialogo extends Phaser.Scene {
     }
     this.texto.setDepth(3);                        // el texto siempre encima del retrato y del robot
     this.robot.setScale(0.9 * e).setPosition(x0 + izq / 2, y0 + alto * 0.72);
-    this.sigue.setPosition(x0 + ancho - 18 * e, y0 + alto - 12 * e).setFontSize(Math.round(18 * e));
+    this.sigue.setPosition(x0 + ancho - 18 * e, y0 + alto - 12 * e).setFontSize(Math.max(18, Math.round(20 * e)));
     // "Saltar", encima del panel a la derecha (arriba quedan el tablero y el sol de la interfaz)
     if (this.modoNarracion) this.saltar.setOrigin(1, 0).setPosition(w - 12, 12);
     else this.saltar.setOrigin(1, 1).setPosition(x0 + ancho, y0 - 10 * e);
-    this.saltar.setFontSize(Math.max(16, Math.round(16 * e)));
+    const tamSaltar = Math.max(16, Math.round(16 * e));
+    this.saltar.setFontSize(tamSaltar).setPadding(18, Math.max(12, Math.round((46 - tamSaltar * 1.25) / 2)));
     this.titulo.setPosition(w / 2, h * (this.modoNarracion ? 0.36 : 0.2)).setFontSize(Math.round(38 * e));
     this.reloj.setPosition(w / 2, (this.botones.length ? this.botones[0].y - 46 * e : h / 2)).setFontSize(Math.round(22 * e));
     this.colocarBotones();
@@ -291,9 +293,11 @@ export default class Dialogo extends Phaser.Scene {
     const arriba = this.modoNarracion ? this.saltar.y + this.saltar.height + 10 : 14 * e;
     f.cab.setFontSize(Math.max(14, Math.round(15 * e))).setWordWrapWidth(w - 32).setPosition(w / 2, arriba);
     f.tit.setFontSize(Math.max(18, Math.round(28 * e))).setWordWrapWidth(w - 32).setPosition(w / 2, f.cab.y + f.cab.height + 4);
-    // la ilustración, entre el título y el diálogo (sin tapar "Saltar", que va encima del panel)
-    const y0 = f.tit.y + f.tit.height + 14 * e;
-    const y1 = this.modoNarracion ? h * 0.6 : this.caja.y0 - 58 * e;
+    // la ilustración, entre el título y el diálogo (sin tapar "Saltar", que va encima del panel). Encima de la
+    // ilustración va la etiqueta "◀◀ RECUERDO": se le deja su hueco bajo el título para que nunca se enciman
+    f.rec.setFontSize(Math.max(14, Math.round(14 * e)));
+    const y0 = f.tit.y + f.tit.height + f.rec.height + 10 * e;
+    const y1 = this.modoNarracion ? h * 0.6 : this.caja.y0 - this.saltar.height - 16 * e;
     const altoMax = y1 - y0, anchoMax = Math.min(w - 40, 820 * e);
     const g = f.marco.clear();
     if (!f.img || altoMax < 70) { f.img?.setVisible(false); f.rec.setVisible(false); return; }
@@ -307,7 +311,7 @@ export default class Dialogo extends Phaser.Scene {
       g.lineBetween(cx, cy, cx + sx * l, cy).lineBetween(cx, cy, cx, cy + sy * l);
     }
     g.lineStyle(1, HOLO, 0.25).strokeRect(ix, iy, iw, ih);
-    f.rec.setVisible(true).setFontSize(Math.max(14, Math.round(14 * e))).setPosition(ix + 6, iy - 4);
+    f.rec.setVisible(true).setPosition(ix + 6, iy - 4);
   }
 
   update() {
@@ -359,20 +363,24 @@ export default class Dialogo extends Phaser.Scene {
   colocarBotones() {
     if (!this.botones.length) return;
     const { width: w, height: h } = this.scale;
-    const e = this.e ?? 1, ancho = Math.min(w - 32, 640 * e);
-    const base = this.caja.y0 - 20 * e - this.botones.length * 70 * e;
-    this.botones.forEach((c, i) => {
+    const e = this.e ?? 1, ancho = Math.min(w - 32, 640 * e), sep = Math.max(8, Math.round(12 * e));
+    // De arriba abajo: pista, cuenta atrás y botones (de 48 px o más, para el dedo), apilados sin encimarse y pegados
+    // encima del panel. En pantallas muy bajas (iPhone mini en horizontal) bajan lo necesario para caber.
+    this.botones.forEach(c => {
       c.txt.setFontSize(Math.max(16, Math.round(18 * e))).setWordWrapWidth(ancho - 30);
-      c.fondo.setSize(ancho, Math.max(56 * e, c.txt.height + 22));
+      c.fondo.setSize(ancho, Math.max(48, 56 * e, c.txt.height + 20));
       c.fondo.input?.hitArea.setSize(ancho, c.fondo.height);
-      c.setPosition(w / 2, Math.max(h * 0.18, base) + i * 70 * e + 30 * e);
     });
-    this.reloj.setPosition(w / 2, this.botones[0].y - 48 * e);
-    if (this.pista.visible) {
-      this.pista.setFontSize(Math.max(16, Math.round(17 * e))).setWordWrapWidth(Math.min(w - 40, 620 * e));
-      const arriba = (this.datos.cuentaAtras ? this.reloj.y - this.reloj.height / 2 : this.botones[0].y - 30 * e) - 10 * e;
-      this.pista.setPosition(w / 2, Math.max(this.pista.height / 2 + 8, arriba - this.pista.height / 2));
-    }
+    if (this.pista.visible) this.pista.setFontSize(Math.max(16, Math.round(17 * e))).setWordWrapWidth(Math.min(w - 40, 620 * e));
+    const piezas = [
+      ...(this.pista.visible ? [[this.pista, this.pista.height]] : []),
+      ...(this.datos.cuentaAtras ? [[this.reloj, this.reloj.height]] : []),
+      ...this.botones.map(c => [c, c.fondo.height]),
+    ];
+    const total = piezas.reduce((s, [, a]) => s + a, 0) + sep * (piezas.length - 1);
+    let y = Math.max(8, Math.min(this.caja.y0 - 12 * e, h - 8) - total);
+    for (const [o, a] of piezas) { o.setPosition(w / 2, y + a / 2); y += a + sep; }
+    if (!this.datos.cuentaAtras) this.reloj.setPosition(w / 2, this.botones[0].y - 48 * e);
   }
 
   elegir(i, porTiempo = false) {

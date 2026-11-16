@@ -253,7 +253,26 @@ export default class Minimapa {
   aplicarEscala() {
     if (!this.ancla || !this.esquema) return;
     const k = Math.min(this.escalaBase, this.anchoMax / this.ancho) * (this.grande ? 1.7 : 1);
+    this.k = k;
+    this.ajustarLeyenda();
     this.cont.setScale(k).setPosition(this.ancla.x - this.ancho * k, this.ancla.y);
+  }
+
+  // La leyenda (a dónde ir) se lee de 14 px o más en pantalla aunque el minimapa se encoja en el teléfono:
+  // su letra crece al revés de la escala y el papel se alarga para que quepa; si el nombre es largo, se ajusta al ancho
+  ajustarLeyenda() {
+    const k = this.k ?? 1;
+    let fs = Math.round(Math.max(14, 14.5 / k));
+    this.txtIr.setFontSize(fs);
+    const cabe = this.ancho - MARGEN * 2;
+    if (this.txtIr.width > cabe) { fs = Math.max(12, Math.floor(fs * cabe / this.txtIr.width)); this.txtIr.setFontSize(fs); }
+    const alto = this.altoMapa + this.txtIr.height + 10;
+    if (alto !== this.alto) {
+      this.alto = alto;
+      this.fondo.setSize(this.ancho / 0.5, this.alto / 0.5);
+      this.cont.setSize(this.ancho, this.alto);
+      this.cont.input?.hitArea.setTo(this.ancho / 2, this.alto / 2, this.ancho, this.alto);
+    }
   }
 
   alternarTamano() { this.grande = !this.grande; this.aplicarEscala(); }
@@ -291,6 +310,7 @@ export default class Minimapa {
       this.txtAqui.setText(`● Estás en: ${NOMBRES[actual] ?? actual}`);
       this.txtIr.setText(destino ? (destino === actual ? '★ ¡Es aquí!' : `★ Ve a: ${NOMBRES[destino] ?? destino}`)
         : `● ${NOMBRES[actual] ?? actual}`).setColor(destino ? '#b8473d' : '#141026');
+      this.ajustarLeyenda();
     }
     // lo que se mueve
     const s = this.esquema.salas[actual];

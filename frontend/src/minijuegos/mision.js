@@ -94,11 +94,20 @@ export class Mision {
   accion(a) { this.acciones.push({ estado: 'accion', carga: null, ...a }); }
   vigilar(fn, segundos = 8) { this.pistaFn = fn; this.esperaPista = segundos * 1000; }
   // (el reloj de la escena aún no corre al crearla: la espera de la pista empieza a contar en su primera revisión)
-  empezar() { this.activo = true; this.ultimoAvance = null; }
+  empezar() {
+    this.activo = true;
+    this.ultimoAvance = null;
+    // en pantallas bajas la instrucción no cabe arriba: P.I.E.D.R.A la dice al empezar (después de colocar la pantalla)
+    this.e.time.delayedCall(350, () => {
+      if (!this.instrEnPista || this.datosResultado) return;
+      const texto = this.pasos ? this.pasos.map(p => tr(p.texto)).join(' · ') : tr(this.instruccion);
+      this.pista(texto);
+    });
+  }
   avance() { if (this.ultimoAvance != null) this.ultimoAvance = this.e.time.now; }
 
   // Rótulo sobre el dibujo del área (en el mundo): placa de tinta con letra clara. Al colocar la pantalla su letra
-  // crece lo necesario para verse de 16 px o más (hasta 1,7 veces su tamaño) aunque el área se vea pequeña.
+  // crece lo necesario para verse de 16 px o más (hasta el doble de su tamaño) aunque el área se vea pequeña.
   etiqueta(x, y, texto, { tam = 16, color = LUZ_TXT, fondo = '#141026', origen = 0.5 } = {}) {
     const t = this.e.add.text(x, y, texto, { fontFamily: FUENTE, fontSize: `${tam}px`, fontStyle: 'bold', color,
       backgroundColor: fondo, padding: { x: 7, y: 3 }, resolution: 2 }).setOrigin(origen, 0.5).setDepth(6);
@@ -179,7 +188,24 @@ export class Mision {
       rel?.c.setPosition(W - m - rel.w, m);
       let arriba = m + Math.max(tit.h, rel?.h ?? 0);
       this.zonaInstr = null;
-      if (this.instruccion || this.pasos) {
+      this.instrEnPista = false;
+      // Pantallas bajas (iPhone SE y mini en horizontal): la instrucción solo se queda arriba si cabe en la fila del
+      // título sin hacerla más alta; si no, P.I.E.D.R.A la dice al empezar y el área de juego conserva su espacio.
+      const bajo = H < 420 && this.area;
+      let enFila = null;
+      if ((this.instruccion || this.pasos) && bajo) {
+        const entre = W - (m + tit.w + m) - (rel ? rel.w + m : 0) - m;
+        if (entre >= 180 * k) {
+          const p = this.crearInstruccion(k, entre);
+          if (p.h <= Math.max(tit.h, rel?.h ?? 0) + 6 * k) {
+            p.c.setPosition(m + tit.w + m, m);
+            this.zonaInstr = { c: p.c, x: p.c.x, y: m, h: p.h, derecha: m + tit.w + m + entre };
+            enFila = p;
+          } else { this.hud = this.hud.filter(o => o !== p.c); p.c.destroy(); }
+        }
+        if (!enFila) this.instrEnPista = true;
+      }
+      if ((this.instruccion || this.pasos) && !bajo) {
         const entre = W - (m + tit.w + m) - (rel ? rel.w + m : 0) - m;
         if (entre >= 300 * k) {
           const p = this.crearInstruccion(k, entre);
@@ -220,9 +246,9 @@ export class Mision {
       const z = this.area ? Math.max(0.2, Math.min((libre.w - 2 * borde) / a.w, (libre.h - 2 * borde) / a.h)) : 1;
       const aw = a.w * z, ah = a.h * z;
       const sx = this.area ? libre.x + (libre.w - aw) / 2 : 0, sy = this.area ? libre.y + (libre.h - ah) / 2 : 0;
-      // los rótulos del mundo crecen lo necesario para verse de 16 px o más (hasta 1,7 veces)
+      // los rótulos del mundo crecen lo necesario para verse de 16 px o más (hasta el doble)
       for (const t of this.etiquetas) {
-        if (t.active) t.setFontSize(`${Math.round(Phaser.Math.Clamp(16 / z, t.tamBase, t.tamBase * 1.7))}px`);
+        if (t.active) t.setFontSize(`${Math.round(Phaser.Math.Clamp(16 / z, t.tamBase, t.tamBase * 2))}px`);
       }
       this.cam.setZoom(z);
       // el punto del mundo que queda en el centro de la pantalla, para que el área caiga en (sx, sy)
@@ -263,7 +289,7 @@ export class Mision {
     const pad = 12 * k;
     const sol = Math.min(GameState.sol, GameState.maxSoles);
     const etiqueta = this.texto(pad, pad, this.etiquetaTitulo ?? idioma.t('SOL {n} · MISIÓN', { n: sol }), {
-      fontSize: `${Math.max(12, Math.round(12 * k))}px`, fontStyle: 'bold', color: LUZ_TXT, letterSpacing: 1.5 }).setAlpha(0.75);
+      fontSize: `${Math.max(14, Math.round(12 * k))}px`, fontStyle: 'bold', color: LUZ_TXT, letterSpacing: 1.5 }).setAlpha(0.75);
     const titulo = this.texto(pad, pad + etiqueta.height + 1, tr(this.titulo).toUpperCase(), {
       fontSize: `${Math.max(16, Math.round(18 * k))}px`, fontStyle: 'bold', color: LUZ_TXT });
     const w = Math.max(etiqueta.width, titulo.width) + 2 * pad, h = titulo.y + titulo.height + pad;
@@ -372,7 +398,7 @@ export class Mision {
   crearMedidor(k, ancho) {
     const pad = 12 * k, icono = 36 * k;
     const etiqueta = this.texto(pad + icono + 10 * k, pad - 1 * k, tr(this.med.etiqueta).toUpperCase(), {
-      fontSize: `${Math.max(12, Math.round(12 * k))}px`, fontStyle: 'bold', color: LUZ_TXT, letterSpacing: 1.5 }).setAlpha(0.75);
+      fontSize: `${Math.max(14, Math.round(12 * k))}px`, fontStyle: 'bold', color: LUZ_TXT, letterSpacing: 1.5 }).setAlpha(0.75);
     const cuenta = this.texto(ancho - pad, 0, `${this.med.total} / ${this.med.total}`, {
       fontFamily: NUMEROS, fontSize: `${Math.max(16, Math.round(20 * k))}px`, fontStyle: 'bold', color: LUZ_TXT }).setOrigin(1, 0.5);
     const x0 = etiqueta.x, x1 = ancho - pad - cuenta.width - 12 * k;
@@ -506,7 +532,7 @@ export class Mision {
     const anchoMax = z ? Math.max(220 * k, z.derecha - z.x - robot.displayWidth - 20 * k)
       : Math.min(440 * k, W - robot.displayWidth - 3 * m - 20);
     const pad = 12 * k;
-    const nombre = this.texto(pad, pad - 2 * k, 'P.I.E.D.R.A', { fontSize: `${Math.max(12, Math.round(12 * k))}px`, fontStyle: 'bold',
+    const nombre = this.texto(pad, pad - 2 * k, 'P.I.E.D.R.A', { fontSize: `${Math.max(14, Math.round(12 * k))}px`, fontStyle: 'bold',
       color: '#2a6f8f', letterSpacing: 1.5 });
     const t = this.texto(pad, nombre.y + nombre.height + 2, tx, { fontSize: `${Math.max(16, Math.round(16 * k))}px`, color: TINTA_TXT,
       lineSpacing: 2, wordWrap: { width: anchoMax - 2 * pad, useAdvancedWrap: true } });

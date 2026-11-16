@@ -104,6 +104,14 @@ export default class Robot {
 
     const tecla = escena.input.keyboard.addKey('Q');     // Q: preguntarle a la IA
     tecla.on('down', () => !control.bloqueado && this.contarPronostico(true));
+    // En el teléfono no hay Q: tocar al robot hace lo mismo (su zona de toque es más grande que el dibujo)
+    const fw = this.cuerpo.frame.width, fh = this.cuerpo.frame.height;
+    this.cuerpo.setInteractive({ hitArea: new Phaser.Geom.Rectangle(-fw * 0.35, -fh * 0.25, fw * 1.7, fh * 1.4),
+      hitAreaCallback: Phaser.Geom.Rectangle.Contains, useHandCursor: true });
+    this.cuerpo.on('pointerdown', (p, x, y, ev) => {
+      ev?.stopPropagation?.();
+      if (!control.bloqueado && !control.modal) this.contarPronostico(true);
+    });
 
     const alActualizar = (t, dt) => this.update(t, dt);
     escena.events.on('update', alActualizar);
@@ -124,7 +132,7 @@ export default class Robot {
     escena.time.delayedCall(1200, async () => {
       if (!this.vivo) return;
       const tactil = escena.sys.game.device.input.touch && !escena.sys.game.device.os.desktop;
-      this.decir(`¡Bip-bup! Soy P.I.E.D.R.A, la IA de la base. Te sigo a todas partes.${tactil ? '' : ' Pulsa Q si me necesitas.'}`, { cara: 'feliz', duracion: 4200 });
+      this.decir(`¡Bip-bup! Soy P.I.E.D.R.A, la IA de la base. Te sigo a todas partes.${tactil ? ' Tócame si me necesitas.' : ' Pulsa Q si me necesitas.'}`, { cara: 'feliz', duracion: 4200 });
       if (this.ml) await this.ml.actualizarEnVivo();
       const estado = escena.registry.get('estado');
       if (!estado && this.vivo) escena.time.delayedCall(4600, () => this.vivo && this.pronosticar(1, 10));

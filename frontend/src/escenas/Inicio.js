@@ -24,7 +24,7 @@ export default class Inicio extends Phaser.Scene {
     // Idioma: Español / English (se guarda; la historia, la interfaz y la voz cambian)
     this.idiomas = [['es', 'Español'], ['en', 'English']].map(([codigo, nombre]) => {
       const b = this.add.text(0, 0, nombre, { fontFamily: fuente, fontSize: '17px', fontStyle: 'bold', color: '#f1e3d3',
-        backgroundColor: idioma.actual === codigo ? '#d9653b' : '#2a2358', padding: { x: 16, y: 9 } }).setOrigin(0.5).setInteractive({ useHandCursor: true });
+        backgroundColor: idioma.actual === codigo ? '#d9653b' : '#2a2358', padding: { x: 18, y: 13 } }).setOrigin(0.5).setInteractive({ useHandCursor: true });   // 46 px de alto: cómodo para el dedo
       b.on('pointerup', () => {
         if (idioma.actual === codigo) return;
         idioma.elegir(codigo);
@@ -35,7 +35,7 @@ export default class Inicio extends Phaser.Scene {
     });
     // Aviso de privacidad: qué se guarda (anónimo) y para qué
     this.aviso = this.add.text(0, 0, 'El juego guarda de forma anónima cómo aprendes (sin nombres) para que el equipo lo mejore.',
-      { fontFamily: fuente, fontSize: '14px', color: '#8f7a70', align: 'center' }).setOrigin(0.5);
+      { fontFamily: fuente, fontSize: '14px', color: '#d8c7bc', align: 'center' }).setOrigin(0.5);   // claro: se lee sobre la banda
     this.boton.on('pointerover', () => this.boton.setFillStyle(0xf07a4e));
     this.boton.on('pointerout', () => this.boton.setFillStyle(0xd9653b));
     this.boton.on('pointerup', () => this.comenzar());
@@ -58,16 +58,16 @@ export default class Inicio extends Phaser.Scene {
       this.titulo.setVisible(false); this.sub.setVisible(false);
       if (h < 520) {
         // pantalla baja (teléfono en horizontal): una sola fila [Español] [Comenzar] [English] y el aviso debajo
-        const y0 = h - 104;
+        const y0 = h - 116;
         this.banda.setVisible(true).setPosition(w / 2, y0).setSize(w, h - y0);
         this.boton.setPosition(w / 2, y0 + 36); this.textoBoton.setPosition(w / 2, y0 + 36);
         this.ayuda.setVisible(false);
         const sep = Math.min(220, w / 2 - 70);
         this.idiomas.forEach((b, i) => b.setPosition(w / 2 + (i ? sep : -sep), y0 + 36));
-        this.aviso.setFontSize(12).setWordWrapWidth(Math.min(w - 32, 640)).setPosition(w / 2, y0 + 82);
+        this.aviso.setFontSize(14).setWordWrapWidth(Math.min(w - 32, 640)).setPosition(w / 2, y0 + 88);
         return;
       }
-      this.ayuda.setVisible(true);
+      this.ayuda.setVisible(!this.sys.game.device.input.touch);   // "Enter o toca" solo con teclado
       this.aviso.setFontSize(14);
       const y0 = Math.max(h * 0.66, h - 250);
       this.banda.setVisible(true).setPosition(w / 2, y0).setSize(w, h - y0);
@@ -78,6 +78,7 @@ export default class Inicio extends Phaser.Scene {
       return;
     }
     this.banda.setVisible(false);
+    this.ayuda.setVisible(!this.sys.game.device.input.touch);
     this.titulo.setPosition(w / 2, h / 2 - 90);
     this.sub.setPosition(w / 2, h / 2 - 50);
     this.boton.setPosition(w / 2, h / 2 + 20);

@@ -156,70 +156,142 @@ export default class Aprendizaje extends Phaser.Scene {
     else this.vistaAdulto(capa, cx, arriba, izq, hojaW, hojaH);
   }
 
+  // Vista del niño. Todo se mide con el alto disponible (en un teléfono pequeño en horizontal, 320 px): las filas
+  // reparten el hueco que queda entre el título y la frase de P.I.E.D.R.A; si no hay sitio, se quitan las líneas
+  // secundarias (subtítulo, explicación de cada tema) y la fila pasa a una sola línea.
   vistaNino(capa, cx, arriba, izq, hojaW, hojaH) {
-    capa.add(texto(this, cx, arriba + 20, 'Lo que estás aprendiendo', { fontSize: hojaW < 420 ? '20px' : '24px', fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0.5, 0));
-    capa.add(texto(this, cx, arriba + 54, 'P.I.E.D.R.A lo ve en lo que haces: minijuegos, energía y emergencias', {
-      fontSize: '14px', color: TINTA_TXT, align: 'center', wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0).setAlpha(0.8));
+    const bajo = hojaH < 420;
+    const titulo = texto(this, cx, arriba + (bajo ? 14 : 20), 'Lo que estás aprendiendo', { fontSize: hojaW < 420 || bajo ? '20px' : '24px',
+      fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0.5, 0);
+    capa.add(titulo);
+    let y0 = titulo.y + titulo.height + 6;
+    if (!bajo) {
+      const sub = texto(this, cx, y0, 'P.I.E.D.R.A lo ve en lo que haces: minijuegos, energía y emergencias', {
+        fontSize: '14px', color: TINTA_TXT, align: 'center', wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0).setAlpha(0.8);
+      capa.add(sub);
+      y0 = sub.y + sub.height + 10;
+    }
     const r = guia.rastreador;
-    const filaH = Math.min(92, (hojaH - 200) / 4), y0 = arriba + 98;
-    const g = this.add.graphics();
-    capa.add(g);
-    const angosta = hojaW < 480;
-    Object.keys(TEMAS).forEach((tema, i) => {
-      const y = y0 + i * filaH, n = r.nivel(tema);
-      g.fillStyle(PAPEL_OSC, 1).fillRoundedRect(izq + 16, y, hojaW - 32, filaH - 8, 8);
-      g.lineStyle(2, TINTA, 1).strokeRoundedRect(izq + 16, y, hojaW - 32, filaH - 8, 8);
-      this.icono(g, tema, izq + 48, y + (filaH - 8) / 2);
-      capa.add(texto(this, izq + 78, y + 8, TEMAS[tema].nombre, { fontSize: '18px', fontStyle: 'bold', color: TINTA_TXT }));
-      capa.add(texto(this, izq + 78, y + 32, angosta ? n.texto : TEMAS[tema].explica, { fontSize: '14px', color: TINTA_TXT,
-        wordWrap: { width: angosta ? hojaW - 120 : hojaW - 300 } }).setAlpha(0.85));
-      // estrellas y la palabra del nivel
-      const ex = angosta ? izq + 90 : izq + hojaW - 200, ey = angosta ? y + filaH - 22 : y + 26;
-      for (let k = 0; k < 4; k++) this.estrella(g, ex + k * 30, ey, 11, k < n.estrellas);
-      if (!angosta) capa.add(texto(this, ex - 12, ey + 18, n.texto, { fontSize: '15px', fontStyle: 'bold', color: SELLO_TXT }));
-    });
-    // lo que dice la IA
+    // lo que dice la IA (se mide antes, para saber cuánto alto les queda a las filas)
     const flojo = r.masFlojo();
-    const frase = r.pruebas.length
+    const fraseTxt = r.pruebas.length
       ? (r.dominio[flojo] < 0.7 ? `P.I.E.D.R.A: «Practiquemos ${SOBRE[flojo]}: ahí te daré pistas y más tiempo.»` : 'P.I.E.D.R.A: «¡Vas muy bien en todo! Ahora te doy menos pistas.»')
       : 'P.I.E.D.R.A: «Todavía no hay pruebas: juega un minijuego o reparte la energía.»';
-    capa.add(texto(this, cx, y0 + 4 * filaH + 4, frase, { fontSize: '15px', fontStyle: 'bold', color: TINTA_TXT, align: 'center',
-      wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0));
-    const yb = arriba + hojaH - 34;
-    this.botonPapel(capa, cx - 95, yb, 170, 'Para adultos', () => { this.vista = 'adulto'; this.dibujar(); });
-    this.botonPapel(capa, cx + 95, yb, 170, 'Cerrar · P', () => this.cerrar());
+    const frase = texto(this, cx, 0, fraseTxt, { fontSize: bajo ? '14px' : '15px', fontStyle: 'bold', color: TINTA_TXT, align: 'center',
+      wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0);
+    const yb = arriba + hojaH - 32;                      // centro de los botones (44 px de alto)
+    const yFrase = yb - 22 - 6 - frase.height;
+    frase.setY(yFrase);
+    const filaH = Math.max(32, Math.min(92, (yFrase - 6 - y0) / 4));
+    const comoda = filaH >= 64;                          // cabe el nombre y, debajo, su explicación o su nivel
+    const angosta = hojaW < 480;
+    const g = this.add.graphics();
+    capa.add(g);
+    Object.keys(TEMAS).forEach((tema, i) => {
+      const y = y0 + i * filaH, n = r.nivel(tema), alto = filaH - 6, cy = y + alto / 2;
+      g.fillStyle(PAPEL_OSC, 1).fillRoundedRect(izq + 16, y, hojaW - 32, alto, 8);
+      g.lineStyle(2, TINTA, 1).strokeRoundedRect(izq + 16, y, hojaW - 32, alto, 8);
+      const s = Math.min(1, (alto - 6) / 42);           // el dibujo del tema se encoge con la fila
+      const ico = this.add.graphics({ x: izq + 22 + 21 * s, y: cy }).setScale(s);
+      this.icono(ico, tema, 0, 0);
+      capa.add(ico);
+      const xt = izq + 30 + 42 * s;
+      // estrellas (a la derecha) y la palabra del nivel
+      const rE = comoda ? 11 : Math.min(10, alto / 2 - 4), paso = rE * 2.6;
+      const anchoNivel = angosta ? 0 : 120;              // en angosta el nivel va en la línea de abajo (o solo estrellas)
+      const ex = izq + hojaW - 24 - anchoNivel - paso * 3 - rE;
+      if (comoda) {
+        capa.add(texto(this, xt, y + 8, TEMAS[tema].nombre, { fontSize: '18px', fontStyle: 'bold', color: TINTA_TXT }));
+        const det = texto(this, xt, y + 32, angosta ? n.texto : TEMAS[tema].explica, { fontSize: '14px', color: TINTA_TXT,
+          wordWrap: { width: Math.max(80, ex - rE - 12 - xt) } }).setAlpha(0.85);
+        if (det.y + det.height <= y + alto - 2) capa.add(det); else det.destroy();     // si no cabe, fuera
+      } else {
+        capa.add(texto(this, xt, cy, TEMAS[tema].nombre, { fontSize: '16px', fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0, 0.5));
+      }
+      const ey = comoda ? y + 26 : cy;
+      for (let k = 0; k < 4; k++) this.estrella(g, ex + k * paso, ey, rE, k < n.estrellas);
+      if (anchoNivel) {
+        capa.add(texto(this, ex + paso * 3 + rE + 8, comoda ? ey + 18 : cy, n.texto, { fontSize: '14px', fontStyle: 'bold', color: SELLO_TXT,
+          wordWrap: { width: anchoNivel - 4 } }).setOrigin(comoda ? 1 : 0, comoda ? 0 : 0.5).setX(comoda ? izq + hojaW - 24 : ex + paso * 3 + rE + 8));
+      }
+    });
+    capa.add(frase);
+    const anchoB = Math.min(170, (hojaW - 50) / 2);
+    this.botonPapel(capa, cx - anchoB / 2 - 8, yb, anchoB, 'Para adultos', () => { this.vista = 'adulto'; this.pagina = 0; this.dibujar(); });
+    this.botonPapel(capa, cx + anchoB / 2 + 8, yb, anchoB, 'Cerrar · P', () => this.cerrar());
   }
 
+  // Vista del adulto. El contenido (los cuatro temas, cómo se mide y el código anónimo) se reparte en páginas del alto
+  // que haya entre la cabecera y los botones: en un teléfono pequeño son varias (‹ 1/3 ›), en un monitor cabe en una.
   vistaAdulto(capa, cx, arriba, izq, hojaW, hojaH) {
     const rep = guia.reporte();
-    capa.add(texto(this, cx, arriba + 20, 'Reporte para el adulto', { fontSize: '22px', fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0.5, 0));
-    capa.add(texto(this, cx, arriba + 52, `Personaje: ${nombrePj(rep.partida?.personaje)} · Sol ${rep.soles} de 10 · ${rep.pruebas.length} pruebas registradas`,
-      { fontSize: '14px', color: TINTA_TXT, align: 'center', wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0));
-    let y = arriba + 82;
-    const pct = x => `${Math.round(x * 100)} %`;
-    for (const t of rep.temas) {
+    const bajo = hojaH < 420;
+    const titulo = texto(this, cx, arriba + (bajo ? 14 : 20), 'Reporte para el adulto', { fontSize: bajo ? '20px' : '22px', fontStyle: 'bold', color: TINTA_TXT })
+      .setOrigin(0.5, 0);
+    const sub = texto(this, cx, titulo.y + titulo.height + 4, `Personaje: ${nombrePj(rep.partida?.personaje)} · Sol ${rep.soles} de 10 · ${rep.pruebas.length} pruebas registradas`,
+      { fontSize: '14px', color: TINTA_TXT, align: 'center', wordWrap: { width: hojaW - 40 } }).setOrigin(0.5, 0);
+    capa.add([titulo, sub]);
+    const yb = arriba + hojaH - 32;
+    const yIni = sub.y + sub.height + 10, yFin = yb - 22 - 8, bw = hojaW - 48, x = izq + 24;
+    const pct = v => `${Math.round(v * 100)} %`;
+    // Bloques (se crean en y = 0 y se colocan al paginar)
+    const bloques = rep.temas.map(t => {
       const tipos = Object.entries(t.porTipo).filter(([, v]) => v.total).map(([k, v]) => `${idioma.t(TIPO[k])} ${v.aciertos}/${v.total}`).join(' · ')
         || idioma.t('sin pruebas aún');
       const avance = t.inicio != null ? `   ${idioma.t('Aciertos: al inicio {a} → al final {b}', { a: pct(t.inicio), b: pct(t.final) })}` : '';
-      const tit = texto(this, izq + 24, y, `${t.nombre}: dominio estimado ${pct(t.dominio)} (${t.nivel.texto})`, { fontSize: '16px', fontStyle: 'bold', color: TINTA_TXT,
-        wordWrap: { width: hojaW - 48 } });
-      const det = texto(this, izq + 24, y + tit.height + 2, `${tipos}${avance}`, { fontSize: '14px', color: TINTA_TXT, wordWrap: { width: hojaW - 48 } }).setAlpha(0.85);
-      // barra de dominio
-      const g = this.add.graphics();
-      const bw = hojaW - 48, by = det.y + det.height + 4;
-      g.fillStyle(PAPEL_OSC, 1).fillRect(izq + 24, by, bw, 8).fillStyle(COLOR_TEMA[t.tema], 1).fillRect(izq + 24, by, bw * t.dominio, 8);
-      g.lineStyle(1.5, TINTA, 1).strokeRect(izq + 24, by, bw, 8);
-      capa.add([tit, det, g]);
-      y = by + 18;
+      const c = this.add.container(x, 0);
+      const tit = texto(this, 0, 0, `${t.nombre}: dominio estimado ${pct(t.dominio)} (${t.nivel.texto})`, { fontSize: '16px', fontStyle: 'bold',
+        color: TINTA_TXT, wordWrap: { width: bw } });
+      const det = texto(this, 0, tit.height + 2, `${tipos}${avance}`, { fontSize: '14px', color: TINTA_TXT, wordWrap: { width: bw } }).setAlpha(0.85);
+      const by = det.y + det.height + 4;
+      const g = this.add.graphics();                    // barra de dominio
+      g.fillStyle(PAPEL_OSC, 1).fillRect(0, by, bw, 8).fillStyle(COLOR_TEMA[t.tema], 1).fillRect(0, by, bw * t.dominio, 8);
+      g.lineStyle(1.5, TINTA, 1).strokeRect(0, by, bw, 8);
+      c.add([tit, det, g]);
+      c.alto = by + 8;
+      return c;
+    });
+    const parrafo = (t, alfa) => {
+      const c = this.add.container(x, 0);
+      const tx = texto(this, 0, 0, t, { fontSize: '14px', color: TINTA_TXT, wordWrap: { width: bw } }).setAlpha(alfa);
+      c.add(tx); c.alto = tx.height;
+      return c;
+    };
+    bloques.push(parrafo('Cómo se mide: Bayesian Knowledge Tracing. Con cada prueba (minijuego, reparto de energía, decisión de emergencia) se actualiza la probabilidad de que domine el tema. Las pruebas con pista cuentan menos. Se guarda de forma anónima, sin nombres, para que el equipo estudie cómo se aprende con el juego.', 0.8));
+    bloques.push(parrafo(idioma.t('Código anónimo de este dispositivo: {c}', { c: guia.jugador }), 0.7));
+    // Páginas: tantos bloques como quepan entre yIni y yFin
+    const paginas = [[]];
+    let usado = 0;
+    for (const b of bloques) {
+      const sep = paginas.at(-1).length ? 10 : 0;
+      if (paginas.at(-1).length && usado + sep + b.alto > yFin - yIni) { paginas.push([]); usado = 0; }
+      const p = paginas.at(-1);
+      b.y = yIni + usado + (p.length ? 10 : 0);
+      usado = b.y - yIni + b.alto;
+      p.push(b);
     }
-    capa.add(texto(this, izq + 24, y + 2, 'Cómo se mide: Bayesian Knowledge Tracing. Con cada prueba (minijuego, reparto de energía, decisión de emergencia) se actualiza la probabilidad de que domine el tema. Las pruebas con pista cuentan menos. Se guarda de forma anónima, sin nombres, para que el equipo estudie cómo se aprende con el juego.',
-      { fontSize: '14px', color: TINTA_TXT, wordWrap: { width: hojaW - 48 } }).setAlpha(0.8));
-    capa.add(texto(this, izq + 24, arriba + hojaH - 76, idioma.t('Código anónimo de este dispositivo: {c}', { c: guia.jugador }),
-      { fontSize: '14px', color: TINTA_TXT, wordWrap: { width: hojaW - 48 } }).setAlpha(0.7));
-    const yb = arriba + hojaH - 34;
-    const ancho = Math.min(190, (hojaW - 60) / 3);
-    this.botonPapel(capa, cx - ancho - 10, yb, ancho, 'Descargar', () => guia.descargarReporte());
-    this.botonPapel(capa, cx, yb, ancho, 'Volver', () => { this.vista = 'nino'; this.dibujar(); });
-    this.botonPapel(capa, cx + ancho + 10, yb, ancho, 'Cerrar', () => this.cerrar());
+    this.pagina = Phaser.Math.Clamp(this.pagina ?? 0, 0, paginas.length - 1);
+    paginas.forEach((p, i) => p.forEach(b => (i === this.pagina ? capa.add(b) : b.destroy())));
+    // Botones: Descargar · Volver · Cerrar y, si hay varias páginas, ‹ n/m ›
+    const varias = paginas.length > 1;
+    const flecha = varias ? 48 : 0;
+    const ancho = Math.min(190, (hojaW - 40 - (varias ? 2 * (flecha + 8) : 0) - 20) / 3);
+    const total = 3 * ancho + 20 + (varias ? 2 * (flecha + 8) : 0);
+    let bx = cx - total / 2;
+    const ir = d => { this.pagina += d; this.dibujar(); };
+    if (varias) {
+      const b = this.botonPapel(capa, bx + flecha / 2, yb, flecha, '‹', () => this.pagina > 0 && ir(-1));
+      b.setAlpha(this.pagina > 0 ? 1 : 0.4); b.list[1].setFontSize(28);
+      bx += flecha + 8;
+    }
+    this.botonPapel(capa, bx + ancho / 2, yb, ancho, 'Descargar', () => guia.descargarReporte());
+    this.botonPapel(capa, bx + ancho * 1.5 + 10, yb, ancho, 'Volver', () => { this.vista = 'nino'; this.pagina = 0; this.dibujar(); });
+    this.botonPapel(capa, bx + ancho * 2.5 + 20, yb, ancho, 'Cerrar', () => this.cerrar());
+    if (varias) {
+      const b = this.botonPapel(capa, bx + 3 * ancho + 20 + 8 + flecha / 2, yb, flecha, '›', () => this.pagina < paginas.length - 1 && ir(1));
+      b.setAlpha(this.pagina < paginas.length - 1 ? 1 : 0.4); b.list[1].setFontSize(28);
+      capa.add(texto(this, izq + hojaW - 20, titulo.y + 4, `${this.pagina + 1}/${paginas.length}`, { fontSize: '14px', fontStyle: 'bold', color: SELLO_TXT })
+        .setOrigin(1, 0));
+    }
   }
 }

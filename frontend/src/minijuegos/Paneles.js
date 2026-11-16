@@ -30,7 +30,7 @@ export class PanelCleaningScene extends Phaser.Scene {
       titulo: "Limpia los paneles solares",
       pasos: [
         { icono: "mis_mano", texto: "Toca el polvo" },
-        { icono: "mis_vibrar", texto: "Tecla verde: VIBRAR quita 5" },
+        { icono: "mis_vibrar", texto: "Tecla verde: VIBRAR quita 5" },
       ],
       fondo: "paneles",
       // el panel ilustrado ya trae su marco de aluminio: sin marco de la nave, y el área justo del tamaño del panel

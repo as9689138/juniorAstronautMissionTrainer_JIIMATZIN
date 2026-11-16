@@ -379,7 +379,7 @@ export default {
   'Hay gotas flotando: enciende el VENTILADOR antes de que salga moho.': 'There are drops floating: turn on the FAN before mold appears.',
   'Salió moho: el VENTILADOR seca el aire y lo quita.': 'Mold appeared: the FAN dries the air and clears it.',
   'A la {p} le faltan {n} gotas: tócala y pulsa REGAR.': '{p} still needs {n} drops: tap it and press WATER.',
-  'Toca el polvo': 'Tap the dust', 'Tecla verde: VIBRAR quita 5': 'Green key: VIBRATE removes 5', '¡MISIÓN CUMPLIDA!': 'MISSION COMPLETE!', 'MISIÓN INCOMPLETA': 'MISSION INCOMPLETE',
+  'Toca el polvo': 'Tap the dust', 'Piezas colocadas': 'Pieces placed', 'Tecla verde: VIBRAR quita 5': 'Green key: VIBRATE removes 5', '¡MISIÓN CUMPLIDA!': 'MISSION COMPLETE!', 'MISIÓN INCOMPLETA': 'MISSION INCOMPLETE',
   'Toca el polvo para limpiar el panel. Cuando la tecla VIBRAR se ponga verde, púlsala: quita 5 de golpe.':
     'Tap the dust to clean the panel. When the VIBRATE key turns green, press it: it removes 5 at once.',
   'Polvo retirado': 'Dust removed', 'VIBRAR': 'VIBRATE', '¡VIBRA YA!': 'VIBRATE NOW!', 'Ladrillos de Polvo': 'Dust Bricks',

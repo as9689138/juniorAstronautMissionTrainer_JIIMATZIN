@@ -45,8 +45,8 @@ export class CO2FilterScene extends Phaser.Scene {
     this.add.image(685, 355, "mj_adaptador").setDisplaySize(420, 365);
     this.mision.etiqueta(245, 196, "PIEZAS", { tam: 15, color: "#8fe3ff" });
     this.mision.etiqueta(685, 196, "ADAPTADOR DEL FILTRO", { tam: 15, color: "#8fe3ff" });
-    this.mision.etiqueta(545, 380, "LiOH · CUADRADO", { tam: 14 });
-    this.mision.etiqueta(886, 380, "TUBO · REDONDO", { tam: 14, origen: 1 });   // anclado a la derecha: al crecer no se sale del dibujo
+    this.mision.etiqueta(545, 352, "LiOH · CUADRADO", { tam: 14 });   // a distinta altura que el tubo: en teléfonos chicos crecen y se tocaban
+    this.mision.etiqueta(886, 412, "TUBO · REDONDO", { tam: 14, origen: 1 });   // anclado a la derecha: al crecer no se sale del dibujo
 
     // Huecos del adaptador (un poco más grandes que el dibujo: es más fácil soltar ahí)
     this.zonas = {};
@@ -61,8 +61,11 @@ export class CO2FilterScene extends Phaser.Scene {
 
     // Piezas en la bandeja; su nombre va debajo, en una placa
     for (const p of PIEZAS) {
-      const block = this.add.image(p.x, p.y, p.img).setDisplaySize(ANCHO, ALTO).setDepth(5)
-        .setInteractive({ draggable: true, useHandCursor: true });
+      const block = this.add.image(p.x, p.y, p.img).setDisplaySize(ANCHO, ALTO).setDepth(5);
+      // se agarra un poco más allá del dibujo (alto x1,8): en un teléfono chico la pieza se ve de unos 28 px
+      const fw = block.frame.width, fh = block.frame.height;
+      block.setInteractive({ hitArea: new Phaser.Geom.Rectangle(0, -fh * 0.4, fw, fh * 1.8),
+        hitAreaCallback: Phaser.Geom.Rectangle.Contains, draggable: true, useHandCursor: true });
       block.setData("pieceId", p.id);
       const rotulo = this.mision.etiqueta(p.x, p.y + 38, p.nombre, { tam: 14 });
       block.setData("labelObject", rotulo);

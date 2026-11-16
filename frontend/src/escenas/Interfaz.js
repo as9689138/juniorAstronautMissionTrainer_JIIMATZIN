@@ -113,7 +113,7 @@ export default class Interfaz extends Phaser.Scene {
       for (let k = 1; k < 10; k++) marcas.lineBetween(52 + k * 13.6, y + 1, 52 + k * 13.6, y + 11);
       const valor = texto(this, ANCHO - 14, y + 1, '', { fontFamily: NUMEROS, fontSize: '16px', fontStyle: 'bold', color: LUZ }).setOrigin(1, 0.5);
       this.tablero.add([icono, nombre, fondo, relleno, brillo, marcas, valor]);
-      return { ...r, icono, relleno, brillo, valor, actual: null, bajo: false };
+      return { ...r, icono, nombre, relleno, brillo, valor, actual: null, bajo: false };
     });
   }
 
@@ -225,9 +225,12 @@ export default class Interfaz extends Phaser.Scene {
       margen + BOTON_SONIDO * e / 2 + (estrecho ? 0 : 10 * e));
     this.textoClima.setFontSize(Math.max(16, Math.round(14 * e))).setPosition(this.ficha.x, this.ficha.y + 70 * e);
     this.banderin.setScale(e).setPosition(w / 2, (estrecho ? h - 130 * e : 34 * e));
-    this.cartel.setScale(Math.min(e, (w - 24) / 560)).setPosition(w / 2, h * 0.66);   // debajo del astronauta: no tapa la burbuja del robot
+    const escalaCartel = Math.min(e, (w - 24) / 560);
+    this.cartel.setScale(escalaCartel).setPosition(w / 2, h * 0.66);   // debajo del astronauta: no tapa la burbuja del robot
+    this.letraMinima(e, escalaCartel);
     // Táctil primero: en pantallas táctiles el aviso y el panel nunca bajan de un tamaño cómodo para el dedo
-    const eToque = this.tactil ? Math.max(e, 1.2) : e;
+    // (y sin tacto, en una ventana chica, tampoco se encoge del todo)
+    const eToque = this.tactil ? Math.max(e, 1.2) : Math.max(e, 0.95);
     this.escalaAviso = eToque;
     // Minimapa: debajo de la ficha del Sol (y del clima real, si lo hay); en el teléfono, debajo del botón de silencio
     const yMini = estrecho ? margen + BOTON_SONIDO * e + 8 * e
@@ -237,6 +240,33 @@ export default class Interfaz extends Phaser.Scene {
     this.avisoAlto = w < 760 ? 70 : 0;
     this.aviso.setScale(eToque).setPosition(w / 2, h - 44 * eToque - this.avisoAlto);
     this.panel.setScale(Math.min(Math.max(e * 1.1, this.tactil ? 1.15 : 0), (w - 24) / 380)).setPosition(w / 2, h / 2);
+  }
+
+  // En pantallas chicas (teléfono, hasta 568x320) las piezas se encogen con la escala e, pero la letra no: se
+  // compensa para que en pantalla quede de 14 px o más. En el tablero, si no cabe el nombre del recurso, se esconde:
+  // el icono ya dice cuál es (rayo, gota, escudo) y el número se agranda. La ficha del Sol deja solo la hora (el
+  // icono dice la fase).
+  letraMinima(e, escalaCartel) {
+    const chico = e < 0.95;
+    this.hudChico = chico;
+    for (const b of this.barras) {
+      b.nombre.setVisible(!chico);
+      b.valor.setFontSize(`${Math.round(Math.max(16, 14.5 / e))}px`);
+    }
+    this.textoSol.setFontSize(`${Math.round(Math.max(17, 14.5 / e))}px`).setY(chico ? 6 : 15);
+    this.textoFase.setFontSize(`${Math.round(Math.max(12, 14.5 / e))}px`).setY(chico ? 35 : 36).setAlpha(chico ? 0.9 : 0.75);
+    this.banderinTexto.setFontSize(`${Math.round(Math.max(17, 14.5 / e))}px`);
+    this.cartelLema.setFontSize(`${Math.round(Math.max(16, 14.5 / escalaCartel))}px`);
+    this.pintarFase();
+  }
+
+  // Texto de la ficha: "Mañana · 06:00" (en el teléfono, solo "06:00")
+  pintarFase() {
+    const f = this.faseActual;
+    if (!f) return;
+    const nombre = idioma.t(f.texto);
+    const texto = f.hora ? (this.hudChico ? f.hora : `${nombre} · ${f.hora}`) : nombre;
+    this.textoFase.setText(texto).setColor(f.emergencia ? SELLO : TINTA);
   }
 
   // --- Estado ---------------------------------------------------------------------
@@ -256,8 +286,8 @@ export default class Interfaz extends Phaser.Scene {
     this.pintarClima();
     const f = FASES[e.fase] ?? FASES.dia;
     this.iconoFase.setTexture(f.icono);
-    const fase = idioma.t(f.texto);
-    this.textoFase.setText(e.hora ? `${fase} · ${e.hora}` : fase).setColor(e.fase === 'emergencia' ? SELLO : TINTA);
+    this.faseActual = { texto: f.texto, hora: e.hora, emergencia: e.fase === 'emergencia' };
+    this.pintarFase();
     // La IA acaba de dictar otra hora: la ficha late
     const clave = `${e.sol}-${e.fase}`;
     if (!inmediato && this.horaMostrada && clave !== this.horaMostrada) {

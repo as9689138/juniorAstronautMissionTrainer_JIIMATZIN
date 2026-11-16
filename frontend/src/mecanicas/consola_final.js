@@ -47,27 +47,43 @@ export function crearFinal(escena, motivo) {
 
   let mision;
   const alColocar = (libre, k) => {
-    const pad = 18 * k, tam = Math.max(16, Math.round(16 * k));
+    const pad = 16 * k, tam = Math.max(14, Math.round(16 * k));
+    const ancho = libre.w - 2 * pad;                         // ancho útil dentro del papel
     const caja = mision.contenedor(libre.x, libre.y);
     caja.add(mision.pieza('ui_papel', 0, 0, libre.w, libre.h, 30, k));
     let y = pad;
-    // la cita de P.I.E.D.R.A (si no cabe junto con la calificación, se omite: ya la dijo la historia con voz)
+
+    // Textos de la medalla y de los temas: se miden primero para repartir el ancho sin que nada se encime
+    const anchoCol = Math.min(ancho * 0.36, 190 * k);        // la columna de la medalla, como mucho
+    const nom = mision.texto(0, 0, idioma.t(m.nombre), { fontSize: `${tam}px`, fontStyle: 'bold', color: TINTA_TXT, align: 'center',
+      wordWrap: { width: anchoCol, useAdvancedWrap: true } }).setOrigin(0.5, 0);   // en 2 renglones si no cabe
+    const pun = mision.texto(0, 0, idioma.t('Puntaje: {n} de 100', { n: c.puntaje }), { fontSize: `${tam}px`, color: '#5a4a3a',
+      align: 'center', wordWrap: { width: anchoCol, useAdvancedWrap: true } }).setOrigin(0.5, 0);
+    const colMedalla = Math.max(nom.width, pun.width, 70 * k) + 8 * k;
+    const temas = (c.temas ?? []).map(t => ({ t,
+      nombre: mision.texto(0, 0, t.nombre, { fontSize: `${tam}px`, fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0, 0.5),
+      nivel: mision.texto(0, 0, t.nivel.texto, { fontSize: `${tam}px`, color: '#7a4a10' }).setOrigin(0, 0.5) }));
+    const filaMin = tam + 8 * k;
+    const altoTextosMedalla = nom.height + 2 + pun.height + 6 * k;
+
+    // la cita de P.I.E.D.R.A: solo si cabe con la calificación (si no, se omite: ya la dijo la historia con voz)
+    const titulo = mision.texto(libre.w / 2, 0, idioma.t('CALIFICACIÓN DE MISIÓN'), { fontSize: `${Math.max(15, Math.round(17 * k))}px`,
+      fontStyle: 'bold', color: SELLO_TXT, letterSpacing: 2 }).setOrigin(0.5, 0);
+    const altoCalif = titulo.height + 6 * k + Math.max(2.8 * 20 + altoTextosMedalla, 4 * filaMin);
     const cita = mision.texto(libre.w / 2, y, info.cuerpo, { fontSize: `${tam}px`, fontStyle: 'italic', color: TINTA_TXT,
-      align: 'center', lineSpacing: 3, wordWrap: { width: libre.w - 2 * pad, useAdvancedWrap: true } }).setOrigin(0.5, 0);
-    const altoCalif = Math.max(4 * 30 * k, 150 * k) + 2 * pad;
-    if (libre.h - cita.height - 12 * k >= altoCalif) { caja.add(cita); y += cita.height + 12 * k; } else cita.destroy();
+      align: 'center', lineSpacing: 3, wordWrap: { width: ancho, useAdvancedWrap: true } }).setOrigin(0.5, 0);
+    if (libre.h - 2 * pad - cita.height - 10 * k >= altoCalif + 20 * k) { caja.add(cita); y += cita.height + 10 * k; } else cita.destroy();
 
     // calificación: medalla a la izquierda, los cuatro temas con estrellas a la derecha
-    const zonaH = libre.h - y - pad;
-    const titulo = mision.texto(libre.w / 2, y, idioma.t('CALIFICACIÓN DE MISIÓN'), { fontSize: `${Math.max(16, Math.round(17 * k))}px`,
-      fontStyle: 'bold', color: SELLO_TXT, letterSpacing: 2 }).setOrigin(0.5, 0);
+    titulo.setY(y);
     caja.add(titulo);
     y += titulo.height + 6 * k;
+    const zonaH = libre.h - pad - y;
     const g = escena.add.graphics();
     caja.add(g);
-    const r = Math.max(26, Math.min(46 * k, (zonaH - titulo.height) * 0.28));
-    const colMedalla = Math.max(150 * k, r * 3);
-    const mx = pad + colMedalla / 2, my = y + r + 22 * k;
+    // radio: lo que deja libre la altura (las cintas suben 0,8 r sobre el borde de arriba de la medalla)
+    const r = Phaser.Math.Clamp((zonaH - altoTextosMedalla) / 2.8, 14, Math.min(46 * k, colMedalla / 2));
+    const mx = pad + colMedalla / 2, my = y + r * 1.8;
     g.fillStyle(0xb8473d, 1)
       .fillTriangle(mx - r * 0.7, my - r * 1.8, mx - r * 0.1, my - r * 1.8, mx - r * 0.3, my - r * 0.8)
       .fillTriangle(mx + r * 0.1, my - r * 1.8, mx + r * 0.7, my - r * 1.8, mx + r * 0.3, my - r * 0.8);
@@ -75,20 +91,22 @@ export function crearFinal(escena, motivo) {
     g.fillStyle(m.color, 1).fillCircle(mx, my, r * 0.88);
     g.lineStyle(3, m.borde, 1).strokeCircle(mx, my, r * 0.72);
     estrella(g, mx, my, r * 0.44, true, m.borde);
-    const nom = mision.texto(mx, my + r + 6 * k, idioma.t(m.nombre), { fontSize: `${tam}px`, fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0.5, 0);
-    const pun = mision.texto(mx, nom.y + nom.height + 2, idioma.t('Puntaje: {n} de 100', { n: c.puntaje }),
-      { fontSize: `${tam}px`, color: '#5a4a3a' }).setOrigin(0.5, 0);
+    nom.setPosition(mx, my + r + 6 * k);
+    pun.setPosition(mx, nom.y + nom.height + 2);
     caja.add([nom, pun]);
-    // temas
-    const x0 = pad + colMedalla + 14 * k, filaH = Math.max(28 * k, Math.min(40 * k, (libre.h - y - pad) / 4));
-    const radioE = Math.max(8, 11 * k);
-    (c.temas ?? []).forEach((t, i) => {
+    // temas, en columnas alineadas: nombre · estrellas · nivel (el nivel se omite si no cabe: lo dicen las estrellas)
+    const x0 = pad + colMedalla + 12 * k, derecha = libre.w - pad;
+    const filaH = Phaser.Math.Clamp(zonaH / 4, filaMin, 40 * k);
+    const radioE = Math.max(7, Math.min(11 * k, filaH * 0.32));
+    const anchoNombre = Math.max(...temas.map(x => x.nombre.width));
+    const xe = x0 + anchoNombre + 10 * k, xn = xe + radioE * 2.6 * 4 + 6 * k;
+    const conNivel = xn + Math.max(...temas.map(x => x.nivel.width)) <= derecha;
+    temas.forEach(({ t, nombre, nivel }, i) => {
       const yy = y + filaH * (i + 0.5);
-      const nombre = mision.texto(x0, yy, t.nombre, { fontSize: `${tam}px`, fontStyle: 'bold', color: TINTA_TXT }).setOrigin(0, 0.5);
-      const xe = x0 + Math.max(nombre.width + 12 * k, 170 * k);
+      nombre.setPosition(x0, yy);
       for (let s = 0; s < 4; s++) estrella(g, xe + radioE + s * radioE * 2.6, yy, radioE, s < t.nivel.estrellas, TINTA);
-      const nivel = mision.texto(xe + radioE * 2.6 * 4 + 8 * k, yy, t.nivel.texto, { fontSize: `${tam}px`, color: '#7a4a10' }).setOrigin(0, 0.5);
-      caja.add([nombre, nivel]);
+      caja.add(nombre);
+      if (conNivel) { nivel.setPosition(xn, yy); caja.add(nivel); } else nivel.destroy();
     });
     // la frase de P.I.E.D.R.A sobre la medalla, abajo, si cabe
     const frase = mision.texto(libre.w / 2, libre.h - pad, `P.I.E.D.R.A: «${idioma.traducir(m.frase)}»`, { fontSize: `${tam}px`,

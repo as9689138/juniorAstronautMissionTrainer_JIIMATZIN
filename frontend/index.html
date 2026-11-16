@@ -9,7 +9,8 @@
 <link rel="icon" type="image/png" href="assets/portada/insignia.png">
 <style>
   html, body { margin: 0; height: 100%; background: #120d0c; overflow: hidden; }
-  #juego { position: fixed; inset: 0; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+  /* En teléfonos con muesca (viewport-fit=cover) el juego queda dentro de la zona segura: nada bajo la muesca ni la barra de inicio */
+  #juego { position: fixed; inset: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
   /* El juego es horizontal: en un teléfono o tableta en vertical se pide girarlo */
   #girar { display: none; position: fixed; inset: 0; z-index: 100; background: #1d1238; color: #fff8ea;
     font: 600 19px/1.4 system-ui, sans-serif; text-align: center; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 24px; }
