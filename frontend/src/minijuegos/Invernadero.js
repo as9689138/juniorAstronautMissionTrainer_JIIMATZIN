@@ -60,7 +60,7 @@ export class GreenhouseScene extends Phaser.Scene {
       card.setInteractive({ useHandCursor: true }).on("pointerdown", () => this.selectPlant(index));
       this.mision.etiqueta(x, 214, plant.name, { tam: 16 });
       // Medidor dibujado: las 2 gotas que necesita (llenas o apagadas)
-      const gotas = [-24, 24].map(dx => this.add.image(x + dx, 440, "mis_gota").setDisplaySize(40, 40));   // grandes: se ven en el teléfono
+      const gotas = [-27, 27].map(dx => this.add.image(x + dx, 440, "mis_gota").setDisplaySize(48, 48));   // grandes: se ven en el teléfono
       const aviso = this.mision.etiqueta(x, 472, "¡Moho!", { tam: 14, color: "#ffb4a8" }).setVisible(false);
       this.plantViews.push({ x, flower, stem, card, moho, gotas, aviso });
     });

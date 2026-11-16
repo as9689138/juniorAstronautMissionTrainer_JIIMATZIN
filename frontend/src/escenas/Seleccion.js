@@ -83,7 +83,7 @@ export default class Seleccion extends Phaser.Scene {
     // compacto: teléfono en horizontal (iPhone SE/mini y parecidos): cabecera baja y cartas con menos líneas
     const compacto = !vertical && h < 560;
     const n = 3, sep = compacto ? 10 : 16;
-    const yDif = h - (compacto ? 30 : 34);
+    const yDif = h - (compacto ? 38 : 40);   // la fila de dificultad con aire abajo (antes quedaba a 7 px del borde)
     let arriba = 104;
     if (compacto) {
       this.tituloTxt.setPosition(w / 2, h < 420 ? 22 : 30).setFontSize(h < 420 ? 22 : 28);

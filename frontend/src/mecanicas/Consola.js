@@ -93,8 +93,8 @@ export default class Consola extends Phaser.Scene {
       const ico = Math.min(42 * k, rowH - 18);
       c.add(this.add.image(pad + ico / 2, rowH / 2, `icono_${s.recurso}`).setDisplaySize(ico, ico));
       // teclas − y + (a la derecha) y los 3 huecos de núcleo
-      const mas = m.tecla(k, { texto: '+', ancho: 52, estado: quedan > 0 && val < 3 ? 'accion' : 'espera', alPulsar: () => this.cambiar(s.key, 1) });
-      const menos = m.tecla(k, { texto: '−', ancho: 52, estado: val > 0 ? 'accion' : 'espera', alPulsar: () => this.cambiar(s.key, -1) });
+      const mas = m.tecla(k, { texto: '+', ancho: Math.max(52, 46 / k), estado: quedan > 0 && val < 3 ? 'accion' : 'espera', alPulsar: () => this.cambiar(s.key, 1) });
+      const menos = m.tecla(k, { texto: '−', ancho: Math.max(52, 46 / k), estado: val > 0 ? 'accion' : 'espera', alPulsar: () => this.cambiar(s.key, -1) });
       mas.c.setPosition(x0 + rowW - pad - mas.w / 2, y + rowH / 2);
       menos.c.setPosition(mas.c.x - mas.w / 2 - 8 * k - menos.w / 2, y + rowH / 2);
       const hueco = Math.min(36 * k, rowH - 22);

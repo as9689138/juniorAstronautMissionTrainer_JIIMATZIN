@@ -220,9 +220,11 @@ export default class Interfaz extends Phaser.Scene {
     const estrecho = w < 236 * e + ANCHO_FICHA * e + BOTON_SONIDO * e + 4 * margen;   // no caben lado a lado
     this.ficha.setScale(e).setPosition(estrecho ? margen + ANCHO_FICHA * e : w - margen, estrecho ? margen * 2 + 124 * e : margen);
     // Silencio: a la izquierda de la ficha; en el teléfono, en la esquina de arriba a la derecha
-    this.botonSonido.setScale(e).setPosition(
-      estrecho ? w - margen - BOTON_SONIDO * e / 2 : w - margen - ANCHO_FICHA * e - 10 * e - BOTON_SONIDO * e / 2,
-      margen + BOTON_SONIDO * e / 2 + (estrecho ? 0 : 10 * e));
+    // el botón nunca baja de 44 px (se toca con el dedo), aunque el resto del tablero se encoja
+    const eSon = Math.max(e, 44 / BOTON_SONIDO);
+    this.botonSonido.setScale(eSon).setPosition(
+      estrecho ? w - margen - BOTON_SONIDO * eSon / 2 : w - margen - ANCHO_FICHA * e - 10 * e - 12 - BOTON_SONIDO * eSon / 2,
+      margen + BOTON_SONIDO * eSon / 2 + (estrecho ? 0 : 10 * e));
     this.textoClima.setFontSize(Math.max(16, Math.round(14 * e))).setPosition(this.ficha.x, this.ficha.y + 70 * e);
     this.banderin.setScale(e).setPosition(w / 2, (estrecho ? h - 130 * e : 34 * e));
     const escalaCartel = Math.min(e, (w - 24) / 560);
@@ -233,7 +235,7 @@ export default class Interfaz extends Phaser.Scene {
     const eToque = this.tactil ? Math.max(e, 1.2) : Math.max(e, 0.95);
     this.escalaAviso = eToque;
     // Minimapa: debajo de la ficha del Sol (y del clima real, si lo hay); en el teléfono, debajo del botón de silencio
-    const yMini = estrecho ? margen + BOTON_SONIDO * e + 8 * e
+    const yMini = estrecho ? margen + BOTON_SONIDO * Math.max(e, 44 / BOTON_SONIDO) + 8 * e
       : margen + 64 * e + 10 * e + (this.textoClima.visible ? 24 * e : 0);
     this.minimapa.colocar(w - margen, yMini, e, estrecho ? w - margen * 2 - 236 * e - 8 : Infinity);
     // Si la pantalla es angosta, el aviso sube para no encimarse con el botón del álbum (abajo a la derecha)
