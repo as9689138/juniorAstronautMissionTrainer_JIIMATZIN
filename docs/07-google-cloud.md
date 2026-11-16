@@ -1,6 +1,6 @@
 # Despliegue en Google Cloud
 
-Cómo subir el juego y la API a Google Cloud. Nadie lo ha desplegado todavía: estos pasos los corre quien tenga la
+Cómo se subieron el juego y la API a Google Cloud. **Ya está desplegado**: <https://project-dd0f486a-7a8b-44de-86e.web.app> (`/health` y `/health/listo` responden `ok`). Los pasos quedan como guía para repetirlo o actualizarlo y los corre quien tenga la
 cuenta del equipo (con facturación activa). Ningún secreto va al repositorio ni a un chat.
 
 ```mermaid
@@ -93,6 +93,8 @@ firebase deploy --only hosting
 día y la primera partida baja unos 15 a 20 MB: para una clase conviene el plan de pago por uso (Blaze), que es barato.
 
 ## 8. Comprobar
+
+Sitio desplegado: <https://project-dd0f486a-7a8b-44de-86e.web.app>. Con este sitio el juego y la API comparten dominio.
 
 1. `https://<PROYECTO>.web.app/health` → `{"estado":"ok"}` y `/health/listo` → `{"estado":"ok","bd":"ok"}`.
 2. Jugar un sol completo y dormir en el Refugio: la partida se guarda al terminar el sol.

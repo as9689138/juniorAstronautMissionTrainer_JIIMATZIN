@@ -63,14 +63,14 @@ The scientific importers (`src/importador/`) and the game-breakdown importer (`s
 
 ## Deployment
 
-The game is published on **GitHub Pages** with `.github/workflows/pages.yml` on every push to `main`. The intended destination for the API is Google Cloud (Firebase Hosting, Cloud Run and Cloud SQL); the steps are in [07-google-cloud.md](07-google-cloud.md) and have not been run yet. See [diagram 16](14-system-flows.md#16-deployment).
+The system is deployed in two places. The main one is **Google Cloud** (<https://project-dd0f486a-7a8b-44de-86e.web.app>): Firebase Hosting serves the game and forwards `/api/**` and `/health` to the API on Cloud Run, which uses Cloud SQL; the steps are in [07-google-cloud.md](07-google-cloud.md). In addition, **GitHub Pages** (<https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/>) publishes a static copy of the game with `.github/workflows/pages.yml` on every push to `main`, with no API. See [diagram 16](14-system-flows.md#16-deployment).
 
 ```mermaid
 flowchart LR
-    GH[GitHub Pages<br/>Phaser build] -- "HTTPS · VITE_API_URL" --> API[Cloud Run<br/>Node API]
+    GH[GitHub Pages<br/>static copy, no API] -. "only with VITE_API_URL" .-> API[Cloud Run<br/>Node API]
     FH[Firebase Hosting<br/>same domain] -- "/api/** and /health" --> API
     API --> PG[(Cloud SQL<br/>PostgreSQL 17)]
     API --> NASA[NASA DONKI]
 ```
 
-GitHub Pages only serves static files: dynamic endpoints need a host that runs a server and can reach PostgreSQL. Requirements: `DATABASE_URL` only on the server, a list of CORS origins and backups.
+GitHub Pages only serves static files: without `VITE_API_URL` the game uses the fallback in `public/escenarios/` and does not store sessions on the server. For Pages to use the cloud API it would have to be built with `VITE_API_URL` and its origin added to `CORS_ORIGINS`. API requirements: `DATABASE_URL` only on the server, a list of CORS origins and backups.

@@ -109,5 +109,5 @@ llamaradas. Ver [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md) y el
 ## Despliegue
 
 Se publica como archivos estáticos (`pnpm --filter @jiimatzin/frontend construir` → `frontend/dist`): en GitHub Pages
-con el flujo `.github/workflows/pages.yml` (cada push a `main`) o en Firebase Hosting. Ver el
+con el flujo `.github/workflows/pages.yml` (cada push a `main`, <https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/>) y en Firebase Hosting (<https://project-dd0f486a-7a8b-44de-86e.web.app>), que además reenvía `/api/**` a la API. Ver el
 [diagrama 16](14-flujos-backend.md#16-despliegue) y [07-google-cloud.md](07-google-cloud.md).

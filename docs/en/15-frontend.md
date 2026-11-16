@@ -93,4 +93,4 @@ It is the only part with machine learning and it works without a server: BKT to 
 
 ## Deployment
 
-It is published as static files (`pnpm --filter @jiimatzin/frontend construir` → `frontend/dist`): on GitHub Pages with the `.github/workflows/pages.yml` workflow (every push to `main`) or on Firebase Hosting. See [diagram 16](14-system-flows.md#16-deployment) and [07-google-cloud.md](07-google-cloud.md).
+It is published as static files (`pnpm --filter @jiimatzin/frontend construir` → `frontend/dist`): on GitHub Pages with the `.github/workflows/pages.yml` workflow (every push to `main`, <https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/>) and on Firebase Hosting (<https://project-dd0f486a-7a8b-44de-86e.web.app>), which also forwards `/api/**` to the API. See [diagram 16](14-system-flows.md#16-deployment) and [07-google-cloud.md](07-google-cloud.md).

@@ -37,6 +37,8 @@ El backend se despliega configurado **solo por variables de entorno**, definidas
 
 ## Despliegue
 
+En producción el sitio principal es <https://project-dd0f486a-7a8b-44de-86e.web.app> (Google Cloud, mismo dominio para el juego y la API). El diagrama siguiente es el esquema general con el juego en un dominio distinto, como en GitHub Pages.
+
 ```mermaid
 flowchart LR
     F["Front estático<br/>(GitHub Pages)<br/>VITE_API_URL"] -- "HTTPS" --> A["API Node<br/>variables del panel"]
@@ -59,7 +61,8 @@ El diagrama completo con Google Cloud está en el [diagrama 16](14-flujos-backen
 
 ## Pendiente
 
-- Hosting: Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL). Pasos en [07-google-cloud.md](07-google-cloud.md); falta ejecutarlos con la cuenta del equipo.
+- Hosting: **resuelto**. Desplegado en Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL) en <https://project-dd0f486a-7a8b-44de-86e.web.app>; pasos en [07-google-cloud.md](07-google-cloud.md).
+- Decidir si GitHub Pages (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/) debe usar la API de la nube: hoy se compila sin `VITE_API_URL` y la API no tiene su origen en `CORS_ORIGINS`.
 - Decidir quién ejecuta las migraciones en cada despliegue (manual o paso del pipeline).
 - Registro estructurado, si el tráfico lo justifica (la limitación de tasa por IP ya existe).
 - Política de conservación de las partidas anónimas (propuesta: 12 meses); ver [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md).

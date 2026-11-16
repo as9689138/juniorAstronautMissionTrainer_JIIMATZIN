@@ -49,6 +49,15 @@ jiimatzin/
 
 Cada funcionalidad del backend reúne su modelo, vista JSON, controlador, rutas y repositorio. Detalle en [backend/README.md](backend/README.md).
 
+## Dónde está publicado
+
+| Sitio | URL | Qué incluye |
+| --- | --- | --- |
+| Google Cloud (principal) | <https://project-dd0f486a-7a8b-44de-86e.web.app> | Juego en Firebase Hosting, API en Cloud Run y PostgreSQL en Cloud SQL, bajo el mismo dominio (`/api/**` y `/health` van a la API). Guarda las partidas anónimas |
+| GitHub Pages | <https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/> | Solo el juego estático, sin API: usa el respaldo de `public/escenarios/` y su cola local de partidas no llega a ningún servidor mientras no se compile con `VITE_API_URL` |
+
+Estado comprobado el 2026-11-15: `/health` y `/health/listo` responden `ok` en la nube y `/api/v1/scenarios` devuelve una lista vacía porque aún no se publica ningún escenario.
+
 ## Puesta en marcha
 
 Requisitos: Node ≥ 22.9, pnpm (`corepack enable`) y Docker (o un PostgreSQL local).
@@ -99,8 +108,8 @@ Formato y errores en [docs/04-api.md](docs/04-api.md).
 1. **Base de datos e importadores:** hecho. Modelos `ciencia`, `juego` y `aprendizaje`, cargas idempotentes y controles de publicación. Ver [importación científica](docs/05-importacion.md) y [contenido del juego](docs/12-contenido-juego.md).
 2. **Escenarios:** hecho. Endpoints conectados a `ciencia` mediante `juego`, contrato 2, versiones de reglas, catálogo fijado y respaldo estático. La publicación de la misión y sus parámetros editoriales se administran por CLI.
 3. **Integración con el juego:** hecho. El juego en Phaser carga el escenario desde la API (con respaldo), muestra las fichas «Dato real», las llamaradas de DONKI y guarda partidas anónimas. Ver [arquitectura del frontend](docs/15-frontend.md).
-4. **Despliegue:** el juego se publica en GitHub Pages con cada push a `main`. La API en Google Cloud (Cloud Run y Cloud SQL) está documentada en [docs/07-google-cloud.md](docs/07-google-cloud.md), pero aún no se ha ejecutado.
-5. **Pendiente:** publicar el primer escenario con datos reales, revisión por hablantes nativos de los textos en inglés y decidir la política de conservación de las partidas.
+4. **Despliegue:** hecho. El juego completo con su API vive en Google Cloud (https://project-dd0f486a-7a8b-44de-86e.web.app: Firebase Hosting, Cloud Run y Cloud SQL, ver [docs/07-google-cloud.md](docs/07-google-cloud.md)) y una copia estática se publica en GitHub Pages con cada push a `main` (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/). Ver [Dónde está publicado](#dónde-está-publicado).
+5. **Pendiente:** publicar el primer escenario con datos reales (`/api/v1/scenarios` aún responde sin escenarios), revisión por hablantes nativos de los textos en inglés y decidir la política de conservación de las partidas.
 
 ## Documentación y colaboración
 

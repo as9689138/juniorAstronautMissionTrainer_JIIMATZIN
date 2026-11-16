@@ -67,17 +67,15 @@ Este refactor conserva los endpoints, el esquema de PostgreSQL y el contrato del
 
 ## Despliegue
 
-El juego se publica hoy en **GitHub Pages** con `.github/workflows/pages.yml` en cada push a `main`. El destino previsto
-para la API es Google Cloud (Firebase Hosting, Cloud Run y Cloud SQL), con los pasos en
-[07-google-cloud.md](07-google-cloud.md); todavía no se ha ejecutado. Ver el [diagrama 16](14-flujos-backend.md#16-despliegue).
+El sistema está desplegado en dos sitios. El principal es **Google Cloud** (<https://project-dd0f486a-7a8b-44de-86e.web.app>): Firebase Hosting sirve el juego y reenvía `/api/**` y `/health` a la API en Cloud Run, que usa Cloud SQL; los pasos están en [07-google-cloud.md](07-google-cloud.md). Además, **GitHub Pages** (<https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/>) publica una copia estática del juego con `.github/workflows/pages.yml` en cada push a `main`, sin API. Ver el [diagrama 16](14-flujos-backend.md#16-despliegue).
 
 ```mermaid
 flowchart LR
-    GH[GitHub Pages<br/>build de Phaser] -- "HTTPS · VITE_API_URL" --> API[Cloud Run<br/>API Node]
+    GH[GitHub Pages<br/>copia estática, sin API] -. "solo con VITE_API_URL" .-> API[Cloud Run<br/>API Node]
     FH[Firebase Hosting<br/>mismo dominio] -- "/api/** y /health" --> API
     API --> PG[(Cloud SQL<br/>PostgreSQL 17)]
     API --> NASA[NASA DONKI]
 ```
 
-GitHub Pages solo sirve estáticos: los endpoints dinámicos necesitan un host con ejecución de servidor y acceso a PostgreSQL.
-Requisitos: `DATABASE_URL` solo en servidor, lista de orígenes CORS y copias de seguridad.
+GitHub Pages solo sirve estáticos: sin `VITE_API_URL` el juego usa el respaldo de `public/escenarios/` y no guarda partidas en el servidor. Para que Pages use la API de la nube haría falta compilar con `VITE_API_URL` y añadir su origen a `CORS_ORIGINS`.
+Requisitos de la API: `DATABASE_URL` solo en servidor, lista de orígenes CORS y copias de seguridad.

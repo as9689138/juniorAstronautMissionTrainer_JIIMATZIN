@@ -2,7 +2,7 @@
 
 > English version of [../07-google-cloud.md](../07-google-cloud.md).
 
-How to put the game and the API on Google Cloud. Nobody has deployed it yet: these steps are to be run by whoever holds the team's account (with billing enabled). No secret goes into the repository or a chat.
+How the game and the API were put on Google Cloud. **It is already deployed**: <https://project-dd0f486a-7a8b-44de-86e.web.app> (`/health` and `/health/listo` answer `ok`). The steps remain as a guide to repeat or update it and are to be run by whoever holds the team's account (with billing enabled). No secret goes into the repository or a chat.
 
 ```mermaid
 flowchart LR
@@ -89,6 +89,8 @@ firebase deploy --only hosting
 `firebase.json` (root) already has the redirects to `jiimatzin-api`. Firebase's free plan transfers 360 MB per day and the first game downloads about 15 to 20 MB: for a class the pay-as-you-go plan (Blaze) is advisable, and it is cheap.
 
 ## 8. Check
+
+Deployed site: <https://project-dd0f486a-7a8b-44de-86e.web.app>. On this site the game and the API share a domain.
 
 1. `https://<PROJECT>.web.app/health` → `{"estado":"ok"}` and `/health/listo` → `{"estado":"ok","bd":"ok"}`.
 2. Play a full sol and sleep in the Refuge: the session is saved when the sol ends.

@@ -69,7 +69,7 @@ usan `juego` y fijan miembros de `ciencia`; el adaptador consume `schemaVersion:
 
 ## Pendiente
 
-Publicación del primer escenario, integración del motor visual y despliegue.
+Publicación del primer escenario con datos reales (la API ya está desplegada en Google Cloud, pero aún responde sin escenarios).
 Las entradas narrativas del desglose conservan una revisión independiente de las
 fichas científicas; los efectos de cartas descritos en texto siguen pendientes
 de parámetros. Ver [contenido del juego](../docs/12-contenido-juego.md).

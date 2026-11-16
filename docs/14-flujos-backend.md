@@ -518,8 +518,8 @@ flowchart TD
 
 El juego es estático y puede publicarse en GitHub Pages (automático con cada push a `main`) o en Firebase
 Hosting; con Firebase, `/api/**` y `/health` pasan por el mismo dominio a Cloud Run y no hace falta CORS.
-La API y las migraciones salen de la misma imagen. Pasos en [07-google-cloud.md](07-google-cloud.md); el
-despliegue en Google Cloud todavía no se ha ejecutado.
+La API y las migraciones salen de la misma imagen. Pasos en [07-google-cloud.md](07-google-cloud.md). Ambos sitios
+ya están publicados: Google Cloud (<https://project-dd0f486a-7a8b-44de-86e.web.app>, con API y base de datos) y GitHub Pages (<https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/>, solo el juego estático).
 
 <!-- archivo: flujo-16-despliegue -->
 ```mermaid

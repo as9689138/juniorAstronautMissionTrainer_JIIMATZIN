@@ -469,7 +469,7 @@ flowchart TD
 
 ## 16. Deployment
 
-The game is static and can be published on GitHub Pages (automatic on every push to `main`) or on Firebase Hosting; with Firebase, `/api/**` and `/health` go through the same domain to Cloud Run and no CORS is needed. The API and the migrations come from the same image. Steps in [07-google-cloud.md](07-google-cloud.md); the Google Cloud deployment has not been run yet.
+The game is static and can be published on GitHub Pages (automatic on every push to `main`) or on Firebase Hosting; with Firebase, `/api/**` and `/health` go through the same domain to Cloud Run and no CORS is needed. The API and the migrations come from the same image. Steps in [07-google-cloud.md](07-google-cloud.md). Both sites are already published: Google Cloud (<https://project-dd0f486a-7a8b-44de-86e.web.app>, with API and database) and GitHub Pages (<https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/>, static game only).
 
 ```mermaid
 flowchart LR

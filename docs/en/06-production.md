@@ -39,6 +39,8 @@ The back end is deployed configured **only by environment variables**, defined i
 
 ## Deployment
 
+In production the main site is <https://project-dd0f486a-7a8b-44de-86e.web.app> (Google Cloud, the game and the API share a domain). The diagram below is the general scheme with the game on a different domain, as on GitHub Pages.
+
 ```mermaid
 flowchart LR
     F["Static front end<br/>(GitHub Pages)<br/>VITE_API_URL"] -- "HTTPS" --> A["Node API<br/>panel variables"]
@@ -61,7 +63,8 @@ The complete diagram with Google Cloud is [diagram 16](14-system-flows.md#16-dep
 
 ## Pending
 
-- Hosting: Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL). Steps in [07-google-cloud.md](07-google-cloud.md); they still need to be run with the team's account.
+- Hosting: **solved**. Deployed on Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL) at <https://project-dd0f486a-7a8b-44de-86e.web.app>; steps in [07-google-cloud.md](07-google-cloud.md).
+- Decide whether GitHub Pages (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/) should use the cloud API: today it is built without `VITE_API_URL` and the API does not list its origin in `CORS_ORIGINS`.
 - Decide who runs the migrations on each deployment (manual or a pipeline step).
 - Structured logging, if traffic justifies it (per-IP rate limiting already exists).
 - Retention policy for the anonymous sessions (proposal: 12 months); see [16-learning-and-sessions.md](16-learning-and-sessions.md).
