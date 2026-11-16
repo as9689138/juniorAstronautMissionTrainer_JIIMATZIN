@@ -20,6 +20,11 @@ export const IMAGENES = {
   fase_dia: 'assets/interfaz/fase_dia.png',
   fase_noche: 'assets/interfaz/fase_noche.png',
   fase_emergencia: 'assets/interfaz/fase_emergencia.png',
+  // Piezas de las misiones, con el mismo estilo (herramientas/pintar_misiones.py; las usa src/minijuegos/mision.js)
+  ...Object.fromEntries(['marco', 'tecla_ambar', 'tecla_verde', 'tecla_apagada', 'meta', 'nucleo', 'nucleo_vacio']
+    .map(k => [`mis_${k}`, `assets/misiones/${k}.png`])),
+  ...Object.fromEntries(['reloj', 'polvo', 'vibrar', 'mano', 'pieza', 'gota', 'ventilador', 'planta']
+    .map(k => [`mis_${k}`, `assets/misiones/icono_${k}.png`])),
   // Los tres personajes (dibujos de la compañera de arte)
   retrato_wenceslao: 'assets/personajes/wenceslao.png',
   retrato_judith: 'assets/personajes/judith.png',
@@ -64,6 +69,7 @@ export const DATOS = {
   historia: 'historia/historia.json',
   voces: 'assets/audio/voces/audios.json',
   lineas_en: 'assets/audio/voces/lineas_es_en.json',   // inglés de las 213 líneas con voz (rol 5)
+  voces_en: 'assets/audio/voces/en/indice.json',       // las líneas de Wenceslao, Judith y Atlas grabadas en inglés
   // Voz de la IA para lo que arma el juego y para el inglés (misma voz que el rol 5: Chatterbox clonando IA.wav;
   // la generan los scripts de voces_ia/, ver assets/audio/voces/ia/LEEME.md)
   voces_ia: 'assets/audio/voces/ia/indice.json',

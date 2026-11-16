@@ -1,0 +1,4802 @@
+[
+ {
+  "id": "ia_juego_en_001",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 1 of 10. It’s 6 in the morning at Mars Base One. Good morning, engineer Wenceslao! The sun is rising.",
+  "texto_tts": "Sol one of ten. It’s six in the morning at Mars Base One. Good morning, engineer Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_002",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 2 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol two of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_003",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 3 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol three of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_004",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 4 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol four of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_005",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 5 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol five of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_006",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 6 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol six of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_007",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 7 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol seven of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_008",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 8 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol eight of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_009",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 9 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol nine of ten. It’s six in the morning: good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_010",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 10 of 10, the last one. It’s 6 in the morning. Good morning, Wenceslao! The sun is rising.",
+  "texto_tts": "Sol ten of ten, the last one. It’s six in the morning. Good morning, Wenceslao! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_011",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 1 of 10. It’s 6 in the morning at Mars Base One. Good morning, scientist Judith! The sun is rising.",
+  "texto_tts": "Sol one of ten. It’s six in the morning at Mars Base One. Good morning, scientist Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_012",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 2 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol two of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_013",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 3 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol three of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_014",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 4 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol four of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_015",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 5 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol five of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_016",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 6 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol six of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_017",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 7 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol seven of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_018",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 8 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol eight of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_019",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 9 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol nine of ten. It’s six in the morning: good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_020",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 10 of 10, the last one. It’s 6 in the morning. Good morning, Judith! The sun is rising.",
+  "texto_tts": "Sol ten of ten, the last one. It’s six in the morning. Good morning, Judith! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_021",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 1 of 10. It’s 6 in the morning at Mars Base One. Good morning, doctor Atlas! The sun is rising.",
+  "texto_tts": "Sol one of ten. It’s six in the morning at Mars Base One. Good morning, doctor Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_022",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 2 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol two of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_023",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 3 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol three of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_024",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 4 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol four of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_025",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 5 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol five of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_026",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 6 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol six of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_027",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 7 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol seven of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_028",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 8 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol eight of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_029",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 9 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol nine of ten. It’s six in the morning: good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_030",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sol 10 of 10, the last one. It’s 6 in the morning. Good morning, Atlas! The sun is rising.",
+  "texto_tts": "Sol ten of ten, the last one. It’s six in the morning. Good morning, Atlas! The sun is rising."
+ },
+ {
+  "id": "ia_juego_en_031",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today’s energy has already been shared out. The console opens again tomorrow.",
+  "texto_tts": "Today’s energy has already been shared out. The console opens again tomorrow."
+ },
+ {
+  "id": "ia_juego_en_032",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First share out the energy at the Command console.",
+  "texto_tts": "First share out the energy at the Command console."
+ },
+ {
+  "id": "ia_juego_en_033",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "There’s no sunlight to work here right now.",
+  "texto_tts": "There’s no sunlight to work here right now."
+ },
+ {
+  "id": "ia_juego_en_034",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "This task is already done today. Good job!",
+  "texto_tts": "This task is already done today. Good job!"
+ },
+ {
+  "id": "ia_juego_en_035",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The shelter has water walls against radiation. We sleep here when night falls.",
+  "texto_tts": "The shelter has water walls against radiation. We sleep here when night falls."
+ },
+ {
+  "id": "ia_juego_en_036",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The antenna talks to Earth. Each message takes 3 to 22 minutes to arrive, depending on where the two planets are.",
+  "texto_tts": "The antenna talks to Earth. Each message takes three to twenty-two minutes to arrive, depending on where the two planets are."
+ },
+ {
+  "id": "ia_juego_en_037",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "It’s 8 at night.",
+  "texto_tts": "It’s eight at night."
+ },
+ {
+  "id": "ia_juego_en_038",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Night has fallen and the solar panels are resting.",
+  "texto_tts": "Night has fallen and the solar panels are resting."
+ },
+ {
+  "id": "ia_juego_en_039",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 3 energy.",
+  "texto_tts": "The systems use three energy."
+ },
+ {
+  "id": "ia_juego_en_040",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 4 energy.",
+  "texto_tts": "The systems use four energy."
+ },
+ {
+  "id": "ia_juego_en_041",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 5 energy.",
+  "texto_tts": "The systems use five energy."
+ },
+ {
+  "id": "ia_juego_en_042",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 6 energy.",
+  "texto_tts": "The systems use six energy."
+ },
+ {
+  "id": "ia_juego_en_043",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 7 energy.",
+  "texto_tts": "The systems use seven energy."
+ },
+ {
+  "id": "ia_juego_en_044",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 8 energy.",
+  "texto_tts": "The systems use eight energy."
+ },
+ {
+  "id": "ia_juego_en_045",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 9 energy.",
+  "texto_tts": "The systems use nine energy."
+ },
+ {
+  "id": "ia_juego_en_046",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 10 energy.",
+  "texto_tts": "The systems use ten energy."
+ },
+ {
+  "id": "ia_juego_en_047",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 11 energy.",
+  "texto_tts": "The systems use eleven energy."
+ },
+ {
+  "id": "ia_juego_en_048",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 12 energy.",
+  "texto_tts": "The systems use twelve energy."
+ },
+ {
+  "id": "ia_juego_en_049",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 13 energy.",
+  "texto_tts": "The systems use thirteen energy."
+ },
+ {
+  "id": "ia_juego_en_050",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 14 energy.",
+  "texto_tts": "The systems use fourteen energy."
+ },
+ {
+  "id": "ia_juego_en_051",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 15 energy.",
+  "texto_tts": "The systems use fifteen energy."
+ },
+ {
+  "id": "ia_juego_en_052",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 16 energy.",
+  "texto_tts": "The systems use sixteen energy."
+ },
+ {
+  "id": "ia_juego_en_053",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 17 energy.",
+  "texto_tts": "The systems use seventeen energy."
+ },
+ {
+  "id": "ia_juego_en_054",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 18 energy.",
+  "texto_tts": "The systems use eighteen energy."
+ },
+ {
+  "id": "ia_juego_en_055",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 19 energy.",
+  "texto_tts": "The systems use nineteen energy."
+ },
+ {
+  "id": "ia_juego_en_056",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 20 energy.",
+  "texto_tts": "The systems use twenty energy."
+ },
+ {
+  "id": "ia_juego_en_057",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 21 energy.",
+  "texto_tts": "The systems use twenty-one energy."
+ },
+ {
+  "id": "ia_juego_en_058",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 22 energy.",
+  "texto_tts": "The systems use twenty-two energy."
+ },
+ {
+  "id": "ia_juego_en_059",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 23 energy.",
+  "texto_tts": "The systems use twenty-three energy."
+ },
+ {
+  "id": "ia_juego_en_060",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 24 energy.",
+  "texto_tts": "The systems use twenty-four energy."
+ },
+ {
+  "id": "ia_juego_en_061",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 25 energy.",
+  "texto_tts": "The systems use twenty-five energy."
+ },
+ {
+  "id": "ia_juego_en_062",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 26 energy.",
+  "texto_tts": "The systems use twenty-six energy."
+ },
+ {
+  "id": "ia_juego_en_063",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 27 energy.",
+  "texto_tts": "The systems use twenty-seven energy."
+ },
+ {
+  "id": "ia_juego_en_064",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 28 energy.",
+  "texto_tts": "The systems use twenty-eight energy."
+ },
+ {
+  "id": "ia_juego_en_065",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 29 energy.",
+  "texto_tts": "The systems use twenty-nine energy."
+ },
+ {
+  "id": "ia_juego_en_066",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The systems use 30 energy.",
+  "texto_tts": "The systems use thirty energy."
+ },
+ {
+  "id": "ia_juego_en_067",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 1 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s one less than without them."
+ },
+ {
+  "id": "ia_juego_en_068",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 2 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s two less than without them."
+ },
+ {
+  "id": "ia_juego_en_069",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 3 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s three less than without them."
+ },
+ {
+  "id": "ia_juego_en_070",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 4 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s four less than without them."
+ },
+ {
+  "id": "ia_juego_en_071",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 5 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s five less than without them."
+ },
+ {
+  "id": "ia_juego_en_072",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 6 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s six less than without them."
+ },
+ {
+  "id": "ia_juego_en_073",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 7 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s seven less than without them."
+ },
+ {
+  "id": "ia_juego_en_074",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Thanks to your engineering tweaks, Wenceslao, that’s 8 less than without them.",
+  "texto_tts": "Thanks to your engineering tweaks, Wenceslao, that’s eight less than without them."
+ },
+ {
+  "id": "ia_juego_en_075",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Let’s go to the Shelter to rest with the team.",
+  "texto_tts": "Let’s go to the Shelter to rest with the team."
+ },
+ {
+  "id": "ia_juego_en_076",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found.",
+  "texto_tts": "Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found."
+ },
+ {
+  "id": "ia_juego_en_077",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "In 1969, Neil Armstrong was the first person to reach the Moon.",
+  "texto_tts": "In 1969, Neil Armstrong was the first person to reach the Moon."
+ },
+ {
+  "id": "ia_juego_en_078",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…",
+  "texto_tts": "What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…"
+ },
+ {
+  "id": "ia_juego_en_079",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "So… what is it?...",
+  "texto_tts": "So… what is it?..."
+ },
+ {
+  "id": "ia_juego_en_080",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron.",
+  "texto_tts": "Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron."
+ },
+ {
+  "id": "ia_juego_en_081",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…",
+  "texto_tts": "Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…"
+ },
+ {
+  "id": "ia_juego_en_082",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers.",
+  "texto_tts": "Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers."
+ },
+ {
+  "id": "ia_juego_en_083",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…",
+  "texto_tts": "Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…"
+ },
+ {
+  "id": "ia_juego_en_084",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are.",
+  "texto_tts": "Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are."
+ },
+ {
+  "id": "ia_juego_en_085",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Because if you try, you can do it…",
+  "texto_tts": "Because if you try, you can do it…"
+ },
+ {
+  "id": "ia_juego_en_086",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Builds and fixes machines, robots and spaceships.",
+  "texto_tts": "Builds and fixes machines, robots and spaceships."
+ },
+ {
+  "id": "ia_juego_en_087",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Understands how things move and how electricity travels.",
+  "texto_tts": "Understands how things move and how electricity travels."
+ },
+ {
+  "id": "ia_juego_en_088",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Looks after the base’s computers and works with discipline under pressure.",
+  "texto_tts": "Looks after the base’s computers and works with discipline under pressure."
+ },
+ {
+  "id": "ia_juego_en_089",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Studies plants and knows how to care for them in the greenhouse.",
+  "texto_tts": "Studies plants and knows how to care for them in the greenhouse."
+ },
+ {
+  "id": "ia_juego_en_090",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Reads the rocks and the soil to understand what Mars is like.",
+  "texto_tts": "Reads the rocks and the soil to understand what Mars is like."
+ },
+ {
+  "id": "ia_juego_en_091",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Watches the weather: wind, dust and storms.",
+  "texto_tts": "Watches the weather: wind, dust and storms."
+ },
+ {
+  "id": "ia_juego_en_092",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Knows the human body and how to take care of it in space.",
+  "texto_tts": "Knows the human body and how to take care of it in space."
+ },
+ {
+  "id": "ia_juego_en_093",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Gives first aid and keeps the team healthy and calm.",
+  "texto_tts": "Gives first aid and keeps the team healthy and calm."
+ },
+ {
+  "id": "ia_juego_en_094",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Year 2030…",
+  "texto_tts": "Year 2030…"
+ },
+ {
+  "id": "ia_juego_en_095",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston.",
+  "texto_tts": "It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston."
+ },
+ {
+  "id": "ia_juego_en_096",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Since then, humanity has been getting ready to send people to Mars.",
+  "texto_tts": "Since then, humanity has been getting ready to send people to Mars."
+ },
+ {
+  "id": "ia_juego_en_097",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing.",
+  "texto_tts": "Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing."
+ },
+ {
+  "id": "ia_juego_en_098",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "sereno",
+  "texto": "The lights go out one by one.",
+  "texto_tts": "The lights go out one by one."
+ },
+ {
+  "id": "ia_juego_en_099",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sun news from NASA: no solar flares were recorded in the last 7 days. The Sun has been calm.",
+  "texto_tts": "Sun news from NASA: no solar flares were recorded in the last seven days. The Sun has been calm."
+ },
+ {
+  "id": "ia_juego_en_100",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Sun news from NASA: no solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: no solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_101",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "The Sun has been calm.",
+  "texto_tts": "The Sun has been calm."
+ },
+ {
+  "id": "ia_juego_en_102",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 2 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: two solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_103",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 3 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: three solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_104",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 4 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: four solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_105",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 5 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: five solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_106",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 6 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: six solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_107",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 7 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: seven solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_108",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 8 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: eight solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_109",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 9 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: nine solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_110",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 10 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: ten solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_111",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 11 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: eleven solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_112",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 12 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twelve solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_113",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 13 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: thirteen solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_114",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 14 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: fourteen solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_115",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 15 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: fifteen solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_116",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 16 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: sixteen solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_117",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 17 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: seventeen solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_118",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 18 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: eighteen solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_119",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 19 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: nineteen solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_120",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 20 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_121",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 21 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-one solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_122",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 22 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-two solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_123",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 23 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-three solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_124",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 24 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-four solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_125",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 25 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-five solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_126",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 26 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-six solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_127",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 27 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-seven solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_128",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 28 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-eight solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_129",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 29 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: twenty-nine solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_130",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Sun news from NASA: 30 solar flares were recorded in the last 7 days.",
+  "texto_tts": "Sun news from NASA: thirty solar flares were recorded in the last seven days."
+ },
+ {
+  "id": "ia_juego_en_131",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "This is the last saved copy: NASA didn’t respond.",
+  "texto_tts": "This is the last saved copy: NASA didn’t respond."
+ },
+ {
+  "id": "ia_juego_en_132",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Flares are named with letters: A, B, C, M and X. Each letter is ten times stronger than the one before. This happens on the Sun: it is not a measurement on Mars.",
+  "texto_tts": "Flares are named with letters: A, B, C, M and X. Each letter is ten times stronger than the one before. This happens on the Sun: it is not a measurement on Mars."
+ },
+ {
+  "id": "ia_juego_en_133",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Before sharing out, look at the three bars.",
+  "texto_tts": "Before sharing out, look at the three bars."
+ },
+ {
+  "id": "ia_juego_en_134",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The lowest one needs you most.",
+  "texto_tts": "The lowest one needs you most."
+ },
+ {
+  "id": "ia_juego_en_135",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Ask yourself first: which bar is lowest today?",
+  "texto_tts": "Ask yourself first: which bar is lowest today?"
+ },
+ {
+  "id": "ia_juego_en_136",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A hint: the cores go where they are needed most.",
+  "texto_tts": "A hint: the cores go where they are needed most."
+ },
+ {
+  "id": "ia_juego_en_137",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your energy: it is very low.",
+  "texto_tts": "Look at your energy: it is very low."
+ },
+ {
+  "id": "ia_juego_en_138",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Give more cores to the Solar Collectors.",
+  "texto_tts": "Give more cores to the Solar Collectors."
+ },
+ {
+  "id": "ia_juego_en_139",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your energy: it is low.",
+  "texto_tts": "Look at your energy: it is low."
+ },
+ {
+  "id": "ia_juego_en_140",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your energy: it is lower than the rest.",
+  "texto_tts": "Look at your energy: it is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_141",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your oxygen: it is very low.",
+  "texto_tts": "Look at your oxygen: it is very low."
+ },
+ {
+  "id": "ia_juego_en_142",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Give more cores to Life Support.",
+  "texto_tts": "Give more cores to Life Support."
+ },
+ {
+  "id": "ia_juego_en_143",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your oxygen: it is low.",
+  "texto_tts": "Look at your oxygen: it is low."
+ },
+ {
+  "id": "ia_juego_en_144",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your oxygen: it is lower than the rest.",
+  "texto_tts": "Look at your oxygen: it is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_145",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your shielding: it is very low.",
+  "texto_tts": "Look at your shielding: it is very low."
+ },
+ {
+  "id": "ia_juego_en_146",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Give more cores to the Hull Shields.",
+  "texto_tts": "Give more cores to the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_147",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your shielding: it is low.",
+  "texto_tts": "Look at your shielding: it is low."
+ },
+ {
+  "id": "ia_juego_en_148",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Look at your shielding: it is lower than the rest.",
+  "texto_tts": "Look at your shielding: it is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_149",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is very low.",
+  "texto_tts": "Hint: your energy is very low."
+ },
+ {
+  "id": "ia_juego_en_150",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Find its system on the console: the Solar Collectors.",
+  "texto_tts": "Find its system on the console: the Solar Collectors."
+ },
+ {
+  "id": "ia_juego_en_151",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is low.",
+  "texto_tts": "Hint: your energy is low."
+ },
+ {
+  "id": "ia_juego_en_152",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is lower than the rest.",
+  "texto_tts": "Hint: your energy is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_153",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is very low.",
+  "texto_tts": "Hint: your oxygen is very low."
+ },
+ {
+  "id": "ia_juego_en_154",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Find its system on the console: Life Support.",
+  "texto_tts": "Find its system on the console: Life Support."
+ },
+ {
+  "id": "ia_juego_en_155",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is low.",
+  "texto_tts": "Hint: your oxygen is low."
+ },
+ {
+  "id": "ia_juego_en_156",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is lower than the rest.",
+  "texto_tts": "Hint: your oxygen is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_157",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is very low.",
+  "texto_tts": "Hint: your shielding is very low."
+ },
+ {
+  "id": "ia_juego_en_158",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Find its system on the console: the Hull Shields.",
+  "texto_tts": "Find its system on the console: the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_159",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is low.",
+  "texto_tts": "Hint: your shielding is low."
+ },
+ {
+  "id": "ia_juego_en_160",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is lower than the rest.",
+  "texto_tts": "Hint: your shielding is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_161",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today what we need most is energy.",
+  "texto_tts": "Today what we need most is energy."
+ },
+ {
+  "id": "ia_juego_en_162",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You know which system needs cores.",
+  "texto_tts": "You know which system needs cores."
+ },
+ {
+  "id": "ia_juego_en_163",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today what we need most is oxygen.",
+  "texto_tts": "Today what we need most is oxygen."
+ },
+ {
+  "id": "ia_juego_en_164",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today what we need most is shielding.",
+  "texto_tts": "Today what we need most is shielding."
+ },
+ {
+  "id": "ia_juego_en_165",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Let me show you how I think about it.",
+  "texto_tts": "Let me show you how I think about it."
+ },
+ {
+  "id": "ia_juego_en_166",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy is very low.",
+  "texto_tts": "Your energy is very low."
+ },
+ {
+  "id": "ia_juego_en_167",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen is better.",
+  "texto_tts": "Your oxygen is better."
+ },
+ {
+  "id": "ia_juego_en_168",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "So I give more cores to the Solar Collectors.",
+  "texto_tts": "So I give more cores to the Solar Collectors."
+ },
+ {
+  "id": "ia_juego_en_169",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Now you try!",
+  "texto_tts": "Now you try!"
+ },
+ {
+  "id": "ia_juego_en_170",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy is low.",
+  "texto_tts": "Your energy is low."
+ },
+ {
+  "id": "ia_juego_en_171",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy is lower than the rest.",
+  "texto_tts": "Your energy is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_172",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding is better.",
+  "texto_tts": "Your shielding is better."
+ },
+ {
+  "id": "ia_juego_en_173",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen is very low.",
+  "texto_tts": "Your oxygen is very low."
+ },
+ {
+  "id": "ia_juego_en_174",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy is better.",
+  "texto_tts": "Your energy is better."
+ },
+ {
+  "id": "ia_juego_en_175",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "So I give more cores to Life Support.",
+  "texto_tts": "So I give more cores to Life Support."
+ },
+ {
+  "id": "ia_juego_en_176",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen is low.",
+  "texto_tts": "Your oxygen is low."
+ },
+ {
+  "id": "ia_juego_en_177",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen is lower than the rest.",
+  "texto_tts": "Your oxygen is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_178",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding is very low.",
+  "texto_tts": "Your shielding is very low."
+ },
+ {
+  "id": "ia_juego_en_179",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "So I give more cores to the Hull Shields.",
+  "texto_tts": "So I give more cores to the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_180",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding is low.",
+  "texto_tts": "Your shielding is low."
+ },
+ {
+  "id": "ia_juego_en_181",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding is lower than the rest.",
+  "texto_tts": "Your shielding is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_182",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Let’s go step by step.",
+  "texto_tts": "Let’s go step by step."
+ },
+ {
+  "id": "ia_juego_en_183",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First I look for the lowest bar: energy.",
+  "texto_tts": "First I look for the lowest bar: energy."
+ },
+ {
+  "id": "ia_juego_en_184",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Then I give more cores to the Solar Collectors.",
+  "texto_tts": "Then I give more cores to the Solar Collectors."
+ },
+ {
+  "id": "ia_juego_en_185",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Give it a try!",
+  "texto_tts": "Give it a try!"
+ },
+ {
+  "id": "ia_juego_en_186",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First I look for the lowest bar: oxygen.",
+  "texto_tts": "First I look for the lowest bar: oxygen."
+ },
+ {
+  "id": "ia_juego_en_187",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Then I give more cores to Life Support.",
+  "texto_tts": "Then I give more cores to Life Support."
+ },
+ {
+  "id": "ia_juego_en_188",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First I look for the lowest bar: shielding.",
+  "texto_tts": "First I look for the lowest bar: shielding."
+ },
+ {
+  "id": "ia_juego_en_189",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Then I give more cores to the Hull Shields.",
+  "texto_tts": "Then I give more cores to the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_190",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "No hint today, Wenceslao.",
+  "texto_tts": "No hint today, Wenceslao."
+ },
+ {
+  "id": "ia_juego_en_191",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "I trust your plan!",
+  "texto_tts": "I trust your plan!"
+ },
+ {
+  "id": "ia_juego_en_192",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "No hint today, Judith.",
+  "texto_tts": "No hint today, Judith."
+ },
+ {
+  "id": "ia_juego_en_193",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "No hint today, Atlas.",
+  "texto_tts": "No hint today, Atlas."
+ },
+ {
+  "id": "ia_juego_en_194",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You already know how to share out the energy.",
+  "texto_tts": "You already know how to share out the energy."
+ },
+ {
+  "id": "ia_juego_en_195",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "This time the plan is all yours.",
+  "texto_tts": "This time the plan is all yours."
+ },
+ {
+  "id": "ia_juego_en_196",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, zero had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, zero had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_197",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Think about which system protects us.",
+  "texto_tts": "Think about which system protects us."
+ },
+ {
+  "id": "ia_juego_en_198",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, one had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, one had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_199",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, two had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, two had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_200",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, three had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, three had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_201",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, four had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, four had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_202",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, five had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, five had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_203",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, six had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, six had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_204",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, seven had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, seven had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_205",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, eight had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, eight had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_206",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, nine had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, nine had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_207",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast says: out of ten days like today, ten had a strong flare.",
+  "texto_tts": "My forecast says: out of ten days like today, ten had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_208",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "There’s a flare risk.",
+  "texto_tts": "There’s a flare risk."
+ },
+ {
+  "id": "ia_juego_en_209",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The Hull Shields will need cores.",
+  "texto_tts": "The Hull Shields will need cores."
+ },
+ {
+  "id": "ia_juego_en_210",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, zero had a strong flare.",
+  "texto_tts": "Out of ten days like today, zero had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_211",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Put cores in the Shields.",
+  "texto_tts": "Put cores in the Shields."
+ },
+ {
+  "id": "ia_juego_en_212",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, one had a strong flare.",
+  "texto_tts": "Out of ten days like today, one had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_213",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, two had a strong flare.",
+  "texto_tts": "Out of ten days like today, two had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_214",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, three had a strong flare.",
+  "texto_tts": "Out of ten days like today, three had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_215",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, four had a strong flare.",
+  "texto_tts": "Out of ten days like today, four had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_216",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, five had a strong flare.",
+  "texto_tts": "Out of ten days like today, five had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_217",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, six had a strong flare.",
+  "texto_tts": "Out of ten days like today, six had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_218",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, seven had a strong flare.",
+  "texto_tts": "Out of ten days like today, seven had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_219",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, eight had a strong flare.",
+  "texto_tts": "Out of ten days like today, eight had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_220",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, nine had a strong flare.",
+  "texto_tts": "Out of ten days like today, nine had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_221",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Out of ten days like today, ten had a strong flare.",
+  "texto_tts": "Out of ten days like today, ten had a strong flare."
+ },
+ {
+  "id": "ia_juego_en_222",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast warns of a strong flare.",
+  "texto_tts": "My forecast warns of a strong flare."
+ },
+ {
+  "id": "ia_juego_en_223",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Flares damage the shielding.",
+  "texto_tts": "Flares damage the shielding."
+ },
+ {
+  "id": "ia_juego_en_224",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "So I give two cores to the Hull Shields.",
+  "texto_tts": "So I give two cores to the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_225",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You decide how to protect us.",
+  "texto_tts": "You decide how to protect us."
+ },
+ {
+  "id": "ia_juego_en_226",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Great strategy, Wenceslao!",
+  "texto_tts": "Great strategy, Wenceslao!"
+ },
+ {
+  "id": "ia_juego_en_227",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You gave more to what we needed most.",
+  "texto_tts": "You gave more to what we needed most."
+ },
+ {
+  "id": "ia_juego_en_228",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Great strategy, Judith!",
+  "texto_tts": "Great strategy, Judith!"
+ },
+ {
+  "id": "ia_juego_en_229",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Great strategy, Atlas!",
+  "texto_tts": "Great strategy, Atlas!"
+ },
+ {
+  "id": "ia_juego_en_230",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s how to think!",
+  "texto_tts": "That’s how to think!"
+ },
+ {
+  "id": "ia_juego_en_231",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First you checked the bars, then you decided.",
+  "texto_tts": "First you checked the bars, then you decided."
+ },
+ {
+  "id": "ia_juego_en_232",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Very good!",
+  "texto_tts": "Very good!"
+ },
+ {
+  "id": "ia_juego_en_233",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You took care of energy, which was the lowest.",
+  "texto_tts": "You took care of energy, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_234",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You took care of oxygen, which was the lowest.",
+  "texto_tts": "You took care of oxygen, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_235",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You took care of shielding, which was the lowest.",
+  "texto_tts": "You took care of shielding, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_236",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: why did you give more cores to the Solar Collectors?",
+  "texto_tts": "Quick question: why did you give more cores to the Solar Collectors?"
+ },
+ {
+  "id": "ia_juego_en_237",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Exactly!",
+  "texto_tts": "Exactly!"
+ },
+ {
+  "id": "ia_juego_en_238",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Because energy was the lowest.",
+  "texto_tts": "Because energy was the lowest."
+ },
+ {
+  "id": "ia_juego_en_239",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: why did you give more cores to Life Support?",
+  "texto_tts": "Quick question: why did you give more cores to Life Support?"
+ },
+ {
+  "id": "ia_juego_en_240",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Because oxygen was the lowest.",
+  "texto_tts": "Because oxygen was the lowest."
+ },
+ {
+  "id": "ia_juego_en_241",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: why did you give more cores to the Hull Shields?",
+  "texto_tts": "Quick question: why did you give more cores to the Hull Shields?"
+ },
+ {
+  "id": "ia_juego_en_242",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Because shielding was the lowest.",
+  "texto_tts": "Because shielding was the lowest."
+ },
+ {
+  "id": "ia_juego_en_243",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Think for a moment: how did you choose?",
+  "texto_tts": "Think for a moment: how did you choose?"
+ },
+ {
+  "id": "ia_juego_en_244",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Here’s how I saw it: you found the lowest bar and gave it more.",
+  "texto_tts": "Here’s how I saw it: you found the lowest bar and gave it more."
+ },
+ {
+  "id": "ia_juego_en_245",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s deciding with data!",
+  "texto_tts": "That’s deciding with data!"
+ },
+ {
+  "id": "ia_juego_en_246",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your energy was very low.",
+  "texto_tts": "A tip: your energy was very low."
+ },
+ {
+  "id": "ia_juego_en_247",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "It needed more cores to the Solar Collectors.",
+  "texto_tts": "It needed more cores to the Solar Collectors."
+ },
+ {
+  "id": "ia_juego_en_248",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your energy was low.",
+  "texto_tts": "A tip: your energy was low."
+ },
+ {
+  "id": "ia_juego_en_249",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your energy was lower than the rest.",
+  "texto_tts": "A tip: your energy was lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_250",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your oxygen was very low.",
+  "texto_tts": "A tip: your oxygen was very low."
+ },
+ {
+  "id": "ia_juego_en_251",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "It needed more cores to Life Support.",
+  "texto_tts": "It needed more cores to Life Support."
+ },
+ {
+  "id": "ia_juego_en_252",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your oxygen was low.",
+  "texto_tts": "A tip: your oxygen was low."
+ },
+ {
+  "id": "ia_juego_en_253",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your oxygen was lower than the rest.",
+  "texto_tts": "A tip: your oxygen was lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_254",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your shielding was very low.",
+  "texto_tts": "A tip: your shielding was very low."
+ },
+ {
+  "id": "ia_juego_en_255",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "It needed more cores to the Hull Shields.",
+  "texto_tts": "It needed more cores to the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_256",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your shielding was low.",
+  "texto_tts": "A tip: your shielding was low."
+ },
+ {
+  "id": "ia_juego_en_257",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: your shielding was lower than the rest.",
+  "texto_tts": "A tip: your shielding was lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_258",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Almost.",
+  "texto_tts": "Almost."
+ },
+ {
+  "id": "ia_juego_en_259",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "What we needed most was energy.",
+  "texto_tts": "What we needed most was energy."
+ },
+ {
+  "id": "ia_juego_en_260",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Next time, give more cores to the Solar Collectors.",
+  "texto_tts": "Next time, give more cores to the Solar Collectors."
+ },
+ {
+  "id": "ia_juego_en_261",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "What we needed most was oxygen.",
+  "texto_tts": "What we needed most was oxygen."
+ },
+ {
+  "id": "ia_juego_en_262",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Next time, give more cores to Life Support.",
+  "texto_tts": "Next time, give more cores to Life Support."
+ },
+ {
+  "id": "ia_juego_en_263",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "What we needed most was shielding.",
+  "texto_tts": "What we needed most was shielding."
+ },
+ {
+  "id": "ia_juego_en_264",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Next time, give more cores to the Hull Shields.",
+  "texto_tts": "Next time, give more cores to the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_265",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Let’s look at it together.",
+  "texto_tts": "Let’s look at it together."
+ },
+ {
+  "id": "ia_juego_en_266",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy was very low.",
+  "texto_tts": "Your energy was very low."
+ },
+ {
+  "id": "ia_juego_en_267",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen was better.",
+  "texto_tts": "Your oxygen was better."
+ },
+ {
+  "id": "ia_juego_en_268",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s why it was best to give more cores to the Solar Collectors.",
+  "texto_tts": "That’s why it was best to give more cores to the Solar Collectors."
+ },
+ {
+  "id": "ia_juego_en_269",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Try again tomorrow!",
+  "texto_tts": "Try again tomorrow!"
+ },
+ {
+  "id": "ia_juego_en_270",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy was low.",
+  "texto_tts": "Your energy was low."
+ },
+ {
+  "id": "ia_juego_en_271",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy was lower than the rest.",
+  "texto_tts": "Your energy was lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_272",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding was better.",
+  "texto_tts": "Your shielding was better."
+ },
+ {
+  "id": "ia_juego_en_273",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen was very low.",
+  "texto_tts": "Your oxygen was very low."
+ },
+ {
+  "id": "ia_juego_en_274",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your energy was better.",
+  "texto_tts": "Your energy was better."
+ },
+ {
+  "id": "ia_juego_en_275",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s why it was best to give more cores to Life Support.",
+  "texto_tts": "That’s why it was best to give more cores to Life Support."
+ },
+ {
+  "id": "ia_juego_en_276",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen was low.",
+  "texto_tts": "Your oxygen was low."
+ },
+ {
+  "id": "ia_juego_en_277",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your oxygen was lower than the rest.",
+  "texto_tts": "Your oxygen was lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_278",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding was very low.",
+  "texto_tts": "Your shielding was very low."
+ },
+ {
+  "id": "ia_juego_en_279",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s why it was best to give more cores to the Hull Shields.",
+  "texto_tts": "That’s why it was best to give more cores to the Hull Shields."
+ },
+ {
+  "id": "ia_juego_en_280",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding was low.",
+  "texto_tts": "Your shielding was low."
+ },
+ {
+  "id": "ia_juego_en_281",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Your shielding was lower than the rest.",
+  "texto_tts": "Your shielding was lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_282",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "A tip: my forecast said a strong flare.",
+  "texto_tts": "A tip: my forecast said a strong flare."
+ },
+ {
+  "id": "ia_juego_en_283",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "With more cores in the Shields, the shielding stays safe.",
+  "texto_tts": "With more cores in the Shields, the shielding stays safe."
+ },
+ {
+  "id": "ia_juego_en_284",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "My forecast warned of a strong flare.",
+  "texto_tts": "My forecast warned of a strong flare."
+ },
+ {
+  "id": "ia_juego_en_285",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s why it was best to put two cores in the Shields.",
+  "texto_tts": "That’s why it was best to put two cores in the Shields."
+ },
+ {
+  "id": "ia_juego_en_286",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: before choosing, check which of your resources is highest.",
+  "texto_tts": "Hint: before choosing, check which of your resources is highest."
+ },
+ {
+  "id": "ia_juego_en_287",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: spend what you have plenty of and protect what’s low.",
+  "texto_tts": "Hint: spend what you have plenty of and protect what’s low."
+ },
+ {
+  "id": "ia_juego_en_288",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: right now you have more energy.",
+  "texto_tts": "Hint: right now you have more energy."
+ },
+ {
+  "id": "ia_juego_en_289",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Spend what you have plenty of.",
+  "texto_tts": "Spend what you have plenty of."
+ },
+ {
+  "id": "ia_juego_en_290",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: right now you have more oxygen.",
+  "texto_tts": "Hint: right now you have more oxygen."
+ },
+ {
+  "id": "ia_juego_en_291",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: right now you have more shielding.",
+  "texto_tts": "Hint: right now you have more shielding."
+ },
+ {
+  "id": "ia_juego_en_292",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is better and your energy is very low.",
+  "texto_tts": "Hint: your oxygen is better and your energy is very low."
+ },
+ {
+  "id": "ia_juego_en_293",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Choose the option that spends oxygen.",
+  "texto_tts": "Choose the option that spends oxygen."
+ },
+ {
+  "id": "ia_juego_en_294",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is better and your energy is low.",
+  "texto_tts": "Hint: your oxygen is better and your energy is low."
+ },
+ {
+  "id": "ia_juego_en_295",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is better and your energy is lower than the rest.",
+  "texto_tts": "Hint: your oxygen is better and your energy is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_296",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is better and your energy is very low.",
+  "texto_tts": "Hint: your shielding is better and your energy is very low."
+ },
+ {
+  "id": "ia_juego_en_297",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Choose the option that spends shielding.",
+  "texto_tts": "Choose the option that spends shielding."
+ },
+ {
+  "id": "ia_juego_en_298",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is better and your energy is low.",
+  "texto_tts": "Hint: your shielding is better and your energy is low."
+ },
+ {
+  "id": "ia_juego_en_299",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is better and your energy is lower than the rest.",
+  "texto_tts": "Hint: your shielding is better and your energy is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_300",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is better and your oxygen is very low.",
+  "texto_tts": "Hint: your energy is better and your oxygen is very low."
+ },
+ {
+  "id": "ia_juego_en_301",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Choose the option that spends energy.",
+  "texto_tts": "Choose the option that spends energy."
+ },
+ {
+  "id": "ia_juego_en_302",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is better and your oxygen is low.",
+  "texto_tts": "Hint: your energy is better and your oxygen is low."
+ },
+ {
+  "id": "ia_juego_en_303",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is better and your oxygen is lower than the rest.",
+  "texto_tts": "Hint: your energy is better and your oxygen is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_304",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is better and your oxygen is very low.",
+  "texto_tts": "Hint: your shielding is better and your oxygen is very low."
+ },
+ {
+  "id": "ia_juego_en_305",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is better and your oxygen is low.",
+  "texto_tts": "Hint: your shielding is better and your oxygen is low."
+ },
+ {
+  "id": "ia_juego_en_306",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your shielding is better and your oxygen is lower than the rest.",
+  "texto_tts": "Hint: your shielding is better and your oxygen is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_307",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is better and your shielding is very low.",
+  "texto_tts": "Hint: your energy is better and your shielding is very low."
+ },
+ {
+  "id": "ia_juego_en_308",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is better and your shielding is low.",
+  "texto_tts": "Hint: your energy is better and your shielding is low."
+ },
+ {
+  "id": "ia_juego_en_309",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your energy is better and your shielding is lower than the rest.",
+  "texto_tts": "Hint: your energy is better and your shielding is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_310",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is better and your shielding is very low.",
+  "texto_tts": "Hint: your oxygen is better and your shielding is very low."
+ },
+ {
+  "id": "ia_juego_en_311",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is better and your shielding is low.",
+  "texto_tts": "Hint: your oxygen is better and your shielding is low."
+ },
+ {
+  "id": "ia_juego_en_312",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Hint: your oxygen is better and your shielding is lower than the rest.",
+  "texto_tts": "Hint: your oxygen is better and your shielding is lower than the rest."
+ },
+ {
+  "id": "ia_juego_en_313",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "This time the decision is all yours.",
+  "texto_tts": "This time the decision is all yours."
+ },
+ {
+  "id": "ia_juego_en_314",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Well thought out!",
+  "texto_tts": "Well thought out!"
+ },
+ {
+  "id": "ia_juego_en_315",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You spent oxygen, which you had plenty of, and protected energy, which was the lowest.",
+  "texto_tts": "You spent oxygen, which you had plenty of, and protected energy, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_316",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You spent shielding, which you had plenty of, and protected energy, which was the lowest.",
+  "texto_tts": "You spent shielding, which you had plenty of, and protected energy, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_317",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You spent energy, which you had plenty of, and protected oxygen, which was the lowest.",
+  "texto_tts": "You spent energy, which you had plenty of, and protected oxygen, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_318",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You spent shielding, which you had plenty of, and protected oxygen, which was the lowest.",
+  "texto_tts": "You spent shielding, which you had plenty of, and protected oxygen, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_319",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You spent energy, which you had plenty of, and protected shielding, which was the lowest.",
+  "texto_tts": "You spent energy, which you had plenty of, and protected shielding, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_320",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You spent oxygen, which you had plenty of, and protected shielding, which was the lowest.",
+  "texto_tts": "You spent oxygen, which you had plenty of, and protected shielding, which was the lowest."
+ },
+ {
+  "id": "ia_juego_en_321",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "An astronaut’s decision, Wenceslao!",
+  "texto_tts": "An astronaut’s decision, Wenceslao!"
+ },
+ {
+  "id": "ia_juego_en_322",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You protected what we needed most.",
+  "texto_tts": "You protected what we needed most."
+ },
+ {
+  "id": "ia_juego_en_323",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "An astronaut’s decision, Judith!",
+  "texto_tts": "An astronaut’s decision, Judith!"
+ },
+ {
+  "id": "ia_juego_en_324",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "An astronaut’s decision, Atlas!",
+  "texto_tts": "An astronaut’s decision, Atlas!"
+ },
+ {
+  "id": "ia_juego_en_325",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: why didn’t you spend energy?",
+  "texto_tts": "Quick question: why didn’t you spend energy?"
+ },
+ {
+  "id": "ia_juego_en_326",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Of course!",
+  "texto_tts": "Of course!"
+ },
+ {
+  "id": "ia_juego_en_327",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Because it was what we had least of.",
+  "texto_tts": "Because it was what we had least of."
+ },
+ {
+  "id": "ia_juego_en_328",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: why didn’t you spend oxygen?",
+  "texto_tts": "Quick question: why didn’t you spend oxygen?"
+ },
+ {
+  "id": "ia_juego_en_329",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: why didn’t you spend shielding?",
+  "texto_tts": "Quick question: why didn’t you spend shielding?"
+ },
+ {
+  "id": "ia_juego_en_330",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Careful: energy was the lowest and you spent exactly that.",
+  "texto_tts": "Careful: energy was the lowest and you spent exactly that."
+ },
+ {
+  "id": "ia_juego_en_331",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Next time, spend what you have the most of: oxygen.",
+  "texto_tts": "Next time, spend what you have the most of: oxygen."
+ },
+ {
+  "id": "ia_juego_en_332",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Next time, spend what you have the most of: shielding.",
+  "texto_tts": "Next time, spend what you have the most of: shielding."
+ },
+ {
+  "id": "ia_juego_en_333",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Careful: oxygen was the lowest and you spent exactly that.",
+  "texto_tts": "Careful: oxygen was the lowest and you spent exactly that."
+ },
+ {
+  "id": "ia_juego_en_334",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Next time, spend what you have the most of: energy.",
+  "texto_tts": "Next time, spend what you have the most of: energy."
+ },
+ {
+  "id": "ia_juego_en_335",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Careful: shielding was the lowest and you spent exactly that.",
+  "texto_tts": "Careful: shielding was the lowest and you spent exactly that."
+ },
+ {
+  "id": "ia_juego_en_336",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First I look at the lowest bar: energy.",
+  "texto_tts": "First I look at the lowest bar: energy."
+ },
+ {
+  "id": "ia_juego_en_337",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "I protect that one.",
+  "texto_tts": "I protect that one."
+ },
+ {
+  "id": "ia_juego_en_338",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Then I pick the option that spends oxygen, which I have plenty of.",
+  "texto_tts": "Then I pick the option that spends oxygen, which I have plenty of."
+ },
+ {
+  "id": "ia_juego_en_339",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Then I pick the option that spends shielding, which I have plenty of.",
+  "texto_tts": "Then I pick the option that spends shielding, which I have plenty of."
+ },
+ {
+  "id": "ia_juego_en_340",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First I look at the lowest bar: oxygen.",
+  "texto_tts": "First I look at the lowest bar: oxygen."
+ },
+ {
+  "id": "ia_juego_en_341",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Then I pick the option that spends energy, which I have plenty of.",
+  "texto_tts": "Then I pick the option that spends energy, which I have plenty of."
+ },
+ {
+  "id": "ia_juego_en_342",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "First I look at the lowest bar: shielding.",
+  "texto_tts": "First I look at the lowest bar: shielding."
+ },
+ {
+  "id": "ia_juego_en_343",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Time ran out and the base chose on its own.",
+  "texto_tts": "Time ran out and the base chose on its own."
+ },
+ {
+  "id": "ia_juego_en_344",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "If you check the bars first, you decide faster.",
+  "texto_tts": "If you check the bars first, you decide faster."
+ },
+ {
+  "id": "ia_juego_en_345",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: where does our energy come from during the day?",
+  "texto_tts": "Quick question: where does our energy come from during the day?"
+ },
+ {
+  "id": "ia_juego_en_346",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "From the Sun!",
+  "texto_tts": "From the Sun!"
+ },
+ {
+  "id": "ia_juego_en_347",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The panels store it in batteries for the night.",
+  "texto_tts": "The panels store it in batteries for the night."
+ },
+ {
+  "id": "ia_juego_en_348",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Let’s see if you remember: what happens to the panels when they get dusty?",
+  "texto_tts": "Let’s see if you remember: what happens to the panels when they get dusty?"
+ },
+ {
+  "id": "ia_juego_en_349",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "They make less energy.",
+  "texto_tts": "They make less energy."
+ },
+ {
+  "id": "ia_juego_en_350",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s why we clean them.",
+  "texto_tts": "That’s why we clean them."
+ },
+ {
+  "id": "ia_juego_en_351",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: what cleans the carbon dioxide we breathe out?",
+  "texto_tts": "Quick question: what cleans the carbon dioxide we breathe out?"
+ },
+ {
+  "id": "ia_juego_en_352",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The filter!",
+  "texto_tts": "The filter!"
+ },
+ {
+  "id": "ia_juego_en_353",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "And the plants help too: they release oxygen.",
+  "texto_tts": "And the plants help too: they release oxygen."
+ },
+ {
+  "id": "ia_juego_en_354",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Let’s see if you remember: what do the greenhouse plants release?",
+  "texto_tts": "Let’s see if you remember: what do the greenhouse plants release?"
+ },
+ {
+  "id": "ia_juego_en_355",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Oxygen!",
+  "texto_tts": "Oxygen!"
+ },
+ {
+  "id": "ia_juego_en_356",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s why we look after them so well.",
+  "texto_tts": "That’s why we look after them so well."
+ },
+ {
+  "id": "ia_juego_en_357",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: what protects us from radiation while we sleep?",
+  "texto_tts": "Quick question: what protects us from radiation while we sleep?"
+ },
+ {
+  "id": "ia_juego_en_358",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The water in the shelter walls!",
+  "texto_tts": "The water in the shelter walls!"
+ },
+ {
+  "id": "ia_juego_en_359",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "It stops radiation.",
+  "texto_tts": "It stops radiation."
+ },
+ {
+  "id": "ia_juego_en_360",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Let’s see if you remember: where do flares come from?",
+  "texto_tts": "Let’s see if you remember: where do flares come from?"
+ },
+ {
+  "id": "ia_juego_en_361",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "That’s why we check the forecast every day.",
+  "texto_tts": "That’s why we check the forecast every day."
+ },
+ {
+  "id": "ia_juego_en_362",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Quick question: in an emergency, which resource is best to spend?",
+  "texto_tts": "Quick question: in an emergency, which resource is best to spend?"
+ },
+ {
+  "id": "ia_juego_en_363",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The one you have the most of!",
+  "texto_tts": "The one you have the most of!"
+ },
+ {
+  "id": "ia_juego_en_364",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "And you protect the lowest.",
+  "texto_tts": "And you protect the lowest."
+ },
+ {
+  "id": "ia_juego_en_365",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you learned more about energy.",
+  "texto_tts": "Today you learned more about energy."
+ },
+ {
+  "id": "ia_juego_en_366",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you learned more about air.",
+  "texto_tts": "Today you learned more about air."
+ },
+ {
+  "id": "ia_juego_en_367",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you learned more about the radiation shield.",
+  "texto_tts": "Today you learned more about the radiation shield."
+ },
+ {
+  "id": "ia_juego_en_368",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you learned more about deciding with data.",
+  "texto_tts": "Today you learned more about deciding with data."
+ },
+ {
+  "id": "ia_juego_en_369",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you got better at energy.",
+  "texto_tts": "Today you got better at energy."
+ },
+ {
+  "id": "ia_juego_en_370",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "It shows!",
+  "texto_tts": "It shows!"
+ },
+ {
+  "id": "ia_juego_en_371",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you got better at air.",
+  "texto_tts": "Today you got better at air."
+ },
+ {
+  "id": "ia_juego_en_372",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you got better at the radiation shield.",
+  "texto_tts": "Today you got better at the radiation shield."
+ },
+ {
+  "id": "ia_juego_en_373",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Today you got better at deciding with data.",
+  "texto_tts": "Today you got better at deciding with data."
+ },
+ {
+  "id": "ia_juego_en_374",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow let’s practice energy.",
+  "texto_tts": "Tomorrow let’s practice energy."
+ },
+ {
+  "id": "ia_juego_en_375",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow let’s practice air.",
+  "texto_tts": "Tomorrow let’s practice air."
+ },
+ {
+  "id": "ia_juego_en_376",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow let’s practice the radiation shield.",
+  "texto_tts": "Tomorrow let’s practice the radiation shield."
+ },
+ {
+  "id": "ia_juego_en_377",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow let’s practice deciding with data.",
+  "texto_tts": "Tomorrow let’s practice deciding with data."
+ },
+ {
+  "id": "ia_juego_en_378",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow I’ll help you more with energy.",
+  "texto_tts": "Tomorrow I’ll help you more with energy."
+ },
+ {
+  "id": "ia_juego_en_379",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow I’ll help you more with air.",
+  "texto_tts": "Tomorrow I’ll help you more with air."
+ },
+ {
+  "id": "ia_juego_en_380",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow I’ll help you more with the radiation shield.",
+  "texto_tts": "Tomorrow I’ll help you more with the radiation shield."
+ },
+ {
+  "id": "ia_juego_en_381",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow I’ll help you more with deciding with data.",
+  "texto_tts": "Tomorrow I’ll help you more with deciding with data."
+ },
+ {
+  "id": "ia_juego_en_382",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "You’re doing great at everything!",
+  "texto_tts": "You’re doing great at everything!"
+ },
+ {
+  "id": "ia_juego_en_383",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Tomorrow I’ll give you fewer hints.",
+  "texto_tts": "Tomorrow I’ll give you fewer hints."
+ },
+ {
+  "id": "ia_juego_en_384",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Systems online. Welcome to Mars Base One, Wenceslao.",
+  "texto_tts": "Systems online. Welcome to Mars Base One, Wenceslao."
+ },
+ {
+  "id": "ia_juego_en_385",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Systems online. Welcome to Mars Base One, Judith.",
+  "texto_tts": "Systems online. Welcome to Mars Base One, Judith."
+ },
+ {
+  "id": "ia_juego_en_386",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Systems online. Welcome to Mars Base One, Atlas.",
+  "texto_tts": "Systems online. Welcome to Mars Base One, Atlas."
+ },
+ {
+  "id": "ia_juego_en_387",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "I'm the base AI. I'll take care of you and explain whatever happens.",
+  "texto_tts": "I'm the base A I. I'll take care of you and explain whatever happens."
+ },
+ {
+  "id": "ia_juego_en_388",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Important notice: this is a practice mission before going to Mars. Nobody is in danger. Here, we learn.",
+  "texto_tts": "Important notice: this is a practice mission before going to Mars. Nobody is in danger. Here, we learn."
+ },
+ {
+  "id": "ia_juego_en_389",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "The base uses three resources: energy, oxygen, and shielding. Each one has three levels: low, medium, and high. If one hits zero, the base shuts down and the mission restarts.",
+  "texto_tts": "The base uses three resources: energy, oxygen, and shielding. Each one has three levels: low, medium, and high. If one hits zero, the base shuts down and the mission restarts."
+ },
+ {
+  "id": "ia_juego_en_390",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Hello, Engineer Wenceslao! You know how every cable and every motor in the base works. There's never enough energy to power everything at once, so you decide which machines get power.",
+  "texto_tts": "Hello, Engineer Wenceslao! You know how every cable and every motor in the base works. There's never enough energy to power everything at once, so you decide which machines get power."
+ },
+ {
+  "id": "ia_juego_en_391",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Ready to explore, Scientist Judith! Out there is a mysterious planet, dust storms, and incredible rocks. Your love of plants will keep the base alive.",
+  "texto_tts": "Ready to explore, Scientist Judith! Out there is a mysterious planet, dust storms, and incredible rocks. Your love of plants will keep the base alive."
+ },
+ {
+  "id": "ia_juego_en_392",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Great to have you on board, Doctor Atlas! In space you have to take very good care of health and air. You'll make sure the whole crew is strong and ready for the adventure.",
+  "texto_tts": "Great to have you on board, Doctor Atlas! In space you have to take very good care of health and air. You'll make sure the whole crew is strong and ready for the adventure."
+ },
+ {
+  "id": "ia_juego_en_393",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The battery can't power everything. Use the command console to choose where the energy goes today.",
+  "texto_tts": "The battery can't power everything. Use the command console to choose where the energy goes today."
+ },
+ {
+  "id": "ia_juego_en_394",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Notice: the signal to Earth is slow. Every message takes several minutes.",
+  "texto_tts": "Notice: the signal to Earth is slow. Every message takes several minutes."
+ },
+ {
+  "id": "ia_juego_en_395",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "There's sunlight. Let's get to work! Clean the panels, change the filter, and water the plants before dark.",
+  "texto_tts": "There's sunlight. Let's get to work! Clean the panels, change the filter, and water the plants before dark."
+ },
+ {
+  "id": "ia_juego_en_396",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Notice: dust covered the solar panels and the battery isn't charging.",
+  "texto_tts": "Notice: dust covered the solar panels and the battery isn't charging."
+ },
+ {
+  "id": "ia_juego_en_397",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "The Spirit and Opportunity robots had the same problem on Mars. Sometimes the wind cleaned them off, but you can't count on that.",
+  "texto_tts": "The Spirit and Opportunity robots had the same problem on Mars. Sometimes the wind cleaned them off, but you can't count on that."
+ },
+ {
+  "id": "ia_juego_en_398",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "There's dust on the panels again. There's no wind here to help us.",
+  "texto_tts": "There's dust on the panels again. There's no wind here to help us."
+ },
+ {
+  "id": "ia_juego_en_399",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Great! The panels are shining again and the battery is rising. We'll have good light all night.",
+  "texto_tts": "Great! The panels are shining again and the battery is rising. We'll have good light all night."
+ },
+ {
+  "id": "ia_juego_en_400",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Air alert! The CO₂ filter is clogged and the spare doesn't fit in the slot.",
+  "texto_tts": "Air alert! The carbon dioxide filter is clogged and the spare doesn't fit in the slot."
+ },
+ {
+  "id": "ia_juego_en_401",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "In 1970, the Apollo 13 spacecraft had this same problem. The engineers invented an adapter out of plastic bags, cardboard, hoses, and tape.",
+  "texto_tts": "In 1970, the Apollo thirteen spacecraft had this same problem. The engineers invented an adapter out of plastic bags, cardboard, hoses, and tape."
+ },
+ {
+  "id": "ia_juego_en_402",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "The filter is saturated again. Time to build the adapter.",
+  "texto_tts": "The filter is saturated again. Time to build the adapter."
+ },
+ {
+  "id": "ia_juego_en_403",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "You did it! The filter is sealed tight and we're breathing fresh air. Great teamwork.",
+  "texto_tts": "You did it! The filter is sealed tight and we're breathing fresh air. Great teamwork."
+ },
+ {
+  "id": "ia_juego_en_404",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "A little bad air got out. We're tired and the air is getting low.",
+  "texto_tts": "A little bad air got out. We're tired and the air is getting low."
+ },
+ {
+  "id": "ia_juego_en_405",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Time to tend the garden! These plants help us have oxygen. In space, water floats in bubbles: give them only the drops they need.",
+  "texto_tts": "Time to tend the garden! These plants help us have oxygen. In space, water floats in bubbles: give them only the drops they need."
+ },
+ {
+  "id": "ia_juego_en_406",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "In 2016, astronaut Scott Kelly tended the first zinnias to bloom on the Space Station. They got mold from the humidity, and he saved them.",
+  "texto_tts": "In 2016, astronaut Scott Kelly tended the first zinnias to bloom on the Space Station. They got mold from the humidity, and he saved them."
+ },
+ {
+  "id": "ia_juego_en_407",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The plants are thirsty, but watch out for too much water.",
+  "texto_tts": "The plants are thirsty, but watch out for too much water."
+ },
+ {
+  "id": "ia_juego_en_408",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The cabin lights are dimming. Turn on your helmet flashlight to see the controls.",
+  "texto_tts": "The cabin lights are dimming. Turn on your helmet flashlight to see the controls."
+ },
+ {
+  "id": "ia_juego_en_409",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Notice: the shielding is weak. We should reinforce it tomorrow.",
+  "texto_tts": "Notice: the shielding is weak. We should reinforce it tomorrow."
+ },
+ {
+  "id": "ia_juego_en_410",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "End of the first sol. It's very cold outside. On Mars, the night can drop below minus sixty degrees.",
+  "texto_tts": "End of the first sol. It's very cold outside. On Mars, the night can drop below minus sixty degrees."
+ },
+ {
+  "id": "ia_juego_en_411",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Teams on real missions have even lived on Mars time to work with their robots.",
+  "texto_tts": "Teams on real missions have even lived on Mars time to work with their robots."
+ },
+ {
+  "id": "ia_juego_en_412",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Mars is farther from the Sun than Earth. Less than half the light reaches here.",
+  "texto_tts": "Mars is farther from the Sun than Earth. Less than half the light reaches here."
+ },
+ {
+  "id": "ia_juego_en_413",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Good night. Saving energy in power-saving mode.",
+  "texto_tts": "Good night. Saving energy in power-saving mode."
+ },
+ {
+  "id": "ia_juego_en_414",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "The Perseverance rover has microphones. It recorded the Martian wind, its own wheels, and even the Ingenuity helicopter.",
+  "texto_tts": "The Perseverance rover has microphones. It recorded the Martian wind, its own wheels, and even the Ingenuity helicopter."
+ },
+ {
+  "id": "ia_juego_en_415",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "The Mars sounds you're hearing are real NASA recordings. Good night.",
+  "texto_tts": "The Mars sounds you're hearing are real NASA recordings. Good night."
+ },
+ {
+  "id": "ia_juego_en_416",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "The air on Mars is almost all carbon dioxide, CO₂. You can't breathe it.",
+  "texto_tts": "The air on Mars is almost all carbon dioxide, carbon dioxide. You can't breathe it."
+ },
+ {
+  "id": "ia_juego_en_417",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Yes. It traveled with Perseverance and proved it can be done. In total it made 122 grams of oxygen, about what a small dog breathes in 10 hours.",
+  "texto_tts": "Yes. It traveled with Perseverance and proved it can be done. In total it made 122 grams of oxygen, about what a small dog breathes in ten hours."
+ },
+ {
+  "id": "ia_juego_en_418",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Tonight, let's talk about radiation.",
+  "texto_tts": "Tonight, let's talk about radiation."
+ },
+ {
+  "id": "ia_juego_en_419",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "An instrument on the Curiosity rover measures how much radiation reaches the Martian ground.",
+  "texto_tts": "An instrument on the Curiosity rover measures how much radiation reaches the Martian ground."
+ },
+ {
+  "id": "ia_juego_en_420",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "There's a dust storm in the sky. Some of them wrap around the whole planet.",
+  "texto_tts": "There's a dust storm in the sky. Some of them wrap around the whole planet."
+ },
+ {
+  "id": "ia_juego_en_421",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Good night. Eyes open.",
+  "texto_tts": "Good night. Eyes open."
+ },
+ {
+  "id": "ia_juego_en_422",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Mars soil has salts called perchlorates. They're not good for plants, or to eat untreated.",
+  "texto_tts": "Mars soil has salts called perchlorates. They're not good for plants, or to eat untreated."
+ },
+ {
+  "id": "ia_juego_en_423",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Mars gravity is a little more than a third of Earth's. A 40-kilo astronaut would weigh about 15.",
+  "texto_tts": "Mars gravity is a little more than a third of Earth's. A 40-kilo astronaut would weigh about fifteen."
+ },
+ {
+  "id": "ia_juego_en_424",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Good night. Recording a new jumping record.",
+  "texto_tts": "Good night. Recording a new jumping record."
+ },
+ {
+  "id": "ia_juego_en_425",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "News from the Sun. Scientists are watching the solar storms.",
+  "texto_tts": "News from the Sun. Scientists are watching the solar storms."
+ },
+ {
+  "id": "ia_juego_en_426",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Services like NASA's DONKI and NOAA record these events.",
+  "texto_tts": "Services like NASA's DONKI and NOAA record these events."
+ },
+ {
+  "id": "ia_juego_en_427",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Last night. Look outside.",
+  "texto_tts": "Last night. Look outside."
+ },
+ {
+  "id": "ia_juego_en_428",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Yes. In 2014, the Curiosity rover photographed it: it looked like a bright star, with the Moon beside it.",
+  "texto_tts": "Yes. In 2014, the Curiosity rover photographed it: it looked like a bright star, with the Moon beside it."
+ },
+ {
+  "id": "ia_juego_en_429",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "From 3 to 22 minutes, depending on where the planets are.",
+  "texto_tts": "From three to twenty-two minutes, depending on where the planets are."
+ },
+ {
+  "id": "ia_juego_en_430",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Alert! I detect a solar storm. It will arrive soon.",
+  "texto_tts": "Alert! I detect a solar storm. It will arrive soon."
+ },
+ {
+  "id": "ia_juego_en_431",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Notice: the shielding is taking more charge than normal.",
+  "texto_tts": "Notice: the shielding is taking more charge than normal."
+ },
+ {
+  "id": "ia_juego_en_432",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "In August 1972, the Sun unleashed a huge storm between two Moon missions. Nobody was in space; it was pure luck. That's why space weather is watched today.",
+  "texto_tts": "In August 1972, the Sun unleashed a huge storm between two Moon missions. Nobody was in space; it was pure luck. That's why space weather is watched today."
+ },
+ {
+  "id": "ia_juego_en_433",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Alert! A dust storm is covering the panels.",
+  "texto_tts": "Alert! A dust storm is covering the panels."
+ },
+ {
+  "id": "ia_juego_en_434",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Reserves dropping. Calculating how long they'll last.",
+  "texto_tts": "Reserves dropping. Calculating how long they'll last."
+ },
+ {
+  "id": "ia_juego_en_435",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Alert! The CO₂ filter is saturated. The air is getting heavy.",
+  "texto_tts": "Alert! The carbon dioxide filter is saturated. The air is getting heavy."
+ },
+ {
+  "id": "ia_juego_en_436",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Alert! Radiation outside has gone up.",
+  "texto_tts": "Alert! Radiation outside has gone up."
+ },
+ {
+  "id": "ia_juego_en_437",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Shielding reinforced.",
+  "texto_tts": "Shielding reinforced."
+ },
+ {
+  "id": "ia_juego_en_438",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Heat danger! A piece of the protective roof came loose and the cabin is heating up very fast.",
+  "texto_tts": "Heat danger! A piece of the protective roof came loose and the cabin is heating up very fast."
+ },
+ {
+  "id": "ia_juego_en_439",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Shade ready. The temperature is dropping.",
+  "texto_tts": "Shade ready. The temperature is dropping."
+ },
+ {
+  "id": "ia_juego_en_440",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "The temperature is dropping. So is the energy.",
+  "texto_tts": "The temperature is dropping. So is the energy."
+ },
+ {
+  "id": "ia_juego_en_441",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "In 1973, the Skylab station lost its sun shield during launch and heated up like an oven. Its first crew installed a sunshade and saved it.",
+  "texto_tts": "In 1973, the Skylab station lost its sun shield during launch and heated up like an oven. Its first crew installed a sunshade and saved it."
+ },
+ {
+  "id": "ia_juego_en_442",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Leak detected! The liquid that cools the solar panels is escaping into space.",
+  "texto_tts": "Leak detected! The liquid that cools the solar panels is escaping into space."
+ },
+ {
+  "id": "ia_juego_en_443",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Leak isolated.",
+  "texto_tts": "Leak isolated."
+ },
+ {
+  "id": "ia_juego_en_444",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "In May 2013, the crew of the International Space Station saw white flakes of frozen coolant. Two astronauts went on a spacewalk and replaced the part that was failing.",
+  "texto_tts": "In May 2013, the crew of the International Space Station saw white flakes of frozen coolant. Two astronauts went on a spacewalk and replaced the part that was failing."
+ },
+ {
+  "id": "ia_juego_en_445",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Hull impact! Air is escaping through a crack. We have to close the hatch now.",
+  "texto_tts": "Hull impact! Air is escaping through a crack. We have to close the hatch now."
+ },
+ {
+  "id": "ia_juego_en_446",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Hatch sealed. The air was saved.",
+  "texto_tts": "Hatch sealed. The air was saved."
+ },
+ {
+  "id": "ia_juego_en_447",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Hatch sealed. Some air was lost along the way.",
+  "texto_tts": "Hatch sealed. Some air was lost along the way."
+ },
+ {
+  "id": "ia_juego_en_448",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "In 1997, a cargo ship hit a module of the Russian space station Mir, with a NASA astronaut on board. The crew disconnected cables to seal the door, and the station kept working.",
+  "texto_tts": "In 1997, a cargo ship hit a module of the Russian space station Mir, with a NASA astronaut on board. The crew disconnected cables to seal the door, and the station kept working."
+ },
+ {
+  "id": "ia_juego_en_449",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Alert! The greenhouse fan stopped and I don't know which part failed.",
+  "texto_tts": "Alert! The greenhouse fan stopped and I don't know which part failed."
+ },
+ {
+  "id": "ia_juego_en_450",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Notice: a message to Earth takes between 3 and 22 minutes to arrive. The reply takes just as long.",
+  "texto_tts": "Notice: a message to Earth takes between three and twenty-two minutes to arrive. The reply takes just as long."
+ },
+ {
+  "id": "ia_juego_en_451",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Message sent. Waiting for a reply. Oxygen is dropping in the meantime.",
+  "texto_tts": "Message sent. Waiting for a reply. Oxygen is dropping in the meantime."
+ },
+ {
+  "id": "ia_juego_en_452",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Restart underway. The batteries are working overtime.",
+  "texto_tts": "Restart underway. The batteries are working overtime."
+ },
+ {
+  "id": "ia_juego_en_453",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "A signal between Earth and Mars takes 3 to 22 minutes in each direction, depending on where the planets are. That's why a crew on Mars has to know how to decide on its own.",
+  "texto_tts": "A signal between Earth and Mars takes three to twenty-two minutes in each direction, depending on where the planets are. That's why a crew on Mars has to know how to decide on its own."
+ },
+ {
+  "id": "ia_juego_en_454",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Ten whole sols have passed in this corner of the universe, and we're still here.",
+  "texto_tts": "Ten whole sols have passed in this corner of the universe, and we're still here."
+ },
+ {
+  "id": "ia_juego_en_455",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "It wasn't just luck. It was curiosity, courage, and a will to learn.",
+  "texto_tts": "It wasn't just luck. It was curiosity, courage, and a will to learn."
+ },
+ {
+  "id": "ia_juego_en_456",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Result: mission successful. Real data and good decisions.",
+  "texto_tts": "Result: mission successful. Real data and good decisions."
+ },
+ {
+  "id": "ia_juego_en_457",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Wenceslao, you are now a Junior Astronaut of Mars Base One.",
+  "texto_tts": "Wenceslao, you are now a Junior Astronaut of Mars Base One."
+ },
+ {
+  "id": "ia_juego_en_458",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Judith, you are now a Junior Astronaut of Mars Base One.",
+  "texto_tts": "Judith, you are now a Junior Astronaut of Mars Base One."
+ },
+ {
+  "id": "ia_juego_en_459",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Atlas, you are now a Junior Astronaut of Mars Base One.",
+  "texto_tts": "Atlas, you are now a Junior Astronaut of Mars Base One."
+ },
+ {
+  "id": "ia_juego_en_460",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "You learned that on Mars, teamwork and real information save the mission.",
+  "texto_tts": "You learned that on Mars, teamwork and real information save the mission."
+ },
+ {
+  "id": "ia_juego_en_461",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "Because they tried... they succeeded.",
+  "texto_tts": "Because they tried... they succeeded."
+ },
+ {
+  "id": "ia_juego_en_462",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Energy depleted. The base shuts down and the mission restarts.",
+  "texto_tts": "Energy depleted. The base shuts down and the mission restarts."
+ },
+ {
+  "id": "ia_juego_en_463",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "What we learned: on Mars, less than half the sunlight arrives. Dust covers the panels and storms make it worse.",
+  "texto_tts": "What we learned: on Mars, less than half the sunlight arrives. Dust covers the panels and storms make it worse."
+ },
+ {
+  "id": "ia_juego_en_464",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "When there isn't enough energy, you have to decide what stays on and save reserves before nightfall.",
+  "texto_tts": "When there isn't enough energy, you have to decide what stays on and save reserves before nightfall."
+ },
+ {
+  "id": "ia_juego_en_465",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "The Spirit and Opportunity robots lasted for years because the wind sometimes cleaned their panels. You can't wait for the wind: clean the panels in time.",
+  "texto_tts": "The Spirit and Opportunity robots lasted for years because the wind sometimes cleaned their panels. You can't wait for the wind: clean the panels in time."
+ },
+ {
+  "id": "ia_juego_en_466",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Air with too much CO₂. The base shuts down and the mission restarts.",
+  "texto_tts": "Air with too much carbon dioxide. The base shuts down and the mission restarts."
+ },
+ {
+  "id": "ia_juego_en_467",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "What we learned: on Mars the air is almost all CO₂. Filters and plants keep the air breathable.",
+  "texto_tts": "What we learned: on Mars the air is almost all carbon dioxide. Filters and plants keep the air breathable."
+ },
+ {
+  "id": "ia_juego_en_468",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Changing the filter in time is just as important as energy.",
+  "texto_tts": "Changing the filter in time is just as important as energy."
+ },
+ {
+  "id": "ia_juego_en_469",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "On Apollo 13, the air filled with CO₂ and the crew fixed it with tape, cardboard, and hoses. Check the filters and the plants carefully on your next try.",
+  "texto_tts": "On Apollo thirteen, the air filled with carbon dioxide and the crew fixed it with tape, cardboard, and hoses. Check the filters and the plants carefully on your next try."
+ },
+ {
+  "id": "ia_juego_en_470",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "procesando",
+  "texto": "Shielding depleted. The base shuts down and the mission restarts.",
+  "texto_tts": "Shielding depleted. The base shuts down and the mission restarts."
+ },
+ {
+  "id": "ia_juego_en_471",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "What we learned: Mars has almost no natural protection against radiation. That's why the base needs shielding.",
+  "texto_tts": "What we learned: Mars has almost no natural protection against radiation. That's why the base needs shielding."
+ },
+ {
+  "id": "ia_juego_en_472",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "neutral",
+  "texto": "Following the space weather warnings gives us time to get ready.",
+  "texto_tts": "Following the space weather warnings gives us time to get ready."
+ },
+ {
+  "id": "ia_juego_en_473",
+  "escena": "ia_juego",
+  "personaje": "IA",
+  "cara": "feliz",
+  "texto": "In 1972, the Sun unleashed a huge storm right between two Moon missions. Today, space weather is watched so we can be ready.",
+  "texto_tts": "In 1972, the Sun unleashed a huge storm right between two Moon missions. Today, space weather is watched so we can be ready."
+ },
+ {
+  "id": "introduccion_03",
+  "escena": "introduccion",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "I'm Wenceslao, the engineer. If something breaks, it's mine. If something explodes, that's mine too.",
+  "texto_tts": "I'm Wenceslao, the engineer. If something breaks, it's mine. If something explodes, that's mine too."
+ },
+ {
+  "id": "introduccion_04",
+  "escena": "introduccion",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "I'm Judith, the scientist. I study plants, rocks, and the weather. And I talk to the plants, just in case.",
+  "texto_tts": "I'm Judith, the scientist. I study plants, rocks, and the weather. And I talk to the plants, just in case."
+ },
+ {
+  "id": "introduccion_05",
+  "escena": "introduccion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "I'm Atlas, the doctor. My job is making sure we're all okay.",
+  "texto_tts": "I'm Atlas, the doctor. My job is making sure we're all okay."
+ },
+ {
+  "id": "introduccion_07",
+  "escena": "introduccion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "We're going to live ten sols. A sol is a day on Mars.",
+  "texto_tts": "We're going to live ten sols. A sol is a day on Mars."
+ },
+ {
+  "id": "introduccion_09",
+  "escena": "introduccion",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Spoiler: there's never enough energy for everything.",
+  "texto_tts": "Spoiler: there's never enough energy for everything."
+ },
+ {
+  "id": "introduccion_10",
+  "escena": "introduccion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "That's why we decide as a team. We take a deep breath, and we decide.",
+  "texto_tts": "That's why we decide as a team. We take a deep breath, and we decide."
+ },
+ {
+  "id": "introduccion_11",
+  "escena": "introduccion",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Did I mention the plants count too?",
+  "texto_tts": "Did I mention the plants count too?"
+ },
+ {
+  "id": "introduccion_12",
+  "escena": "introduccion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "All set, team. To the console.",
+  "texto_tts": "All set, team. To the console."
+ },
+ {
+  "id": "manana_01",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Good morning. Today we learn to share the base's energy.",
+  "texto_tts": "Good morning. Today we learn to share the base's energy."
+ },
+ {
+  "id": "manana_03",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Today's lights depend on the Sun. Let's check the panels.",
+  "texto_tts": "Today's lights depend on the Sun. Let's check the panels."
+ },
+ {
+  "id": "manana_04",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "The wind is loud outside today. Let's keep our ears open.",
+  "texto_tts": "The wind is loud outside today. Let's keep our ears open."
+ },
+ {
+  "id": "manana_05",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Air is our treasure. Let's take care of the CO₂ filter.",
+  "texto_tts": "Air is our treasure. Let's take care of the carbon dioxide filter."
+ },
+ {
+  "id": "manana_06",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Today we check the shielding. It's our umbrella against radiation.",
+  "texto_tts": "Today we check the shielding. It's our umbrella against radiation."
+ },
+ {
+  "id": "manana_07",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "There's dust in the sky. Let's not get caught without power.",
+  "texto_tts": "There's dust in the sky. Let's not get caught without power."
+ },
+ {
+  "id": "manana_08",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "The greenhouse is waiting. The plants are part of the crew too.",
+  "texto_tts": "The greenhouse is waiting. The plants are part of the crew too."
+ },
+ {
+  "id": "manana_09",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Here we weigh less. We move carefully, even if it feels like fun.",
+  "texto_tts": "Here we weigh less. We move carefully, even if it feels like fun."
+ },
+ {
+  "id": "manana_11",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "There's news from the Sun. Stay alert for the warnings.",
+  "texto_tts": "There's news from the Sun. Stay alert for the warnings."
+ },
+ {
+  "id": "manana_12",
+  "escena": "manana",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Last sol. We've come a long way, team. One more push.",
+  "texto_tts": "Last sol. We've come a long way, team. One more push."
+ },
+ {
+  "id": "consejo_paneles_01",
+  "escena": "consejo_paneles",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "This dust is fine and it sticks. Clean it with gentle motions so you don't scratch the panels.",
+  "texto_tts": "This dust is fine and it sticks. Clean it with gentle motions so you don't scratch the panels."
+ },
+ {
+  "id": "consejo_paneles_02",
+  "escena": "consejo_paneles",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Start with the most covered panels: that's where the most light is lost.",
+  "texto_tts": "Start with the most covered panels: that's where the most light is lost."
+ },
+ {
+  "id": "mini_paneles_falla_01",
+  "escena": "mini_paneles_falla",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "There's a lot of dust left. Tonight the battery will be low and the cabin will be dark.",
+  "texto_tts": "There's a lot of dust left. Tonight the battery will be low and the cabin will be dark."
+ },
+ {
+  "id": "consejo_filtro_01",
+  "escena": "consejo_filtro",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "If we don't clean the air fast, we'll get dizzy and it'll be hard to see. Focus, you can do it.",
+  "texto_tts": "If we don't clean the air fast, we'll get dizzy and it'll be hard to see. Focus, you can do it."
+ },
+ {
+  "id": "consejo_filtro_02",
+  "escena": "consejo_filtro",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Don't force it in. Use the cardboard as a funnel and seal the edges well with tape.",
+  "texto_tts": "Don't force it in. Use the cardboard as a funnel and seal the edges well with tape."
+ },
+ {
+  "id": "consejo_riego_01",
+  "escena": "consejo_riego",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Look at each pot's gauge: water only when it's in the yellow, and use the fan if you see droplets floating.",
+  "texto_tts": "Look at each pot's gauge: water only when it's in the yellow, and use the fan if you see droplets floating."
+ },
+ {
+  "id": "consejo_riego_02",
+  "escena": "consejo_riego",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "If they get mold, the air gets dirty. Keep the leaves nice and clean.",
+  "texto_tts": "If they get mold, the air gets dirty. Keep the leaves nice and clean."
+ },
+ {
+  "id": "mini_riego_gana_01",
+  "escena": "mini_riego_gana",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "How beautiful! Healthy, happy plants filling the base with oxygen.",
+  "texto_tts": "How beautiful! Healthy, happy plants filling the base with oxygen."
+ },
+ {
+  "id": "mini_riego_falla_01",
+  "escena": "mini_riego_falla",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Too much water fell and a little mold showed up. We used extra air cleaning the garden.",
+  "texto_tts": "Too much water fell and a little mold showed up. We used extra air cleaning the garden."
+ },
+ {
+  "id": "comentario_estado_01",
+  "escena": "comentario_estado",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "The lights are flickering. With so little energy, we have to choose what stays on.",
+  "texto_tts": "The lights are flickering. With so little energy, we have to choose what stays on."
+ },
+ {
+  "id": "comentario_estado_03",
+  "escena": "comentario_estado",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "The air feels heavy. My plants need reinforcements.",
+  "texto_tts": "The air feels heavy. My plants need reinforcements."
+ },
+ {
+  "id": "comentario_estado_05",
+  "escena": "comentario_estado",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Everything's green. Good work, team.",
+  "texto_tts": "Everything's green. Good work, team."
+ },
+ {
+  "id": "noche_1_02",
+  "escena": "noche_1",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Should we put a sweater on the plants?",
+  "texto_tts": "Should we put a sweater on the plants?"
+ },
+ {
+  "id": "noche_1_03",
+  "escena": "noche_1",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "A good heater would be better. And hot chocolate for us.",
+  "texto_tts": "A good heater would be better. And hot chocolate for us."
+ },
+ {
+  "id": "noche_1_04",
+  "escena": "noche_1",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "A sol lasts about 24 hours and 39 minutes. Almost like a day on Earth, with 39 extra minutes to dream.",
+  "texto_tts": "A sol lasts about 24 hours and 39 minutes. Almost like a day on Earth, with 39 extra minutes to dream."
+ },
+ {
+  "id": "noche_1_06",
+  "escena": "noche_1",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Off to bed, team. Tomorrow we learn more.",
+  "texto_tts": "Off to bed, team. Tomorrow we learn more."
+ },
+ {
+  "id": "noche_2_01",
+  "escena": "noche_2",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "I was looking at the solar panels. They gave less today than I expected.",
+  "texto_tts": "I was looking at the solar panels. They gave less today than I expected."
+ },
+ {
+  "id": "noche_2_03",
+  "escena": "noche_2",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "So the plants and the panels compete for light.",
+  "texto_tts": "So the plants and the panels compete for light."
+ },
+ {
+  "id": "noche_2_04",
+  "escena": "noche_2",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "And here I thought my biggest rival was duct tape.",
+  "texto_tts": "And here I thought my biggest rival was duct tape."
+ },
+ {
+  "id": "noche_2_05",
+  "escena": "noche_2",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "That's why planning energy matters. We can't turn everything on at once.",
+  "texto_tts": "That's why planning energy matters. We can't turn everything on at once."
+ },
+ {
+  "id": "noche_3_01",
+  "escena": "noche_3",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Do you hear that? It's the wind on Mars.",
+  "texto_tts": "Do you hear that? It's the wind on Mars."
+ },
+ {
+  "id": "noche_3_03",
+  "escena": "noche_3",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "The air here is very thin, which is why sounds are softer than on Earth.",
+  "texto_tts": "The air here is very thin, which is why sounds are softer than on Earth."
+ },
+ {
+  "id": "noche_3_04",
+  "escena": "noche_3",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Even a shout would sound softer.",
+  "texto_tts": "Even a shout would sound softer."
+ },
+ {
+  "id": "noche_3_05",
+  "escena": "noche_3",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "I whisper to my plants too, so they don't get embarrassed.",
+  "texto_tts": "I whisper to my plants too, so they don't get embarrassed."
+ },
+ {
+  "id": "noche_4_02",
+  "escena": "noche_4",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Good thing my plants take in CO₂ and give off oxygen.",
+  "texto_tts": "Good thing my plants take in carbon dioxide and give off oxygen."
+ },
+ {
+  "id": "noche_4_03",
+  "escena": "noche_4",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "And we have filters to remove it from the base's air.",
+  "texto_tts": "And we have filters to remove it from the base's air."
+ },
+ {
+  "id": "noche_4_04",
+  "escena": "noche_4",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Did you know an experiment called MOXIE made oxygen out of Martian CO₂?",
+  "texto_tts": "Did you know an experiment called MOXIE made oxygen out of Martian carbon dioxide?"
+ },
+ {
+  "id": "noche_4_06",
+  "escena": "noche_4",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Breathing with the help of plants and machines. Fascinating!",
+  "texto_tts": "Breathing with the help of plants and machines. Fascinating!"
+ },
+ {
+  "id": "noche_5_02",
+  "escena": "noche_5",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Mars doesn't have a global magnetic field like Earth. It's barely protected.",
+  "texto_tts": "Mars doesn't have a global magnetic field like Earth. It's barely protected."
+ },
+ {
+  "id": "noche_5_03",
+  "escena": "noche_5",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "That's why the base needs shielding. It's like an invisible shield looking after the whole team.",
+  "texto_tts": "That's why the base needs shielding. It's like an invisible shield looking after the whole team."
+ },
+ {
+  "id": "noche_5_05",
+  "escena": "noche_5",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Does the radiation reach my greenhouse?",
+  "texto_tts": "Does the radiation reach my greenhouse?"
+ },
+ {
+  "id": "noche_5_06",
+  "escena": "noche_5",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "If the shielding is strong, no. Relax.",
+  "texto_tts": "If the shielding is strong, no. Relax."
+ },
+ {
+  "id": "noche_5_07",
+  "escena": "noche_5",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Rest. Our shield is on guard.",
+  "texto_tts": "Rest. Our shield is on guard."
+ },
+ {
+  "id": "noche_6_02",
+  "escena": "noche_6",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "In 2018, a global storm blocked out the Sun and the Opportunity rover stopped communicating.",
+  "texto_tts": "In 2018, a global storm blocked out the Sun and the Opportunity rover stopped communicating."
+ },
+ {
+  "id": "noche_6_03",
+  "escena": "noche_6",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Did it fall asleep?",
+  "texto_tts": "Did it fall asleep?"
+ },
+ {
+  "id": "noche_6_04",
+  "escena": "noche_6",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "It went into hibernation. Its solar panels were barely getting any light. That's why we keep reserves.",
+  "texto_tts": "It went into hibernation. Its solar panels were barely getting any light. That's why we keep reserves."
+ },
+ {
+  "id": "noche_6_05",
+  "escena": "noche_6",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "And we clean the panels. Dust is the enemy.",
+  "texto_tts": "And we clean the panels. Dust is the enemy."
+ },
+ {
+  "id": "noche_7_01",
+  "escena": "noche_7",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "My tomatoes are growing! Well, my seeds are sprouting. It's almost the same.",
+  "texto_tts": "My tomatoes are growing! Well, my seeds are sprouting. It's almost the same."
+ },
+ {
+  "id": "noche_7_03",
+  "escena": "noche_7",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "That's why Martian soil has to be cleaned before planting. Scientists are testing microbes to remove those salts.",
+  "texto_tts": "That's why Martian soil has to be cleaned before planting. Scientists are testing microbes to remove those salts."
+ },
+ {
+  "id": "noche_7_04",
+  "escena": "noche_7",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "This is space farming. Half science, half patience.",
+  "texto_tts": "This is space farming. Half science, half patience."
+ },
+ {
+  "id": "noche_7_05",
+  "escena": "noche_7",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Caring for the plants is caring for the team's air, water, and food.",
+  "texto_tts": "Caring for the plants is caring for the team's air, water, and food."
+ },
+ {
+  "id": "noche_7_06",
+  "escena": "noche_7",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Good night, plants. I promise not to sing to you.",
+  "texto_tts": "Good night, plants. I promise not to sing to you."
+ },
+ {
+  "id": "noche_8_01",
+  "escena": "noche_8",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Today I jumped in the hallway again. We weigh so much less here.",
+  "texto_tts": "Today I jumped in the hallway again. We weigh so much less here."
+ },
+ {
+  "id": "noche_8_03",
+  "escena": "noche_8",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "I felt like a feather!",
+  "texto_tts": "I felt like a feather!"
+ },
+ {
+  "id": "noche_8_04",
+  "escena": "noche_8",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "But careful: as your doctor, I'm telling you the body needs exercise to stay strong.",
+  "texto_tts": "But careful: as your doctor, I'm telling you the body needs exercise to stay strong."
+ },
+ {
+  "id": "noche_8_05",
+  "escena": "noche_8",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Two hours on the bike tomorrow. No arguments.",
+  "texto_tts": "Two hours on the bike tomorrow. No arguments."
+ },
+ {
+  "id": "noche_9_02",
+  "escena": "noche_9",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "A solar storm can launch particles into space. They can take one to three days to reach Earth.",
+  "texto_tts": "A solar storm can launch particles into space. They can take one to three days to reach Earth."
+ },
+ {
+  "id": "noche_9_03",
+  "escena": "noche_9",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "And that gives us time to get ready. That's what the warnings are for.",
+  "texto_tts": "And that gives us time to get ready. That's what the warnings are for."
+ },
+ {
+  "id": "noche_9_04",
+  "escena": "noche_9",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "NASA has already managed to predict when a solar storm would reach Mars, and the MAVEN mission confirmed it.",
+  "texto_tts": "NASA has already managed to predict when a solar storm would reach Mars, and the MAVEN mission confirmed it."
+ },
+ {
+  "id": "noche_9_05",
+  "escena": "noche_9",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Satellites watch the Sun and warn the teams on Earth.",
+  "texto_tts": "Satellites watch the Sun and warn the teams on Earth."
+ },
+ {
+  "id": "noche_9_07",
+  "escena": "noche_9",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Knowing what's coming is half the protection.",
+  "texto_tts": "Knowing what's coming is half the protection."
+ },
+ {
+  "id": "noche_10_02",
+  "escena": "noche_10",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "That bright star... could it be Earth?",
+  "texto_tts": "That bright star... could it be Earth?"
+ },
+ {
+  "id": "noche_10_04",
+  "escena": "noche_10",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Our home, millions of kilometers away.",
+  "texto_tts": "Our home, millions of kilometers away."
+ },
+ {
+  "id": "noche_10_05",
+  "escena": "noche_10",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "How long does a message take to get there?",
+  "texto_tts": "How long does a message take to get there?"
+ },
+ {
+  "id": "noche_10_07",
+  "escena": "noche_10",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Everything we did here, we did together.",
+  "texto_tts": "Everything we did here, we did together."
+ },
+ {
+  "id": "noche_10_08",
+  "escena": "noche_10",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Tomorrow we wake up and close out the mission.",
+  "texto_tts": "Tomorrow we wake up and close out the mission."
+ },
+ {
+  "id": "emergencia_solar_02",
+  "escena": "emergencia_solar",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Let's stay calm. We have only a few minutes.",
+  "texto_tts": "Let's stay calm. We have only a few minutes."
+ },
+ {
+  "id": "emergencia_solar_03",
+  "escena": "emergencia_solar",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "This is getting close to exciting.",
+  "texto_tts": "This is getting close to exciting."
+ },
+ {
+  "id": "emergencia_solar_04",
+  "escena": "emergencia_solar",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Everyone to the shelter. Closing the doors.",
+  "texto_tts": "Everyone to the shelter. Closing the doors."
+ },
+ {
+  "id": "emergencia_solar_05",
+  "escena": "emergencia_solar",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "The lights are dimming, but the team is safe.",
+  "texto_tts": "The lights are dimming, but the team is safe."
+ },
+ {
+  "id": "emergencia_solar_06",
+  "escena": "emergencia_solar",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "We keep going, but with our eyes open.",
+  "texto_tts": "We keep going, but with our eyes open."
+ },
+ {
+  "id": "emergencia_polvo_02",
+  "escena": "emergencia_polvo",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "The light is dropping. No more naps.",
+  "texto_tts": "The light is dropping. No more naps."
+ },
+ {
+  "id": "emergencia_polvo_03",
+  "escena": "emergencia_polvo",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Let's decide quickly.",
+  "texto_tts": "Let's decide quickly."
+ },
+ {
+  "id": "emergencia_polvo_04",
+  "escena": "emergencia_polvo",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "I'll go. With a suit and good humor.",
+  "texto_tts": "I'll go. With a suit and good humor."
+ },
+ {
+  "id": "emergencia_polvo_05",
+  "escena": "emergencia_polvo",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Come back soon.",
+  "texto_tts": "Come back soon."
+ },
+ {
+  "id": "emergencia_polvo_06",
+  "escena": "emergencia_polvo",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Let's wait. Let's switch off whatever we don't need.",
+  "texto_tts": "Let's wait. Let's switch off whatever we don't need."
+ },
+ {
+  "id": "emergencia_co2_02",
+  "escena": "emergencia_co2",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "Could it be my dramatic sighing?",
+  "texto_tts": "Could it be my dramatic sighing?"
+ },
+ {
+  "id": "emergencia_co2_03",
+  "escena": "emergencia_co2",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "We have to change the filter right now.",
+  "texto_tts": "We have to change the filter right now."
+ },
+ {
+  "id": "emergencia_co2_04",
+  "escena": "emergencia_co2",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "New filter, clean air.",
+  "texto_tts": "New filter, clean air."
+ },
+ {
+  "id": "emergencia_co2_05",
+  "escena": "emergencia_co2",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "I can breathe better!",
+  "texto_tts": "I can breathe better!"
+ },
+ {
+  "id": "emergencia_co2_06",
+  "escena": "emergencia_co2",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "My plants help, but slowly.",
+  "texto_tts": "My plants help, but slowly."
+ },
+ {
+  "id": "emergencia_co2_07",
+  "escena": "emergencia_co2",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "We can hold on for a while.",
+  "texto_tts": "We can hold on for a while."
+ },
+ {
+  "id": "emergencia_radiacion_02",
+  "escena": "emergencia_radiacion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Everyone inside and away from the windows.",
+  "texto_tts": "Everyone inside and away from the windows."
+ },
+ {
+  "id": "emergencia_radiacion_03",
+  "escena": "emergencia_radiacion",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "My plants!",
+  "texto_tts": "My plants!"
+ },
+ {
+  "id": "emergencia_radiacion_04",
+  "escena": "emergencia_radiacion",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "I'm raising the shield. Give me a moment.",
+  "texto_tts": "I'm raising the shield. Give me a moment."
+ },
+ {
+  "id": "emergencia_radiacion_06",
+  "escena": "emergencia_radiacion",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "We close up. The plants get some rest.",
+  "texto_tts": "We close up. The plants get some rest."
+ },
+ {
+  "id": "emergencia_radiacion_07",
+  "escena": "emergencia_radiacion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "A hard decision, but a safe one.",
+  "texto_tts": "A hard decision, but a safe one."
+ },
+ {
+  "id": "emergencia_calor_02",
+  "escena": "emergencia_calor",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "This is starting to feel like an oven.",
+  "texto_tts": "This is starting to feel like an oven."
+ },
+ {
+  "id": "emergencia_calor_03",
+  "escena": "emergencia_calor",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Let's decide quickly, but calmly.",
+  "texto_tts": "Let's decide quickly, but calmly."
+ },
+ {
+  "id": "emergencia_calor_04",
+  "escena": "emergencia_calor",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Space umbrella on the way.",
+  "texto_tts": "Space umbrella on the way."
+ },
+ {
+  "id": "emergencia_calor_06",
+  "escena": "emergencia_calor",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Cold air at full blast.",
+  "texto_tts": "Cold air at full blast."
+ },
+ {
+  "id": "emergencia_fuga_02",
+  "escena": "emergencia_fuga",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "If we don't shut it off, the panels overheat.",
+  "texto_tts": "If we don't shut it off, the panels overheat."
+ },
+ {
+  "id": "emergencia_fuga_03",
+  "escena": "emergencia_fuga",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Think about the team, not just the machine.",
+  "texto_tts": "Think about the team, not just the machine."
+ },
+ {
+  "id": "emergencia_fuga_04",
+  "escena": "emergencia_fuga",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Closing the pipe. We lose a little power, but nobody goes out.",
+  "texto_tts": "Closing the pipe. We lose a little power, but nobody goes out."
+ },
+ {
+  "id": "emergencia_fuga_06",
+  "escena": "emergencia_fuga",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Go out carefully and come back soon.",
+  "texto_tts": "Go out carefully and come back soon."
+ },
+ {
+  "id": "emergencia_fuga_07",
+  "escena": "emergencia_fuga",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Part replaced. The energy is still full.",
+  "texto_tts": "Part replaced. The energy is still full."
+ },
+ {
+  "id": "emergencia_impacto_02",
+  "escena": "emergencia_impacto",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Calm. One thing at a time.",
+  "texto_tts": "Calm. One thing at a time."
+ },
+ {
+  "id": "emergencia_impacto_03",
+  "escena": "emergencia_impacto",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "The cables run right through the door.",
+  "texto_tts": "The cables run right through the door."
+ },
+ {
+  "id": "emergencia_impacto_04",
+  "escena": "emergencia_impacto",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Cutting. I'll fix it later.",
+  "texto_tts": "Cutting. I'll fix it later."
+ },
+ {
+  "id": "emergencia_impacto_06",
+  "escena": "emergencia_impacto",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "I'll disconnect them one by one. It takes a little longer.",
+  "texto_tts": "I'll disconnect them one by one. It takes a little longer."
+ },
+ {
+  "id": "emergencia_comunicacion_02",
+  "escena": "emergencia_comunicacion",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Let's send a message to Earth. They have the blueprints.",
+  "texto_tts": "Let's send a message to Earth. They have the blueprints."
+ },
+ {
+  "id": "emergencia_comunicacion_04",
+  "escena": "emergencia_comunicacion",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "So talking to Earth is like sending a letter?",
+  "texto_tts": "So talking to Earth is like sending a letter?"
+ },
+ {
+  "id": "emergencia_comunicacion_05",
+  "escena": "emergencia_comunicacion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "And meanwhile the air won't wait. We have to decide.",
+  "texto_tts": "And meanwhile the air won't wait. We have to decide."
+ },
+ {
+  "id": "emergencia_comunicacion_06",
+  "escena": "emergencia_comunicacion",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Let's wait calmly. Let's take care of the air we have left.",
+  "texto_tts": "Let's wait calmly. Let's take care of the air we have left."
+ },
+ {
+  "id": "emergencia_comunicacion_07",
+  "escena": "emergencia_comunicacion",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "The plants can't breathe without the fan. We have to save.",
+  "texto_tts": "The plants can't breathe without the fan. We have to save."
+ },
+ {
+  "id": "emergencia_comunicacion_09",
+  "escena": "emergencia_comunicacion",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "We restart the whole thing and test it piece by piece.",
+  "texto_tts": "We restart the whole thing and test it piece by piece."
+ },
+ {
+  "id": "fin_exito_01",
+  "escena": "fin_exito",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Sol ten complete. All systems are still running.",
+  "texto_tts": "Sol ten complete. All systems are still running."
+ },
+ {
+  "id": "fin_exito_02",
+  "escena": "fin_exito",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "The base held up! And I barely had to use duct tape.",
+  "texto_tts": "The base held up! And I barely had to use duct tape."
+ },
+ {
+  "id": "fin_exito_03",
+  "escena": "fin_exito",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "My plants survived too! I told them they could.",
+  "texto_tts": "My plants survived too! I told them they could."
+ },
+ {
+  "id": "fin_exito_10",
+  "escena": "fin_exito",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "When we really go, we'll already know how.",
+  "texto_tts": "When we really go, we'll already know how."
+ },
+ {
+  "id": "fin_energia_02",
+  "escena": "fin_energia",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "We're fine! It was a simulation. We just need to restart.",
+  "texto_tts": "We're fine! It was a simulation. We just need to restart."
+ },
+ {
+  "id": "fin_energia_03",
+  "escena": "fin_energia",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Nobody is hurt. This is what we practice.",
+  "texto_tts": "Nobody is hurt. This is what we practice."
+ },
+ {
+  "id": "fin_energia_07",
+  "escena": "fin_energia",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Next time, we'll share it better.",
+  "texto_tts": "Next time, we'll share it better."
+ },
+ {
+  "id": "fin_oxigeno_02",
+  "escena": "fin_oxigeno",
+  "personaje": "JUD",
+  "cara": "neutral",
+  "texto": "We're fine! That was a good rehearsal.",
+  "texto_tts": "We're fine! That was a good rehearsal."
+ },
+ {
+  "id": "fin_oxigeno_03",
+  "escena": "fin_oxigeno",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Nobody is in danger. The practice mission looks after us.",
+  "texto_tts": "Nobody is in danger. The practice mission looks after us."
+ },
+ {
+  "id": "fin_oxigeno_07",
+  "escena": "fin_oxigeno",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Tomorrow we do better.",
+  "texto_tts": "Tomorrow we do better."
+ },
+ {
+  "id": "fin_blindaje_02",
+  "escena": "fin_blindaje",
+  "personaje": "WEN",
+  "cara": "neutral",
+  "texto": "Everyone's safe. This was for practice.",
+  "texto_tts": "Everyone's safe. This was for practice."
+ },
+ {
+  "id": "fin_blindaje_03",
+  "escena": "fin_blindaje",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Nobody was harmed. This is how we learn.",
+  "texto_tts": "Nobody was harmed. This is how we learn."
+ },
+ {
+  "id": "fin_blindaje_07",
+  "escena": "fin_blindaje",
+  "personaje": "ATL",
+  "cara": "neutral",
+  "texto": "Next time, we listen to the warnings.",
+  "texto_tts": "Next time, we listen to the warnings."
+ }
+]

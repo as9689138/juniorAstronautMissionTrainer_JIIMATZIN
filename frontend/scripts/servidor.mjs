@@ -44,7 +44,15 @@ async function reenviar(req, res) {
     let body;
     if (req.method === 'POST') {
       const partes = []; let tam = 0;
-      for await (const c of req) { tam += c.length; if (tam > 256 * 1024) throw new Error('cuerpo demasiado grande'); partes.push(c); }
+      for await (const c of req) {
+        tam += c.length;
+        if (tam > 256 * 1024) {      // 413, no 502: con 502 el juego creería que la API está caída y lo reintentaría
+          res.writeHead(413, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
+          res.end(JSON.stringify({ error: { codigo: 'cuerpo_muy_grande', mensaje: 'El cuerpo pasa de 256 KB' } }));
+          return;
+        }
+        partes.push(c);
+      }
       body = Buffer.concat(partes);
     }
     const r = await fetch(API + req.url, { method: req.method, body, signal: AbortSignal.timeout(8000),
@@ -58,8 +66,10 @@ async function reenviar(req, res) {
   }
 }
 
-createServer(async (req, res) => {
-  const ruta = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+async function atender(req, res) {
+  let ruta;
+  try { ruta = decodeURIComponent(new URL(req.url, 'http://x').pathname); }
+  catch { res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' }).end('Ruta mal escrita'); return; }   // p. ej. /%E0%A4%A
   const esApi = ruta.startsWith('/api/') || ruta.startsWith('/health');
   if (req.method !== 'GET' && req.method !== 'HEAD' && !(req.method === 'POST' && ruta.startsWith('/api/'))) { res.writeHead(405).end(); return; }
   if (esApi) { await reenviar(req, res); return; }
@@ -68,4 +78,13 @@ createServer(async (req, res) => {
   const cuerpo = await readFile(p);
   res.writeHead(200, { 'Content-Type': TIPOS[extname(p).toLowerCase()] ?? 'application/octet-stream', 'Cache-Control': 'no-store' });
   res.end(req.method === 'HEAD' ? undefined : cuerpo);
+}
+
+// Un error en una petición no tumba el servidor (sin esto, una promesa rechazada cerraba el proceso de Node)
+createServer((req, res) => {
+  atender(req, res).catch(e => {
+    console.error('[servidor]', req.method, req.url, e.message);
+    if (!res.headersSent) res.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
+    res.end();
+  });
 }).listen(PUERTO, () => console.log(`JIIMATZIN (juego) en http://localhost:${PUERTO}  ·  API: ${API}`));

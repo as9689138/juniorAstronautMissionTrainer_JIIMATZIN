@@ -527,236 +527,397 @@
  {
   "id": "es_076",
   "idioma": "es",
+  "texto": "Humanos, seres vivos, converjan entre sí. Afuera de este planeta hay un mundo todavía más grande… infinito, inmenso, colmado de enigmas, preguntas que esperan una respuesta y tesoros que buscan ser encontrados.",
+  "texto_tts": "Humanos, seres vivos, converjan entre sí. Afuera de este planeta hay un mundo todavía más grande… infinito, inmenso, colmado de enigmas, preguntas que esperan una respuesta y tesoros que buscan ser encontrados.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_077",
+  "idioma": "es",
+  "texto": "Neil Armstrong, en 1969, fue el primer individuo en llegar a la Luna.",
+  "texto_tts": "Neil Armstrong, en 1969, fue el primer individuo en llegar a la Luna.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_078",
+  "idioma": "es",
+  "texto": "¿Qué nos hace humanos? ¿Qué nos hace ser lo que realmente somos? No son nuestras habilidades sociales, no es nuestra anatomía y, claramente, no es nuestra inteligencia…",
+  "texto_tts": "¿Qué nos hace humanos? ¿Qué nos hace ser lo que realmente somos? No son nuestras habilidades sociales, no es nuestra anatomía y, claramente, no es nuestra inteligencia…",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_079",
+  "idioma": "es",
+  "texto": "Entonces… ¿Qué es?...",
+  "texto_tts": "Entonces… ¿Qué es?...",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_080",
+  "idioma": "es",
+  "texto": "Sí, es la necesidad de saber qué más, el saber qué hay más allá de lo que nuestra visión es capaz de alcanzar a ver. Es tener esa sed de conocimiento, tener ganas de tomar al mundo y devorarlo por completo de un solo bocado, saber qué es lo que mueve al planeta, cada dimensión, cada partícula, cada onda y cada electrón.",
+  "texto_tts": "Sí, es la necesidad de saber qué más, el saber qué hay más allá de lo que nuestra visión es capaz de alcanzar a ver. Es tener esa sed de conocimiento, tener ganas de tomar al mundo y devorarlo por completo de un solo bocado, saber qué es lo que mueve al planeta, cada dimensión, cada partícula, cada onda y cada electrón.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_081",
+  "idioma": "es",
+  "texto": "Todo se mueve gracias al querer saber más, hacer más, lograr más y llegar más alto… No solo mirar el cielo y tapar el sol con el dedo; es estar frente al sol y ver en el reflejo de tus ojos esas olas que danzan tan voraces al compás de las estrellas…",
+  "texto_tts": "Todo se mueve gracias al querer saber más, hacer más, lograr más y llegar más alto… No solo mirar el cielo y tapar el sol con el dedo; es estar frente al sol y ver en el reflejo de tus ojos esas olas que danzan tan voraces al compás de las estrellas…",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_082",
+  "idioma": "es",
+  "texto": "El tiempo pasa y, entre más pasa el tiempo, más cosas van surgiendo de entre la Tierra y el espacio. Todo esto es el legado de miles de personas, el cual ha sido transferido generación por generación y han dedicado su vida entera para encontrar respuestas.",
+  "texto_tts": "El tiempo pasa y, entre más pasa el tiempo, más cosas van surgiendo de entre la Tierra y el espacio. Todo esto es el legado de miles de personas, el cual ha sido transferido generación por generación y han dedicado su vida entera para encontrar respuestas.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_083",
+  "idioma": "es",
+  "texto": "Nada es imposible, porque cuando lo intentas… no siempre será lo que esperas, pero siempre tendrás un resultado…",
+  "texto_tts": "Nada es imposible, porque cuando lo intentas… no siempre será lo que esperas, pero siempre tendrás un resultado…",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_084",
+  "idioma": "es",
+  "texto": "Ahora a ti te toca… Tienes la antorcha de la sabiduría, del conocimiento, de la necesidad y de la perseverancia… Demuestra tus capacidades, supérate y demuestra lo capaz que eres.",
+  "texto_tts": "Ahora a ti te toca… Tienes la antorcha de la sabiduría, del conocimiento, de la necesidad y de la perseverancia… Demuestra tus capacidades, supérate y demuestra lo capaz que eres.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_085",
+  "idioma": "es",
+  "texto": "Porque si lo intentas, lo logras…",
+  "texto_tts": "Porque si lo intentas, lo logras…",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_086",
+  "idioma": "es",
+  "texto": "Construye y arregla máquinas, robots y naves espaciales.",
+  "texto_tts": "Construye y arregla máquinas, robots y naves espaciales.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_087",
+  "idioma": "es",
+  "texto": "Entiende cómo se mueven las cosas y cómo viaja la electricidad.",
+  "texto_tts": "Entiende cómo se mueven las cosas y cómo viaja la electricidad.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_088",
+  "idioma": "es",
+  "texto": "Cuida las computadoras de la base y trabaja con disciplina bajo presión.",
+  "texto_tts": "Cuida las computadoras de la base y trabaja con disciplina bajo presión.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_089",
+  "idioma": "es",
+  "texto": "Estudia las plantas y sabe cómo cuidarlas en el invernadero.",
+  "texto_tts": "Estudia las plantas y sabe cómo cuidarlas en el invernadero.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_090",
+  "idioma": "es",
+  "texto": "Lee las rocas y el suelo para entender cómo es Marte.",
+  "texto_tts": "Lee las rocas y el suelo para entender cómo es Marte.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_091",
+  "idioma": "es",
+  "texto": "Vigila el clima: el viento, el polvo y las tormentas.",
+  "texto_tts": "Vigila el clima: el viento, el polvo y las tormentas.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_092",
+  "idioma": "es",
+  "texto": "Conoce el cuerpo humano y sabe cómo cuidarlo en el espacio.",
+  "texto_tts": "Conoce el cuerpo humano y sabe cómo cuidarlo en el espacio.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_093",
+  "idioma": "es",
+  "texto": "Da primeros auxilios y mantiene al equipo sano y tranquilo.",
+  "texto_tts": "Da primeros auxilios y mantiene al equipo sano y tranquilo.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_094",
+  "idioma": "es",
+  "texto": "Año 2030…",
+  "texto_tts": "Año 2030…",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_095",
+  "idioma": "es",
+  "texto": "Todo empezó en 2023, cuando cuatro voluntarios de la NASA vivieron 378 días dentro de una base simulada de Marte, en Houston.",
+  "texto_tts": "Todo empezó en 2023, cuando cuatro voluntarios de la NASA vivieron 378 días dentro de una base simulada de Marte, en Houston.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_096",
+  "idioma": "es",
+  "texto": "Desde entonces, la humanidad se prepara para llevar personas a Marte.",
+  "texto_tts": "Desde entonces, la humanidad se prepara para llevar personas a Marte.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_097",
+  "idioma": "es",
+  "texto": "Hoy, en 2030, un equipo pequeño hace su misión de prueba en la Base Marte Uno. Es una simulación, pero se parece mucho a la realidad.",
+  "texto_tts": "Hoy, en 2030, un equipo pequeño hace su misión de prueba en la Base Marte Uno. Es una simulación, pero se parece mucho a la realidad.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_098",
+  "idioma": "es",
+  "texto": "Las luces se apagan una por una.",
+  "texto_tts": "Las luces se apagan una por una.",
+  "cara": "sereno"
+ },
+ {
+  "id": "es_099",
+  "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días no se registró ninguna llamarada solar. El Sol ha estado tranquilo.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días no se registró ninguna llamarada solar. El Sol ha estado tranquilo.",
   "cara": "feliz"
  },
  {
-  "id": "es_077",
+  "id": "es_100",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días no se registró ninguna llamarada solar.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días no se registró ninguna llamarada solar.",
   "cara": "feliz"
  },
  {
-  "id": "es_078",
+  "id": "es_101",
   "idioma": "es",
   "texto": "El Sol ha estado tranquilo.",
   "texto_tts": "El Sol ha estado tranquilo.",
   "cara": "feliz"
  },
  {
-  "id": "es_079",
+  "id": "es_102",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 2 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron dos llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_080",
+  "id": "es_103",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 3 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron tres llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_081",
+  "id": "es_104",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 4 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron cuatro llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_082",
+  "id": "es_105",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 5 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron cinco llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_083",
+  "id": "es_106",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 6 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron seis llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_084",
+  "id": "es_107",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 7 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron siete llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_085",
+  "id": "es_108",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 8 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron ocho llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_086",
+  "id": "es_109",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 9 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron nueve llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_087",
+  "id": "es_110",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 10 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron diez llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_088",
+  "id": "es_111",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 11 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron once llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_089",
+  "id": "es_112",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 12 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron doce llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_090",
+  "id": "es_113",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 13 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron trece llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_091",
+  "id": "es_114",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 14 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron catorce llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_092",
+  "id": "es_115",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 15 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron quince llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_093",
+  "id": "es_116",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 16 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron dieciséis llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_094",
+  "id": "es_117",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 17 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron diecisiete llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_095",
+  "id": "es_118",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 18 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron dieciocho llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_096",
+  "id": "es_119",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 19 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron diecinueve llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_097",
+  "id": "es_120",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 20 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veinte llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_098",
+  "id": "es_121",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 21 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veintiuno llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_099",
+  "id": "es_122",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 22 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veintidós llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_100",
+  "id": "es_123",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 23 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veintitrés llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_101",
+  "id": "es_124",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 24 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veinticuatro llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_102",
+  "id": "es_125",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 25 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veinticinco llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_103",
+  "id": "es_126",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 26 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veintiséis llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_104",
+  "id": "es_127",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 27 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veintisiete llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_105",
+  "id": "es_128",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 28 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veintiocho llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_106",
+  "id": "es_129",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 29 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron veintinueve llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_107",
+  "id": "es_130",
   "idioma": "es",
   "texto": "Noticias del Sol, de la NASA: en los últimos 7 días se registraron 30 llamaradas solares.",
   "texto_tts": "Noticias del Sol, de la NASA: en los últimos siete días se registraron treinta llamaradas solares.",
   "cara": "procesando"
  },
  {
-  "id": "es_108",
+  "id": "es_131",
   "idioma": "es",
   "texto": "Es la última copia guardada: la NASA no respondió.",
   "texto_tts": "Es la última copia guardada: la NASA no respondió.",
   "cara": "neutral"
  },
  {
-  "id": "es_109",
+  "id": "es_132",
   "idioma": "es",
   "texto": "Las llamaradas se nombran con letras: A, B, C, M y X. Cada letra es diez veces más fuerte que la anterior. Esto pasa en el Sol: no es una medición en Marte.",
   "texto_tts": "Las llamaradas se nombran con letras: A, B, C, M y equis. Cada letra es diez veces más fuerte que la anterior. Esto pasa en el Sol: no es una medición en Marte.",
@@ -1290,4380 +1451,4541 @@
  {
   "id": "en_076",
   "idioma": "en",
+  "texto": "Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found.",
+  "texto_tts": "Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_077",
+  "idioma": "en",
+  "texto": "In 1969, Neil Armstrong was the first person to reach the Moon.",
+  "texto_tts": "In 1969, Neil Armstrong was the first person to reach the Moon.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_078",
+  "idioma": "en",
+  "texto": "What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…",
+  "texto_tts": "What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_079",
+  "idioma": "en",
+  "texto": "So… what is it?...",
+  "texto_tts": "So… what is it?...",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_080",
+  "idioma": "en",
+  "texto": "Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron.",
+  "texto_tts": "Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_081",
+  "idioma": "en",
+  "texto": "Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…",
+  "texto_tts": "Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_082",
+  "idioma": "en",
+  "texto": "Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers.",
+  "texto_tts": "Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_083",
+  "idioma": "en",
+  "texto": "Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…",
+  "texto_tts": "Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_084",
+  "idioma": "en",
+  "texto": "Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are.",
+  "texto_tts": "Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_085",
+  "idioma": "en",
+  "texto": "Because if you try, you can do it…",
+  "texto_tts": "Because if you try, you can do it…",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_086",
+  "idioma": "en",
+  "texto": "Builds and fixes machines, robots and spaceships.",
+  "texto_tts": "Builds and fixes machines, robots and spaceships.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_087",
+  "idioma": "en",
+  "texto": "Understands how things move and how electricity travels.",
+  "texto_tts": "Understands how things move and how electricity travels.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_088",
+  "idioma": "en",
+  "texto": "Looks after the base’s computers and works with discipline under pressure.",
+  "texto_tts": "Looks after the base’s computers and works with discipline under pressure.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_089",
+  "idioma": "en",
+  "texto": "Studies plants and knows how to care for them in the greenhouse.",
+  "texto_tts": "Studies plants and knows how to care for them in the greenhouse.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_090",
+  "idioma": "en",
+  "texto": "Reads the rocks and the soil to understand what Mars is like.",
+  "texto_tts": "Reads the rocks and the soil to understand what Mars is like.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_091",
+  "idioma": "en",
+  "texto": "Watches the weather: wind, dust and storms.",
+  "texto_tts": "Watches the weather: wind, dust and storms.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_092",
+  "idioma": "en",
+  "texto": "Knows the human body and how to take care of it in space.",
+  "texto_tts": "Knows the human body and how to take care of it in space.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_093",
+  "idioma": "en",
+  "texto": "Gives first aid and keeps the team healthy and calm.",
+  "texto_tts": "Gives first aid and keeps the team healthy and calm.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_094",
+  "idioma": "en",
+  "texto": "Year 2030…",
+  "texto_tts": "Year 2030…",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_095",
+  "idioma": "en",
+  "texto": "It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston.",
+  "texto_tts": "It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_096",
+  "idioma": "en",
+  "texto": "Since then, humanity has been getting ready to send people to Mars.",
+  "texto_tts": "Since then, humanity has been getting ready to send people to Mars.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_097",
+  "idioma": "en",
+  "texto": "Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing.",
+  "texto_tts": "Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_098",
+  "idioma": "en",
+  "texto": "The lights go out one by one.",
+  "texto_tts": "The lights go out one by one.",
+  "cara": "sereno"
+ },
+ {
+  "id": "en_099",
+  "idioma": "en",
   "texto": "Sun news from NASA: no solar flares were recorded in the last 7 days. The Sun has been calm.",
   "texto_tts": "Sun news from NASA: no solar flares were recorded in the last seven days. The Sun has been calm.",
   "cara": "feliz"
  },
  {
-  "id": "en_077",
+  "id": "en_100",
   "idioma": "en",
   "texto": "Sun news from NASA: no solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: no solar flares were recorded in the last seven days.",
   "cara": "feliz"
  },
  {
-  "id": "en_078",
+  "id": "en_101",
   "idioma": "en",
   "texto": "The Sun has been calm.",
   "texto_tts": "The Sun has been calm.",
   "cara": "feliz"
  },
  {
-  "id": "en_079",
+  "id": "en_102",
   "idioma": "en",
   "texto": "Sun news from NASA: 2 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: two solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_080",
+  "id": "en_103",
   "idioma": "en",
   "texto": "Sun news from NASA: 3 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: three solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_081",
+  "id": "en_104",
   "idioma": "en",
   "texto": "Sun news from NASA: 4 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: four solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_082",
+  "id": "en_105",
   "idioma": "en",
   "texto": "Sun news from NASA: 5 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: five solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_083",
+  "id": "en_106",
   "idioma": "en",
   "texto": "Sun news from NASA: 6 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: six solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_084",
+  "id": "en_107",
   "idioma": "en",
   "texto": "Sun news from NASA: 7 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: seven solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_085",
+  "id": "en_108",
   "idioma": "en",
   "texto": "Sun news from NASA: 8 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: eight solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_086",
+  "id": "en_109",
   "idioma": "en",
   "texto": "Sun news from NASA: 9 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: nine solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_087",
+  "id": "en_110",
   "idioma": "en",
   "texto": "Sun news from NASA: 10 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: ten solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_088",
+  "id": "en_111",
   "idioma": "en",
   "texto": "Sun news from NASA: 11 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: eleven solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_089",
+  "id": "en_112",
   "idioma": "en",
   "texto": "Sun news from NASA: 12 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twelve solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_090",
+  "id": "en_113",
   "idioma": "en",
   "texto": "Sun news from NASA: 13 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: thirteen solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_091",
+  "id": "en_114",
   "idioma": "en",
   "texto": "Sun news from NASA: 14 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: fourteen solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_092",
+  "id": "en_115",
   "idioma": "en",
   "texto": "Sun news from NASA: 15 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: fifteen solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_093",
+  "id": "en_116",
   "idioma": "en",
   "texto": "Sun news from NASA: 16 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: sixteen solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_094",
+  "id": "en_117",
   "idioma": "en",
   "texto": "Sun news from NASA: 17 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: seventeen solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_095",
+  "id": "en_118",
   "idioma": "en",
   "texto": "Sun news from NASA: 18 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: eighteen solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_096",
+  "id": "en_119",
   "idioma": "en",
   "texto": "Sun news from NASA: 19 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: nineteen solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_097",
+  "id": "en_120",
   "idioma": "en",
   "texto": "Sun news from NASA: 20 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_098",
+  "id": "en_121",
   "idioma": "en",
   "texto": "Sun news from NASA: 21 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-one solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_099",
+  "id": "en_122",
   "idioma": "en",
   "texto": "Sun news from NASA: 22 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-two solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_100",
+  "id": "en_123",
   "idioma": "en",
   "texto": "Sun news from NASA: 23 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-three solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_101",
+  "id": "en_124",
   "idioma": "en",
   "texto": "Sun news from NASA: 24 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-four solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_102",
+  "id": "en_125",
   "idioma": "en",
   "texto": "Sun news from NASA: 25 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-five solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_103",
+  "id": "en_126",
   "idioma": "en",
   "texto": "Sun news from NASA: 26 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-six solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_104",
+  "id": "en_127",
   "idioma": "en",
   "texto": "Sun news from NASA: 27 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-seven solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_105",
+  "id": "en_128",
   "idioma": "en",
   "texto": "Sun news from NASA: 28 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-eight solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_106",
+  "id": "en_129",
   "idioma": "en",
   "texto": "Sun news from NASA: 29 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: twenty-nine solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_107",
+  "id": "en_130",
   "idioma": "en",
   "texto": "Sun news from NASA: 30 solar flares were recorded in the last 7 days.",
   "texto_tts": "Sun news from NASA: thirty solar flares were recorded in the last seven days.",
   "cara": "procesando"
  },
  {
-  "id": "en_108",
+  "id": "en_131",
   "idioma": "en",
   "texto": "This is the last saved copy: NASA didn’t respond.",
   "texto_tts": "This is the last saved copy: NASA didn’t respond.",
   "cara": "neutral"
  },
  {
-  "id": "en_109",
+  "id": "en_132",
   "idioma": "en",
   "texto": "Flares are named with letters: A, B, C, M and X. Each letter is ten times stronger than the one before. This happens on the Sun: it is not a measurement on Mars.",
   "texto_tts": "Flares are named with letters: A, B, C, M and X. Each letter is ten times stronger than the one before. This happens on the Sun: it is not a measurement on Mars.",
   "cara": "neutral"
  },
  {
-  "id": "es_110",
+  "id": "es_133",
   "idioma": "es",
   "texto": "Antes de repartir, mira las tres barras.",
   "texto_tts": "Antes de repartir, mira las tres barras.",
   "cara": "neutral"
  },
  {
-  "id": "es_111",
+  "id": "es_134",
   "idioma": "es",
   "texto": "La más baja es la que más te necesita.",
   "texto_tts": "La más baja es la que más te necesita.",
   "cara": "neutral"
  },
  {
-  "id": "es_112",
+  "id": "es_135",
   "idioma": "es",
   "texto": "Pregúntate primero: ¿qué barra está más baja hoy?",
   "texto_tts": "Pregúntate primero: ¿qué barra está más baja hoy?",
   "cara": "neutral"
  },
  {
-  "id": "es_113",
+  "id": "es_136",
   "idioma": "es",
   "texto": "Una pista: los núcleos van donde más falta.",
   "texto_tts": "Una pista: los núcleos van donde más falta.",
   "cara": "neutral"
  },
  {
-  "id": "es_114",
+  "id": "es_137",
   "idioma": "es",
   "texto": "Mira tu energía: está muy baja.",
   "texto_tts": "Mira tu energía: está muy baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_115",
+  "id": "es_138",
   "idioma": "es",
   "texto": "Dale más núcleos a los Colectores Solares.",
   "texto_tts": "Dale más núcleos a los Colectores Solares.",
   "cara": "neutral"
  },
  {
-  "id": "es_116",
+  "id": "es_139",
   "idioma": "es",
   "texto": "Mira tu energía: está baja.",
   "texto_tts": "Mira tu energía: está baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_117",
+  "id": "es_140",
   "idioma": "es",
   "texto": "Mira tu energía: está más baja que lo demás.",
   "texto_tts": "Mira tu energía: está más baja que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_118",
+  "id": "es_141",
   "idioma": "es",
   "texto": "Mira tu oxígeno: está muy bajo.",
   "texto_tts": "Mira tu oxígeno: está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_119",
+  "id": "es_142",
   "idioma": "es",
   "texto": "Dale más núcleos al Soporte Vital.",
   "texto_tts": "Dale más núcleos al Soporte Vital.",
   "cara": "neutral"
  },
  {
-  "id": "es_120",
+  "id": "es_143",
   "idioma": "es",
   "texto": "Mira tu oxígeno: está bajo.",
   "texto_tts": "Mira tu oxígeno: está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_121",
+  "id": "es_144",
   "idioma": "es",
   "texto": "Mira tu oxígeno: está más bajo que lo demás.",
   "texto_tts": "Mira tu oxígeno: está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_122",
+  "id": "es_145",
   "idioma": "es",
   "texto": "Mira tu blindaje: está muy bajo.",
   "texto_tts": "Mira tu blindaje: está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_123",
+  "id": "es_146",
   "idioma": "es",
   "texto": "Dale más núcleos a los Escudos del Casco.",
   "texto_tts": "Dale más núcleos a los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_124",
+  "id": "es_147",
   "idioma": "es",
   "texto": "Mira tu blindaje: está bajo.",
   "texto_tts": "Mira tu blindaje: está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_125",
+  "id": "es_148",
   "idioma": "es",
   "texto": "Mira tu blindaje: está más bajo que lo demás.",
   "texto_tts": "Mira tu blindaje: está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_126",
+  "id": "es_149",
   "idioma": "es",
   "texto": "Pista: tu energía está muy baja.",
   "texto_tts": "Pista: tu energía está muy baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_127",
+  "id": "es_150",
   "idioma": "es",
   "texto": "Busca su sistema en la consola: los Colectores Solares.",
   "texto_tts": "Busca su sistema en la consola: los Colectores Solares.",
   "cara": "neutral"
  },
  {
-  "id": "es_128",
+  "id": "es_151",
   "idioma": "es",
   "texto": "Pista: tu energía está baja.",
   "texto_tts": "Pista: tu energía está baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_129",
+  "id": "es_152",
   "idioma": "es",
   "texto": "Pista: tu energía está más baja que lo demás.",
   "texto_tts": "Pista: tu energía está más baja que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_130",
+  "id": "es_153",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está muy bajo.",
   "texto_tts": "Pista: tu oxígeno está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_131",
+  "id": "es_154",
   "idioma": "es",
   "texto": "Busca su sistema en la consola: el Soporte Vital.",
   "texto_tts": "Busca su sistema en la consola: el Soporte Vital.",
   "cara": "neutral"
  },
  {
-  "id": "es_132",
+  "id": "es_155",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está bajo.",
   "texto_tts": "Pista: tu oxígeno está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_133",
+  "id": "es_156",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está más bajo que lo demás.",
   "texto_tts": "Pista: tu oxígeno está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_134",
+  "id": "es_157",
   "idioma": "es",
   "texto": "Pista: tu blindaje está muy bajo.",
   "texto_tts": "Pista: tu blindaje está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_135",
+  "id": "es_158",
   "idioma": "es",
   "texto": "Busca su sistema en la consola: los Escudos del Casco.",
   "texto_tts": "Busca su sistema en la consola: los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_136",
+  "id": "es_159",
   "idioma": "es",
   "texto": "Pista: tu blindaje está bajo.",
   "texto_tts": "Pista: tu blindaje está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_137",
+  "id": "es_160",
   "idioma": "es",
   "texto": "Pista: tu blindaje está más bajo que lo demás.",
   "texto_tts": "Pista: tu blindaje está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_138",
+  "id": "es_161",
   "idioma": "es",
   "texto": "Hoy lo que más falta es la energía.",
   "texto_tts": "Hoy lo que más falta es la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_139",
+  "id": "es_162",
   "idioma": "es",
   "texto": "Ya sabes a qué sistema darle núcleos.",
   "texto_tts": "Ya sabes a qué sistema darle núcleos.",
   "cara": "neutral"
  },
  {
-  "id": "es_140",
+  "id": "es_163",
   "idioma": "es",
   "texto": "Hoy lo que más falta es el oxígeno.",
   "texto_tts": "Hoy lo que más falta es el oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_141",
+  "id": "es_164",
   "idioma": "es",
   "texto": "Hoy lo que más falta es el blindaje.",
   "texto_tts": "Hoy lo que más falta es el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_142",
+  "id": "es_165",
   "idioma": "es",
   "texto": "Te enseño cómo lo pienso yo.",
   "texto_tts": "Te enseño cómo lo pienso yo.",
   "cara": "neutral"
  },
  {
-  "id": "es_143",
+  "id": "es_166",
   "idioma": "es",
   "texto": "Tu energía está muy baja.",
   "texto_tts": "Tu energía está muy baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_144",
+  "id": "es_167",
   "idioma": "es",
   "texto": "Tu oxígeno está mejor.",
   "texto_tts": "Tu oxígeno está mejor.",
   "cara": "neutral"
  },
  {
-  "id": "es_145",
+  "id": "es_168",
   "idioma": "es",
   "texto": "Entonces le doy más núcleos a los Colectores Solares.",
   "texto_tts": "Entonces le doy más núcleos a los Colectores Solares.",
   "cara": "neutral"
  },
  {
-  "id": "es_146",
+  "id": "es_169",
   "idioma": "es",
   "texto": "¡Ahora tú!",
   "texto_tts": "¡Ahora tú!",
   "cara": "neutral"
  },
  {
-  "id": "es_147",
+  "id": "es_170",
   "idioma": "es",
   "texto": "Tu energía está baja.",
   "texto_tts": "Tu energía está baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_148",
+  "id": "es_171",
   "idioma": "es",
   "texto": "Tu energía está más baja que lo demás.",
   "texto_tts": "Tu energía está más baja que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_149",
+  "id": "es_172",
   "idioma": "es",
   "texto": "Tu blindaje está mejor.",
   "texto_tts": "Tu blindaje está mejor.",
   "cara": "neutral"
  },
  {
-  "id": "es_150",
+  "id": "es_173",
   "idioma": "es",
   "texto": "Tu oxígeno está muy bajo.",
   "texto_tts": "Tu oxígeno está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_151",
+  "id": "es_174",
   "idioma": "es",
   "texto": "Tu energía está mejor.",
   "texto_tts": "Tu energía está mejor.",
   "cara": "neutral"
  },
  {
-  "id": "es_152",
+  "id": "es_175",
   "idioma": "es",
   "texto": "Entonces le doy más núcleos al Soporte Vital.",
   "texto_tts": "Entonces le doy más núcleos al Soporte Vital.",
   "cara": "neutral"
  },
  {
-  "id": "es_153",
+  "id": "es_176",
   "idioma": "es",
   "texto": "Tu oxígeno está bajo.",
   "texto_tts": "Tu oxígeno está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_154",
+  "id": "es_177",
   "idioma": "es",
   "texto": "Tu oxígeno está más bajo que lo demás.",
   "texto_tts": "Tu oxígeno está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_155",
+  "id": "es_178",
   "idioma": "es",
   "texto": "Tu blindaje está muy bajo.",
   "texto_tts": "Tu blindaje está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_156",
+  "id": "es_179",
   "idioma": "es",
   "texto": "Entonces le doy más núcleos a los Escudos del Casco.",
   "texto_tts": "Entonces le doy más núcleos a los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_157",
+  "id": "es_180",
   "idioma": "es",
   "texto": "Tu blindaje está bajo.",
   "texto_tts": "Tu blindaje está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_158",
+  "id": "es_181",
   "idioma": "es",
   "texto": "Tu blindaje está más bajo que lo demás.",
   "texto_tts": "Tu blindaje está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_159",
+  "id": "es_182",
   "idioma": "es",
   "texto": "Vamos paso a paso.",
   "texto_tts": "Vamos paso a paso.",
   "cara": "neutral"
  },
  {
-  "id": "es_160",
+  "id": "es_183",
   "idioma": "es",
   "texto": "Primero busco la barra más baja: la energía.",
   "texto_tts": "Primero busco la barra más baja: la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_161",
+  "id": "es_184",
   "idioma": "es",
   "texto": "Después le doy más núcleos a los Colectores Solares.",
   "texto_tts": "Después le doy más núcleos a los Colectores Solares.",
   "cara": "neutral"
  },
  {
-  "id": "es_162",
+  "id": "es_185",
   "idioma": "es",
   "texto": "¡Inténtalo!",
   "texto_tts": "¡Inténtalo!",
   "cara": "neutral"
  },
  {
-  "id": "es_163",
+  "id": "es_186",
   "idioma": "es",
   "texto": "Primero busco la barra más baja: el oxígeno.",
   "texto_tts": "Primero busco la barra más baja: el oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_164",
+  "id": "es_187",
   "idioma": "es",
   "texto": "Después le doy más núcleos al Soporte Vital.",
   "texto_tts": "Después le doy más núcleos al Soporte Vital.",
   "cara": "neutral"
  },
  {
-  "id": "es_165",
+  "id": "es_188",
   "idioma": "es",
   "texto": "Primero busco la barra más baja: el blindaje.",
   "texto_tts": "Primero busco la barra más baja: el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_166",
+  "id": "es_189",
   "idioma": "es",
   "texto": "Después le doy más núcleos a los Escudos del Casco.",
   "texto_tts": "Después le doy más núcleos a los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_167",
+  "id": "es_190",
   "idioma": "es",
   "texto": "Hoy no te doy pista, Wenceslao.",
   "texto_tts": "Hoy no te doy pista, Wenceslao.",
   "cara": "neutral"
  },
  {
-  "id": "es_168",
+  "id": "es_191",
   "idioma": "es",
   "texto": "¡Confío en tu plan!",
   "texto_tts": "¡Confío en tu plan!",
   "cara": "neutral"
  },
  {
-  "id": "es_169",
+  "id": "es_192",
   "idioma": "es",
   "texto": "Hoy no te doy pista, Judith.",
   "texto_tts": "Hoy no te doy pista, Judith.",
   "cara": "neutral"
  },
  {
-  "id": "es_170",
+  "id": "es_193",
   "idioma": "es",
   "texto": "Hoy no te doy pista, Atlas.",
   "texto_tts": "Hoy no te doy pista, Atlas.",
   "cara": "neutral"
  },
  {
-  "id": "es_171",
+  "id": "es_194",
   "idioma": "es",
   "texto": "Ya sabes repartir la energía.",
   "texto_tts": "Ya sabes repartir la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_172",
+  "id": "es_195",
   "idioma": "es",
   "texto": "Esta vez el plan es todo tuyo.",
   "texto_tts": "Esta vez el plan es todo tuyo.",
   "cara": "neutral"
  },
  {
-  "id": "es_173",
+  "id": "es_196",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en cero hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en cero hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_174",
+  "id": "es_197",
   "idioma": "es",
   "texto": "Piensa qué sistema nos protege.",
   "texto_tts": "Piensa qué sistema nos protege.",
   "cara": "neutral"
  },
  {
-  "id": "es_175",
+  "id": "es_198",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en uno hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en uno hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_176",
+  "id": "es_199",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en dos hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en dos hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_177",
+  "id": "es_200",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en tres hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en tres hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_178",
+  "id": "es_201",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en cuatro hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en cuatro hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_179",
+  "id": "es_202",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en cinco hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en cinco hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_180",
+  "id": "es_203",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en seis hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en seis hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_181",
+  "id": "es_204",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en siete hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en siete hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_182",
+  "id": "es_205",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en ocho hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en ocho hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_183",
+  "id": "es_206",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en nueve hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en nueve hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_184",
+  "id": "es_207",
   "idioma": "es",
   "texto": "Mi pronóstico dice: de diez días como hoy, en diez hubo llamarada fuerte.",
   "texto_tts": "Mi pronóstico dice: de diez días como hoy, en diez hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_185",
+  "id": "es_208",
   "idioma": "es",
   "texto": "Hay riesgo de llamarada.",
   "texto_tts": "Hay riesgo de llamarada.",
   "cara": "neutral"
  },
  {
-  "id": "es_186",
+  "id": "es_209",
   "idioma": "es",
   "texto": "Los Escudos del Casco van a necesitar núcleos.",
   "texto_tts": "Los Escudos del Casco van a necesitar núcleos.",
   "cara": "neutral"
  },
  {
-  "id": "es_187",
+  "id": "es_210",
   "idioma": "es",
   "texto": "De diez días como hoy, en cero hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en cero hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_188",
+  "id": "es_211",
   "idioma": "es",
   "texto": "Pon núcleos en los Escudos.",
   "texto_tts": "Pon núcleos en los Escudos.",
   "cara": "neutral"
  },
  {
-  "id": "es_189",
+  "id": "es_212",
   "idioma": "es",
   "texto": "De diez días como hoy, en uno hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en uno hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_190",
+  "id": "es_213",
   "idioma": "es",
   "texto": "De diez días como hoy, en dos hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en dos hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_191",
+  "id": "es_214",
   "idioma": "es",
   "texto": "De diez días como hoy, en tres hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en tres hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_192",
+  "id": "es_215",
   "idioma": "es",
   "texto": "De diez días como hoy, en cuatro hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en cuatro hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_193",
+  "id": "es_216",
   "idioma": "es",
   "texto": "De diez días como hoy, en cinco hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en cinco hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_194",
+  "id": "es_217",
   "idioma": "es",
   "texto": "De diez días como hoy, en seis hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en seis hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_195",
+  "id": "es_218",
   "idioma": "es",
   "texto": "De diez días como hoy, en siete hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en siete hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_196",
+  "id": "es_219",
   "idioma": "es",
   "texto": "De diez días como hoy, en ocho hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en ocho hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_197",
+  "id": "es_220",
   "idioma": "es",
   "texto": "De diez días como hoy, en nueve hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en nueve hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_198",
+  "id": "es_221",
   "idioma": "es",
   "texto": "De diez días como hoy, en diez hubo llamarada fuerte.",
   "texto_tts": "De diez días como hoy, en diez hubo llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_199",
+  "id": "es_222",
   "idioma": "es",
   "texto": "Mi pronóstico avisa llamarada fuerte.",
   "texto_tts": "Mi pronóstico avisa llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_200",
+  "id": "es_223",
   "idioma": "es",
   "texto": "La llamarada daña el blindaje.",
   "texto_tts": "La llamarada daña el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_201",
+  "id": "es_224",
   "idioma": "es",
   "texto": "Entonces le doy dos núcleos a los Escudos del Casco.",
   "texto_tts": "Entonces le doy dos núcleos a los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_202",
+  "id": "es_225",
   "idioma": "es",
   "texto": "Tú decides cómo protegernos.",
   "texto_tts": "Tú decides cómo protegernos.",
   "cara": "neutral"
  },
  {
-  "id": "es_203",
+  "id": "es_226",
   "idioma": "es",
   "texto": "¡Buena estrategia, Wenceslao!",
   "texto_tts": "¡Buena estrategia, Wenceslao!",
   "cara": "neutral"
  },
  {
-  "id": "es_204",
+  "id": "es_227",
   "idioma": "es",
   "texto": "Le diste más a lo que más faltaba.",
   "texto_tts": "Le diste más a lo que más faltaba.",
   "cara": "neutral"
  },
  {
-  "id": "es_205",
+  "id": "es_228",
   "idioma": "es",
   "texto": "¡Buena estrategia, Judith!",
   "texto_tts": "¡Buena estrategia, Judith!",
   "cara": "neutral"
  },
  {
-  "id": "es_206",
+  "id": "es_229",
   "idioma": "es",
   "texto": "¡Buena estrategia, Atlas!",
   "texto_tts": "¡Buena estrategia, Atlas!",
   "cara": "neutral"
  },
  {
-  "id": "es_207",
+  "id": "es_230",
   "idioma": "es",
   "texto": "¡Así se piensa!",
   "texto_tts": "¡Así se piensa!",
   "cara": "neutral"
  },
  {
-  "id": "es_208",
+  "id": "es_231",
   "idioma": "es",
   "texto": "Primero miraste las barras y luego decidiste.",
   "texto_tts": "Primero miraste las barras y luego decidiste.",
   "cara": "neutral"
  },
  {
-  "id": "es_209",
+  "id": "es_232",
   "idioma": "es",
   "texto": "¡Muy bien!",
   "texto_tts": "¡Muy bien!",
   "cara": "neutral"
  },
  {
-  "id": "es_210",
+  "id": "es_233",
   "idioma": "es",
   "texto": "Cuidaste la energía, que era lo más bajo.",
   "texto_tts": "Cuidaste la energía, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_211",
+  "id": "es_234",
   "idioma": "es",
   "texto": "Cuidaste el oxígeno, que era lo más bajo.",
   "texto_tts": "Cuidaste el oxígeno, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_212",
+  "id": "es_235",
   "idioma": "es",
   "texto": "Cuidaste el blindaje, que era lo más bajo.",
   "texto_tts": "Cuidaste el blindaje, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_213",
+  "id": "es_236",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿por qué le diste más núcleos a los Colectores Solares?",
   "texto_tts": "Pregunta rápida: ¿por qué le diste más núcleos a los Colectores Solares?",
   "cara": "neutral"
  },
  {
-  "id": "es_214",
+  "id": "es_237",
   "idioma": "es",
   "texto": "¡Exacto!",
   "texto_tts": "¡Exacto!",
   "cara": "neutral"
  },
  {
-  "id": "es_215",
+  "id": "es_238",
   "idioma": "es",
   "texto": "Porque la energía era lo más bajo.",
   "texto_tts": "Porque la energía era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_216",
+  "id": "es_239",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿por qué le diste más núcleos al Soporte Vital?",
   "texto_tts": "Pregunta rápida: ¿por qué le diste más núcleos al Soporte Vital?",
   "cara": "neutral"
  },
  {
-  "id": "es_217",
+  "id": "es_240",
   "idioma": "es",
   "texto": "Porque el oxígeno era lo más bajo.",
   "texto_tts": "Porque el oxígeno era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_218",
+  "id": "es_241",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿por qué le diste más núcleos a los Escudos del Casco?",
   "texto_tts": "Pregunta rápida: ¿por qué le diste más núcleos a los Escudos del Casco?",
   "cara": "neutral"
  },
  {
-  "id": "es_219",
+  "id": "es_242",
   "idioma": "es",
   "texto": "Porque el blindaje era lo más bajo.",
   "texto_tts": "Porque el blindaje era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_220",
+  "id": "es_243",
   "idioma": "es",
   "texto": "Piensa un momento: ¿cómo elegiste?",
   "texto_tts": "Piensa un momento: ¿cómo elegiste?",
   "cara": "neutral"
  },
  {
-  "id": "es_221",
+  "id": "es_244",
   "idioma": "es",
   "texto": "Yo lo vi así: miraste la barra más baja y le diste más.",
   "texto_tts": "Yo lo vi así: miraste la barra más baja y le diste más.",
   "cara": "neutral"
  },
  {
-  "id": "es_222",
+  "id": "es_245",
   "idioma": "es",
   "texto": "¡Eso es decidir con datos!",
   "texto_tts": "¡Eso es decidir con datos!",
   "cara": "neutral"
  },
  {
-  "id": "es_223",
+  "id": "es_246",
   "idioma": "es",
   "texto": "Un consejo: tu energía estaba muy baja.",
   "texto_tts": "Un consejo: tu energía estaba muy baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_224",
+  "id": "es_247",
   "idioma": "es",
   "texto": "Había que darle más núcleos a los Colectores Solares.",
   "texto_tts": "Había que darle más núcleos a los Colectores Solares.",
   "cara": "neutral"
  },
  {
-  "id": "es_225",
+  "id": "es_248",
   "idioma": "es",
   "texto": "Un consejo: tu energía estaba baja.",
   "texto_tts": "Un consejo: tu energía estaba baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_226",
+  "id": "es_249",
   "idioma": "es",
   "texto": "Un consejo: tu energía estaba más baja que lo demás.",
   "texto_tts": "Un consejo: tu energía estaba más baja que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_227",
+  "id": "es_250",
   "idioma": "es",
   "texto": "Un consejo: tu oxígeno estaba muy bajo.",
   "texto_tts": "Un consejo: tu oxígeno estaba muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_228",
+  "id": "es_251",
   "idioma": "es",
   "texto": "Había que darle más núcleos al Soporte Vital.",
   "texto_tts": "Había que darle más núcleos al Soporte Vital.",
   "cara": "neutral"
  },
  {
-  "id": "es_229",
+  "id": "es_252",
   "idioma": "es",
   "texto": "Un consejo: tu oxígeno estaba bajo.",
   "texto_tts": "Un consejo: tu oxígeno estaba bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_230",
+  "id": "es_253",
   "idioma": "es",
   "texto": "Un consejo: tu oxígeno estaba más bajo que lo demás.",
   "texto_tts": "Un consejo: tu oxígeno estaba más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_231",
+  "id": "es_254",
   "idioma": "es",
   "texto": "Un consejo: tu blindaje estaba muy bajo.",
   "texto_tts": "Un consejo: tu blindaje estaba muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_232",
+  "id": "es_255",
   "idioma": "es",
   "texto": "Había que darle más núcleos a los Escudos del Casco.",
   "texto_tts": "Había que darle más núcleos a los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_233",
+  "id": "es_256",
   "idioma": "es",
   "texto": "Un consejo: tu blindaje estaba bajo.",
   "texto_tts": "Un consejo: tu blindaje estaba bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_234",
+  "id": "es_257",
   "idioma": "es",
   "texto": "Un consejo: tu blindaje estaba más bajo que lo demás.",
   "texto_tts": "Un consejo: tu blindaje estaba más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_235",
+  "id": "es_258",
   "idioma": "es",
   "texto": "Casi.",
   "texto_tts": "Casi.",
   "cara": "neutral"
  },
  {
-  "id": "es_236",
+  "id": "es_259",
   "idioma": "es",
   "texto": "Lo que más faltaba era la energía.",
   "texto_tts": "Lo que más faltaba era la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_237",
+  "id": "es_260",
   "idioma": "es",
   "texto": "La próxima vez, dale más núcleos a los Colectores Solares.",
   "texto_tts": "La próxima vez, dale más núcleos a los Colectores Solares.",
   "cara": "neutral"
  },
  {
-  "id": "es_238",
+  "id": "es_261",
   "idioma": "es",
   "texto": "Lo que más faltaba era el oxígeno.",
   "texto_tts": "Lo que más faltaba era el oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_239",
+  "id": "es_262",
   "idioma": "es",
   "texto": "La próxima vez, dale más núcleos al Soporte Vital.",
   "texto_tts": "La próxima vez, dale más núcleos al Soporte Vital.",
   "cara": "neutral"
  },
  {
-  "id": "es_240",
+  "id": "es_263",
   "idioma": "es",
   "texto": "Lo que más faltaba era el blindaje.",
   "texto_tts": "Lo que más faltaba era el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_241",
+  "id": "es_264",
   "idioma": "es",
   "texto": "La próxima vez, dale más núcleos a los Escudos del Casco.",
   "texto_tts": "La próxima vez, dale más núcleos a los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_242",
+  "id": "es_265",
   "idioma": "es",
   "texto": "Vamos a verlo juntos.",
   "texto_tts": "Vamos a verlo juntos.",
   "cara": "neutral"
  },
  {
-  "id": "es_243",
+  "id": "es_266",
   "idioma": "es",
   "texto": "Tu energía estaba muy baja.",
   "texto_tts": "Tu energía estaba muy baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_244",
+  "id": "es_267",
   "idioma": "es",
   "texto": "Tu oxígeno estaba mejor.",
   "texto_tts": "Tu oxígeno estaba mejor.",
   "cara": "neutral"
  },
  {
-  "id": "es_245",
+  "id": "es_268",
   "idioma": "es",
   "texto": "Por eso convenía darle más núcleos a los Colectores Solares.",
   "texto_tts": "Por eso convenía darle más núcleos a los Colectores Solares.",
   "cara": "neutral"
  },
  {
-  "id": "es_246",
+  "id": "es_269",
   "idioma": "es",
   "texto": "¡Mañana lo intentas!",
   "texto_tts": "¡Mañana lo intentas!",
   "cara": "neutral"
  },
  {
-  "id": "es_247",
+  "id": "es_270",
   "idioma": "es",
   "texto": "Tu energía estaba baja.",
   "texto_tts": "Tu energía estaba baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_248",
+  "id": "es_271",
   "idioma": "es",
   "texto": "Tu energía estaba más baja que lo demás.",
   "texto_tts": "Tu energía estaba más baja que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_249",
+  "id": "es_272",
   "idioma": "es",
   "texto": "Tu blindaje estaba mejor.",
   "texto_tts": "Tu blindaje estaba mejor.",
   "cara": "neutral"
  },
  {
-  "id": "es_250",
+  "id": "es_273",
   "idioma": "es",
   "texto": "Tu oxígeno estaba muy bajo.",
   "texto_tts": "Tu oxígeno estaba muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_251",
+  "id": "es_274",
   "idioma": "es",
   "texto": "Tu energía estaba mejor.",
   "texto_tts": "Tu energía estaba mejor.",
   "cara": "neutral"
  },
  {
-  "id": "es_252",
+  "id": "es_275",
   "idioma": "es",
   "texto": "Por eso convenía darle más núcleos al Soporte Vital.",
   "texto_tts": "Por eso convenía darle más núcleos al Soporte Vital.",
   "cara": "neutral"
  },
  {
-  "id": "es_253",
+  "id": "es_276",
   "idioma": "es",
   "texto": "Tu oxígeno estaba bajo.",
   "texto_tts": "Tu oxígeno estaba bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_254",
+  "id": "es_277",
   "idioma": "es",
   "texto": "Tu oxígeno estaba más bajo que lo demás.",
   "texto_tts": "Tu oxígeno estaba más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_255",
+  "id": "es_278",
   "idioma": "es",
   "texto": "Tu blindaje estaba muy bajo.",
   "texto_tts": "Tu blindaje estaba muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_256",
+  "id": "es_279",
   "idioma": "es",
   "texto": "Por eso convenía darle más núcleos a los Escudos del Casco.",
   "texto_tts": "Por eso convenía darle más núcleos a los Escudos del Casco.",
   "cara": "neutral"
  },
  {
-  "id": "es_257",
+  "id": "es_280",
   "idioma": "es",
   "texto": "Tu blindaje estaba bajo.",
   "texto_tts": "Tu blindaje estaba bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_258",
+  "id": "es_281",
   "idioma": "es",
   "texto": "Tu blindaje estaba más bajo que lo demás.",
   "texto_tts": "Tu blindaje estaba más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_259",
+  "id": "es_282",
   "idioma": "es",
   "texto": "Un consejo: mi pronóstico decía llamarada fuerte.",
   "texto_tts": "Un consejo: mi pronóstico decía llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_260",
+  "id": "es_283",
   "idioma": "es",
   "texto": "Con más núcleos en los Escudos, el blindaje se cuida.",
   "texto_tts": "Con más núcleos en los Escudos, el blindaje se cuida.",
   "cara": "neutral"
  },
  {
-  "id": "es_261",
+  "id": "es_284",
   "idioma": "es",
   "texto": "Mi pronóstico avisaba llamarada fuerte.",
   "texto_tts": "Mi pronóstico avisaba llamarada fuerte.",
   "cara": "neutral"
  },
  {
-  "id": "es_262",
+  "id": "es_285",
   "idioma": "es",
   "texto": "Por eso convenía poner dos núcleos en los Escudos.",
   "texto_tts": "Por eso convenía poner dos núcleos en los Escudos.",
   "cara": "neutral"
  },
  {
-  "id": "es_263",
+  "id": "es_286",
   "idioma": "es",
   "texto": "Pista: antes de elegir, mira cuál de tus recursos está más alto.",
   "texto_tts": "Pista: antes de elegir, mira cuál de tus recursos está más alto.",
   "cara": "neutral"
  },
  {
-  "id": "es_264",
+  "id": "es_287",
   "idioma": "es",
   "texto": "Pista: gasta lo que te sobra y cuida lo que falta.",
   "texto_tts": "Pista: gasta lo que te sobra y cuida lo que falta.",
   "cara": "neutral"
  },
  {
-  "id": "es_265",
+  "id": "es_288",
   "idioma": "es",
   "texto": "Pista: ahora tienes más la energía.",
   "texto_tts": "Pista: ahora tienes más la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_266",
+  "id": "es_289",
   "idioma": "es",
   "texto": "Gasta lo que tienes de sobra.",
   "texto_tts": "Gasta lo que tienes de sobra.",
   "cara": "neutral"
  },
  {
-  "id": "es_267",
+  "id": "es_290",
   "idioma": "es",
   "texto": "Pista: ahora tienes más el oxígeno.",
   "texto_tts": "Pista: ahora tienes más el oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_268",
+  "id": "es_291",
   "idioma": "es",
   "texto": "Pista: ahora tienes más el blindaje.",
   "texto_tts": "Pista: ahora tienes más el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_269",
+  "id": "es_292",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está mejor y tu energía está muy baja.",
   "texto_tts": "Pista: tu oxígeno está mejor y tu energía está muy baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_270",
+  "id": "es_293",
   "idioma": "es",
   "texto": "Elige la opción que gasta el oxígeno.",
   "texto_tts": "Elige la opción que gasta el oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_271",
+  "id": "es_294",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está mejor y tu energía está baja.",
   "texto_tts": "Pista: tu oxígeno está mejor y tu energía está baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_272",
+  "id": "es_295",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está mejor y tu energía está más baja que lo demás.",
   "texto_tts": "Pista: tu oxígeno está mejor y tu energía está más baja que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_273",
+  "id": "es_296",
   "idioma": "es",
   "texto": "Pista: tu blindaje está mejor y tu energía está muy baja.",
   "texto_tts": "Pista: tu blindaje está mejor y tu energía está muy baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_274",
+  "id": "es_297",
   "idioma": "es",
   "texto": "Elige la opción que gasta el blindaje.",
   "texto_tts": "Elige la opción que gasta el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_275",
+  "id": "es_298",
   "idioma": "es",
   "texto": "Pista: tu blindaje está mejor y tu energía está baja.",
   "texto_tts": "Pista: tu blindaje está mejor y tu energía está baja.",
   "cara": "neutral"
  },
  {
-  "id": "es_276",
+  "id": "es_299",
   "idioma": "es",
   "texto": "Pista: tu blindaje está mejor y tu energía está más baja que lo demás.",
   "texto_tts": "Pista: tu blindaje está mejor y tu energía está más baja que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_277",
+  "id": "es_300",
   "idioma": "es",
   "texto": "Pista: tu energía está mejor y tu oxígeno está muy bajo.",
   "texto_tts": "Pista: tu energía está mejor y tu oxígeno está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_278",
+  "id": "es_301",
   "idioma": "es",
   "texto": "Elige la opción que gasta la energía.",
   "texto_tts": "Elige la opción que gasta la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_279",
+  "id": "es_302",
   "idioma": "es",
   "texto": "Pista: tu energía está mejor y tu oxígeno está bajo.",
   "texto_tts": "Pista: tu energía está mejor y tu oxígeno está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_280",
+  "id": "es_303",
   "idioma": "es",
   "texto": "Pista: tu energía está mejor y tu oxígeno está más bajo que lo demás.",
   "texto_tts": "Pista: tu energía está mejor y tu oxígeno está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_281",
+  "id": "es_304",
   "idioma": "es",
   "texto": "Pista: tu blindaje está mejor y tu oxígeno está muy bajo.",
   "texto_tts": "Pista: tu blindaje está mejor y tu oxígeno está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_282",
+  "id": "es_305",
   "idioma": "es",
   "texto": "Pista: tu blindaje está mejor y tu oxígeno está bajo.",
   "texto_tts": "Pista: tu blindaje está mejor y tu oxígeno está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_283",
+  "id": "es_306",
   "idioma": "es",
   "texto": "Pista: tu blindaje está mejor y tu oxígeno está más bajo que lo demás.",
   "texto_tts": "Pista: tu blindaje está mejor y tu oxígeno está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_284",
+  "id": "es_307",
   "idioma": "es",
   "texto": "Pista: tu energía está mejor y tu blindaje está muy bajo.",
   "texto_tts": "Pista: tu energía está mejor y tu blindaje está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_285",
+  "id": "es_308",
   "idioma": "es",
   "texto": "Pista: tu energía está mejor y tu blindaje está bajo.",
   "texto_tts": "Pista: tu energía está mejor y tu blindaje está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_286",
+  "id": "es_309",
   "idioma": "es",
   "texto": "Pista: tu energía está mejor y tu blindaje está más bajo que lo demás.",
   "texto_tts": "Pista: tu energía está mejor y tu blindaje está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_287",
+  "id": "es_310",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está mejor y tu blindaje está muy bajo.",
   "texto_tts": "Pista: tu oxígeno está mejor y tu blindaje está muy bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_288",
+  "id": "es_311",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está mejor y tu blindaje está bajo.",
   "texto_tts": "Pista: tu oxígeno está mejor y tu blindaje está bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_289",
+  "id": "es_312",
   "idioma": "es",
   "texto": "Pista: tu oxígeno está mejor y tu blindaje está más bajo que lo demás.",
   "texto_tts": "Pista: tu oxígeno está mejor y tu blindaje está más bajo que lo demás.",
   "cara": "neutral"
  },
  {
-  "id": "es_290",
+  "id": "es_313",
   "idioma": "es",
   "texto": "Esta vez la decisión es toda tuya.",
   "texto_tts": "Esta vez la decisión es toda tuya.",
   "cara": "neutral"
  },
  {
-  "id": "es_291",
+  "id": "es_314",
   "idioma": "es",
   "texto": "¡Bien pensado!",
   "texto_tts": "¡Bien pensado!",
   "cara": "neutral"
  },
  {
-  "id": "es_292",
+  "id": "es_315",
   "idioma": "es",
   "texto": "Gastaste el oxígeno, que tenías de sobra, y cuidaste la energía, que era lo más bajo.",
   "texto_tts": "Gastaste el oxígeno, que tenías de sobra, y cuidaste la energía, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_293",
+  "id": "es_316",
   "idioma": "es",
   "texto": "Gastaste el blindaje, que tenías de sobra, y cuidaste la energía, que era lo más bajo.",
   "texto_tts": "Gastaste el blindaje, que tenías de sobra, y cuidaste la energía, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_294",
+  "id": "es_317",
   "idioma": "es",
   "texto": "Gastaste la energía, que tenías de sobra, y cuidaste el oxígeno, que era lo más bajo.",
   "texto_tts": "Gastaste la energía, que tenías de sobra, y cuidaste el oxígeno, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_295",
+  "id": "es_318",
   "idioma": "es",
   "texto": "Gastaste el blindaje, que tenías de sobra, y cuidaste el oxígeno, que era lo más bajo.",
   "texto_tts": "Gastaste el blindaje, que tenías de sobra, y cuidaste el oxígeno, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_296",
+  "id": "es_319",
   "idioma": "es",
   "texto": "Gastaste la energía, que tenías de sobra, y cuidaste el blindaje, que era lo más bajo.",
   "texto_tts": "Gastaste la energía, que tenías de sobra, y cuidaste el blindaje, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_297",
+  "id": "es_320",
   "idioma": "es",
   "texto": "Gastaste el oxígeno, que tenías de sobra, y cuidaste el blindaje, que era lo más bajo.",
   "texto_tts": "Gastaste el oxígeno, que tenías de sobra, y cuidaste el blindaje, que era lo más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_298",
+  "id": "es_321",
   "idioma": "es",
   "texto": "¡Decisión de astronauta, Wenceslao!",
   "texto_tts": "¡Decisión de astronauta, Wenceslao!",
   "cara": "neutral"
  },
  {
-  "id": "es_299",
+  "id": "es_322",
   "idioma": "es",
   "texto": "Cuidaste lo que más faltaba.",
   "texto_tts": "Cuidaste lo que más faltaba.",
   "cara": "neutral"
  },
  {
-  "id": "es_300",
+  "id": "es_323",
   "idioma": "es",
   "texto": "¡Decisión de astronauta, Judith!",
   "texto_tts": "¡Decisión de astronauta, Judith!",
   "cara": "neutral"
  },
  {
-  "id": "es_301",
+  "id": "es_324",
   "idioma": "es",
   "texto": "¡Decisión de astronauta, Atlas!",
   "texto_tts": "¡Decisión de astronauta, Atlas!",
   "cara": "neutral"
  },
  {
-  "id": "es_302",
+  "id": "es_325",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿por qué no gastaste la energía?",
   "texto_tts": "Pregunta rápida: ¿por qué no gastaste la energía?",
   "cara": "neutral"
  },
  {
-  "id": "es_303",
+  "id": "es_326",
   "idioma": "es",
   "texto": "¡Claro!",
   "texto_tts": "¡Claro!",
   "cara": "neutral"
  },
  {
-  "id": "es_304",
+  "id": "es_327",
   "idioma": "es",
   "texto": "Porque era lo que menos teníamos.",
   "texto_tts": "Porque era lo que menos teníamos.",
   "cara": "neutral"
  },
  {
-  "id": "es_305",
+  "id": "es_328",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿por qué no gastaste el oxígeno?",
   "texto_tts": "Pregunta rápida: ¿por qué no gastaste el oxígeno?",
   "cara": "neutral"
  },
  {
-  "id": "es_306",
+  "id": "es_329",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿por qué no gastaste el blindaje?",
   "texto_tts": "Pregunta rápida: ¿por qué no gastaste el blindaje?",
   "cara": "neutral"
  },
  {
-  "id": "es_307",
+  "id": "es_330",
   "idioma": "es",
   "texto": "Ojo: la energía era lo más bajo y gastaste justo eso.",
   "texto_tts": "Ojo: la energía era lo más bajo y gastaste justo eso.",
   "cara": "neutral"
  },
  {
-  "id": "es_308",
+  "id": "es_331",
   "idioma": "es",
   "texto": "La próxima vez, gasta lo que más tienes: el oxígeno.",
   "texto_tts": "La próxima vez, gasta lo que más tienes: el oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_309",
+  "id": "es_332",
   "idioma": "es",
   "texto": "La próxima vez, gasta lo que más tienes: el blindaje.",
   "texto_tts": "La próxima vez, gasta lo que más tienes: el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_310",
+  "id": "es_333",
   "idioma": "es",
   "texto": "Ojo: el oxígeno era lo más bajo y gastaste justo eso.",
   "texto_tts": "Ojo: el oxígeno era lo más bajo y gastaste justo eso.",
   "cara": "neutral"
  },
  {
-  "id": "es_311",
+  "id": "es_334",
   "idioma": "es",
   "texto": "La próxima vez, gasta lo que más tienes: la energía.",
   "texto_tts": "La próxima vez, gasta lo que más tienes: la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_312",
+  "id": "es_335",
   "idioma": "es",
   "texto": "Ojo: el blindaje era lo más bajo y gastaste justo eso.",
   "texto_tts": "Ojo: el blindaje era lo más bajo y gastaste justo eso.",
   "cara": "neutral"
  },
  {
-  "id": "es_313",
+  "id": "es_336",
   "idioma": "es",
   "texto": "Primero miro la barra más baja: la energía.",
   "texto_tts": "Primero miro la barra más baja: la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_314",
+  "id": "es_337",
   "idioma": "es",
   "texto": "Esa la cuido.",
   "texto_tts": "Esa la cuido.",
   "cara": "neutral"
  },
  {
-  "id": "es_315",
+  "id": "es_338",
   "idioma": "es",
   "texto": "Luego elijo la opción que gasta el oxígeno, que me sobra.",
   "texto_tts": "Luego elijo la opción que gasta el oxígeno, que me sobra.",
   "cara": "neutral"
  },
  {
-  "id": "es_316",
+  "id": "es_339",
   "idioma": "es",
   "texto": "Luego elijo la opción que gasta el blindaje, que me sobra.",
   "texto_tts": "Luego elijo la opción que gasta el blindaje, que me sobra.",
   "cara": "neutral"
  },
  {
-  "id": "es_317",
+  "id": "es_340",
   "idioma": "es",
   "texto": "Primero miro la barra más baja: el oxígeno.",
   "texto_tts": "Primero miro la barra más baja: el oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_318",
+  "id": "es_341",
   "idioma": "es",
   "texto": "Luego elijo la opción que gasta la energía, que me sobra.",
   "texto_tts": "Luego elijo la opción que gasta la energía, que me sobra.",
   "cara": "neutral"
  },
  {
-  "id": "es_319",
+  "id": "es_342",
   "idioma": "es",
   "texto": "Primero miro la barra más baja: el blindaje.",
   "texto_tts": "Primero miro la barra más baja: el blindaje.",
   "cara": "neutral"
  },
  {
-  "id": "es_320",
+  "id": "es_343",
   "idioma": "es",
   "texto": "Se acabó el tiempo y la base eligió sola.",
   "texto_tts": "Se acabó el tiempo y la base eligió sola.",
   "cara": "neutral"
  },
  {
-  "id": "es_321",
+  "id": "es_344",
   "idioma": "es",
   "texto": "Si miras las barras primero, decides más rápido.",
   "texto_tts": "Si miras las barras primero, decides más rápido.",
   "cara": "neutral"
  },
  {
-  "id": "es_322",
+  "id": "es_345",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿de dónde sale nuestra energía de día?",
   "texto_tts": "Pregunta rápida: ¿de dónde sale nuestra energía de día?",
   "cara": "neutral"
  },
  {
-  "id": "es_323",
+  "id": "es_346",
   "idioma": "es",
   "texto": "¡Del Sol!",
   "texto_tts": "¡Del Sol!",
   "cara": "neutral"
  },
  {
-  "id": "es_324",
+  "id": "es_347",
   "idioma": "es",
   "texto": "Los paneles la guardan en baterías para la noche.",
   "texto_tts": "Los paneles la guardan en baterías para la noche.",
   "cara": "neutral"
  },
  {
-  "id": "es_325",
+  "id": "es_348",
   "idioma": "es",
   "texto": "A ver si te acuerdas: ¿qué le pasa a los paneles si se llenan de polvo?",
   "texto_tts": "A ver si te acuerdas: ¿qué le pasa a los paneles si se llenan de polvo?",
   "cara": "neutral"
  },
  {
-  "id": "es_326",
+  "id": "es_349",
   "idioma": "es",
   "texto": "Dan menos energía.",
   "texto_tts": "Dan menos energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_327",
+  "id": "es_350",
   "idioma": "es",
   "texto": "Por eso los limpiamos.",
   "texto_tts": "Por eso los limpiamos.",
   "cara": "neutral"
  },
  {
-  "id": "es_328",
+  "id": "es_351",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿qué limpia el dióxido de carbono que respiramos?",
   "texto_tts": "Pregunta rápida: ¿qué limpia el dióxido de carbono que respiramos?",
   "cara": "neutral"
  },
  {
-  "id": "es_329",
+  "id": "es_352",
   "idioma": "es",
   "texto": "¡El filtro!",
   "texto_tts": "¡El filtro!",
   "cara": "neutral"
  },
  {
-  "id": "es_330",
+  "id": "es_353",
   "idioma": "es",
   "texto": "Y las plantas también ayudan: sueltan oxígeno.",
   "texto_tts": "Y las plantas también ayudan: sueltan oxígeno.",
   "cara": "neutral"
  },
  {
-  "id": "es_331",
+  "id": "es_354",
   "idioma": "es",
   "texto": "A ver si te acuerdas: ¿qué sueltan las plantas del invernadero?",
   "texto_tts": "A ver si te acuerdas: ¿qué sueltan las plantas del invernadero?",
   "cara": "neutral"
  },
  {
-  "id": "es_332",
+  "id": "es_355",
   "idioma": "es",
   "texto": "¡Oxígeno!",
   "texto_tts": "¡Oxígeno!",
   "cara": "neutral"
  },
  {
-  "id": "es_333",
+  "id": "es_356",
   "idioma": "es",
   "texto": "Por eso las cuidamos tanto.",
   "texto_tts": "Por eso las cuidamos tanto.",
   "cara": "neutral"
  },
  {
-  "id": "es_334",
+  "id": "es_357",
   "idioma": "es",
   "texto": "Pregunta rápida: ¿qué nos protege de la radiación al dormir?",
   "texto_tts": "Pregunta rápida: ¿qué nos protege de la radiación al dormir?",
   "cara": "neutral"
  },
  {
-  "id": "es_335",
+  "id": "es_358",
   "idioma": "es",
   "texto": "¡El agua de las paredes del refugio!",
   "texto_tts": "¡El agua de las paredes del refugio!",
   "cara": "neutral"
  },
  {
-  "id": "es_336",
+  "id": "es_359",
   "idioma": "es",
   "texto": "Frena la radiación.",
   "texto_tts": "Frena la radiación.",
   "cara": "neutral"
  },
  {
-  "id": "es_337",
+  "id": "es_360",
   "idioma": "es",
   "texto": "A ver si te acuerdas: ¿de dónde vienen las llamaradas?",
   "texto_tts": "A ver si te acuerdas: ¿de dónde vienen las llamaradas?",
   "cara": "neutral"
  },
  {
-  "id": "es_338",
+  "id": "es_361",
   "idioma": "es",
   "texto": "Por eso miramos el pronóstico cada día.",
   "texto_tts": "Por eso miramos el pronóstico cada día.",
   "cara": "neutral"
  },
  {
-  "id": "es_339",
+  "id": "es_362",
   "idioma": "es",
   "texto": "Pregunta rápida: en una emergencia, ¿qué recurso conviene gastar?",
   "texto_tts": "Pregunta rápida: en una emergencia, ¿qué recurso conviene gastar?",
   "cara": "neutral"
  },
  {
-  "id": "es_340",
+  "id": "es_363",
   "idioma": "es",
   "texto": "¡El que más tienes!",
   "texto_tts": "¡El que más tienes!",
   "cara": "neutral"
  },
  {
-  "id": "es_341",
+  "id": "es_364",
   "idioma": "es",
   "texto": "Y cuidas el más bajo.",
   "texto_tts": "Y cuidas el más bajo.",
   "cara": "neutral"
  },
  {
-  "id": "es_342",
+  "id": "es_365",
   "idioma": "es",
   "texto": "Hoy aprendiste más sobre la energía.",
   "texto_tts": "Hoy aprendiste más sobre la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_343",
+  "id": "es_366",
   "idioma": "es",
   "texto": "Hoy aprendiste más sobre el aire.",
   "texto_tts": "Hoy aprendiste más sobre el aire.",
   "cara": "neutral"
  },
  {
-  "id": "es_344",
+  "id": "es_367",
   "idioma": "es",
   "texto": "Hoy aprendiste más sobre el escudo contra la radiación.",
   "texto_tts": "Hoy aprendiste más sobre el escudo contra la radiación.",
   "cara": "neutral"
  },
  {
-  "id": "es_345",
+  "id": "es_368",
   "idioma": "es",
   "texto": "Hoy aprendiste más sobre decidir con datos.",
   "texto_tts": "Hoy aprendiste más sobre decidir con datos.",
   "cara": "neutral"
  },
  {
-  "id": "es_346",
+  "id": "es_369",
   "idioma": "es",
   "texto": "Hoy mejoraste en la energía.",
   "texto_tts": "Hoy mejoraste en la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_347",
+  "id": "es_370",
   "idioma": "es",
   "texto": "¡Se nota!",
   "texto_tts": "¡Se nota!",
   "cara": "neutral"
  },
  {
-  "id": "es_348",
+  "id": "es_371",
   "idioma": "es",
   "texto": "Hoy mejoraste en el aire.",
   "texto_tts": "Hoy mejoraste en el aire.",
   "cara": "neutral"
  },
  {
-  "id": "es_349",
+  "id": "es_372",
   "idioma": "es",
   "texto": "Hoy mejoraste en el escudo contra la radiación.",
   "texto_tts": "Hoy mejoraste en el escudo contra la radiación.",
   "cara": "neutral"
  },
  {
-  "id": "es_350",
+  "id": "es_373",
   "idioma": "es",
   "texto": "Hoy mejoraste en decidir con datos.",
   "texto_tts": "Hoy mejoraste en decidir con datos.",
   "cara": "neutral"
  },
  {
-  "id": "es_351",
+  "id": "es_374",
   "idioma": "es",
   "texto": "Mañana practiquemos la energía.",
   "texto_tts": "Mañana practiquemos la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_352",
+  "id": "es_375",
   "idioma": "es",
   "texto": "Mañana practiquemos el aire.",
   "texto_tts": "Mañana practiquemos el aire.",
   "cara": "neutral"
  },
  {
-  "id": "es_353",
+  "id": "es_376",
   "idioma": "es",
   "texto": "Mañana practiquemos el escudo contra la radiación.",
   "texto_tts": "Mañana practiquemos el escudo contra la radiación.",
   "cara": "neutral"
  },
  {
-  "id": "es_354",
+  "id": "es_377",
   "idioma": "es",
   "texto": "Mañana practiquemos decidir con datos.",
   "texto_tts": "Mañana practiquemos decidir con datos.",
   "cara": "neutral"
  },
  {
-  "id": "es_355",
+  "id": "es_378",
   "idioma": "es",
   "texto": "Mañana te ayudo más con la energía.",
   "texto_tts": "Mañana te ayudo más con la energía.",
   "cara": "neutral"
  },
  {
-  "id": "es_356",
+  "id": "es_379",
   "idioma": "es",
   "texto": "Mañana te ayudo más con el aire.",
   "texto_tts": "Mañana te ayudo más con el aire.",
   "cara": "neutral"
  },
  {
-  "id": "es_357",
+  "id": "es_380",
   "idioma": "es",
   "texto": "Mañana te ayudo más con el escudo contra la radiación.",
   "texto_tts": "Mañana te ayudo más con el escudo contra la radiación.",
   "cara": "neutral"
  },
  {
-  "id": "es_358",
+  "id": "es_381",
   "idioma": "es",
   "texto": "Mañana te ayudo más con decidir con datos.",
   "texto_tts": "Mañana te ayudo más con decidir con datos.",
   "cara": "neutral"
  },
  {
-  "id": "es_359",
+  "id": "es_382",
   "idioma": "es",
   "texto": "¡Vas muy bien en todo!",
   "texto_tts": "¡Vas muy bien en todo!",
   "cara": "neutral"
  },
  {
-  "id": "es_360",
+  "id": "es_383",
   "idioma": "es",
   "texto": "Mañana te daré menos pistas.",
   "texto_tts": "Mañana te daré menos pistas.",
   "cara": "neutral"
  },
  {
-  "id": "en_110",
+  "id": "en_133",
   "idioma": "en",
   "texto": "Before sharing out, look at the three bars.",
   "texto_tts": "Before sharing out, look at the three bars.",
   "cara": "neutral"
  },
  {
-  "id": "en_111",
+  "id": "en_134",
   "idioma": "en",
   "texto": "The lowest one needs you most.",
   "texto_tts": "The lowest one needs you most.",
   "cara": "neutral"
  },
  {
-  "id": "en_112",
+  "id": "en_135",
   "idioma": "en",
   "texto": "Ask yourself first: which bar is lowest today?",
   "texto_tts": "Ask yourself first: which bar is lowest today?",
   "cara": "neutral"
  },
  {
-  "id": "en_113",
+  "id": "en_136",
   "idioma": "en",
   "texto": "A hint: the cores go where they are needed most.",
   "texto_tts": "A hint: the cores go where they are needed most.",
   "cara": "neutral"
  },
  {
-  "id": "en_114",
+  "id": "en_137",
   "idioma": "en",
   "texto": "Look at your energy: it is very low.",
   "texto_tts": "Look at your energy: it is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_115",
+  "id": "en_138",
   "idioma": "en",
   "texto": "Give more cores to the Solar Collectors.",
   "texto_tts": "Give more cores to the Solar Collectors.",
   "cara": "neutral"
  },
  {
-  "id": "en_116",
+  "id": "en_139",
   "idioma": "en",
   "texto": "Look at your energy: it is low.",
   "texto_tts": "Look at your energy: it is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_117",
+  "id": "en_140",
   "idioma": "en",
   "texto": "Look at your energy: it is lower than the rest.",
   "texto_tts": "Look at your energy: it is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_118",
+  "id": "en_141",
   "idioma": "en",
   "texto": "Look at your oxygen: it is very low.",
   "texto_tts": "Look at your oxygen: it is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_119",
+  "id": "en_142",
   "idioma": "en",
   "texto": "Give more cores to Life Support.",
   "texto_tts": "Give more cores to Life Support.",
   "cara": "neutral"
  },
  {
-  "id": "en_120",
+  "id": "en_143",
   "idioma": "en",
   "texto": "Look at your oxygen: it is low.",
   "texto_tts": "Look at your oxygen: it is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_121",
+  "id": "en_144",
   "idioma": "en",
   "texto": "Look at your oxygen: it is lower than the rest.",
   "texto_tts": "Look at your oxygen: it is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_122",
+  "id": "en_145",
   "idioma": "en",
   "texto": "Look at your shielding: it is very low.",
   "texto_tts": "Look at your shielding: it is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_123",
+  "id": "en_146",
   "idioma": "en",
   "texto": "Give more cores to the Hull Shields.",
   "texto_tts": "Give more cores to the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_124",
+  "id": "en_147",
   "idioma": "en",
   "texto": "Look at your shielding: it is low.",
   "texto_tts": "Look at your shielding: it is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_125",
+  "id": "en_148",
   "idioma": "en",
   "texto": "Look at your shielding: it is lower than the rest.",
   "texto_tts": "Look at your shielding: it is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_126",
+  "id": "en_149",
   "idioma": "en",
   "texto": "Hint: your energy is very low.",
   "texto_tts": "Hint: your energy is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_127",
+  "id": "en_150",
   "idioma": "en",
   "texto": "Find its system on the console: the Solar Collectors.",
   "texto_tts": "Find its system on the console: the Solar Collectors.",
   "cara": "neutral"
  },
  {
-  "id": "en_128",
+  "id": "en_151",
   "idioma": "en",
   "texto": "Hint: your energy is low.",
   "texto_tts": "Hint: your energy is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_129",
+  "id": "en_152",
   "idioma": "en",
   "texto": "Hint: your energy is lower than the rest.",
   "texto_tts": "Hint: your energy is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_130",
+  "id": "en_153",
   "idioma": "en",
   "texto": "Hint: your oxygen is very low.",
   "texto_tts": "Hint: your oxygen is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_131",
+  "id": "en_154",
   "idioma": "en",
   "texto": "Find its system on the console: Life Support.",
   "texto_tts": "Find its system on the console: Life Support.",
   "cara": "neutral"
  },
  {
-  "id": "en_132",
+  "id": "en_155",
   "idioma": "en",
   "texto": "Hint: your oxygen is low.",
   "texto_tts": "Hint: your oxygen is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_133",
+  "id": "en_156",
   "idioma": "en",
   "texto": "Hint: your oxygen is lower than the rest.",
   "texto_tts": "Hint: your oxygen is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_134",
+  "id": "en_157",
   "idioma": "en",
   "texto": "Hint: your shielding is very low.",
   "texto_tts": "Hint: your shielding is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_135",
+  "id": "en_158",
   "idioma": "en",
   "texto": "Find its system on the console: the Hull Shields.",
   "texto_tts": "Find its system on the console: the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_136",
+  "id": "en_159",
   "idioma": "en",
   "texto": "Hint: your shielding is low.",
   "texto_tts": "Hint: your shielding is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_137",
+  "id": "en_160",
   "idioma": "en",
   "texto": "Hint: your shielding is lower than the rest.",
   "texto_tts": "Hint: your shielding is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_138",
+  "id": "en_161",
   "idioma": "en",
   "texto": "Today what we need most is energy.",
   "texto_tts": "Today what we need most is energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_139",
+  "id": "en_162",
   "idioma": "en",
   "texto": "You know which system needs cores.",
   "texto_tts": "You know which system needs cores.",
   "cara": "neutral"
  },
  {
-  "id": "en_140",
+  "id": "en_163",
   "idioma": "en",
   "texto": "Today what we need most is oxygen.",
   "texto_tts": "Today what we need most is oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_141",
+  "id": "en_164",
   "idioma": "en",
   "texto": "Today what we need most is shielding.",
   "texto_tts": "Today what we need most is shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_142",
+  "id": "en_165",
   "idioma": "en",
   "texto": "Let me show you how I think about it.",
   "texto_tts": "Let me show you how I think about it.",
   "cara": "neutral"
  },
  {
-  "id": "en_143",
+  "id": "en_166",
   "idioma": "en",
   "texto": "Your energy is very low.",
   "texto_tts": "Your energy is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_144",
+  "id": "en_167",
   "idioma": "en",
   "texto": "Your oxygen is better.",
   "texto_tts": "Your oxygen is better.",
   "cara": "neutral"
  },
  {
-  "id": "en_145",
+  "id": "en_168",
   "idioma": "en",
   "texto": "So I give more cores to the Solar Collectors.",
   "texto_tts": "So I give more cores to the Solar Collectors.",
   "cara": "neutral"
  },
  {
-  "id": "en_146",
+  "id": "en_169",
   "idioma": "en",
   "texto": "Now you try!",
   "texto_tts": "Now you try!",
   "cara": "neutral"
  },
  {
-  "id": "en_147",
+  "id": "en_170",
   "idioma": "en",
   "texto": "Your energy is low.",
   "texto_tts": "Your energy is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_148",
+  "id": "en_171",
   "idioma": "en",
   "texto": "Your energy is lower than the rest.",
   "texto_tts": "Your energy is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_149",
+  "id": "en_172",
   "idioma": "en",
   "texto": "Your shielding is better.",
   "texto_tts": "Your shielding is better.",
   "cara": "neutral"
  },
  {
-  "id": "en_150",
+  "id": "en_173",
   "idioma": "en",
   "texto": "Your oxygen is very low.",
   "texto_tts": "Your oxygen is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_151",
+  "id": "en_174",
   "idioma": "en",
   "texto": "Your energy is better.",
   "texto_tts": "Your energy is better.",
   "cara": "neutral"
  },
  {
-  "id": "en_152",
+  "id": "en_175",
   "idioma": "en",
   "texto": "So I give more cores to Life Support.",
   "texto_tts": "So I give more cores to Life Support.",
   "cara": "neutral"
  },
  {
-  "id": "en_153",
+  "id": "en_176",
   "idioma": "en",
   "texto": "Your oxygen is low.",
   "texto_tts": "Your oxygen is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_154",
+  "id": "en_177",
   "idioma": "en",
   "texto": "Your oxygen is lower than the rest.",
   "texto_tts": "Your oxygen is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_155",
+  "id": "en_178",
   "idioma": "en",
   "texto": "Your shielding is very low.",
   "texto_tts": "Your shielding is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_156",
+  "id": "en_179",
   "idioma": "en",
   "texto": "So I give more cores to the Hull Shields.",
   "texto_tts": "So I give more cores to the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_157",
+  "id": "en_180",
   "idioma": "en",
   "texto": "Your shielding is low.",
   "texto_tts": "Your shielding is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_158",
+  "id": "en_181",
   "idioma": "en",
   "texto": "Your shielding is lower than the rest.",
   "texto_tts": "Your shielding is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_159",
+  "id": "en_182",
   "idioma": "en",
   "texto": "Let’s go step by step.",
   "texto_tts": "Let’s go step by step.",
   "cara": "neutral"
  },
  {
-  "id": "en_160",
+  "id": "en_183",
   "idioma": "en",
   "texto": "First I look for the lowest bar: energy.",
   "texto_tts": "First I look for the lowest bar: energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_161",
+  "id": "en_184",
   "idioma": "en",
   "texto": "Then I give more cores to the Solar Collectors.",
   "texto_tts": "Then I give more cores to the Solar Collectors.",
   "cara": "neutral"
  },
  {
-  "id": "en_162",
+  "id": "en_185",
   "idioma": "en",
   "texto": "Give it a try!",
   "texto_tts": "Give it a try!",
   "cara": "neutral"
  },
  {
-  "id": "en_163",
+  "id": "en_186",
   "idioma": "en",
   "texto": "First I look for the lowest bar: oxygen.",
   "texto_tts": "First I look for the lowest bar: oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_164",
+  "id": "en_187",
   "idioma": "en",
   "texto": "Then I give more cores to Life Support.",
   "texto_tts": "Then I give more cores to Life Support.",
   "cara": "neutral"
  },
  {
-  "id": "en_165",
+  "id": "en_188",
   "idioma": "en",
   "texto": "First I look for the lowest bar: shielding.",
   "texto_tts": "First I look for the lowest bar: shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_166",
+  "id": "en_189",
   "idioma": "en",
   "texto": "Then I give more cores to the Hull Shields.",
   "texto_tts": "Then I give more cores to the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_167",
+  "id": "en_190",
   "idioma": "en",
   "texto": "No hint today, Wenceslao.",
   "texto_tts": "No hint today, Wenceslao.",
   "cara": "neutral"
  },
  {
-  "id": "en_168",
+  "id": "en_191",
   "idioma": "en",
   "texto": "I trust your plan!",
   "texto_tts": "I trust your plan!",
   "cara": "neutral"
  },
  {
-  "id": "en_169",
+  "id": "en_192",
   "idioma": "en",
   "texto": "No hint today, Judith.",
   "texto_tts": "No hint today, Judith.",
   "cara": "neutral"
  },
  {
-  "id": "en_170",
+  "id": "en_193",
   "idioma": "en",
   "texto": "No hint today, Atlas.",
   "texto_tts": "No hint today, Atlas.",
   "cara": "neutral"
  },
  {
-  "id": "en_171",
+  "id": "en_194",
   "idioma": "en",
   "texto": "You already know how to share out the energy.",
   "texto_tts": "You already know how to share out the energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_172",
+  "id": "en_195",
   "idioma": "en",
   "texto": "This time the plan is all yours.",
   "texto_tts": "This time the plan is all yours.",
   "cara": "neutral"
  },
  {
-  "id": "en_173",
+  "id": "en_196",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, zero had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, zero had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_174",
+  "id": "en_197",
   "idioma": "en",
   "texto": "Think about which system protects us.",
   "texto_tts": "Think about which system protects us.",
   "cara": "neutral"
  },
  {
-  "id": "en_175",
+  "id": "en_198",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, one had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, one had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_176",
+  "id": "en_199",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, two had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, two had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_177",
+  "id": "en_200",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, three had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, three had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_178",
+  "id": "en_201",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, four had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, four had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_179",
+  "id": "en_202",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, five had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, five had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_180",
+  "id": "en_203",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, six had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, six had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_181",
+  "id": "en_204",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, seven had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, seven had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_182",
+  "id": "en_205",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, eight had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, eight had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_183",
+  "id": "en_206",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, nine had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, nine had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_184",
+  "id": "en_207",
   "idioma": "en",
   "texto": "My forecast says: out of ten days like today, ten had a strong flare.",
   "texto_tts": "My forecast says: out of ten days like today, ten had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_185",
+  "id": "en_208",
   "idioma": "en",
   "texto": "There’s a flare risk.",
   "texto_tts": "There’s a flare risk.",
   "cara": "neutral"
  },
  {
-  "id": "en_186",
+  "id": "en_209",
   "idioma": "en",
   "texto": "The Hull Shields will need cores.",
   "texto_tts": "The Hull Shields will need cores.",
   "cara": "neutral"
  },
  {
-  "id": "en_187",
+  "id": "en_210",
   "idioma": "en",
   "texto": "Out of ten days like today, zero had a strong flare.",
   "texto_tts": "Out of ten days like today, zero had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_188",
+  "id": "en_211",
   "idioma": "en",
   "texto": "Put cores in the Shields.",
   "texto_tts": "Put cores in the Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_189",
+  "id": "en_212",
   "idioma": "en",
   "texto": "Out of ten days like today, one had a strong flare.",
   "texto_tts": "Out of ten days like today, one had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_190",
+  "id": "en_213",
   "idioma": "en",
   "texto": "Out of ten days like today, two had a strong flare.",
   "texto_tts": "Out of ten days like today, two had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_191",
+  "id": "en_214",
   "idioma": "en",
   "texto": "Out of ten days like today, three had a strong flare.",
   "texto_tts": "Out of ten days like today, three had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_192",
+  "id": "en_215",
   "idioma": "en",
   "texto": "Out of ten days like today, four had a strong flare.",
   "texto_tts": "Out of ten days like today, four had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_193",
+  "id": "en_216",
   "idioma": "en",
   "texto": "Out of ten days like today, five had a strong flare.",
   "texto_tts": "Out of ten days like today, five had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_194",
+  "id": "en_217",
   "idioma": "en",
   "texto": "Out of ten days like today, six had a strong flare.",
   "texto_tts": "Out of ten days like today, six had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_195",
+  "id": "en_218",
   "idioma": "en",
   "texto": "Out of ten days like today, seven had a strong flare.",
   "texto_tts": "Out of ten days like today, seven had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_196",
+  "id": "en_219",
   "idioma": "en",
   "texto": "Out of ten days like today, eight had a strong flare.",
   "texto_tts": "Out of ten days like today, eight had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_197",
+  "id": "en_220",
   "idioma": "en",
   "texto": "Out of ten days like today, nine had a strong flare.",
   "texto_tts": "Out of ten days like today, nine had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_198",
+  "id": "en_221",
   "idioma": "en",
   "texto": "Out of ten days like today, ten had a strong flare.",
   "texto_tts": "Out of ten days like today, ten had a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_199",
+  "id": "en_222",
   "idioma": "en",
   "texto": "My forecast warns of a strong flare.",
   "texto_tts": "My forecast warns of a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_200",
+  "id": "en_223",
   "idioma": "en",
   "texto": "Flares damage the shielding.",
   "texto_tts": "Flares damage the shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_201",
+  "id": "en_224",
   "idioma": "en",
   "texto": "So I give two cores to the Hull Shields.",
   "texto_tts": "So I give two cores to the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_202",
+  "id": "en_225",
   "idioma": "en",
   "texto": "You decide how to protect us.",
   "texto_tts": "You decide how to protect us.",
   "cara": "neutral"
  },
  {
-  "id": "en_203",
+  "id": "en_226",
   "idioma": "en",
   "texto": "Great strategy, Wenceslao!",
   "texto_tts": "Great strategy, Wenceslao!",
   "cara": "neutral"
  },
  {
-  "id": "en_204",
+  "id": "en_227",
   "idioma": "en",
   "texto": "You gave more to what we needed most.",
   "texto_tts": "You gave more to what we needed most.",
   "cara": "neutral"
  },
  {
-  "id": "en_205",
+  "id": "en_228",
   "idioma": "en",
   "texto": "Great strategy, Judith!",
   "texto_tts": "Great strategy, Judith!",
   "cara": "neutral"
  },
  {
-  "id": "en_206",
+  "id": "en_229",
   "idioma": "en",
   "texto": "Great strategy, Atlas!",
   "texto_tts": "Great strategy, Atlas!",
   "cara": "neutral"
  },
  {
-  "id": "en_207",
+  "id": "en_230",
   "idioma": "en",
   "texto": "That’s how to think!",
   "texto_tts": "That’s how to think!",
   "cara": "neutral"
  },
  {
-  "id": "en_208",
+  "id": "en_231",
   "idioma": "en",
   "texto": "First you checked the bars, then you decided.",
   "texto_tts": "First you checked the bars, then you decided.",
   "cara": "neutral"
  },
  {
-  "id": "en_209",
+  "id": "en_232",
   "idioma": "en",
   "texto": "Very good!",
   "texto_tts": "Very good!",
   "cara": "neutral"
  },
  {
-  "id": "en_210",
+  "id": "en_233",
   "idioma": "en",
   "texto": "You took care of energy, which was the lowest.",
   "texto_tts": "You took care of energy, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_211",
+  "id": "en_234",
   "idioma": "en",
   "texto": "You took care of oxygen, which was the lowest.",
   "texto_tts": "You took care of oxygen, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_212",
+  "id": "en_235",
   "idioma": "en",
   "texto": "You took care of shielding, which was the lowest.",
   "texto_tts": "You took care of shielding, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_213",
+  "id": "en_236",
   "idioma": "en",
   "texto": "Quick question: why did you give more cores to the Solar Collectors?",
   "texto_tts": "Quick question: why did you give more cores to the Solar Collectors?",
   "cara": "neutral"
  },
  {
-  "id": "en_214",
+  "id": "en_237",
   "idioma": "en",
   "texto": "Exactly!",
   "texto_tts": "Exactly!",
   "cara": "neutral"
  },
  {
-  "id": "en_215",
+  "id": "en_238",
   "idioma": "en",
   "texto": "Because energy was the lowest.",
   "texto_tts": "Because energy was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_216",
+  "id": "en_239",
   "idioma": "en",
   "texto": "Quick question: why did you give more cores to Life Support?",
   "texto_tts": "Quick question: why did you give more cores to Life Support?",
   "cara": "neutral"
  },
  {
-  "id": "en_217",
+  "id": "en_240",
   "idioma": "en",
   "texto": "Because oxygen was the lowest.",
   "texto_tts": "Because oxygen was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_218",
+  "id": "en_241",
   "idioma": "en",
   "texto": "Quick question: why did you give more cores to the Hull Shields?",
   "texto_tts": "Quick question: why did you give more cores to the Hull Shields?",
   "cara": "neutral"
  },
  {
-  "id": "en_219",
+  "id": "en_242",
   "idioma": "en",
   "texto": "Because shielding was the lowest.",
   "texto_tts": "Because shielding was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_220",
+  "id": "en_243",
   "idioma": "en",
   "texto": "Think for a moment: how did you choose?",
   "texto_tts": "Think for a moment: how did you choose?",
   "cara": "neutral"
  },
  {
-  "id": "en_221",
+  "id": "en_244",
   "idioma": "en",
   "texto": "Here’s how I saw it: you found the lowest bar and gave it more.",
   "texto_tts": "Here’s how I saw it: you found the lowest bar and gave it more.",
   "cara": "neutral"
  },
  {
-  "id": "en_222",
+  "id": "en_245",
   "idioma": "en",
   "texto": "That’s deciding with data!",
   "texto_tts": "That’s deciding with data!",
   "cara": "neutral"
  },
  {
-  "id": "en_223",
+  "id": "en_246",
   "idioma": "en",
   "texto": "A tip: your energy was very low.",
   "texto_tts": "A tip: your energy was very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_224",
+  "id": "en_247",
   "idioma": "en",
   "texto": "It needed more cores to the Solar Collectors.",
   "texto_tts": "It needed more cores to the Solar Collectors.",
   "cara": "neutral"
  },
  {
-  "id": "en_225",
+  "id": "en_248",
   "idioma": "en",
   "texto": "A tip: your energy was low.",
   "texto_tts": "A tip: your energy was low.",
   "cara": "neutral"
  },
  {
-  "id": "en_226",
+  "id": "en_249",
   "idioma": "en",
   "texto": "A tip: your energy was lower than the rest.",
   "texto_tts": "A tip: your energy was lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_227",
+  "id": "en_250",
   "idioma": "en",
   "texto": "A tip: your oxygen was very low.",
   "texto_tts": "A tip: your oxygen was very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_228",
+  "id": "en_251",
   "idioma": "en",
   "texto": "It needed more cores to Life Support.",
   "texto_tts": "It needed more cores to Life Support.",
   "cara": "neutral"
  },
  {
-  "id": "en_229",
+  "id": "en_252",
   "idioma": "en",
   "texto": "A tip: your oxygen was low.",
   "texto_tts": "A tip: your oxygen was low.",
   "cara": "neutral"
  },
  {
-  "id": "en_230",
+  "id": "en_253",
   "idioma": "en",
   "texto": "A tip: your oxygen was lower than the rest.",
   "texto_tts": "A tip: your oxygen was lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_231",
+  "id": "en_254",
   "idioma": "en",
   "texto": "A tip: your shielding was very low.",
   "texto_tts": "A tip: your shielding was very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_232",
+  "id": "en_255",
   "idioma": "en",
   "texto": "It needed more cores to the Hull Shields.",
   "texto_tts": "It needed more cores to the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_233",
+  "id": "en_256",
   "idioma": "en",
   "texto": "A tip: your shielding was low.",
   "texto_tts": "A tip: your shielding was low.",
   "cara": "neutral"
  },
  {
-  "id": "en_234",
+  "id": "en_257",
   "idioma": "en",
   "texto": "A tip: your shielding was lower than the rest.",
   "texto_tts": "A tip: your shielding was lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_235",
+  "id": "en_258",
   "idioma": "en",
   "texto": "Almost.",
   "texto_tts": "Almost.",
   "cara": "neutral"
  },
  {
-  "id": "en_236",
+  "id": "en_259",
   "idioma": "en",
   "texto": "What we needed most was energy.",
   "texto_tts": "What we needed most was energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_237",
+  "id": "en_260",
   "idioma": "en",
   "texto": "Next time, give more cores to the Solar Collectors.",
   "texto_tts": "Next time, give more cores to the Solar Collectors.",
   "cara": "neutral"
  },
  {
-  "id": "en_238",
+  "id": "en_261",
   "idioma": "en",
   "texto": "What we needed most was oxygen.",
   "texto_tts": "What we needed most was oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_239",
+  "id": "en_262",
   "idioma": "en",
   "texto": "Next time, give more cores to Life Support.",
   "texto_tts": "Next time, give more cores to Life Support.",
   "cara": "neutral"
  },
  {
-  "id": "en_240",
+  "id": "en_263",
   "idioma": "en",
   "texto": "What we needed most was shielding.",
   "texto_tts": "What we needed most was shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_241",
+  "id": "en_264",
   "idioma": "en",
   "texto": "Next time, give more cores to the Hull Shields.",
   "texto_tts": "Next time, give more cores to the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_242",
+  "id": "en_265",
   "idioma": "en",
   "texto": "Let’s look at it together.",
   "texto_tts": "Let’s look at it together.",
   "cara": "neutral"
  },
  {
-  "id": "en_243",
+  "id": "en_266",
   "idioma": "en",
   "texto": "Your energy was very low.",
   "texto_tts": "Your energy was very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_244",
+  "id": "en_267",
   "idioma": "en",
   "texto": "Your oxygen was better.",
   "texto_tts": "Your oxygen was better.",
   "cara": "neutral"
  },
  {
-  "id": "en_245",
+  "id": "en_268",
   "idioma": "en",
   "texto": "That’s why it was best to give more cores to the Solar Collectors.",
   "texto_tts": "That’s why it was best to give more cores to the Solar Collectors.",
   "cara": "neutral"
  },
  {
-  "id": "en_246",
+  "id": "en_269",
   "idioma": "en",
   "texto": "Try again tomorrow!",
   "texto_tts": "Try again tomorrow!",
   "cara": "neutral"
  },
  {
-  "id": "en_247",
+  "id": "en_270",
   "idioma": "en",
   "texto": "Your energy was low.",
   "texto_tts": "Your energy was low.",
   "cara": "neutral"
  },
  {
-  "id": "en_248",
+  "id": "en_271",
   "idioma": "en",
   "texto": "Your energy was lower than the rest.",
   "texto_tts": "Your energy was lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_249",
+  "id": "en_272",
   "idioma": "en",
   "texto": "Your shielding was better.",
   "texto_tts": "Your shielding was better.",
   "cara": "neutral"
  },
  {
-  "id": "en_250",
+  "id": "en_273",
   "idioma": "en",
   "texto": "Your oxygen was very low.",
   "texto_tts": "Your oxygen was very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_251",
+  "id": "en_274",
   "idioma": "en",
   "texto": "Your energy was better.",
   "texto_tts": "Your energy was better.",
   "cara": "neutral"
  },
  {
-  "id": "en_252",
+  "id": "en_275",
   "idioma": "en",
   "texto": "That’s why it was best to give more cores to Life Support.",
   "texto_tts": "That’s why it was best to give more cores to Life Support.",
   "cara": "neutral"
  },
  {
-  "id": "en_253",
+  "id": "en_276",
   "idioma": "en",
   "texto": "Your oxygen was low.",
   "texto_tts": "Your oxygen was low.",
   "cara": "neutral"
  },
  {
-  "id": "en_254",
+  "id": "en_277",
   "idioma": "en",
   "texto": "Your oxygen was lower than the rest.",
   "texto_tts": "Your oxygen was lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_255",
+  "id": "en_278",
   "idioma": "en",
   "texto": "Your shielding was very low.",
   "texto_tts": "Your shielding was very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_256",
+  "id": "en_279",
   "idioma": "en",
   "texto": "That’s why it was best to give more cores to the Hull Shields.",
   "texto_tts": "That’s why it was best to give more cores to the Hull Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_257",
+  "id": "en_280",
   "idioma": "en",
   "texto": "Your shielding was low.",
   "texto_tts": "Your shielding was low.",
   "cara": "neutral"
  },
  {
-  "id": "en_258",
+  "id": "en_281",
   "idioma": "en",
   "texto": "Your shielding was lower than the rest.",
   "texto_tts": "Your shielding was lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_259",
+  "id": "en_282",
   "idioma": "en",
   "texto": "A tip: my forecast said a strong flare.",
   "texto_tts": "A tip: my forecast said a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_260",
+  "id": "en_283",
   "idioma": "en",
   "texto": "With more cores in the Shields, the shielding stays safe.",
   "texto_tts": "With more cores in the Shields, the shielding stays safe.",
   "cara": "neutral"
  },
  {
-  "id": "en_261",
+  "id": "en_284",
   "idioma": "en",
   "texto": "My forecast warned of a strong flare.",
   "texto_tts": "My forecast warned of a strong flare.",
   "cara": "neutral"
  },
  {
-  "id": "en_262",
+  "id": "en_285",
   "idioma": "en",
   "texto": "That’s why it was best to put two cores in the Shields.",
   "texto_tts": "That’s why it was best to put two cores in the Shields.",
   "cara": "neutral"
  },
  {
-  "id": "en_263",
+  "id": "en_286",
   "idioma": "en",
   "texto": "Hint: before choosing, check which of your resources is highest.",
   "texto_tts": "Hint: before choosing, check which of your resources is highest.",
   "cara": "neutral"
  },
  {
-  "id": "en_264",
+  "id": "en_287",
   "idioma": "en",
   "texto": "Hint: spend what you have plenty of and protect what’s low.",
   "texto_tts": "Hint: spend what you have plenty of and protect what’s low.",
   "cara": "neutral"
  },
  {
-  "id": "en_265",
+  "id": "en_288",
   "idioma": "en",
   "texto": "Hint: right now you have more energy.",
   "texto_tts": "Hint: right now you have more energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_266",
+  "id": "en_289",
   "idioma": "en",
   "texto": "Spend what you have plenty of.",
   "texto_tts": "Spend what you have plenty of.",
   "cara": "neutral"
  },
  {
-  "id": "en_267",
+  "id": "en_290",
   "idioma": "en",
   "texto": "Hint: right now you have more oxygen.",
   "texto_tts": "Hint: right now you have more oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_268",
+  "id": "en_291",
   "idioma": "en",
   "texto": "Hint: right now you have more shielding.",
   "texto_tts": "Hint: right now you have more shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_269",
+  "id": "en_292",
   "idioma": "en",
   "texto": "Hint: your oxygen is better and your energy is very low.",
   "texto_tts": "Hint: your oxygen is better and your energy is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_270",
+  "id": "en_293",
   "idioma": "en",
   "texto": "Choose the option that spends oxygen.",
   "texto_tts": "Choose the option that spends oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_271",
+  "id": "en_294",
   "idioma": "en",
   "texto": "Hint: your oxygen is better and your energy is low.",
   "texto_tts": "Hint: your oxygen is better and your energy is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_272",
+  "id": "en_295",
   "idioma": "en",
   "texto": "Hint: your oxygen is better and your energy is lower than the rest.",
   "texto_tts": "Hint: your oxygen is better and your energy is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_273",
+  "id": "en_296",
   "idioma": "en",
   "texto": "Hint: your shielding is better and your energy is very low.",
   "texto_tts": "Hint: your shielding is better and your energy is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_274",
+  "id": "en_297",
   "idioma": "en",
   "texto": "Choose the option that spends shielding.",
   "texto_tts": "Choose the option that spends shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_275",
+  "id": "en_298",
   "idioma": "en",
   "texto": "Hint: your shielding is better and your energy is low.",
   "texto_tts": "Hint: your shielding is better and your energy is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_276",
+  "id": "en_299",
   "idioma": "en",
   "texto": "Hint: your shielding is better and your energy is lower than the rest.",
   "texto_tts": "Hint: your shielding is better and your energy is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_277",
+  "id": "en_300",
   "idioma": "en",
   "texto": "Hint: your energy is better and your oxygen is very low.",
   "texto_tts": "Hint: your energy is better and your oxygen is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_278",
+  "id": "en_301",
   "idioma": "en",
   "texto": "Choose the option that spends energy.",
   "texto_tts": "Choose the option that spends energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_279",
+  "id": "en_302",
   "idioma": "en",
   "texto": "Hint: your energy is better and your oxygen is low.",
   "texto_tts": "Hint: your energy is better and your oxygen is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_280",
+  "id": "en_303",
   "idioma": "en",
   "texto": "Hint: your energy is better and your oxygen is lower than the rest.",
   "texto_tts": "Hint: your energy is better and your oxygen is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_281",
+  "id": "en_304",
   "idioma": "en",
   "texto": "Hint: your shielding is better and your oxygen is very low.",
   "texto_tts": "Hint: your shielding is better and your oxygen is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_282",
+  "id": "en_305",
   "idioma": "en",
   "texto": "Hint: your shielding is better and your oxygen is low.",
   "texto_tts": "Hint: your shielding is better and your oxygen is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_283",
+  "id": "en_306",
   "idioma": "en",
   "texto": "Hint: your shielding is better and your oxygen is lower than the rest.",
   "texto_tts": "Hint: your shielding is better and your oxygen is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_284",
+  "id": "en_307",
   "idioma": "en",
   "texto": "Hint: your energy is better and your shielding is very low.",
   "texto_tts": "Hint: your energy is better and your shielding is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_285",
+  "id": "en_308",
   "idioma": "en",
   "texto": "Hint: your energy is better and your shielding is low.",
   "texto_tts": "Hint: your energy is better and your shielding is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_286",
+  "id": "en_309",
   "idioma": "en",
   "texto": "Hint: your energy is better and your shielding is lower than the rest.",
   "texto_tts": "Hint: your energy is better and your shielding is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_287",
+  "id": "en_310",
   "idioma": "en",
   "texto": "Hint: your oxygen is better and your shielding is very low.",
   "texto_tts": "Hint: your oxygen is better and your shielding is very low.",
   "cara": "neutral"
  },
  {
-  "id": "en_288",
+  "id": "en_311",
   "idioma": "en",
   "texto": "Hint: your oxygen is better and your shielding is low.",
   "texto_tts": "Hint: your oxygen is better and your shielding is low.",
   "cara": "neutral"
  },
  {
-  "id": "en_289",
+  "id": "en_312",
   "idioma": "en",
   "texto": "Hint: your oxygen is better and your shielding is lower than the rest.",
   "texto_tts": "Hint: your oxygen is better and your shielding is lower than the rest.",
   "cara": "neutral"
  },
  {
-  "id": "en_290",
+  "id": "en_313",
   "idioma": "en",
   "texto": "This time the decision is all yours.",
   "texto_tts": "This time the decision is all yours.",
   "cara": "neutral"
  },
  {
-  "id": "en_291",
+  "id": "en_314",
   "idioma": "en",
   "texto": "Well thought out!",
   "texto_tts": "Well thought out!",
   "cara": "neutral"
  },
  {
-  "id": "en_292",
+  "id": "en_315",
   "idioma": "en",
   "texto": "You spent oxygen, which you had plenty of, and protected energy, which was the lowest.",
   "texto_tts": "You spent oxygen, which you had plenty of, and protected energy, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_293",
+  "id": "en_316",
   "idioma": "en",
   "texto": "You spent shielding, which you had plenty of, and protected energy, which was the lowest.",
   "texto_tts": "You spent shielding, which you had plenty of, and protected energy, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_294",
+  "id": "en_317",
   "idioma": "en",
   "texto": "You spent energy, which you had plenty of, and protected oxygen, which was the lowest.",
   "texto_tts": "You spent energy, which you had plenty of, and protected oxygen, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_295",
+  "id": "en_318",
   "idioma": "en",
   "texto": "You spent shielding, which you had plenty of, and protected oxygen, which was the lowest.",
   "texto_tts": "You spent shielding, which you had plenty of, and protected oxygen, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_296",
+  "id": "en_319",
   "idioma": "en",
   "texto": "You spent energy, which you had plenty of, and protected shielding, which was the lowest.",
   "texto_tts": "You spent energy, which you had plenty of, and protected shielding, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_297",
+  "id": "en_320",
   "idioma": "en",
   "texto": "You spent oxygen, which you had plenty of, and protected shielding, which was the lowest.",
   "texto_tts": "You spent oxygen, which you had plenty of, and protected shielding, which was the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_298",
+  "id": "en_321",
   "idioma": "en",
   "texto": "An astronaut’s decision, Wenceslao!",
   "texto_tts": "An astronaut’s decision, Wenceslao!",
   "cara": "neutral"
  },
  {
-  "id": "en_299",
+  "id": "en_322",
   "idioma": "en",
   "texto": "You protected what we needed most.",
   "texto_tts": "You protected what we needed most.",
   "cara": "neutral"
  },
  {
-  "id": "en_300",
+  "id": "en_323",
   "idioma": "en",
   "texto": "An astronaut’s decision, Judith!",
   "texto_tts": "An astronaut’s decision, Judith!",
   "cara": "neutral"
  },
  {
-  "id": "en_301",
+  "id": "en_324",
   "idioma": "en",
   "texto": "An astronaut’s decision, Atlas!",
   "texto_tts": "An astronaut’s decision, Atlas!",
   "cara": "neutral"
  },
  {
-  "id": "en_302",
+  "id": "en_325",
   "idioma": "en",
   "texto": "Quick question: why didn’t you spend energy?",
   "texto_tts": "Quick question: why didn’t you spend energy?",
   "cara": "neutral"
  },
  {
-  "id": "en_303",
+  "id": "en_326",
   "idioma": "en",
   "texto": "Of course!",
   "texto_tts": "Of course!",
   "cara": "neutral"
  },
  {
-  "id": "en_304",
+  "id": "en_327",
   "idioma": "en",
   "texto": "Because it was what we had least of.",
   "texto_tts": "Because it was what we had least of.",
   "cara": "neutral"
  },
  {
-  "id": "en_305",
+  "id": "en_328",
   "idioma": "en",
   "texto": "Quick question: why didn’t you spend oxygen?",
   "texto_tts": "Quick question: why didn’t you spend oxygen?",
   "cara": "neutral"
  },
  {
-  "id": "en_306",
+  "id": "en_329",
   "idioma": "en",
   "texto": "Quick question: why didn’t you spend shielding?",
   "texto_tts": "Quick question: why didn’t you spend shielding?",
   "cara": "neutral"
  },
  {
-  "id": "en_307",
+  "id": "en_330",
   "idioma": "en",
   "texto": "Careful: energy was the lowest and you spent exactly that.",
   "texto_tts": "Careful: energy was the lowest and you spent exactly that.",
   "cara": "neutral"
  },
  {
-  "id": "en_308",
+  "id": "en_331",
   "idioma": "en",
   "texto": "Next time, spend what you have the most of: oxygen.",
   "texto_tts": "Next time, spend what you have the most of: oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_309",
+  "id": "en_332",
   "idioma": "en",
   "texto": "Next time, spend what you have the most of: shielding.",
   "texto_tts": "Next time, spend what you have the most of: shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_310",
+  "id": "en_333",
   "idioma": "en",
   "texto": "Careful: oxygen was the lowest and you spent exactly that.",
   "texto_tts": "Careful: oxygen was the lowest and you spent exactly that.",
   "cara": "neutral"
  },
  {
-  "id": "en_311",
+  "id": "en_334",
   "idioma": "en",
   "texto": "Next time, spend what you have the most of: energy.",
   "texto_tts": "Next time, spend what you have the most of: energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_312",
+  "id": "en_335",
   "idioma": "en",
   "texto": "Careful: shielding was the lowest and you spent exactly that.",
   "texto_tts": "Careful: shielding was the lowest and you spent exactly that.",
   "cara": "neutral"
  },
  {
-  "id": "en_313",
+  "id": "en_336",
   "idioma": "en",
   "texto": "First I look at the lowest bar: energy.",
   "texto_tts": "First I look at the lowest bar: energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_314",
+  "id": "en_337",
   "idioma": "en",
   "texto": "I protect that one.",
   "texto_tts": "I protect that one.",
   "cara": "neutral"
  },
  {
-  "id": "en_315",
+  "id": "en_338",
   "idioma": "en",
   "texto": "Then I pick the option that spends oxygen, which I have plenty of.",
   "texto_tts": "Then I pick the option that spends oxygen, which I have plenty of.",
   "cara": "neutral"
  },
  {
-  "id": "en_316",
+  "id": "en_339",
   "idioma": "en",
   "texto": "Then I pick the option that spends shielding, which I have plenty of.",
   "texto_tts": "Then I pick the option that spends shielding, which I have plenty of.",
   "cara": "neutral"
  },
  {
-  "id": "en_317",
+  "id": "en_340",
   "idioma": "en",
   "texto": "First I look at the lowest bar: oxygen.",
   "texto_tts": "First I look at the lowest bar: oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_318",
+  "id": "en_341",
   "idioma": "en",
   "texto": "Then I pick the option that spends energy, which I have plenty of.",
   "texto_tts": "Then I pick the option that spends energy, which I have plenty of.",
   "cara": "neutral"
  },
  {
-  "id": "en_319",
+  "id": "en_342",
   "idioma": "en",
   "texto": "First I look at the lowest bar: shielding.",
   "texto_tts": "First I look at the lowest bar: shielding.",
   "cara": "neutral"
  },
  {
-  "id": "en_320",
+  "id": "en_343",
   "idioma": "en",
   "texto": "Time ran out and the base chose on its own.",
   "texto_tts": "Time ran out and the base chose on its own.",
   "cara": "neutral"
  },
  {
-  "id": "en_321",
+  "id": "en_344",
   "idioma": "en",
   "texto": "If you check the bars first, you decide faster.",
   "texto_tts": "If you check the bars first, you decide faster.",
   "cara": "neutral"
  },
  {
-  "id": "en_322",
+  "id": "en_345",
   "idioma": "en",
   "texto": "Quick question: where does our energy come from during the day?",
   "texto_tts": "Quick question: where does our energy come from during the day?",
   "cara": "neutral"
  },
  {
-  "id": "en_323",
+  "id": "en_346",
   "idioma": "en",
   "texto": "From the Sun!",
   "texto_tts": "From the Sun!",
   "cara": "neutral"
  },
  {
-  "id": "en_324",
+  "id": "en_347",
   "idioma": "en",
   "texto": "The panels store it in batteries for the night.",
   "texto_tts": "The panels store it in batteries for the night.",
   "cara": "neutral"
  },
  {
-  "id": "en_325",
+  "id": "en_348",
   "idioma": "en",
   "texto": "Let’s see if you remember: what happens to the panels when they get dusty?",
   "texto_tts": "Let’s see if you remember: what happens to the panels when they get dusty?",
   "cara": "neutral"
  },
  {
-  "id": "en_326",
+  "id": "en_349",
   "idioma": "en",
   "texto": "They make less energy.",
   "texto_tts": "They make less energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_327",
+  "id": "en_350",
   "idioma": "en",
   "texto": "That’s why we clean them.",
   "texto_tts": "That’s why we clean them.",
   "cara": "neutral"
  },
  {
-  "id": "en_328",
+  "id": "en_351",
   "idioma": "en",
   "texto": "Quick question: what cleans the carbon dioxide we breathe out?",
   "texto_tts": "Quick question: what cleans the carbon dioxide we breathe out?",
   "cara": "neutral"
  },
  {
-  "id": "en_329",
+  "id": "en_352",
   "idioma": "en",
   "texto": "The filter!",
   "texto_tts": "The filter!",
   "cara": "neutral"
  },
  {
-  "id": "en_330",
+  "id": "en_353",
   "idioma": "en",
   "texto": "And the plants help too: they release oxygen.",
   "texto_tts": "And the plants help too: they release oxygen.",
   "cara": "neutral"
  },
  {
-  "id": "en_331",
+  "id": "en_354",
   "idioma": "en",
   "texto": "Let’s see if you remember: what do the greenhouse plants release?",
   "texto_tts": "Let’s see if you remember: what do the greenhouse plants release?",
   "cara": "neutral"
  },
  {
-  "id": "en_332",
+  "id": "en_355",
   "idioma": "en",
   "texto": "Oxygen!",
   "texto_tts": "Oxygen!",
   "cara": "neutral"
  },
  {
-  "id": "en_333",
+  "id": "en_356",
   "idioma": "en",
   "texto": "That’s why we look after them so well.",
   "texto_tts": "That’s why we look after them so well.",
   "cara": "neutral"
  },
  {
-  "id": "en_334",
+  "id": "en_357",
   "idioma": "en",
   "texto": "Quick question: what protects us from radiation while we sleep?",
   "texto_tts": "Quick question: what protects us from radiation while we sleep?",
   "cara": "neutral"
  },
  {
-  "id": "en_335",
+  "id": "en_358",
   "idioma": "en",
   "texto": "The water in the shelter walls!",
   "texto_tts": "The water in the shelter walls!",
   "cara": "neutral"
  },
  {
-  "id": "en_336",
+  "id": "en_359",
   "idioma": "en",
   "texto": "It stops radiation.",
   "texto_tts": "It stops radiation.",
   "cara": "neutral"
  },
  {
-  "id": "en_337",
+  "id": "en_360",
   "idioma": "en",
   "texto": "Let’s see if you remember: where do flares come from?",
   "texto_tts": "Let’s see if you remember: where do flares come from?",
   "cara": "neutral"
  },
  {
-  "id": "en_338",
+  "id": "en_361",
   "idioma": "en",
   "texto": "That’s why we check the forecast every day.",
   "texto_tts": "That’s why we check the forecast every day.",
   "cara": "neutral"
  },
  {
-  "id": "en_339",
+  "id": "en_362",
   "idioma": "en",
   "texto": "Quick question: in an emergency, which resource is best to spend?",
   "texto_tts": "Quick question: in an emergency, which resource is best to spend?",
   "cara": "neutral"
  },
  {
-  "id": "en_340",
+  "id": "en_363",
   "idioma": "en",
   "texto": "The one you have the most of!",
   "texto_tts": "The one you have the most of!",
   "cara": "neutral"
  },
  {
-  "id": "en_341",
+  "id": "en_364",
   "idioma": "en",
   "texto": "And you protect the lowest.",
   "texto_tts": "And you protect the lowest.",
   "cara": "neutral"
  },
  {
-  "id": "en_342",
+  "id": "en_365",
   "idioma": "en",
   "texto": "Today you learned more about energy.",
   "texto_tts": "Today you learned more about energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_343",
+  "id": "en_366",
   "idioma": "en",
   "texto": "Today you learned more about air.",
   "texto_tts": "Today you learned more about air.",
   "cara": "neutral"
  },
  {
-  "id": "en_344",
+  "id": "en_367",
   "idioma": "en",
   "texto": "Today you learned more about the radiation shield.",
   "texto_tts": "Today you learned more about the radiation shield.",
   "cara": "neutral"
  },
  {
-  "id": "en_345",
+  "id": "en_368",
   "idioma": "en",
   "texto": "Today you learned more about deciding with data.",
   "texto_tts": "Today you learned more about deciding with data.",
   "cara": "neutral"
  },
  {
-  "id": "en_346",
+  "id": "en_369",
   "idioma": "en",
   "texto": "Today you got better at energy.",
   "texto_tts": "Today you got better at energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_347",
+  "id": "en_370",
   "idioma": "en",
   "texto": "It shows!",
   "texto_tts": "It shows!",
   "cara": "neutral"
  },
  {
-  "id": "en_348",
+  "id": "en_371",
   "idioma": "en",
   "texto": "Today you got better at air.",
   "texto_tts": "Today you got better at air.",
   "cara": "neutral"
  },
  {
-  "id": "en_349",
+  "id": "en_372",
   "idioma": "en",
   "texto": "Today you got better at the radiation shield.",
   "texto_tts": "Today you got better at the radiation shield.",
   "cara": "neutral"
  },
  {
-  "id": "en_350",
+  "id": "en_373",
   "idioma": "en",
   "texto": "Today you got better at deciding with data.",
   "texto_tts": "Today you got better at deciding with data.",
   "cara": "neutral"
  },
  {
-  "id": "en_351",
+  "id": "en_374",
   "idioma": "en",
   "texto": "Tomorrow let’s practice energy.",
   "texto_tts": "Tomorrow let’s practice energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_352",
+  "id": "en_375",
   "idioma": "en",
   "texto": "Tomorrow let’s practice air.",
   "texto_tts": "Tomorrow let’s practice air.",
   "cara": "neutral"
  },
  {
-  "id": "en_353",
+  "id": "en_376",
   "idioma": "en",
   "texto": "Tomorrow let’s practice the radiation shield.",
   "texto_tts": "Tomorrow let’s practice the radiation shield.",
   "cara": "neutral"
  },
  {
-  "id": "en_354",
+  "id": "en_377",
   "idioma": "en",
   "texto": "Tomorrow let’s practice deciding with data.",
   "texto_tts": "Tomorrow let’s practice deciding with data.",
   "cara": "neutral"
  },
  {
-  "id": "en_355",
+  "id": "en_378",
   "idioma": "en",
   "texto": "Tomorrow I’ll help you more with energy.",
   "texto_tts": "Tomorrow I’ll help you more with energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_356",
+  "id": "en_379",
   "idioma": "en",
   "texto": "Tomorrow I’ll help you more with air.",
   "texto_tts": "Tomorrow I’ll help you more with air.",
   "cara": "neutral"
  },
  {
-  "id": "en_357",
+  "id": "en_380",
   "idioma": "en",
   "texto": "Tomorrow I’ll help you more with the radiation shield.",
   "texto_tts": "Tomorrow I’ll help you more with the radiation shield.",
   "cara": "neutral"
  },
  {
-  "id": "en_358",
+  "id": "en_381",
   "idioma": "en",
   "texto": "Tomorrow I’ll help you more with deciding with data.",
   "texto_tts": "Tomorrow I’ll help you more with deciding with data.",
   "cara": "neutral"
  },
  {
-  "id": "en_359",
+  "id": "en_382",
   "idioma": "en",
   "texto": "You’re doing great at everything!",
   "texto_tts": "You’re doing great at everything!",
   "cara": "neutral"
  },
  {
-  "id": "en_360",
+  "id": "en_383",
   "idioma": "en",
   "texto": "Tomorrow I’ll give you fewer hints.",
   "texto_tts": "Tomorrow I’ll give you fewer hints.",
   "cara": "neutral"
  },
  {
-  "id": "en_361",
+  "id": "en_384",
   "idioma": "en",
   "texto": "Systems online. Welcome to Mars Base One, Wenceslao.",
   "texto_tts": "Systems online. Welcome to Mars Base One, Wenceslao.",
   "cara": "feliz"
  },
  {
-  "id": "en_362",
+  "id": "en_385",
   "idioma": "en",
   "texto": "Systems online. Welcome to Mars Base One, Judith.",
   "texto_tts": "Systems online. Welcome to Mars Base One, Judith.",
   "cara": "feliz"
  },
  {
-  "id": "en_363",
+  "id": "en_386",
   "idioma": "en",
   "texto": "Systems online. Welcome to Mars Base One, Atlas.",
   "texto_tts": "Systems online. Welcome to Mars Base One, Atlas.",
   "cara": "feliz"
  },
  {
-  "id": "en_364",
+  "id": "en_387",
   "idioma": "en",
   "texto": "I'm the base AI. I'll take care of you and explain whatever happens.",
   "texto_tts": "I'm the base A I. I'll take care of you and explain whatever happens.",
   "cara": "neutral"
  },
  {
-  "id": "en_365",
+  "id": "en_388",
   "idioma": "en",
   "texto": "Important notice: this is a practice mission before going to Mars. Nobody is in danger. Here, we learn.",
   "texto_tts": "Important notice: this is a practice mission before going to Mars. Nobody is in danger. Here, we learn.",
   "cara": "neutral"
  },
  {
-  "id": "en_366",
+  "id": "en_389",
   "idioma": "en",
   "texto": "The base uses three resources: energy, oxygen, and shielding. Each one has three levels: low, medium, and high. If one hits zero, the base shuts down and the mission restarts.",
   "texto_tts": "The base uses three resources: energy, oxygen, and shielding. Each one has three levels: low, medium, and high. If one hits zero, the base shuts down and the mission restarts.",
   "cara": "procesando"
  },
  {
-  "id": "en_367",
+  "id": "en_390",
   "idioma": "en",
   "texto": "Hello, Engineer Wenceslao! You know how every cable and every motor in the base works. There's never enough energy to power everything at once, so you decide which machines get power.",
   "texto_tts": "Hello, Engineer Wenceslao! You know how every cable and every motor in the base works. There's never enough energy to power everything at once, so you decide which machines get power.",
   "cara": "feliz"
  },
  {
-  "id": "en_368",
+  "id": "en_391",
   "idioma": "en",
   "texto": "Ready to explore, Scientist Judith! Out there is a mysterious planet, dust storms, and incredible rocks. Your love of plants will keep the base alive.",
   "texto_tts": "Ready to explore, Scientist Judith! Out there is a mysterious planet, dust storms, and incredible rocks. Your love of plants will keep the base alive.",
   "cara": "feliz"
  },
  {
-  "id": "en_369",
+  "id": "en_392",
   "idioma": "en",
   "texto": "Great to have you on board, Doctor Atlas! In space you have to take very good care of health and air. You'll make sure the whole crew is strong and ready for the adventure.",
   "texto_tts": "Great to have you on board, Doctor Atlas! In space you have to take very good care of health and air. You'll make sure the whole crew is strong and ready for the adventure.",
   "cara": "feliz"
  },
  {
-  "id": "en_370",
+  "id": "en_393",
   "idioma": "en",
   "texto": "The battery can't power everything. Use the command console to choose where the energy goes today.",
   "texto_tts": "The battery can't power everything. Use the command console to choose where the energy goes today.",
   "cara": "neutral"
  },
  {
-  "id": "en_371",
+  "id": "en_394",
   "idioma": "en",
   "texto": "Notice: the signal to Earth is slow. Every message takes several minutes.",
   "texto_tts": "Notice: the signal to Earth is slow. Every message takes several minutes.",
   "cara": "neutral"
  },
  {
-  "id": "en_372",
+  "id": "en_395",
   "idioma": "en",
   "texto": "There's sunlight. Let's get to work! Clean the panels, change the filter, and water the plants before dark.",
   "texto_tts": "There's sunlight. Let's get to work! Clean the panels, change the filter, and water the plants before dark.",
   "cara": "feliz"
  },
  {
-  "id": "en_373",
+  "id": "en_396",
   "idioma": "en",
   "texto": "Notice: dust covered the solar panels and the battery isn't charging.",
   "texto_tts": "Notice: dust covered the solar panels and the battery isn't charging.",
   "cara": "procesando"
  },
  {
-  "id": "en_374",
+  "id": "en_397",
   "idioma": "en",
   "texto": "The Spirit and Opportunity robots had the same problem on Mars. Sometimes the wind cleaned them off, but you can't count on that.",
   "texto_tts": "The Spirit and Opportunity robots had the same problem on Mars. Sometimes the wind cleaned them off, but you can't count on that.",
   "cara": "feliz"
  },
  {
-  "id": "en_375",
+  "id": "en_398",
   "idioma": "en",
   "texto": "There's dust on the panels again. There's no wind here to help us.",
   "texto_tts": "There's dust on the panels again. There's no wind here to help us.",
   "cara": "procesando"
  },
  {
-  "id": "en_376",
+  "id": "en_399",
   "idioma": "en",
   "texto": "Great! The panels are shining again and the battery is rising. We'll have good light all night.",
   "texto_tts": "Great! The panels are shining again and the battery is rising. We'll have good light all night.",
   "cara": "feliz"
  },
  {
-  "id": "en_377",
+  "id": "en_400",
   "idioma": "en",
   "texto": "Air alert! The CO₂ filter is clogged and the spare doesn't fit in the slot.",
   "texto_tts": "Air alert! The carbon dioxide filter is clogged and the spare doesn't fit in the slot.",
   "cara": "procesando"
  },
  {
-  "id": "en_378",
+  "id": "en_401",
   "idioma": "en",
   "texto": "In 1970, the Apollo 13 spacecraft had this same problem. The engineers invented an adapter out of plastic bags, cardboard, hoses, and tape.",
   "texto_tts": "In 1970, the Apollo thirteen spacecraft had this same problem. The engineers invented an adapter out of plastic bags, cardboard, hoses, and tape.",
   "cara": "feliz"
  },
  {
-  "id": "en_379",
+  "id": "en_402",
   "idioma": "en",
   "texto": "The filter is saturated again. Time to build the adapter.",
   "texto_tts": "The filter is saturated again. Time to build the adapter.",
   "cara": "procesando"
  },
  {
-  "id": "en_380",
+  "id": "en_403",
   "idioma": "en",
   "texto": "You did it! The filter is sealed tight and we're breathing fresh air. Great teamwork.",
   "texto_tts": "You did it! The filter is sealed tight and we're breathing fresh air. Great teamwork.",
   "cara": "feliz"
  },
  {
-  "id": "en_381",
+  "id": "en_404",
   "idioma": "en",
   "texto": "A little bad air got out. We're tired and the air is getting low.",
   "texto_tts": "A little bad air got out. We're tired and the air is getting low.",
   "cara": "procesando"
  },
  {
-  "id": "en_382",
+  "id": "en_405",
   "idioma": "en",
   "texto": "Time to tend the garden! These plants help us have oxygen. In space, water floats in bubbles: give them only the drops they need.",
   "texto_tts": "Time to tend the garden! These plants help us have oxygen. In space, water floats in bubbles: give them only the drops they need.",
   "cara": "feliz"
  },
  {
-  "id": "en_383",
+  "id": "en_406",
   "idioma": "en",
   "texto": "In 2016, astronaut Scott Kelly tended the first zinnias to bloom on the Space Station. They got mold from the humidity, and he saved them.",
   "texto_tts": "In 2016, astronaut Scott Kelly tended the first zinnias to bloom on the Space Station. They got mold from the humidity, and he saved them.",
   "cara": "feliz"
  },
  {
-  "id": "en_384",
+  "id": "en_407",
   "idioma": "en",
   "texto": "The plants are thirsty, but watch out for too much water.",
   "texto_tts": "The plants are thirsty, but watch out for too much water.",
   "cara": "neutral"
  },
  {
-  "id": "en_385",
+  "id": "en_408",
   "idioma": "en",
   "texto": "The cabin lights are dimming. Turn on your helmet flashlight to see the controls.",
   "texto_tts": "The cabin lights are dimming. Turn on your helmet flashlight to see the controls.",
   "cara": "neutral"
  },
  {
-  "id": "en_386",
+  "id": "en_409",
   "idioma": "en",
   "texto": "Notice: the shielding is weak. We should reinforce it tomorrow.",
   "texto_tts": "Notice: the shielding is weak. We should reinforce it tomorrow.",
   "cara": "procesando"
  },
  {
-  "id": "en_387",
+  "id": "en_410",
   "idioma": "en",
   "texto": "End of the first sol. It's very cold outside. On Mars, the night can drop below minus sixty degrees.",
   "texto_tts": "End of the first sol. It's very cold outside. On Mars, the night can drop below minus sixty degrees.",
   "cara": "neutral"
  },
  {
-  "id": "en_388",
+  "id": "en_411",
   "idioma": "en",
   "texto": "Teams on real missions have even lived on Mars time to work with their robots.",
   "texto_tts": "Teams on real missions have even lived on Mars time to work with their robots.",
   "cara": "feliz"
  },
  {
-  "id": "en_389",
+  "id": "en_412",
   "idioma": "en",
   "texto": "Mars is farther from the Sun than Earth. Less than half the light reaches here.",
   "texto_tts": "Mars is farther from the Sun than Earth. Less than half the light reaches here.",
   "cara": "neutral"
  },
  {
-  "id": "en_390",
+  "id": "en_413",
   "idioma": "en",
   "texto": "Good night. Saving energy in power-saving mode.",
   "texto_tts": "Good night. Saving energy in power-saving mode.",
   "cara": "feliz"
  },
  {
-  "id": "en_391",
+  "id": "en_414",
   "idioma": "en",
   "texto": "The Perseverance rover has microphones. It recorded the Martian wind, its own wheels, and even the Ingenuity helicopter.",
   "texto_tts": "The Perseverance rover has microphones. It recorded the Martian wind, its own wheels, and even the Ingenuity helicopter.",
   "cara": "feliz"
  },
  {
-  "id": "en_392",
+  "id": "en_415",
   "idioma": "en",
   "texto": "The Mars sounds you're hearing are real NASA recordings. Good night.",
   "texto_tts": "The Mars sounds you're hearing are real NASA recordings. Good night.",
   "cara": "feliz"
  },
  {
-  "id": "en_393",
+  "id": "en_416",
   "idioma": "en",
   "texto": "The air on Mars is almost all carbon dioxide, CO₂. You can't breathe it.",
   "texto_tts": "The air on Mars is almost all carbon dioxide, carbon dioxide. You can't breathe it.",
   "cara": "neutral"
  },
  {
-  "id": "en_394",
+  "id": "en_417",
   "idioma": "en",
   "texto": "Yes. It traveled with Perseverance and proved it can be done. In total it made 122 grams of oxygen, about what a small dog breathes in 10 hours.",
   "texto_tts": "Yes. It traveled with Perseverance and proved it can be done. In total it made 122 grams of oxygen, about what a small dog breathes in ten hours.",
   "cara": "feliz"
  },
  {
-  "id": "en_395",
+  "id": "en_418",
   "idioma": "en",
   "texto": "Tonight, let's talk about radiation.",
   "texto_tts": "Tonight, let's talk about radiation.",
   "cara": "procesando"
  },
  {
-  "id": "en_396",
+  "id": "en_419",
   "idioma": "en",
   "texto": "An instrument on the Curiosity rover measures how much radiation reaches the Martian ground.",
   "texto_tts": "An instrument on the Curiosity rover measures how much radiation reaches the Martian ground.",
   "cara": "feliz"
  },
  {
-  "id": "en_397",
+  "id": "en_420",
   "idioma": "en",
   "texto": "There's a dust storm in the sky. Some of them wrap around the whole planet.",
   "texto_tts": "There's a dust storm in the sky. Some of them wrap around the whole planet.",
   "cara": "procesando"
  },
  {
-  "id": "en_398",
+  "id": "en_421",
   "idioma": "en",
   "texto": "Good night. Eyes open.",
   "texto_tts": "Good night. Eyes open.",
   "cara": "neutral"
  },
  {
-  "id": "en_399",
+  "id": "en_422",
   "idioma": "en",
   "texto": "Mars soil has salts called perchlorates. They're not good for plants, or to eat untreated.",
   "texto_tts": "Mars soil has salts called perchlorates. They're not good for plants, or to eat untreated.",
   "cara": "procesando"
  },
  {
-  "id": "en_400",
+  "id": "en_423",
   "idioma": "en",
   "texto": "Mars gravity is a little more than a third of Earth's. A 40-kilo astronaut would weigh about 15.",
   "texto_tts": "Mars gravity is a little more than a third of Earth's. A 40-kilo astronaut would weigh about fifteen.",
   "cara": "feliz"
  },
  {
-  "id": "en_401",
+  "id": "en_424",
   "idioma": "en",
   "texto": "Good night. Recording a new jumping record.",
   "texto_tts": "Good night. Recording a new jumping record.",
   "cara": "feliz"
  },
  {
-  "id": "en_402",
+  "id": "en_425",
   "idioma": "en",
   "texto": "News from the Sun. Scientists are watching the solar storms.",
   "texto_tts": "News from the Sun. Scientists are watching the solar storms.",
   "cara": "procesando"
  },
  {
-  "id": "en_403",
+  "id": "en_426",
   "idioma": "en",
   "texto": "Services like NASA's DONKI and NOAA record these events.",
   "texto_tts": "Services like NASA's DONKI and NOAA record these events.",
   "cara": "feliz"
  },
  {
-  "id": "en_404",
+  "id": "en_427",
   "idioma": "en",
   "texto": "Last night. Look outside.",
   "texto_tts": "Last night. Look outside.",
   "cara": "feliz"
  },
  {
-  "id": "en_405",
+  "id": "en_428",
   "idioma": "en",
   "texto": "Yes. In 2014, the Curiosity rover photographed it: it looked like a bright star, with the Moon beside it.",
   "texto_tts": "Yes. In 2014, the Curiosity rover photographed it: it looked like a bright star, with the Moon beside it.",
   "cara": "feliz"
  },
  {
-  "id": "en_406",
+  "id": "en_429",
   "idioma": "en",
   "texto": "From 3 to 22 minutes, depending on where the planets are.",
   "texto_tts": "From three to twenty-two minutes, depending on where the planets are.",
   "cara": "neutral"
  },
  {
-  "id": "en_407",
+  "id": "en_430",
   "idioma": "en",
   "texto": "Alert! I detect a solar storm. It will arrive soon.",
   "texto_tts": "Alert! I detect a solar storm. It will arrive soon.",
   "cara": "procesando"
  },
  {
-  "id": "en_408",
+  "id": "en_431",
   "idioma": "en",
   "texto": "Notice: the shielding is taking more charge than normal.",
   "texto_tts": "Notice: the shielding is taking more charge than normal.",
   "cara": "procesando"
  },
  {
-  "id": "en_409",
+  "id": "en_432",
   "idioma": "en",
   "texto": "In August 1972, the Sun unleashed a huge storm between two Moon missions. Nobody was in space; it was pure luck. That's why space weather is watched today.",
   "texto_tts": "In August 1972, the Sun unleashed a huge storm between two Moon missions. Nobody was in space; it was pure luck. That's why space weather is watched today.",
   "cara": "feliz"
  },
  {
-  "id": "en_410",
+  "id": "en_433",
   "idioma": "en",
   "texto": "Alert! A dust storm is covering the panels.",
   "texto_tts": "Alert! A dust storm is covering the panels.",
   "cara": "procesando"
  },
  {
-  "id": "en_411",
+  "id": "en_434",
   "idioma": "en",
   "texto": "Reserves dropping. Calculating how long they'll last.",
   "texto_tts": "Reserves dropping. Calculating how long they'll last.",
   "cara": "procesando"
  },
  {
-  "id": "en_412",
+  "id": "en_435",
   "idioma": "en",
   "texto": "Alert! The CO₂ filter is saturated. The air is getting heavy.",
   "texto_tts": "Alert! The carbon dioxide filter is saturated. The air is getting heavy.",
   "cara": "procesando"
  },
  {
-  "id": "en_413",
+  "id": "en_436",
   "idioma": "en",
   "texto": "Alert! Radiation outside has gone up.",
   "texto_tts": "Alert! Radiation outside has gone up.",
   "cara": "procesando"
  },
  {
-  "id": "en_414",
+  "id": "en_437",
   "idioma": "en",
   "texto": "Shielding reinforced.",
   "texto_tts": "Shielding reinforced.",
   "cara": "feliz"
  },
  {
-  "id": "en_415",
+  "id": "en_438",
   "idioma": "en",
   "texto": "Heat danger! A piece of the protective roof came loose and the cabin is heating up very fast.",
   "texto_tts": "Heat danger! A piece of the protective roof came loose and the cabin is heating up very fast.",
   "cara": "procesando"
  },
  {
-  "id": "en_416",
+  "id": "en_439",
   "idioma": "en",
   "texto": "Shade ready. The temperature is dropping.",
   "texto_tts": "Shade ready. The temperature is dropping.",
   "cara": "feliz"
  },
  {
-  "id": "en_417",
+  "id": "en_440",
   "idioma": "en",
   "texto": "The temperature is dropping. So is the energy.",
   "texto_tts": "The temperature is dropping. So is the energy.",
   "cara": "procesando"
  },
  {
-  "id": "en_418",
+  "id": "en_441",
   "idioma": "en",
   "texto": "In 1973, the Skylab station lost its sun shield during launch and heated up like an oven. Its first crew installed a sunshade and saved it.",
   "texto_tts": "In 1973, the Skylab station lost its sun shield during launch and heated up like an oven. Its first crew installed a sunshade and saved it.",
   "cara": "feliz"
  },
  {
-  "id": "en_419",
+  "id": "en_442",
   "idioma": "en",
   "texto": "Leak detected! The liquid that cools the solar panels is escaping into space.",
   "texto_tts": "Leak detected! The liquid that cools the solar panels is escaping into space.",
   "cara": "procesando"
  },
  {
-  "id": "en_420",
+  "id": "en_443",
   "idioma": "en",
   "texto": "Leak isolated.",
   "texto_tts": "Leak isolated.",
   "cara": "neutral"
  },
  {
-  "id": "en_421",
+  "id": "en_444",
   "idioma": "en",
   "texto": "In May 2013, the crew of the International Space Station saw white flakes of frozen coolant. Two astronauts went on a spacewalk and replaced the part that was failing.",
   "texto_tts": "In May 2013, the crew of the International Space Station saw white flakes of frozen coolant. Two astronauts went on a spacewalk and replaced the part that was failing.",
   "cara": "feliz"
  },
  {
-  "id": "en_422",
+  "id": "en_445",
   "idioma": "en",
   "texto": "Hull impact! Air is escaping through a crack. We have to close the hatch now.",
   "texto_tts": "Hull impact! Air is escaping through a crack. We have to close the hatch now.",
   "cara": "procesando"
  },
  {
-  "id": "en_423",
+  "id": "en_446",
   "idioma": "en",
   "texto": "Hatch sealed. The air was saved.",
   "texto_tts": "Hatch sealed. The air was saved.",
   "cara": "feliz"
  },
  {
-  "id": "en_424",
+  "id": "en_447",
   "idioma": "en",
   "texto": "Hatch sealed. Some air was lost along the way.",
   "texto_tts": "Hatch sealed. Some air was lost along the way.",
   "cara": "procesando"
  },
  {
-  "id": "en_425",
+  "id": "en_448",
   "idioma": "en",
   "texto": "In 1997, a cargo ship hit a module of the Russian space station Mir, with a NASA astronaut on board. The crew disconnected cables to seal the door, and the station kept working.",
   "texto_tts": "In 1997, a cargo ship hit a module of the Russian space station Mir, with a NASA astronaut on board. The crew disconnected cables to seal the door, and the station kept working.",
   "cara": "feliz"
  },
  {
-  "id": "en_426",
+  "id": "en_449",
   "idioma": "en",
   "texto": "Alert! The greenhouse fan stopped and I don't know which part failed.",
   "texto_tts": "Alert! The greenhouse fan stopped and I don't know which part failed.",
   "cara": "procesando"
  },
  {
-  "id": "en_427",
+  "id": "en_450",
   "idioma": "en",
   "texto": "Notice: a message to Earth takes between 3 and 22 minutes to arrive. The reply takes just as long.",
   "texto_tts": "Notice: a message to Earth takes between three and twenty-two minutes to arrive. The reply takes just as long.",
   "cara": "neutral"
  },
  {
-  "id": "en_428",
+  "id": "en_451",
   "idioma": "en",
   "texto": "Message sent. Waiting for a reply. Oxygen is dropping in the meantime.",
   "texto_tts": "Message sent. Waiting for a reply. Oxygen is dropping in the meantime.",
   "cara": "procesando"
  },
  {
-  "id": "en_429",
+  "id": "en_452",
   "idioma": "en",
   "texto": "Restart underway. The batteries are working overtime.",
   "texto_tts": "Restart underway. The batteries are working overtime.",
   "cara": "procesando"
  },
  {
-  "id": "en_430",
+  "id": "en_453",
   "idioma": "en",
   "texto": "A signal between Earth and Mars takes 3 to 22 minutes in each direction, depending on where the planets are. That's why a crew on Mars has to know how to decide on its own.",
   "texto_tts": "A signal between Earth and Mars takes three to twenty-two minutes in each direction, depending on where the planets are. That's why a crew on Mars has to know how to decide on its own.",
   "cara": "feliz"
  },
  {
-  "id": "en_431",
+  "id": "en_454",
   "idioma": "en",
   "texto": "Ten whole sols have passed in this corner of the universe, and we're still here.",
   "texto_tts": "Ten whole sols have passed in this corner of the universe, and we're still here.",
   "cara": "feliz"
  },
  {
-  "id": "en_432",
+  "id": "en_455",
   "idioma": "en",
   "texto": "It wasn't just luck. It was curiosity, courage, and a will to learn.",
   "texto_tts": "It wasn't just luck. It was curiosity, courage, and a will to learn.",
   "cara": "feliz"
  },
  {
-  "id": "en_433",
+  "id": "en_456",
   "idioma": "en",
   "texto": "Result: mission successful. Real data and good decisions.",
   "texto_tts": "Result: mission successful. Real data and good decisions.",
   "cara": "feliz"
  },
  {
-  "id": "en_434",
+  "id": "en_457",
   "idioma": "en",
   "texto": "Wenceslao, you are now a Junior Astronaut of Mars Base One.",
   "texto_tts": "Wenceslao, you are now a Junior Astronaut of Mars Base One.",
   "cara": "feliz"
  },
  {
-  "id": "en_435",
+  "id": "en_458",
   "idioma": "en",
   "texto": "Judith, you are now a Junior Astronaut of Mars Base One.",
   "texto_tts": "Judith, you are now a Junior Astronaut of Mars Base One.",
   "cara": "feliz"
  },
  {
-  "id": "en_436",
+  "id": "en_459",
   "idioma": "en",
   "texto": "Atlas, you are now a Junior Astronaut of Mars Base One.",
   "texto_tts": "Atlas, you are now a Junior Astronaut of Mars Base One.",
   "cara": "feliz"
  },
  {
-  "id": "en_437",
+  "id": "en_460",
   "idioma": "en",
   "texto": "You learned that on Mars, teamwork and real information save the mission.",
   "texto_tts": "You learned that on Mars, teamwork and real information save the mission.",
   "cara": "feliz"
  },
  {
-  "id": "en_438",
+  "id": "en_461",
   "idioma": "en",
   "texto": "Because they tried... they succeeded.",
   "texto_tts": "Because they tried... they succeeded.",
   "cara": "feliz"
  },
  {
-  "id": "en_439",
+  "id": "en_462",
   "idioma": "en",
   "texto": "Energy depleted. The base shuts down and the mission restarts.",
   "texto_tts": "Energy depleted. The base shuts down and the mission restarts.",
   "cara": "procesando"
  },
  {
-  "id": "en_440",
+  "id": "en_463",
   "idioma": "en",
   "texto": "What we learned: on Mars, less than half the sunlight arrives. Dust covers the panels and storms make it worse.",
   "texto_tts": "What we learned: on Mars, less than half the sunlight arrives. Dust covers the panels and storms make it worse.",
   "cara": "feliz"
  },
  {
-  "id": "en_441",
+  "id": "en_464",
   "idioma": "en",
   "texto": "When there isn't enough energy, you have to decide what stays on and save reserves before nightfall.",
   "texto_tts": "When there isn't enough energy, you have to decide what stays on and save reserves before nightfall.",
   "cara": "neutral"
  },
  {
-  "id": "en_442",
+  "id": "en_465",
   "idioma": "en",
   "texto": "The Spirit and Opportunity robots lasted for years because the wind sometimes cleaned their panels. You can't wait for the wind: clean the panels in time.",
   "texto_tts": "The Spirit and Opportunity robots lasted for years because the wind sometimes cleaned their panels. You can't wait for the wind: clean the panels in time.",
   "cara": "feliz"
  },
  {
-  "id": "en_443",
+  "id": "en_466",
   "idioma": "en",
   "texto": "Air with too much CO₂. The base shuts down and the mission restarts.",
   "texto_tts": "Air with too much carbon dioxide. The base shuts down and the mission restarts.",
   "cara": "procesando"
  },
  {
-  "id": "en_444",
+  "id": "en_467",
   "idioma": "en",
   "texto": "What we learned: on Mars the air is almost all CO₂. Filters and plants keep the air breathable.",
   "texto_tts": "What we learned: on Mars the air is almost all carbon dioxide. Filters and plants keep the air breathable.",
   "cara": "feliz"
  },
  {
-  "id": "en_445",
+  "id": "en_468",
   "idioma": "en",
   "texto": "Changing the filter in time is just as important as energy.",
   "texto_tts": "Changing the filter in time is just as important as energy.",
   "cara": "neutral"
  },
  {
-  "id": "en_446",
+  "id": "en_469",
   "idioma": "en",
   "texto": "On Apollo 13, the air filled with CO₂ and the crew fixed it with tape, cardboard, and hoses. Check the filters and the plants carefully on your next try.",
   "texto_tts": "On Apollo thirteen, the air filled with carbon dioxide and the crew fixed it with tape, cardboard, and hoses. Check the filters and the plants carefully on your next try.",
   "cara": "feliz"
  },
  {
-  "id": "en_447",
+  "id": "en_470",
   "idioma": "en",
   "texto": "Shielding depleted. The base shuts down and the mission restarts.",
   "texto_tts": "Shielding depleted. The base shuts down and the mission restarts.",
   "cara": "procesando"
  },
  {
-  "id": "en_448",
+  "id": "en_471",
   "idioma": "en",
   "texto": "What we learned: Mars has almost no natural protection against radiation. That's why the base needs shielding.",
   "texto_tts": "What we learned: Mars has almost no natural protection against radiation. That's why the base needs shielding.",
   "cara": "feliz"
  },
  {
-  "id": "en_449",
+  "id": "en_472",
   "idioma": "en",
   "texto": "Following the space weather warnings gives us time to get ready.",
   "texto_tts": "Following the space weather warnings gives us time to get ready.",
   "cara": "neutral"
  },
  {
-  "id": "en_450",
+  "id": "en_473",
   "idioma": "en",
   "texto": "In 1972, the Sun unleashed a huge storm right between two Moon missions. Today, space weather is watched so we can be ready.",
   "texto_tts": "In 1972, the Sun unleashed a huge storm right between two Moon missions. Today, space weather is watched so we can be ready.",

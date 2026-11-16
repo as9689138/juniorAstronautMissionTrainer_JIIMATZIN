@@ -84,7 +84,7 @@ export const guia = {
     return {
       jugador: this.jugador,
       partida: { id: p.id, personaje: p.personaje, dificultad: p.dificultad, idioma: idioma.actual, inicio: p.inicio, fin: p.fin,
-        resultado: p.codigo ?? 'en_curso', soles: c?.soles ?? Math.max(0, Math.min(GameState.sol, GameState.maxSoles + 1) - 1),
+        resultado: p.codigo ?? 'en_curso', soles: c?.soles ?? p.solesHechos ?? this.solesHechos(),
         medalla: c?.medalla ?? null, puntaje: c?.puntaje ?? null },
       dominio: Object.fromEntries(Object.entries(this.rastreador.dominio).map(([k, v]) => [k, +v.toFixed(4)])),
       pruebas: this.rastreador.pruebas.slice(0, 400).map(x => ({ tema: x.tema, tipo: x.tipo, correcto: x.correcto, sol: x.sol ?? null,
@@ -96,9 +96,15 @@ export const guia = {
   pendientes() { try { return JSON.parse(localStorage.getItem(CLAVE_PENDIENTES) ?? '{}'); } catch { return {}; } },
   guardarPendientes(p) { try { localStorage.setItem(CLAVE_PENDIENTES, JSON.stringify(p)); } catch { /* sin almacenamiento */ } },
 
+  // Soles completos de la partida en juego (la que está corriendo ahora en GameState)
+  solesHechos() { return Math.max(0, Math.min(GameState.sol, GameState.maxSoles + 1) - 1); },
+
   // Guarda la partida actual (al final de cada sol y de la misión). Primero queda pendiente; al llegar, se quita.
   sincronizar() {
     if (!this.partida?.id) return;
+    // los soles se apuntan en la partida: si se abandona (se cierra la pestaña), al cerrarla la próxima vez GameState
+    // ya es el de otra partida y no sabe hasta dónde llegó esta
+    if (!this.partida.fin) { this.partida.solesHechos = this.solesHechos(); this.guardar(); }
     const p = this.pendientes();
     p[this.partida.id] = this.cuerpo();
     this.guardarPendientes(p);
@@ -106,17 +112,23 @@ export const guia = {
   },
 
   async mandarPendientes() {
-    if (this.mandando) return;
+    if (this.mandando) { this.otraVez = true; return; }    // ya se está mandando: al acabar se vuelve a revisar
     this.mandando = true;
     try {
-      for (const [id, cuerpo] of Object.entries(this.pendientes())) {
-        const r = await enviarPartida(cuerpo);
-        if (r.reintentar) break;                       // sin red o API ocupada: se intenta en el próximo guardado
-        const p = this.pendientes();
-        if (p[id] === undefined) continue;
-        if (r.ok || !r.reintentar) { delete p[id]; this.guardarPendientes(p); }   // guardada, o datos que la API no acepta
-        if (!r.ok) console.warn('[guía] la API no aceptó la partida', id, r.estado);
-      }
+      do {
+        this.otraVez = false;
+        for (const [id, cuerpo] of Object.entries(this.pendientes())) {
+          const enviado = JSON.stringify(cuerpo);
+          const r = await enviarPartida(cuerpo);
+          if (r.reintentar) { this.otraVez = false; return; }   // sin red o API ocupada: se intenta en el próximo guardado
+          // Se quita solo si sigue siendo lo que se mandó: si mientras tanto se guardó una versión nueva de la
+          // partida (el final de la misión llega justo después del último sol), esa se queda y se manda en la
+          // siguiente vuelta. Lo que la API no acepta (4xx) también se quita: reintentarlo no lo arregla.
+          const p = this.pendientes();
+          if (p[id] !== undefined && JSON.stringify(p[id]) === enviado) { delete p[id]; this.guardarPendientes(p); }
+          if (!r.ok) console.warn('[guía] la API no aceptó la partida', id, r.estado);
+        }
+      } while (this.otraVez);
     } finally { this.mandando = false; }
   },
 
@@ -138,7 +150,8 @@ export const guia = {
   // Cada partida empieza a medir de cero: el BKT estima lo de esta misión. Las anteriores quedan en el historial.
   nuevaPartida(personaje, dificultad) {
     if (this.partida && !this.partida.fin && this.rastreador.pruebas.length) {    // la anterior quedó a medias
-      this.cerrarPartida('sin terminar', false, 'sin_terminar');
+      // con los soles que llegó a completar ella (GameState ya es el de la partida nueva)
+      this.cerrarPartida('sin terminar', false, 'sin_terminar', this.partida.solesHechos ?? 0);
       this.sincronizar();
     }
     this.rastreador = new Rastreador();
@@ -149,14 +162,15 @@ export const guia = {
 
   // victoria: si completó los 10 soles (para la calificación)
   // codigo: 'victoria' | 'energia' | 'oxigeno' | 'blindaje' | 'sin_terminar' (lo que guarda la API)
-  cerrarPartida(resultado, victoria = false, codigo = null) {
+  // soles: los soles completos, si no son los de GameState (una partida abandonada que se cierra después)
+  cerrarPartida(resultado, victoria = false, codigo = null, soles = null) {
     if (!this.partida) return;
     this.partida.fin = new Date().toISOString();
     this.partida.resultado = resultado;
     this.partida.codigo = codigo ?? (victoria ? 'victoria' : 'sin_terminar');
-    const c = this.calificacion(victoria);
+    const c = this.calificacion(victoria, soles);
     this.partida.calificacion = { medalla: c.medalla, puntaje: c.puntaje, soles: c.soles };
-    this.historial.push({ ...this.partida, soles: Math.min(GameState.sol, GameState.maxSoles),
+    this.historial.push({ ...this.partida, soles: soles ?? Math.min(GameState.sol, GameState.maxSoles),
       dominio: Object.fromEntries(Object.entries(this.rastreador.dominio).map(([k, v]) => [k, +v.toFixed(2)])),
       pruebas: this.rastreador.pruebas.length });
     this.guardar();
@@ -168,10 +182,10 @@ export const guia = {
   // Puntaje de 0 a 100 = 70 % aprendizaje (el dominio medio de los 4 temas que estima el BKT)
   //                    + 30 % misión (cuántos soles aguantó la base).
   // Medalla: oro desde 80, plata desde 60 y bronce por debajo (siempre hay medalla: el fracaso también enseña).
-  calificacion(victoria = false) {
+  calificacion(victoria = false, solesHechos = null) {
     const d = this.rastreador.dominio, temas = Object.keys(TEMAS);
     const aprendizaje = temas.reduce((s, t) => s + d[t], 0) / temas.length;
-    const soles = victoria ? GameState.maxSoles : Math.max(0, Math.min(GameState.sol, GameState.maxSoles + 1) - 1);
+    const soles = victoria ? GameState.maxSoles : (solesHechos ?? this.solesHechos());
     const mision = soles / GameState.maxSoles;
     const puntaje = Math.round(100 * (0.7 * aprendizaje + 0.3 * mision));
     const medalla = puntaje >= 80 ? 'oro' : puntaje >= 60 ? 'plata' : 'bronce';

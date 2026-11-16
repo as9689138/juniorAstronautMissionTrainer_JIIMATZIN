@@ -1,0 +1,1014 @@
+LÍNEAS DE VOZ QUE FALTAN · Misión P.I.E.D.R.A
+Una línea = un MP3, nombrado con su id. P.I.E.D.R.A dice también toda la narración (se dice "Piedra").
+
+======================================================================
+ESPAÑOL: 383 líneas
+======================================================================
+
+--- P.I.E.D.R.A: frases del juego (360) ---
+
+  1. [ia_juego_es_001] Sol 1 de 10. Son las 6 de la mañana en la Base Marte Uno. ¡Buenos días, ingeniero Wenceslao! El sol está saliendo.
+  2. [ia_juego_es_002] Sol 2 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+  3. [ia_juego_es_003] Sol 3 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+  4. [ia_juego_es_004] Sol 4 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+  5. [ia_juego_es_005] Sol 5 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+  6. [ia_juego_es_006] Sol 6 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+  7. [ia_juego_es_007] Sol 7 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+  8. [ia_juego_es_008] Sol 8 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+  9. [ia_juego_es_009] Sol 9 de 10. Son las 6 de la mañana: ¡buenos días, Wenceslao! El sol está saliendo.
+ 10. [ia_juego_es_010] Sol 10 de 10, el último. Son las 6 de la mañana. ¡Buenos días, Wenceslao! El sol está saliendo.
+ 11. [ia_juego_es_011] Sol 1 de 10. Son las 6 de la mañana en la Base Marte Uno. ¡Buenos días, científica Judith! El sol está saliendo.
+ 12. [ia_juego_es_012] Sol 2 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 13. [ia_juego_es_013] Sol 3 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 14. [ia_juego_es_014] Sol 4 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 15. [ia_juego_es_015] Sol 5 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 16. [ia_juego_es_016] Sol 6 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 17. [ia_juego_es_017] Sol 7 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 18. [ia_juego_es_018] Sol 8 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 19. [ia_juego_es_019] Sol 9 de 10. Son las 6 de la mañana: ¡buenos días, Judith! El sol está saliendo.
+ 20. [ia_juego_es_020] Sol 10 de 10, el último. Son las 6 de la mañana. ¡Buenos días, Judith! El sol está saliendo.
+ 21. [ia_juego_es_021] Sol 1 de 10. Son las 6 de la mañana en la Base Marte Uno. ¡Buenos días, médico Atlas! El sol está saliendo.
+ 22. [ia_juego_es_022] Sol 2 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 23. [ia_juego_es_023] Sol 3 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 24. [ia_juego_es_024] Sol 4 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 25. [ia_juego_es_025] Sol 5 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 26. [ia_juego_es_026] Sol 6 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 27. [ia_juego_es_027] Sol 7 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 28. [ia_juego_es_028] Sol 8 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 29. [ia_juego_es_029] Sol 9 de 10. Son las 6 de la mañana: ¡buenos días, Atlas! El sol está saliendo.
+ 30. [ia_juego_es_030] Sol 10 de 10, el último. Son las 6 de la mañana. ¡Buenos días, Atlas! El sol está saliendo.
+ 31. [ia_juego_es_031] La energía de hoy ya está repartida. La consola vuelve a abrirse mañana.
+ 32. [ia_juego_es_032] Primero reparte la energía en la consola de Mando.
+ 33. [ia_juego_es_033] Ahora no hay luz solar para trabajar aquí.
+ 34. [ia_juego_es_034] Esta tarea ya está hecha hoy. ¡Buen trabajo!
+ 35. [ia_juego_es_035] El refugio tiene muros de agua contra la radiación. Aquí dormimos al caer la noche.
+ 36. [ia_juego_es_036] La antena habla con la Tierra. Cada mensaje tarda de 3 a 22 minutos en llegar, según dónde estén los dos planetas.
+ 37. [ia_juego_es_037] Son las 8 de la noche.
+ 38. [ia_juego_es_038] Ya es de noche y los paneles solares descansan.
+ 39. [ia_juego_es_039] Los sistemas gastan 3 de energía.
+ 40. [ia_juego_es_040] Los sistemas gastan 4 de energía.
+ 41. [ia_juego_es_041] Los sistemas gastan 5 de energía.
+ 42. [ia_juego_es_042] Los sistemas gastan 6 de energía.
+ 43. [ia_juego_es_043] Los sistemas gastan 7 de energía.
+ 44. [ia_juego_es_044] Los sistemas gastan 8 de energía.
+ 45. [ia_juego_es_045] Los sistemas gastan 9 de energía.
+ 46. [ia_juego_es_046] Los sistemas gastan 10 de energía.
+ 47. [ia_juego_es_047] Los sistemas gastan 11 de energía.
+ 48. [ia_juego_es_048] Los sistemas gastan 12 de energía.
+ 49. [ia_juego_es_049] Los sistemas gastan 13 de energía.
+ 50. [ia_juego_es_050] Los sistemas gastan 14 de energía.
+ 51. [ia_juego_es_051] Los sistemas gastan 15 de energía.
+ 52. [ia_juego_es_052] Los sistemas gastan 16 de energía.
+ 53. [ia_juego_es_053] Los sistemas gastan 17 de energía.
+ 54. [ia_juego_es_054] Los sistemas gastan 18 de energía.
+ 55. [ia_juego_es_055] Los sistemas gastan 19 de energía.
+ 56. [ia_juego_es_056] Los sistemas gastan 20 de energía.
+ 57. [ia_juego_es_057] Los sistemas gastan 21 de energía.
+ 58. [ia_juego_es_058] Los sistemas gastan 22 de energía.
+ 59. [ia_juego_es_059] Los sistemas gastan 23 de energía.
+ 60. [ia_juego_es_060] Los sistemas gastan 24 de energía.
+ 61. [ia_juego_es_061] Los sistemas gastan 25 de energía.
+ 62. [ia_juego_es_062] Los sistemas gastan 26 de energía.
+ 63. [ia_juego_es_063] Los sistemas gastan 27 de energía.
+ 64. [ia_juego_es_064] Los sistemas gastan 28 de energía.
+ 65. [ia_juego_es_065] Los sistemas gastan 29 de energía.
+ 66. [ia_juego_es_066] Los sistemas gastan 30 de energía.
+ 67. [ia_juego_es_067] Con tus ajustes de ingeniero, Wenceslao, son 1 menos que sin ellos.
+ 68. [ia_juego_es_068] Con tus ajustes de ingeniero, Wenceslao, son 2 menos que sin ellos.
+ 69. [ia_juego_es_069] Con tus ajustes de ingeniero, Wenceslao, son 3 menos que sin ellos.
+ 70. [ia_juego_es_070] Con tus ajustes de ingeniero, Wenceslao, son 4 menos que sin ellos.
+ 71. [ia_juego_es_071] Con tus ajustes de ingeniero, Wenceslao, son 5 menos que sin ellos.
+ 72. [ia_juego_es_072] Con tus ajustes de ingeniero, Wenceslao, son 6 menos que sin ellos.
+ 73. [ia_juego_es_073] Con tus ajustes de ingeniero, Wenceslao, son 7 menos que sin ellos.
+ 74. [ia_juego_es_074] Con tus ajustes de ingeniero, Wenceslao, son 8 menos que sin ellos.
+ 75. [ia_juego_es_075] Vamos al Refugio a descansar con el equipo.
+ 76. [ia_juego_es_099] Noticias del Sol, de la NASA: en los últimos 7 días no se registró ninguna llamarada solar. El Sol ha estado tranquilo.
+ 77. [ia_juego_es_100] Noticias del Sol, de la NASA: en los últimos 7 días no se registró ninguna llamarada solar.
+ 78. [ia_juego_es_101] El Sol ha estado tranquilo.
+ 79. [ia_juego_es_102] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 2 llamaradas solares.
+ 80. [ia_juego_es_103] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 3 llamaradas solares.
+ 81. [ia_juego_es_104] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 4 llamaradas solares.
+ 82. [ia_juego_es_105] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 5 llamaradas solares.
+ 83. [ia_juego_es_106] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 6 llamaradas solares.
+ 84. [ia_juego_es_107] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 7 llamaradas solares.
+ 85. [ia_juego_es_108] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 8 llamaradas solares.
+ 86. [ia_juego_es_109] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 9 llamaradas solares.
+ 87. [ia_juego_es_110] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 10 llamaradas solares.
+ 88. [ia_juego_es_111] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 11 llamaradas solares.
+ 89. [ia_juego_es_112] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 12 llamaradas solares.
+ 90. [ia_juego_es_113] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 13 llamaradas solares.
+ 91. [ia_juego_es_114] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 14 llamaradas solares.
+ 92. [ia_juego_es_115] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 15 llamaradas solares.
+ 93. [ia_juego_es_116] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 16 llamaradas solares.
+ 94. [ia_juego_es_117] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 17 llamaradas solares.
+ 95. [ia_juego_es_118] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 18 llamaradas solares.
+ 96. [ia_juego_es_119] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 19 llamaradas solares.
+ 97. [ia_juego_es_120] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 20 llamaradas solares.
+ 98. [ia_juego_es_121] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 21 llamaradas solares.
+ 99. [ia_juego_es_122] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 22 llamaradas solares.
+100. [ia_juego_es_123] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 23 llamaradas solares.
+101. [ia_juego_es_124] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 24 llamaradas solares.
+102. [ia_juego_es_125] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 25 llamaradas solares.
+103. [ia_juego_es_126] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 26 llamaradas solares.
+104. [ia_juego_es_127] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 27 llamaradas solares.
+105. [ia_juego_es_128] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 28 llamaradas solares.
+106. [ia_juego_es_129] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 29 llamaradas solares.
+107. [ia_juego_es_130] Noticias del Sol, de la NASA: en los últimos 7 días se registraron 30 llamaradas solares.
+108. [ia_juego_es_131] Es la última copia guardada: la NASA no respondió.
+109. [ia_juego_es_132] Las llamaradas se nombran con letras: A, B, C, M y X. Cada letra es diez veces más fuerte que la anterior. Esto pasa en el Sol: no es una medición en Marte.
+110. [ia_juego_es_133] Antes de repartir, mira las tres barras.
+111. [ia_juego_es_134] La más baja es la que más te necesita.
+112. [ia_juego_es_135] Pregúntate primero: ¿qué barra está más baja hoy?
+113. [ia_juego_es_136] Una pista: los núcleos van donde más falta.
+114. [ia_juego_es_137] Mira tu energía: está muy baja.
+115. [ia_juego_es_138] Dale más núcleos a los Colectores Solares.
+116. [ia_juego_es_139] Mira tu energía: está baja.
+117. [ia_juego_es_140] Mira tu energía: está más baja que lo demás.
+118. [ia_juego_es_141] Mira tu oxígeno: está muy bajo.
+119. [ia_juego_es_142] Dale más núcleos al Soporte Vital.
+120. [ia_juego_es_143] Mira tu oxígeno: está bajo.
+121. [ia_juego_es_144] Mira tu oxígeno: está más bajo que lo demás.
+122. [ia_juego_es_145] Mira tu blindaje: está muy bajo.
+123. [ia_juego_es_146] Dale más núcleos a los Escudos del Casco.
+124. [ia_juego_es_147] Mira tu blindaje: está bajo.
+125. [ia_juego_es_148] Mira tu blindaje: está más bajo que lo demás.
+126. [ia_juego_es_149] Pista: tu energía está muy baja.
+127. [ia_juego_es_150] Busca su sistema en la consola: los Colectores Solares.
+128. [ia_juego_es_151] Pista: tu energía está baja.
+129. [ia_juego_es_152] Pista: tu energía está más baja que lo demás.
+130. [ia_juego_es_153] Pista: tu oxígeno está muy bajo.
+131. [ia_juego_es_154] Busca su sistema en la consola: el Soporte Vital.
+132. [ia_juego_es_155] Pista: tu oxígeno está bajo.
+133. [ia_juego_es_156] Pista: tu oxígeno está más bajo que lo demás.
+134. [ia_juego_es_157] Pista: tu blindaje está muy bajo.
+135. [ia_juego_es_158] Busca su sistema en la consola: los Escudos del Casco.
+136. [ia_juego_es_159] Pista: tu blindaje está bajo.
+137. [ia_juego_es_160] Pista: tu blindaje está más bajo que lo demás.
+138. [ia_juego_es_161] Hoy lo que más falta es la energía.
+139. [ia_juego_es_162] Ya sabes a qué sistema darle núcleos.
+140. [ia_juego_es_163] Hoy lo que más falta es el oxígeno.
+141. [ia_juego_es_164] Hoy lo que más falta es el blindaje.
+142. [ia_juego_es_165] Te enseño cómo lo pienso yo.
+143. [ia_juego_es_166] Tu energía está muy baja.
+144. [ia_juego_es_167] Tu oxígeno está mejor.
+145. [ia_juego_es_168] Entonces le doy más núcleos a los Colectores Solares.
+146. [ia_juego_es_169] ¡Ahora tú!
+147. [ia_juego_es_170] Tu energía está baja.
+148. [ia_juego_es_171] Tu energía está más baja que lo demás.
+149. [ia_juego_es_172] Tu blindaje está mejor.
+150. [ia_juego_es_173] Tu oxígeno está muy bajo.
+151. [ia_juego_es_174] Tu energía está mejor.
+152. [ia_juego_es_175] Entonces le doy más núcleos al Soporte Vital.
+153. [ia_juego_es_176] Tu oxígeno está bajo.
+154. [ia_juego_es_177] Tu oxígeno está más bajo que lo demás.
+155. [ia_juego_es_178] Tu blindaje está muy bajo.
+156. [ia_juego_es_179] Entonces le doy más núcleos a los Escudos del Casco.
+157. [ia_juego_es_180] Tu blindaje está bajo.
+158. [ia_juego_es_181] Tu blindaje está más bajo que lo demás.
+159. [ia_juego_es_182] Vamos paso a paso.
+160. [ia_juego_es_183] Primero busco la barra más baja: la energía.
+161. [ia_juego_es_184] Después le doy más núcleos a los Colectores Solares.
+162. [ia_juego_es_185] ¡Inténtalo!
+163. [ia_juego_es_186] Primero busco la barra más baja: el oxígeno.
+164. [ia_juego_es_187] Después le doy más núcleos al Soporte Vital.
+165. [ia_juego_es_188] Primero busco la barra más baja: el blindaje.
+166. [ia_juego_es_189] Después le doy más núcleos a los Escudos del Casco.
+167. [ia_juego_es_190] Hoy no te doy pista, Wenceslao.
+168. [ia_juego_es_191] ¡Confío en tu plan!
+169. [ia_juego_es_192] Hoy no te doy pista, Judith.
+170. [ia_juego_es_193] Hoy no te doy pista, Atlas.
+171. [ia_juego_es_194] Ya sabes repartir la energía.
+172. [ia_juego_es_195] Esta vez el plan es todo tuyo.
+173. [ia_juego_es_196] Mi pronóstico dice: de diez días como hoy, en cero hubo llamarada fuerte.
+174. [ia_juego_es_197] Piensa qué sistema nos protege.
+175. [ia_juego_es_198] Mi pronóstico dice: de diez días como hoy, en uno hubo llamarada fuerte.
+176. [ia_juego_es_199] Mi pronóstico dice: de diez días como hoy, en dos hubo llamarada fuerte.
+177. [ia_juego_es_200] Mi pronóstico dice: de diez días como hoy, en tres hubo llamarada fuerte.
+178. [ia_juego_es_201] Mi pronóstico dice: de diez días como hoy, en cuatro hubo llamarada fuerte.
+179. [ia_juego_es_202] Mi pronóstico dice: de diez días como hoy, en cinco hubo llamarada fuerte.
+180. [ia_juego_es_203] Mi pronóstico dice: de diez días como hoy, en seis hubo llamarada fuerte.
+181. [ia_juego_es_204] Mi pronóstico dice: de diez días como hoy, en siete hubo llamarada fuerte.
+182. [ia_juego_es_205] Mi pronóstico dice: de diez días como hoy, en ocho hubo llamarada fuerte.
+183. [ia_juego_es_206] Mi pronóstico dice: de diez días como hoy, en nueve hubo llamarada fuerte.
+184. [ia_juego_es_207] Mi pronóstico dice: de diez días como hoy, en diez hubo llamarada fuerte.
+185. [ia_juego_es_208] Hay riesgo de llamarada.
+186. [ia_juego_es_209] Los Escudos del Casco van a necesitar núcleos.
+187. [ia_juego_es_210] De diez días como hoy, en cero hubo llamarada fuerte.
+188. [ia_juego_es_211] Pon núcleos en los Escudos.
+189. [ia_juego_es_212] De diez días como hoy, en uno hubo llamarada fuerte.
+190. [ia_juego_es_213] De diez días como hoy, en dos hubo llamarada fuerte.
+191. [ia_juego_es_214] De diez días como hoy, en tres hubo llamarada fuerte.
+192. [ia_juego_es_215] De diez días como hoy, en cuatro hubo llamarada fuerte.
+193. [ia_juego_es_216] De diez días como hoy, en cinco hubo llamarada fuerte.
+194. [ia_juego_es_217] De diez días como hoy, en seis hubo llamarada fuerte.
+195. [ia_juego_es_218] De diez días como hoy, en siete hubo llamarada fuerte.
+196. [ia_juego_es_219] De diez días como hoy, en ocho hubo llamarada fuerte.
+197. [ia_juego_es_220] De diez días como hoy, en nueve hubo llamarada fuerte.
+198. [ia_juego_es_221] De diez días como hoy, en diez hubo llamarada fuerte.
+199. [ia_juego_es_222] Mi pronóstico avisa llamarada fuerte.
+200. [ia_juego_es_223] La llamarada daña el blindaje.
+201. [ia_juego_es_224] Entonces le doy dos núcleos a los Escudos del Casco.
+202. [ia_juego_es_225] Tú decides cómo protegernos.
+203. [ia_juego_es_226] ¡Buena estrategia, Wenceslao!
+204. [ia_juego_es_227] Le diste más a lo que más faltaba.
+205. [ia_juego_es_228] ¡Buena estrategia, Judith!
+206. [ia_juego_es_229] ¡Buena estrategia, Atlas!
+207. [ia_juego_es_230] ¡Así se piensa!
+208. [ia_juego_es_231] Primero miraste las barras y luego decidiste.
+209. [ia_juego_es_232] ¡Muy bien!
+210. [ia_juego_es_233] Cuidaste la energía, que era lo más bajo.
+211. [ia_juego_es_234] Cuidaste el oxígeno, que era lo más bajo.
+212. [ia_juego_es_235] Cuidaste el blindaje, que era lo más bajo.
+213. [ia_juego_es_236] Pregunta rápida: ¿por qué le diste más núcleos a los Colectores Solares?
+214. [ia_juego_es_237] ¡Exacto!
+215. [ia_juego_es_238] Porque la energía era lo más bajo.
+216. [ia_juego_es_239] Pregunta rápida: ¿por qué le diste más núcleos al Soporte Vital?
+217. [ia_juego_es_240] Porque el oxígeno era lo más bajo.
+218. [ia_juego_es_241] Pregunta rápida: ¿por qué le diste más núcleos a los Escudos del Casco?
+219. [ia_juego_es_242] Porque el blindaje era lo más bajo.
+220. [ia_juego_es_243] Piensa un momento: ¿cómo elegiste?
+221. [ia_juego_es_244] Yo lo vi así: miraste la barra más baja y le diste más.
+222. [ia_juego_es_245] ¡Eso es decidir con datos!
+223. [ia_juego_es_246] Un consejo: tu energía estaba muy baja.
+224. [ia_juego_es_247] Había que darle más núcleos a los Colectores Solares.
+225. [ia_juego_es_248] Un consejo: tu energía estaba baja.
+226. [ia_juego_es_249] Un consejo: tu energía estaba más baja que lo demás.
+227. [ia_juego_es_250] Un consejo: tu oxígeno estaba muy bajo.
+228. [ia_juego_es_251] Había que darle más núcleos al Soporte Vital.
+229. [ia_juego_es_252] Un consejo: tu oxígeno estaba bajo.
+230. [ia_juego_es_253] Un consejo: tu oxígeno estaba más bajo que lo demás.
+231. [ia_juego_es_254] Un consejo: tu blindaje estaba muy bajo.
+232. [ia_juego_es_255] Había que darle más núcleos a los Escudos del Casco.
+233. [ia_juego_es_256] Un consejo: tu blindaje estaba bajo.
+234. [ia_juego_es_257] Un consejo: tu blindaje estaba más bajo que lo demás.
+235. [ia_juego_es_258] Casi.
+236. [ia_juego_es_259] Lo que más faltaba era la energía.
+237. [ia_juego_es_260] La próxima vez, dale más núcleos a los Colectores Solares.
+238. [ia_juego_es_261] Lo que más faltaba era el oxígeno.
+239. [ia_juego_es_262] La próxima vez, dale más núcleos al Soporte Vital.
+240. [ia_juego_es_263] Lo que más faltaba era el blindaje.
+241. [ia_juego_es_264] La próxima vez, dale más núcleos a los Escudos del Casco.
+242. [ia_juego_es_265] Vamos a verlo juntos.
+243. [ia_juego_es_266] Tu energía estaba muy baja.
+244. [ia_juego_es_267] Tu oxígeno estaba mejor.
+245. [ia_juego_es_268] Por eso convenía darle más núcleos a los Colectores Solares.
+246. [ia_juego_es_269] ¡Mañana lo intentas!
+247. [ia_juego_es_270] Tu energía estaba baja.
+248. [ia_juego_es_271] Tu energía estaba más baja que lo demás.
+249. [ia_juego_es_272] Tu blindaje estaba mejor.
+250. [ia_juego_es_273] Tu oxígeno estaba muy bajo.
+251. [ia_juego_es_274] Tu energía estaba mejor.
+252. [ia_juego_es_275] Por eso convenía darle más núcleos al Soporte Vital.
+253. [ia_juego_es_276] Tu oxígeno estaba bajo.
+254. [ia_juego_es_277] Tu oxígeno estaba más bajo que lo demás.
+255. [ia_juego_es_278] Tu blindaje estaba muy bajo.
+256. [ia_juego_es_279] Por eso convenía darle más núcleos a los Escudos del Casco.
+257. [ia_juego_es_280] Tu blindaje estaba bajo.
+258. [ia_juego_es_281] Tu blindaje estaba más bajo que lo demás.
+259. [ia_juego_es_282] Un consejo: mi pronóstico decía llamarada fuerte.
+260. [ia_juego_es_283] Con más núcleos en los Escudos, el blindaje se cuida.
+261. [ia_juego_es_284] Mi pronóstico avisaba llamarada fuerte.
+262. [ia_juego_es_285] Por eso convenía poner dos núcleos en los Escudos.
+263. [ia_juego_es_286] Pista: antes de elegir, mira cuál de tus recursos está más alto.
+264. [ia_juego_es_287] Pista: gasta lo que te sobra y cuida lo que falta.
+265. [ia_juego_es_288] Pista: ahora tienes más la energía.
+266. [ia_juego_es_289] Gasta lo que tienes de sobra.
+267. [ia_juego_es_290] Pista: ahora tienes más el oxígeno.
+268. [ia_juego_es_291] Pista: ahora tienes más el blindaje.
+269. [ia_juego_es_292] Pista: tu oxígeno está mejor y tu energía está muy baja.
+270. [ia_juego_es_293] Elige la opción que gasta el oxígeno.
+271. [ia_juego_es_294] Pista: tu oxígeno está mejor y tu energía está baja.
+272. [ia_juego_es_295] Pista: tu oxígeno está mejor y tu energía está más baja que lo demás.
+273. [ia_juego_es_296] Pista: tu blindaje está mejor y tu energía está muy baja.
+274. [ia_juego_es_297] Elige la opción que gasta el blindaje.
+275. [ia_juego_es_298] Pista: tu blindaje está mejor y tu energía está baja.
+276. [ia_juego_es_299] Pista: tu blindaje está mejor y tu energía está más baja que lo demás.
+277. [ia_juego_es_300] Pista: tu energía está mejor y tu oxígeno está muy bajo.
+278. [ia_juego_es_301] Elige la opción que gasta la energía.
+279. [ia_juego_es_302] Pista: tu energía está mejor y tu oxígeno está bajo.
+280. [ia_juego_es_303] Pista: tu energía está mejor y tu oxígeno está más bajo que lo demás.
+281. [ia_juego_es_304] Pista: tu blindaje está mejor y tu oxígeno está muy bajo.
+282. [ia_juego_es_305] Pista: tu blindaje está mejor y tu oxígeno está bajo.
+283. [ia_juego_es_306] Pista: tu blindaje está mejor y tu oxígeno está más bajo que lo demás.
+284. [ia_juego_es_307] Pista: tu energía está mejor y tu blindaje está muy bajo.
+285. [ia_juego_es_308] Pista: tu energía está mejor y tu blindaje está bajo.
+286. [ia_juego_es_309] Pista: tu energía está mejor y tu blindaje está más bajo que lo demás.
+287. [ia_juego_es_310] Pista: tu oxígeno está mejor y tu blindaje está muy bajo.
+288. [ia_juego_es_311] Pista: tu oxígeno está mejor y tu blindaje está bajo.
+289. [ia_juego_es_312] Pista: tu oxígeno está mejor y tu blindaje está más bajo que lo demás.
+290. [ia_juego_es_313] Esta vez la decisión es toda tuya.
+291. [ia_juego_es_314] ¡Bien pensado!
+292. [ia_juego_es_315] Gastaste el oxígeno, que tenías de sobra, y cuidaste la energía, que era lo más bajo.
+293. [ia_juego_es_316] Gastaste el blindaje, que tenías de sobra, y cuidaste la energía, que era lo más bajo.
+294. [ia_juego_es_317] Gastaste la energía, que tenías de sobra, y cuidaste el oxígeno, que era lo más bajo.
+295. [ia_juego_es_318] Gastaste el blindaje, que tenías de sobra, y cuidaste el oxígeno, que era lo más bajo.
+296. [ia_juego_es_319] Gastaste la energía, que tenías de sobra, y cuidaste el blindaje, que era lo más bajo.
+297. [ia_juego_es_320] Gastaste el oxígeno, que tenías de sobra, y cuidaste el blindaje, que era lo más bajo.
+298. [ia_juego_es_321] ¡Decisión de astronauta, Wenceslao!
+299. [ia_juego_es_322] Cuidaste lo que más faltaba.
+300. [ia_juego_es_323] ¡Decisión de astronauta, Judith!
+301. [ia_juego_es_324] ¡Decisión de astronauta, Atlas!
+302. [ia_juego_es_325] Pregunta rápida: ¿por qué no gastaste la energía?
+303. [ia_juego_es_326] ¡Claro!
+304. [ia_juego_es_327] Porque era lo que menos teníamos.
+305. [ia_juego_es_328] Pregunta rápida: ¿por qué no gastaste el oxígeno?
+306. [ia_juego_es_329] Pregunta rápida: ¿por qué no gastaste el blindaje?
+307. [ia_juego_es_330] Ojo: la energía era lo más bajo y gastaste justo eso.
+308. [ia_juego_es_331] La próxima vez, gasta lo que más tienes: el oxígeno.
+309. [ia_juego_es_332] La próxima vez, gasta lo que más tienes: el blindaje.
+310. [ia_juego_es_333] Ojo: el oxígeno era lo más bajo y gastaste justo eso.
+311. [ia_juego_es_334] La próxima vez, gasta lo que más tienes: la energía.
+312. [ia_juego_es_335] Ojo: el blindaje era lo más bajo y gastaste justo eso.
+313. [ia_juego_es_336] Primero miro la barra más baja: la energía.
+314. [ia_juego_es_337] Esa la cuido.
+315. [ia_juego_es_338] Luego elijo la opción que gasta el oxígeno, que me sobra.
+316. [ia_juego_es_339] Luego elijo la opción que gasta el blindaje, que me sobra.
+317. [ia_juego_es_340] Primero miro la barra más baja: el oxígeno.
+318. [ia_juego_es_341] Luego elijo la opción que gasta la energía, que me sobra.
+319. [ia_juego_es_342] Primero miro la barra más baja: el blindaje.
+320. [ia_juego_es_343] Se acabó el tiempo y la base eligió sola.
+321. [ia_juego_es_344] Si miras las barras primero, decides más rápido.
+322. [ia_juego_es_345] Pregunta rápida: ¿de dónde sale nuestra energía de día?
+323. [ia_juego_es_346] ¡Del Sol!
+324. [ia_juego_es_347] Los paneles la guardan en baterías para la noche.
+325. [ia_juego_es_348] A ver si te acuerdas: ¿qué le pasa a los paneles si se llenan de polvo?
+326. [ia_juego_es_349] Dan menos energía.
+327. [ia_juego_es_350] Por eso los limpiamos.
+328. [ia_juego_es_351] Pregunta rápida: ¿qué limpia el dióxido de carbono que respiramos?
+329. [ia_juego_es_352] ¡El filtro!
+330. [ia_juego_es_353] Y las plantas también ayudan: sueltan oxígeno.
+331. [ia_juego_es_354] A ver si te acuerdas: ¿qué sueltan las plantas del invernadero?
+332. [ia_juego_es_355] ¡Oxígeno!
+333. [ia_juego_es_356] Por eso las cuidamos tanto.
+334. [ia_juego_es_357] Pregunta rápida: ¿qué nos protege de la radiación al dormir?
+335. [ia_juego_es_358] ¡El agua de las paredes del refugio!
+336. [ia_juego_es_359] Frena la radiación.
+337. [ia_juego_es_360] A ver si te acuerdas: ¿de dónde vienen las llamaradas?
+338. [ia_juego_es_361] Por eso miramos el pronóstico cada día.
+339. [ia_juego_es_362] Pregunta rápida: en una emergencia, ¿qué recurso conviene gastar?
+340. [ia_juego_es_363] ¡El que más tienes!
+341. [ia_juego_es_364] Y cuidas el más bajo.
+342. [ia_juego_es_365] Hoy aprendiste más sobre la energía.
+343. [ia_juego_es_366] Hoy aprendiste más sobre el aire.
+344. [ia_juego_es_367] Hoy aprendiste más sobre el escudo contra la radiación.
+345. [ia_juego_es_368] Hoy aprendiste más sobre decidir con datos.
+346. [ia_juego_es_369] Hoy mejoraste en la energía.
+347. [ia_juego_es_370] ¡Se nota!
+348. [ia_juego_es_371] Hoy mejoraste en el aire.
+349. [ia_juego_es_372] Hoy mejoraste en el escudo contra la radiación.
+350. [ia_juego_es_373] Hoy mejoraste en decidir con datos.
+351. [ia_juego_es_374] Mañana practiquemos la energía.
+352. [ia_juego_es_375] Mañana practiquemos el aire.
+353. [ia_juego_es_376] Mañana practiquemos el escudo contra la radiación.
+354. [ia_juego_es_377] Mañana practiquemos decidir con datos.
+355. [ia_juego_es_378] Mañana te ayudo más con la energía.
+356. [ia_juego_es_379] Mañana te ayudo más con el aire.
+357. [ia_juego_es_380] Mañana te ayudo más con el escudo contra la radiación.
+358. [ia_juego_es_381] Mañana te ayudo más con decidir con datos.
+359. [ia_juego_es_382] ¡Vas muy bien en todo!
+360. [ia_juego_es_383] Mañana te daré menos pistas.
+
+--- P.I.E.D.R.A: narración (prólogo, cartas, introducción) (23) ---
+
+361. [ia_juego_es_076] Humanos, seres vivos, converjan entre sí. Afuera de este planeta hay un mundo todavía más grande… infinito, inmenso, colmado de enigmas, preguntas que esperan una respuesta y tesoros que buscan ser encontrados.
+362. [ia_juego_es_077] Neil Armstrong, en 1969, fue el primer individuo en llegar a la Luna.
+363. [ia_juego_es_078] ¿Qué nos hace humanos? ¿Qué nos hace ser lo que realmente somos? No son nuestras habilidades sociales, no es nuestra anatomía y, claramente, no es nuestra inteligencia…
+364. [ia_juego_es_079] Entonces… ¿Qué es?...
+365. [ia_juego_es_080] Sí, es la necesidad de saber qué más, el saber qué hay más allá de lo que nuestra visión es capaz de alcanzar a ver. Es tener esa sed de conocimiento, tener ganas de tomar al mundo y devorarlo por completo de un solo bocado, saber qué es lo que mueve al planeta, cada dimensión, cada partícula, cada onda y cada electrón.
+366. [ia_juego_es_081] Todo se mueve gracias al querer saber más, hacer más, lograr más y llegar más alto… No solo mirar el cielo y tapar el sol con el dedo; es estar frente al sol y ver en el reflejo de tus ojos esas olas que danzan tan voraces al compás de las estrellas…
+367. [ia_juego_es_082] El tiempo pasa y, entre más pasa el tiempo, más cosas van surgiendo de entre la Tierra y el espacio. Todo esto es el legado de miles de personas, el cual ha sido transferido generación por generación y han dedicado su vida entera para encontrar respuestas.
+368. [ia_juego_es_083] Nada es imposible, porque cuando lo intentas… no siempre será lo que esperas, pero siempre tendrás un resultado…
+369. [ia_juego_es_084] Ahora a ti te toca… Tienes la antorcha de la sabiduría, del conocimiento, de la necesidad y de la perseverancia… Demuestra tus capacidades, supérate y demuestra lo capaz que eres.
+370. [ia_juego_es_085] Porque si lo intentas, lo logras…
+371. [ia_juego_es_086] Construye y arregla máquinas, robots y naves espaciales.
+372. [ia_juego_es_087] Entiende cómo se mueven las cosas y cómo viaja la electricidad.
+373. [ia_juego_es_088] Cuida las computadoras de la base y trabaja con disciplina bajo presión.
+374. [ia_juego_es_089] Estudia las plantas y sabe cómo cuidarlas en el invernadero.
+375. [ia_juego_es_090] Lee las rocas y el suelo para entender cómo es Marte.
+376. [ia_juego_es_091] Vigila el clima: el viento, el polvo y las tormentas.
+377. [ia_juego_es_092] Conoce el cuerpo humano y sabe cómo cuidarlo en el espacio.
+378. [ia_juego_es_093] Da primeros auxilios y mantiene al equipo sano y tranquilo.
+379. [ia_juego_es_094] Año 2030…
+380. [ia_juego_es_095] Todo empezó en 2023, cuando cuatro voluntarios de la NASA vivieron 378 días dentro de una base simulada de Marte, en Houston.
+381. [ia_juego_es_096] Desde entonces, la humanidad se prepara para llevar personas a Marte.
+382. [ia_juego_es_097] Hoy, en 2030, un equipo pequeño hace su misión de prueba en la Base Marte Uno. Es una simulación, pero se parece mucho a la realidad.
+383. [ia_juego_es_098] Las luces se apagan una por una.
+
+======================================================================
+INGLÉS: 600 líneas
+======================================================================
+
+--- P.I.E.D.R.A: frases del juego (450) ---
+
+  1. [ia_juego_en_001] Sol 1 of 10. It’s 6 in the morning at Mars Base One. Good morning, engineer Wenceslao! The sun is rising.
+  2. [ia_juego_en_002] Sol 2 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+  3. [ia_juego_en_003] Sol 3 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+  4. [ia_juego_en_004] Sol 4 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+  5. [ia_juego_en_005] Sol 5 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+  6. [ia_juego_en_006] Sol 6 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+  7. [ia_juego_en_007] Sol 7 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+  8. [ia_juego_en_008] Sol 8 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+  9. [ia_juego_en_009] Sol 9 of 10. It’s 6 in the morning: good morning, Wenceslao! The sun is rising.
+ 10. [ia_juego_en_010] Sol 10 of 10, the last one. It’s 6 in the morning. Good morning, Wenceslao! The sun is rising.
+ 11. [ia_juego_en_011] Sol 1 of 10. It’s 6 in the morning at Mars Base One. Good morning, scientist Judith! The sun is rising.
+ 12. [ia_juego_en_012] Sol 2 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 13. [ia_juego_en_013] Sol 3 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 14. [ia_juego_en_014] Sol 4 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 15. [ia_juego_en_015] Sol 5 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 16. [ia_juego_en_016] Sol 6 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 17. [ia_juego_en_017] Sol 7 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 18. [ia_juego_en_018] Sol 8 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 19. [ia_juego_en_019] Sol 9 of 10. It’s 6 in the morning: good morning, Judith! The sun is rising.
+ 20. [ia_juego_en_020] Sol 10 of 10, the last one. It’s 6 in the morning. Good morning, Judith! The sun is rising.
+ 21. [ia_juego_en_021] Sol 1 of 10. It’s 6 in the morning at Mars Base One. Good morning, doctor Atlas! The sun is rising.
+ 22. [ia_juego_en_022] Sol 2 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 23. [ia_juego_en_023] Sol 3 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 24. [ia_juego_en_024] Sol 4 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 25. [ia_juego_en_025] Sol 5 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 26. [ia_juego_en_026] Sol 6 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 27. [ia_juego_en_027] Sol 7 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 28. [ia_juego_en_028] Sol 8 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 29. [ia_juego_en_029] Sol 9 of 10. It’s 6 in the morning: good morning, Atlas! The sun is rising.
+ 30. [ia_juego_en_030] Sol 10 of 10, the last one. It’s 6 in the morning. Good morning, Atlas! The sun is rising.
+ 31. [ia_juego_en_031] Today’s energy has already been shared out. The console opens again tomorrow.
+ 32. [ia_juego_en_032] First share out the energy at the Command console.
+ 33. [ia_juego_en_033] There’s no sunlight to work here right now.
+ 34. [ia_juego_en_034] This task is already done today. Good job!
+ 35. [ia_juego_en_035] The shelter has water walls against radiation. We sleep here when night falls.
+ 36. [ia_juego_en_036] The antenna talks to Earth. Each message takes 3 to 22 minutes to arrive, depending on where the two planets are.
+ 37. [ia_juego_en_037] It’s 8 at night.
+ 38. [ia_juego_en_038] Night has fallen and the solar panels are resting.
+ 39. [ia_juego_en_039] The systems use 3 energy.
+ 40. [ia_juego_en_040] The systems use 4 energy.
+ 41. [ia_juego_en_041] The systems use 5 energy.
+ 42. [ia_juego_en_042] The systems use 6 energy.
+ 43. [ia_juego_en_043] The systems use 7 energy.
+ 44. [ia_juego_en_044] The systems use 8 energy.
+ 45. [ia_juego_en_045] The systems use 9 energy.
+ 46. [ia_juego_en_046] The systems use 10 energy.
+ 47. [ia_juego_en_047] The systems use 11 energy.
+ 48. [ia_juego_en_048] The systems use 12 energy.
+ 49. [ia_juego_en_049] The systems use 13 energy.
+ 50. [ia_juego_en_050] The systems use 14 energy.
+ 51. [ia_juego_en_051] The systems use 15 energy.
+ 52. [ia_juego_en_052] The systems use 16 energy.
+ 53. [ia_juego_en_053] The systems use 17 energy.
+ 54. [ia_juego_en_054] The systems use 18 energy.
+ 55. [ia_juego_en_055] The systems use 19 energy.
+ 56. [ia_juego_en_056] The systems use 20 energy.
+ 57. [ia_juego_en_057] The systems use 21 energy.
+ 58. [ia_juego_en_058] The systems use 22 energy.
+ 59. [ia_juego_en_059] The systems use 23 energy.
+ 60. [ia_juego_en_060] The systems use 24 energy.
+ 61. [ia_juego_en_061] The systems use 25 energy.
+ 62. [ia_juego_en_062] The systems use 26 energy.
+ 63. [ia_juego_en_063] The systems use 27 energy.
+ 64. [ia_juego_en_064] The systems use 28 energy.
+ 65. [ia_juego_en_065] The systems use 29 energy.
+ 66. [ia_juego_en_066] The systems use 30 energy.
+ 67. [ia_juego_en_067] Thanks to your engineering tweaks, Wenceslao, that’s 1 less than without them.
+ 68. [ia_juego_en_068] Thanks to your engineering tweaks, Wenceslao, that’s 2 less than without them.
+ 69. [ia_juego_en_069] Thanks to your engineering tweaks, Wenceslao, that’s 3 less than without them.
+ 70. [ia_juego_en_070] Thanks to your engineering tweaks, Wenceslao, that’s 4 less than without them.
+ 71. [ia_juego_en_071] Thanks to your engineering tweaks, Wenceslao, that’s 5 less than without them.
+ 72. [ia_juego_en_072] Thanks to your engineering tweaks, Wenceslao, that’s 6 less than without them.
+ 73. [ia_juego_en_073] Thanks to your engineering tweaks, Wenceslao, that’s 7 less than without them.
+ 74. [ia_juego_en_074] Thanks to your engineering tweaks, Wenceslao, that’s 8 less than without them.
+ 75. [ia_juego_en_075] Let’s go to the Shelter to rest with the team.
+ 76. [ia_juego_en_099] Sun news from NASA: no solar flares were recorded in the last 7 days. The Sun has been calm.
+ 77. [ia_juego_en_100] Sun news from NASA: no solar flares were recorded in the last 7 days.
+ 78. [ia_juego_en_101] The Sun has been calm.
+ 79. [ia_juego_en_102] Sun news from NASA: 2 solar flares were recorded in the last 7 days.
+ 80. [ia_juego_en_103] Sun news from NASA: 3 solar flares were recorded in the last 7 days.
+ 81. [ia_juego_en_104] Sun news from NASA: 4 solar flares were recorded in the last 7 days.
+ 82. [ia_juego_en_105] Sun news from NASA: 5 solar flares were recorded in the last 7 days.
+ 83. [ia_juego_en_106] Sun news from NASA: 6 solar flares were recorded in the last 7 days.
+ 84. [ia_juego_en_107] Sun news from NASA: 7 solar flares were recorded in the last 7 days.
+ 85. [ia_juego_en_108] Sun news from NASA: 8 solar flares were recorded in the last 7 days.
+ 86. [ia_juego_en_109] Sun news from NASA: 9 solar flares were recorded in the last 7 days.
+ 87. [ia_juego_en_110] Sun news from NASA: 10 solar flares were recorded in the last 7 days.
+ 88. [ia_juego_en_111] Sun news from NASA: 11 solar flares were recorded in the last 7 days.
+ 89. [ia_juego_en_112] Sun news from NASA: 12 solar flares were recorded in the last 7 days.
+ 90. [ia_juego_en_113] Sun news from NASA: 13 solar flares were recorded in the last 7 days.
+ 91. [ia_juego_en_114] Sun news from NASA: 14 solar flares were recorded in the last 7 days.
+ 92. [ia_juego_en_115] Sun news from NASA: 15 solar flares were recorded in the last 7 days.
+ 93. [ia_juego_en_116] Sun news from NASA: 16 solar flares were recorded in the last 7 days.
+ 94. [ia_juego_en_117] Sun news from NASA: 17 solar flares were recorded in the last 7 days.
+ 95. [ia_juego_en_118] Sun news from NASA: 18 solar flares were recorded in the last 7 days.
+ 96. [ia_juego_en_119] Sun news from NASA: 19 solar flares were recorded in the last 7 days.
+ 97. [ia_juego_en_120] Sun news from NASA: 20 solar flares were recorded in the last 7 days.
+ 98. [ia_juego_en_121] Sun news from NASA: 21 solar flares were recorded in the last 7 days.
+ 99. [ia_juego_en_122] Sun news from NASA: 22 solar flares were recorded in the last 7 days.
+100. [ia_juego_en_123] Sun news from NASA: 23 solar flares were recorded in the last 7 days.
+101. [ia_juego_en_124] Sun news from NASA: 24 solar flares were recorded in the last 7 days.
+102. [ia_juego_en_125] Sun news from NASA: 25 solar flares were recorded in the last 7 days.
+103. [ia_juego_en_126] Sun news from NASA: 26 solar flares were recorded in the last 7 days.
+104. [ia_juego_en_127] Sun news from NASA: 27 solar flares were recorded in the last 7 days.
+105. [ia_juego_en_128] Sun news from NASA: 28 solar flares were recorded in the last 7 days.
+106. [ia_juego_en_129] Sun news from NASA: 29 solar flares were recorded in the last 7 days.
+107. [ia_juego_en_130] Sun news from NASA: 30 solar flares were recorded in the last 7 days.
+108. [ia_juego_en_131] This is the last saved copy: NASA didn’t respond.
+109. [ia_juego_en_132] Flares are named with letters: A, B, C, M and X. Each letter is ten times stronger than the one before. This happens on the Sun: it is not a measurement on Mars.
+110. [ia_juego_en_133] Before sharing out, look at the three bars.
+111. [ia_juego_en_134] The lowest one needs you most.
+112. [ia_juego_en_135] Ask yourself first: which bar is lowest today?
+113. [ia_juego_en_136] A hint: the cores go where they are needed most.
+114. [ia_juego_en_137] Look at your energy: it is very low.
+115. [ia_juego_en_138] Give more cores to the Solar Collectors.
+116. [ia_juego_en_139] Look at your energy: it is low.
+117. [ia_juego_en_140] Look at your energy: it is lower than the rest.
+118. [ia_juego_en_141] Look at your oxygen: it is very low.
+119. [ia_juego_en_142] Give more cores to Life Support.
+120. [ia_juego_en_143] Look at your oxygen: it is low.
+121. [ia_juego_en_144] Look at your oxygen: it is lower than the rest.
+122. [ia_juego_en_145] Look at your shielding: it is very low.
+123. [ia_juego_en_146] Give more cores to the Hull Shields.
+124. [ia_juego_en_147] Look at your shielding: it is low.
+125. [ia_juego_en_148] Look at your shielding: it is lower than the rest.
+126. [ia_juego_en_149] Hint: your energy is very low.
+127. [ia_juego_en_150] Find its system on the console: the Solar Collectors.
+128. [ia_juego_en_151] Hint: your energy is low.
+129. [ia_juego_en_152] Hint: your energy is lower than the rest.
+130. [ia_juego_en_153] Hint: your oxygen is very low.
+131. [ia_juego_en_154] Find its system on the console: Life Support.
+132. [ia_juego_en_155] Hint: your oxygen is low.
+133. [ia_juego_en_156] Hint: your oxygen is lower than the rest.
+134. [ia_juego_en_157] Hint: your shielding is very low.
+135. [ia_juego_en_158] Find its system on the console: the Hull Shields.
+136. [ia_juego_en_159] Hint: your shielding is low.
+137. [ia_juego_en_160] Hint: your shielding is lower than the rest.
+138. [ia_juego_en_161] Today what we need most is energy.
+139. [ia_juego_en_162] You know which system needs cores.
+140. [ia_juego_en_163] Today what we need most is oxygen.
+141. [ia_juego_en_164] Today what we need most is shielding.
+142. [ia_juego_en_165] Let me show you how I think about it.
+143. [ia_juego_en_166] Your energy is very low.
+144. [ia_juego_en_167] Your oxygen is better.
+145. [ia_juego_en_168] So I give more cores to the Solar Collectors.
+146. [ia_juego_en_169] Now you try!
+147. [ia_juego_en_170] Your energy is low.
+148. [ia_juego_en_171] Your energy is lower than the rest.
+149. [ia_juego_en_172] Your shielding is better.
+150. [ia_juego_en_173] Your oxygen is very low.
+151. [ia_juego_en_174] Your energy is better.
+152. [ia_juego_en_175] So I give more cores to Life Support.
+153. [ia_juego_en_176] Your oxygen is low.
+154. [ia_juego_en_177] Your oxygen is lower than the rest.
+155. [ia_juego_en_178] Your shielding is very low.
+156. [ia_juego_en_179] So I give more cores to the Hull Shields.
+157. [ia_juego_en_180] Your shielding is low.
+158. [ia_juego_en_181] Your shielding is lower than the rest.
+159. [ia_juego_en_182] Let’s go step by step.
+160. [ia_juego_en_183] First I look for the lowest bar: energy.
+161. [ia_juego_en_184] Then I give more cores to the Solar Collectors.
+162. [ia_juego_en_185] Give it a try!
+163. [ia_juego_en_186] First I look for the lowest bar: oxygen.
+164. [ia_juego_en_187] Then I give more cores to Life Support.
+165. [ia_juego_en_188] First I look for the lowest bar: shielding.
+166. [ia_juego_en_189] Then I give more cores to the Hull Shields.
+167. [ia_juego_en_190] No hint today, Wenceslao.
+168. [ia_juego_en_191] I trust your plan!
+169. [ia_juego_en_192] No hint today, Judith.
+170. [ia_juego_en_193] No hint today, Atlas.
+171. [ia_juego_en_194] You already know how to share out the energy.
+172. [ia_juego_en_195] This time the plan is all yours.
+173. [ia_juego_en_196] My forecast says: out of ten days like today, zero had a strong flare.
+174. [ia_juego_en_197] Think about which system protects us.
+175. [ia_juego_en_198] My forecast says: out of ten days like today, one had a strong flare.
+176. [ia_juego_en_199] My forecast says: out of ten days like today, two had a strong flare.
+177. [ia_juego_en_200] My forecast says: out of ten days like today, three had a strong flare.
+178. [ia_juego_en_201] My forecast says: out of ten days like today, four had a strong flare.
+179. [ia_juego_en_202] My forecast says: out of ten days like today, five had a strong flare.
+180. [ia_juego_en_203] My forecast says: out of ten days like today, six had a strong flare.
+181. [ia_juego_en_204] My forecast says: out of ten days like today, seven had a strong flare.
+182. [ia_juego_en_205] My forecast says: out of ten days like today, eight had a strong flare.
+183. [ia_juego_en_206] My forecast says: out of ten days like today, nine had a strong flare.
+184. [ia_juego_en_207] My forecast says: out of ten days like today, ten had a strong flare.
+185. [ia_juego_en_208] There’s a flare risk.
+186. [ia_juego_en_209] The Hull Shields will need cores.
+187. [ia_juego_en_210] Out of ten days like today, zero had a strong flare.
+188. [ia_juego_en_211] Put cores in the Shields.
+189. [ia_juego_en_212] Out of ten days like today, one had a strong flare.
+190. [ia_juego_en_213] Out of ten days like today, two had a strong flare.
+191. [ia_juego_en_214] Out of ten days like today, three had a strong flare.
+192. [ia_juego_en_215] Out of ten days like today, four had a strong flare.
+193. [ia_juego_en_216] Out of ten days like today, five had a strong flare.
+194. [ia_juego_en_217] Out of ten days like today, six had a strong flare.
+195. [ia_juego_en_218] Out of ten days like today, seven had a strong flare.
+196. [ia_juego_en_219] Out of ten days like today, eight had a strong flare.
+197. [ia_juego_en_220] Out of ten days like today, nine had a strong flare.
+198. [ia_juego_en_221] Out of ten days like today, ten had a strong flare.
+199. [ia_juego_en_222] My forecast warns of a strong flare.
+200. [ia_juego_en_223] Flares damage the shielding.
+201. [ia_juego_en_224] So I give two cores to the Hull Shields.
+202. [ia_juego_en_225] You decide how to protect us.
+203. [ia_juego_en_226] Great strategy, Wenceslao!
+204. [ia_juego_en_227] You gave more to what we needed most.
+205. [ia_juego_en_228] Great strategy, Judith!
+206. [ia_juego_en_229] Great strategy, Atlas!
+207. [ia_juego_en_230] That’s how to think!
+208. [ia_juego_en_231] First you checked the bars, then you decided.
+209. [ia_juego_en_232] Very good!
+210. [ia_juego_en_233] You took care of energy, which was the lowest.
+211. [ia_juego_en_234] You took care of oxygen, which was the lowest.
+212. [ia_juego_en_235] You took care of shielding, which was the lowest.
+213. [ia_juego_en_236] Quick question: why did you give more cores to the Solar Collectors?
+214. [ia_juego_en_237] Exactly!
+215. [ia_juego_en_238] Because energy was the lowest.
+216. [ia_juego_en_239] Quick question: why did you give more cores to Life Support?
+217. [ia_juego_en_240] Because oxygen was the lowest.
+218. [ia_juego_en_241] Quick question: why did you give more cores to the Hull Shields?
+219. [ia_juego_en_242] Because shielding was the lowest.
+220. [ia_juego_en_243] Think for a moment: how did you choose?
+221. [ia_juego_en_244] Here’s how I saw it: you found the lowest bar and gave it more.
+222. [ia_juego_en_245] That’s deciding with data!
+223. [ia_juego_en_246] A tip: your energy was very low.
+224. [ia_juego_en_247] It needed more cores to the Solar Collectors.
+225. [ia_juego_en_248] A tip: your energy was low.
+226. [ia_juego_en_249] A tip: your energy was lower than the rest.
+227. [ia_juego_en_250] A tip: your oxygen was very low.
+228. [ia_juego_en_251] It needed more cores to Life Support.
+229. [ia_juego_en_252] A tip: your oxygen was low.
+230. [ia_juego_en_253] A tip: your oxygen was lower than the rest.
+231. [ia_juego_en_254] A tip: your shielding was very low.
+232. [ia_juego_en_255] It needed more cores to the Hull Shields.
+233. [ia_juego_en_256] A tip: your shielding was low.
+234. [ia_juego_en_257] A tip: your shielding was lower than the rest.
+235. [ia_juego_en_258] Almost.
+236. [ia_juego_en_259] What we needed most was energy.
+237. [ia_juego_en_260] Next time, give more cores to the Solar Collectors.
+238. [ia_juego_en_261] What we needed most was oxygen.
+239. [ia_juego_en_262] Next time, give more cores to Life Support.
+240. [ia_juego_en_263] What we needed most was shielding.
+241. [ia_juego_en_264] Next time, give more cores to the Hull Shields.
+242. [ia_juego_en_265] Let’s look at it together.
+243. [ia_juego_en_266] Your energy was very low.
+244. [ia_juego_en_267] Your oxygen was better.
+245. [ia_juego_en_268] That’s why it was best to give more cores to the Solar Collectors.
+246. [ia_juego_en_269] Try again tomorrow!
+247. [ia_juego_en_270] Your energy was low.
+248. [ia_juego_en_271] Your energy was lower than the rest.
+249. [ia_juego_en_272] Your shielding was better.
+250. [ia_juego_en_273] Your oxygen was very low.
+251. [ia_juego_en_274] Your energy was better.
+252. [ia_juego_en_275] That’s why it was best to give more cores to Life Support.
+253. [ia_juego_en_276] Your oxygen was low.
+254. [ia_juego_en_277] Your oxygen was lower than the rest.
+255. [ia_juego_en_278] Your shielding was very low.
+256. [ia_juego_en_279] That’s why it was best to give more cores to the Hull Shields.
+257. [ia_juego_en_280] Your shielding was low.
+258. [ia_juego_en_281] Your shielding was lower than the rest.
+259. [ia_juego_en_282] A tip: my forecast said a strong flare.
+260. [ia_juego_en_283] With more cores in the Shields, the shielding stays safe.
+261. [ia_juego_en_284] My forecast warned of a strong flare.
+262. [ia_juego_en_285] That’s why it was best to put two cores in the Shields.
+263. [ia_juego_en_286] Hint: before choosing, check which of your resources is highest.
+264. [ia_juego_en_287] Hint: spend what you have plenty of and protect what’s low.
+265. [ia_juego_en_288] Hint: right now you have more energy.
+266. [ia_juego_en_289] Spend what you have plenty of.
+267. [ia_juego_en_290] Hint: right now you have more oxygen.
+268. [ia_juego_en_291] Hint: right now you have more shielding.
+269. [ia_juego_en_292] Hint: your oxygen is better and your energy is very low.
+270. [ia_juego_en_293] Choose the option that spends oxygen.
+271. [ia_juego_en_294] Hint: your oxygen is better and your energy is low.
+272. [ia_juego_en_295] Hint: your oxygen is better and your energy is lower than the rest.
+273. [ia_juego_en_296] Hint: your shielding is better and your energy is very low.
+274. [ia_juego_en_297] Choose the option that spends shielding.
+275. [ia_juego_en_298] Hint: your shielding is better and your energy is low.
+276. [ia_juego_en_299] Hint: your shielding is better and your energy is lower than the rest.
+277. [ia_juego_en_300] Hint: your energy is better and your oxygen is very low.
+278. [ia_juego_en_301] Choose the option that spends energy.
+279. [ia_juego_en_302] Hint: your energy is better and your oxygen is low.
+280. [ia_juego_en_303] Hint: your energy is better and your oxygen is lower than the rest.
+281. [ia_juego_en_304] Hint: your shielding is better and your oxygen is very low.
+282. [ia_juego_en_305] Hint: your shielding is better and your oxygen is low.
+283. [ia_juego_en_306] Hint: your shielding is better and your oxygen is lower than the rest.
+284. [ia_juego_en_307] Hint: your energy is better and your shielding is very low.
+285. [ia_juego_en_308] Hint: your energy is better and your shielding is low.
+286. [ia_juego_en_309] Hint: your energy is better and your shielding is lower than the rest.
+287. [ia_juego_en_310] Hint: your oxygen is better and your shielding is very low.
+288. [ia_juego_en_311] Hint: your oxygen is better and your shielding is low.
+289. [ia_juego_en_312] Hint: your oxygen is better and your shielding is lower than the rest.
+290. [ia_juego_en_313] This time the decision is all yours.
+291. [ia_juego_en_314] Well thought out!
+292. [ia_juego_en_315] You spent oxygen, which you had plenty of, and protected energy, which was the lowest.
+293. [ia_juego_en_316] You spent shielding, which you had plenty of, and protected energy, which was the lowest.
+294. [ia_juego_en_317] You spent energy, which you had plenty of, and protected oxygen, which was the lowest.
+295. [ia_juego_en_318] You spent shielding, which you had plenty of, and protected oxygen, which was the lowest.
+296. [ia_juego_en_319] You spent energy, which you had plenty of, and protected shielding, which was the lowest.
+297. [ia_juego_en_320] You spent oxygen, which you had plenty of, and protected shielding, which was the lowest.
+298. [ia_juego_en_321] An astronaut’s decision, Wenceslao!
+299. [ia_juego_en_322] You protected what we needed most.
+300. [ia_juego_en_323] An astronaut’s decision, Judith!
+301. [ia_juego_en_324] An astronaut’s decision, Atlas!
+302. [ia_juego_en_325] Quick question: why didn’t you spend energy?
+303. [ia_juego_en_326] Of course!
+304. [ia_juego_en_327] Because it was what we had least of.
+305. [ia_juego_en_328] Quick question: why didn’t you spend oxygen?
+306. [ia_juego_en_329] Quick question: why didn’t you spend shielding?
+307. [ia_juego_en_330] Careful: energy was the lowest and you spent exactly that.
+308. [ia_juego_en_331] Next time, spend what you have the most of: oxygen.
+309. [ia_juego_en_332] Next time, spend what you have the most of: shielding.
+310. [ia_juego_en_333] Careful: oxygen was the lowest and you spent exactly that.
+311. [ia_juego_en_334] Next time, spend what you have the most of: energy.
+312. [ia_juego_en_335] Careful: shielding was the lowest and you spent exactly that.
+313. [ia_juego_en_336] First I look at the lowest bar: energy.
+314. [ia_juego_en_337] I protect that one.
+315. [ia_juego_en_338] Then I pick the option that spends oxygen, which I have plenty of.
+316. [ia_juego_en_339] Then I pick the option that spends shielding, which I have plenty of.
+317. [ia_juego_en_340] First I look at the lowest bar: oxygen.
+318. [ia_juego_en_341] Then I pick the option that spends energy, which I have plenty of.
+319. [ia_juego_en_342] First I look at the lowest bar: shielding.
+320. [ia_juego_en_343] Time ran out and the base chose on its own.
+321. [ia_juego_en_344] If you check the bars first, you decide faster.
+322. [ia_juego_en_345] Quick question: where does our energy come from during the day?
+323. [ia_juego_en_346] From the Sun!
+324. [ia_juego_en_347] The panels store it in batteries for the night.
+325. [ia_juego_en_348] Let’s see if you remember: what happens to the panels when they get dusty?
+326. [ia_juego_en_349] They make less energy.
+327. [ia_juego_en_350] That’s why we clean them.
+328. [ia_juego_en_351] Quick question: what cleans the carbon dioxide we breathe out?
+329. [ia_juego_en_352] The filter!
+330. [ia_juego_en_353] And the plants help too: they release oxygen.
+331. [ia_juego_en_354] Let’s see if you remember: what do the greenhouse plants release?
+332. [ia_juego_en_355] Oxygen!
+333. [ia_juego_en_356] That’s why we look after them so well.
+334. [ia_juego_en_357] Quick question: what protects us from radiation while we sleep?
+335. [ia_juego_en_358] The water in the shelter walls!
+336. [ia_juego_en_359] It stops radiation.
+337. [ia_juego_en_360] Let’s see if you remember: where do flares come from?
+338. [ia_juego_en_361] That’s why we check the forecast every day.
+339. [ia_juego_en_362] Quick question: in an emergency, which resource is best to spend?
+340. [ia_juego_en_363] The one you have the most of!
+341. [ia_juego_en_364] And you protect the lowest.
+342. [ia_juego_en_365] Today you learned more about energy.
+343. [ia_juego_en_366] Today you learned more about air.
+344. [ia_juego_en_367] Today you learned more about the radiation shield.
+345. [ia_juego_en_368] Today you learned more about deciding with data.
+346. [ia_juego_en_369] Today you got better at energy.
+347. [ia_juego_en_370] It shows!
+348. [ia_juego_en_371] Today you got better at air.
+349. [ia_juego_en_372] Today you got better at the radiation shield.
+350. [ia_juego_en_373] Today you got better at deciding with data.
+351. [ia_juego_en_374] Tomorrow let’s practice energy.
+352. [ia_juego_en_375] Tomorrow let’s practice air.
+353. [ia_juego_en_376] Tomorrow let’s practice the radiation shield.
+354. [ia_juego_en_377] Tomorrow let’s practice deciding with data.
+355. [ia_juego_en_378] Tomorrow I’ll help you more with energy.
+356. [ia_juego_en_379] Tomorrow I’ll help you more with air.
+357. [ia_juego_en_380] Tomorrow I’ll help you more with the radiation shield.
+358. [ia_juego_en_381] Tomorrow I’ll help you more with deciding with data.
+359. [ia_juego_en_382] You’re doing great at everything!
+360. [ia_juego_en_383] Tomorrow I’ll give you fewer hints.
+361. [ia_juego_en_384] Systems online. Welcome to Mars Base One, Wenceslao.
+362. [ia_juego_en_385] Systems online. Welcome to Mars Base One, Judith.
+363. [ia_juego_en_386] Systems online. Welcome to Mars Base One, Atlas.
+364. [ia_juego_en_387] I'm the base AI. I'll take care of you and explain whatever happens.
+365. [ia_juego_en_388] Important notice: this is a practice mission before going to Mars. Nobody is in danger. Here, we learn.
+366. [ia_juego_en_389] The base uses three resources: energy, oxygen, and shielding. Each one has three levels: low, medium, and high. If one hits zero, the base shuts down and the mission restarts.
+367. [ia_juego_en_390] Hello, Engineer Wenceslao! You know how every cable and every motor in the base works. There's never enough energy to power everything at once, so you decide which machines get power.
+368. [ia_juego_en_391] Ready to explore, Scientist Judith! Out there is a mysterious planet, dust storms, and incredible rocks. Your love of plants will keep the base alive.
+369. [ia_juego_en_392] Great to have you on board, Doctor Atlas! In space you have to take very good care of health and air. You'll make sure the whole crew is strong and ready for the adventure.
+370. [ia_juego_en_393] The battery can't power everything. Use the command console to choose where the energy goes today.
+371. [ia_juego_en_394] Notice: the signal to Earth is slow. Every message takes several minutes.
+372. [ia_juego_en_395] There's sunlight. Let's get to work! Clean the panels, change the filter, and water the plants before dark.
+373. [ia_juego_en_396] Notice: dust covered the solar panels and the battery isn't charging.
+374. [ia_juego_en_397] The Spirit and Opportunity robots had the same problem on Mars. Sometimes the wind cleaned them off, but you can't count on that.
+375. [ia_juego_en_398] There's dust on the panels again. There's no wind here to help us.
+376. [ia_juego_en_399] Great! The panels are shining again and the battery is rising. We'll have good light all night.
+377. [ia_juego_en_400] Air alert! The CO₂ filter is clogged and the spare doesn't fit in the slot.
+378. [ia_juego_en_401] In 1970, the Apollo 13 spacecraft had this same problem. The engineers invented an adapter out of plastic bags, cardboard, hoses, and tape.
+379. [ia_juego_en_402] The filter is saturated again. Time to build the adapter.
+380. [ia_juego_en_403] You did it! The filter is sealed tight and we're breathing fresh air. Great teamwork.
+381. [ia_juego_en_404] A little bad air got out. We're tired and the air is getting low.
+382. [ia_juego_en_405] Time to tend the garden! These plants help us have oxygen. In space, water floats in bubbles: give them only the drops they need.
+383. [ia_juego_en_406] In 2016, astronaut Scott Kelly tended the first zinnias to bloom on the Space Station. They got mold from the humidity, and he saved them.
+384. [ia_juego_en_407] The plants are thirsty, but watch out for too much water.
+385. [ia_juego_en_408] The cabin lights are dimming. Turn on your helmet flashlight to see the controls.
+386. [ia_juego_en_409] Notice: the shielding is weak. We should reinforce it tomorrow.
+387. [ia_juego_en_410] End of the first sol. It's very cold outside. On Mars, the night can drop below minus sixty degrees.
+388. [ia_juego_en_411] Teams on real missions have even lived on Mars time to work with their robots.
+389. [ia_juego_en_412] Mars is farther from the Sun than Earth. Less than half the light reaches here.
+390. [ia_juego_en_413] Good night. Saving energy in power-saving mode.
+391. [ia_juego_en_414] The Perseverance rover has microphones. It recorded the Martian wind, its own wheels, and even the Ingenuity helicopter.
+392. [ia_juego_en_415] The Mars sounds you're hearing are real NASA recordings. Good night.
+393. [ia_juego_en_416] The air on Mars is almost all carbon dioxide, CO₂. You can't breathe it.
+394. [ia_juego_en_417] Yes. It traveled with Perseverance and proved it can be done. In total it made 122 grams of oxygen, about what a small dog breathes in 10 hours.
+395. [ia_juego_en_418] Tonight, let's talk about radiation.
+396. [ia_juego_en_419] An instrument on the Curiosity rover measures how much radiation reaches the Martian ground.
+397. [ia_juego_en_420] There's a dust storm in the sky. Some of them wrap around the whole planet.
+398. [ia_juego_en_421] Good night. Eyes open.
+399. [ia_juego_en_422] Mars soil has salts called perchlorates. They're not good for plants, or to eat untreated.
+400. [ia_juego_en_423] Mars gravity is a little more than a third of Earth's. A 40-kilo astronaut would weigh about 15.
+401. [ia_juego_en_424] Good night. Recording a new jumping record.
+402. [ia_juego_en_425] News from the Sun. Scientists are watching the solar storms.
+403. [ia_juego_en_426] Services like NASA's DONKI and NOAA record these events.
+404. [ia_juego_en_427] Last night. Look outside.
+405. [ia_juego_en_428] Yes. In 2014, the Curiosity rover photographed it: it looked like a bright star, with the Moon beside it.
+406. [ia_juego_en_429] From 3 to 22 minutes, depending on where the planets are.
+407. [ia_juego_en_430] Alert! I detect a solar storm. It will arrive soon.
+408. [ia_juego_en_431] Notice: the shielding is taking more charge than normal.
+409. [ia_juego_en_432] In August 1972, the Sun unleashed a huge storm between two Moon missions. Nobody was in space; it was pure luck. That's why space weather is watched today.
+410. [ia_juego_en_433] Alert! A dust storm is covering the panels.
+411. [ia_juego_en_434] Reserves dropping. Calculating how long they'll last.
+412. [ia_juego_en_435] Alert! The CO₂ filter is saturated. The air is getting heavy.
+413. [ia_juego_en_436] Alert! Radiation outside has gone up.
+414. [ia_juego_en_437] Shielding reinforced.
+415. [ia_juego_en_438] Heat danger! A piece of the protective roof came loose and the cabin is heating up very fast.
+416. [ia_juego_en_439] Shade ready. The temperature is dropping.
+417. [ia_juego_en_440] The temperature is dropping. So is the energy.
+418. [ia_juego_en_441] In 1973, the Skylab station lost its sun shield during launch and heated up like an oven. Its first crew installed a sunshade and saved it.
+419. [ia_juego_en_442] Leak detected! The liquid that cools the solar panels is escaping into space.
+420. [ia_juego_en_443] Leak isolated.
+421. [ia_juego_en_444] In May 2013, the crew of the International Space Station saw white flakes of frozen coolant. Two astronauts went on a spacewalk and replaced the part that was failing.
+422. [ia_juego_en_445] Hull impact! Air is escaping through a crack. We have to close the hatch now.
+423. [ia_juego_en_446] Hatch sealed. The air was saved.
+424. [ia_juego_en_447] Hatch sealed. Some air was lost along the way.
+425. [ia_juego_en_448] In 1997, a cargo ship hit a module of the Russian space station Mir, with a NASA astronaut on board. The crew disconnected cables to seal the door, and the station kept working.
+426. [ia_juego_en_449] Alert! The greenhouse fan stopped and I don't know which part failed.
+427. [ia_juego_en_450] Notice: a message to Earth takes between 3 and 22 minutes to arrive. The reply takes just as long.
+428. [ia_juego_en_451] Message sent. Waiting for a reply. Oxygen is dropping in the meantime.
+429. [ia_juego_en_452] Restart underway. The batteries are working overtime.
+430. [ia_juego_en_453] A signal between Earth and Mars takes 3 to 22 minutes in each direction, depending on where the planets are. That's why a crew on Mars has to know how to decide on its own.
+431. [ia_juego_en_454] Ten whole sols have passed in this corner of the universe, and we're still here.
+432. [ia_juego_en_455] It wasn't just luck. It was curiosity, courage, and a will to learn.
+433. [ia_juego_en_456] Result: mission successful. Real data and good decisions.
+434. [ia_juego_en_457] Wenceslao, you are now a Junior Astronaut of Mars Base One.
+435. [ia_juego_en_458] Judith, you are now a Junior Astronaut of Mars Base One.
+436. [ia_juego_en_459] Atlas, you are now a Junior Astronaut of Mars Base One.
+437. [ia_juego_en_460] You learned that on Mars, teamwork and real information save the mission.
+438. [ia_juego_en_461] Because they tried... they succeeded.
+439. [ia_juego_en_462] Energy depleted. The base shuts down and the mission restarts.
+440. [ia_juego_en_463] What we learned: on Mars, less than half the sunlight arrives. Dust covers the panels and storms make it worse.
+441. [ia_juego_en_464] When there isn't enough energy, you have to decide what stays on and save reserves before nightfall.
+442. [ia_juego_en_465] The Spirit and Opportunity robots lasted for years because the wind sometimes cleaned their panels. You can't wait for the wind: clean the panels in time.
+443. [ia_juego_en_466] Air with too much CO₂. The base shuts down and the mission restarts.
+444. [ia_juego_en_467] What we learned: on Mars the air is almost all CO₂. Filters and plants keep the air breathable.
+445. [ia_juego_en_468] Changing the filter in time is just as important as energy.
+446. [ia_juego_en_469] On Apollo 13, the air filled with CO₂ and the crew fixed it with tape, cardboard, and hoses. Check the filters and the plants carefully on your next try.
+447. [ia_juego_en_470] Shielding depleted. The base shuts down and the mission restarts.
+448. [ia_juego_en_471] What we learned: Mars has almost no natural protection against radiation. That's why the base needs shielding.
+449. [ia_juego_en_472] Following the space weather warnings gives us time to get ready.
+450. [ia_juego_en_473] In 1972, the Sun unleashed a huge storm right between two Moon missions. Today, space weather is watched so we can be ready.
+
+--- P.I.E.D.R.A: narración (prólogo, cartas, introducción) (23) ---
+
+451. [ia_juego_en_076] Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found.
+452. [ia_juego_en_077] In 1969, Neil Armstrong was the first person to reach the Moon.
+453. [ia_juego_en_078] What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…
+454. [ia_juego_en_079] So… what is it?...
+455. [ia_juego_en_080] Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron.
+456. [ia_juego_en_081] Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…
+457. [ia_juego_en_082] Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers.
+458. [ia_juego_en_083] Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…
+459. [ia_juego_en_084] Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are.
+460. [ia_juego_en_085] Because if you try, you can do it…
+461. [ia_juego_en_086] Builds and fixes machines, robots and spaceships.
+462. [ia_juego_en_087] Understands how things move and how electricity travels.
+463. [ia_juego_en_088] Looks after the base’s computers and works with discipline under pressure.
+464. [ia_juego_en_089] Studies plants and knows how to care for them in the greenhouse.
+465. [ia_juego_en_090] Reads the rocks and the soil to understand what Mars is like.
+466. [ia_juego_en_091] Watches the weather: wind, dust and storms.
+467. [ia_juego_en_092] Knows the human body and how to take care of it in space.
+468. [ia_juego_en_093] Gives first aid and keeps the team healthy and calm.
+469. [ia_juego_en_094] Year 2030…
+470. [ia_juego_en_095] It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston.
+471. [ia_juego_en_096] Since then, humanity has been getting ready to send people to Mars.
+472. [ia_juego_en_097] Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing.
+473. [ia_juego_en_098] The lights go out one by one.
+
+--- Wenceslao: historia (39) ---
+
+474. [introduccion_03] I'm Wenceslao, the engineer. If something breaks, it's mine. If something explodes, that's mine too.
+475. [introduccion_09] Spoiler: there's never enough energy for everything.
+476. [consejo_paneles_02] Start with the most covered panels: that's where the most light is lost.
+477. [mini_paneles_falla_01] There's a lot of dust left. Tonight the battery will be low and the cabin will be dark.
+478. [consejo_filtro_02] Don't force it in. Use the cardboard as a funnel and seal the edges well with tape.
+479. [comentario_estado_01] The lights are flickering. With so little energy, we have to choose what stays on.
+480. [noche_1_03] A good heater would be better. And hot chocolate for us.
+481. [noche_2_01] I was looking at the solar panels. They gave less today than I expected.
+482. [noche_2_04] And here I thought my biggest rival was duct tape.
+483. [noche_3_03] The air here is very thin, which is why sounds are softer than on Earth.
+484. [noche_4_03] And we have filters to remove it from the base's air.
+485. [noche_5_06] If the shielding is strong, no. Relax.
+486. [noche_6_05] And we clean the panels. Dust is the enemy.
+487. [noche_7_04] This is space farming. Half science, half patience.
+488. [noche_8_01] Today I jumped in the hallway again. We weigh so much less here.
+489. [noche_8_05] Two hours on the bike tomorrow. No arguments.
+490. [noche_9_03] And that gives us time to get ready. That's what the warnings are for.
+491. [noche_10_04] Our home, millions of kilometers away.
+492. [emergencia_solar_03] This is getting close to exciting.
+493. [emergencia_solar_05] The lights are dimming, but the team is safe.
+494. [emergencia_polvo_02] The light is dropping. No more naps.
+495. [emergencia_polvo_04] I'll go. With a suit and good humor.
+496. [emergencia_co2_03] We have to change the filter right now.
+497. [emergencia_co2_04] New filter, clean air.
+498. [emergencia_radiacion_04] I'm raising the shield. Give me a moment.
+499. [emergencia_calor_02] This is starting to feel like an oven.
+500. [emergencia_calor_04] Space umbrella on the way.
+501. [emergencia_calor_06] Cold air at full blast.
+502. [emergencia_fuga_02] If we don't shut it off, the panels overheat.
+503. [emergencia_fuga_04] Closing the pipe. We lose a little power, but nobody goes out.
+504. [emergencia_fuga_07] Part replaced. The energy is still full.
+505. [emergencia_impacto_03] The cables run right through the door.
+506. [emergencia_impacto_04] Cutting. I'll fix it later.
+507. [emergencia_impacto_06] I'll disconnect them one by one. It takes a little longer.
+508. [emergencia_comunicacion_02] Let's send a message to Earth. They have the blueprints.
+509. [emergencia_comunicacion_09] We restart the whole thing and test it piece by piece.
+510. [fin_exito_02] The base held up! And I barely had to use duct tape.
+511. [fin_energia_02] We're fine! It was a simulation. We just need to restart.
+512. [fin_blindaje_02] Everyone's safe. This was for practice.
+
+--- Judith: historia (35) ---
+
+513. [introduccion_04] I'm Judith, the scientist. I study plants, rocks, and the weather. And I talk to the plants, just in case.
+514. [introduccion_11] Did I mention the plants count too?
+515. [consejo_paneles_01] This dust is fine and it sticks. Clean it with gentle motions so you don't scratch the panels.
+516. [consejo_riego_01] Look at each pot's gauge: water only when it's in the yellow, and use the fan if you see droplets floating.
+517. [mini_riego_gana_01] How beautiful! Healthy, happy plants filling the base with oxygen.
+518. [mini_riego_falla_01] Too much water fell and a little mold showed up. We used extra air cleaning the garden.
+519. [comentario_estado_03] The air feels heavy. My plants need reinforcements.
+520. [noche_1_02] Should we put a sweater on the plants?
+521. [noche_2_03] So the plants and the panels compete for light.
+522. [noche_3_01] Do you hear that? It's the wind on Mars.
+523. [noche_3_05] I whisper to my plants too, so they don't get embarrassed.
+524. [noche_4_02] Good thing my plants take in CO₂ and give off oxygen.
+525. [noche_4_06] Breathing with the help of plants and machines. Fascinating!
+526. [noche_5_02] Mars doesn't have a global magnetic field like Earth. It's barely protected.
+527. [noche_5_05] Does the radiation reach my greenhouse?
+528. [noche_6_02] In 2018, a global storm blocked out the Sun and the Opportunity rover stopped communicating.
+529. [noche_6_03] Did it fall asleep?
+530. [noche_7_01] My tomatoes are growing! Well, my seeds are sprouting. It's almost the same.
+531. [noche_7_03] That's why Martian soil has to be cleaned before planting. Scientists are testing microbes to remove those salts.
+532. [noche_7_06] Good night, plants. I promise not to sing to you.
+533. [noche_8_03] I felt like a feather!
+534. [noche_9_02] A solar storm can launch particles into space. They can take one to three days to reach Earth.
+535. [noche_9_04] NASA has already managed to predict when a solar storm would reach Mars, and the MAVEN mission confirmed it.
+536. [noche_9_05] Satellites watch the Sun and warn the teams on Earth.
+537. [noche_10_02] That bright star... could it be Earth?
+538. [noche_10_05] How long does a message take to get there?
+539. [emergencia_co2_02] Could it be my dramatic sighing?
+540. [emergencia_co2_05] I can breathe better!
+541. [emergencia_co2_06] My plants help, but slowly.
+542. [emergencia_radiacion_03] My plants!
+543. [emergencia_radiacion_06] We close up. The plants get some rest.
+544. [emergencia_comunicacion_04] So talking to Earth is like sending a letter?
+545. [emergencia_comunicacion_07] The plants can't breathe without the fan. We have to save.
+546. [fin_exito_03] My plants survived too! I told them they could.
+547. [fin_oxigeno_02] We're fine! That was a good rehearsal.
+
+--- Atlas: historia (53) ---
+
+548. [introduccion_05] I'm Atlas, the doctor. My job is making sure we're all okay.
+549. [introduccion_07] We're going to live ten sols. A sol is a day on Mars.
+550. [introduccion_10] That's why we decide as a team. We take a deep breath, and we decide.
+551. [introduccion_12] All set, team. To the console.
+552. [manana_01] Good morning. Today we learn to share the base's energy.
+553. [manana_03] Today's lights depend on the Sun. Let's check the panels.
+554. [manana_04] The wind is loud outside today. Let's keep our ears open.
+555. [manana_05] Air is our treasure. Let's take care of the CO₂ filter.
+556. [manana_06] Today we check the shielding. It's our umbrella against radiation.
+557. [manana_07] There's dust in the sky. Let's not get caught without power.
+558. [manana_08] The greenhouse is waiting. The plants are part of the crew too.
+559. [manana_09] Here we weigh less. We move carefully, even if it feels like fun.
+560. [manana_11] There's news from the Sun. Stay alert for the warnings.
+561. [manana_12] Last sol. We've come a long way, team. One more push.
+562. [consejo_filtro_01] If we don't clean the air fast, we'll get dizzy and it'll be hard to see. Focus, you can do it.
+563. [consejo_riego_02] If they get mold, the air gets dirty. Keep the leaves nice and clean.
+564. [comentario_estado_05] Everything's green. Good work, team.
+565. [noche_1_04] A sol lasts about 24 hours and 39 minutes. Almost like a day on Earth, with 39 extra minutes to dream.
+566. [noche_1_06] Off to bed, team. Tomorrow we learn more.
+567. [noche_2_05] That's why planning energy matters. We can't turn everything on at once.
+568. [noche_3_04] Even a shout would sound softer.
+569. [noche_4_04] Did you know an experiment called MOXIE made oxygen out of Martian CO₂?
+570. [noche_5_03] That's why the base needs shielding. It's like an invisible shield looking after the whole team.
+571. [noche_5_07] Rest. Our shield is on guard.
+572. [noche_6_04] It went into hibernation. Its solar panels were barely getting any light. That's why we keep reserves.
+573. [noche_7_05] Caring for the plants is caring for the team's air, water, and food.
+574. [noche_8_04] But careful: as your doctor, I'm telling you the body needs exercise to stay strong.
+575. [noche_9_07] Knowing what's coming is half the protection.
+576. [noche_10_07] Everything we did here, we did together.
+577. [noche_10_08] Tomorrow we wake up and close out the mission.
+578. [emergencia_solar_02] Let's stay calm. We have only a few minutes.
+579. [emergencia_solar_04] Everyone to the shelter. Closing the doors.
+580. [emergencia_solar_06] We keep going, but with our eyes open.
+581. [emergencia_polvo_03] Let's decide quickly.
+582. [emergencia_polvo_05] Come back soon.
+583. [emergencia_polvo_06] Let's wait. Let's switch off whatever we don't need.
+584. [emergencia_co2_07] We can hold on for a while.
+585. [emergencia_radiacion_02] Everyone inside and away from the windows.
+586. [emergencia_radiacion_07] A hard decision, but a safe one.
+587. [emergencia_calor_03] Let's decide quickly, but calmly.
+588. [emergencia_fuga_03] Think about the team, not just the machine.
+589. [emergencia_fuga_06] Go out carefully and come back soon.
+590. [emergencia_impacto_02] Calm. One thing at a time.
+591. [emergencia_comunicacion_05] And meanwhile the air won't wait. We have to decide.
+592. [emergencia_comunicacion_06] Let's wait calmly. Let's take care of the air we have left.
+593. [fin_exito_01] Sol ten complete. All systems are still running.
+594. [fin_exito_10] When we really go, we'll already know how.
+595. [fin_energia_03] Nobody is hurt. This is what we practice.
+596. [fin_energia_07] Next time, we'll share it better.
+597. [fin_oxigeno_03] Nobody is in danger. The practice mission looks after us.
+598. [fin_oxigeno_07] Tomorrow we do better.
+599. [fin_blindaje_03] Nobody was harmed. This is how we learn.
+600. [fin_blindaje_07] Next time, we listen to the warnings.

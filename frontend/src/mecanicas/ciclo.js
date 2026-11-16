@@ -122,15 +122,25 @@ export const ciclo = {
   },
 
   // El mismo narrador, pero al empezar un nudo se salta sus n primeras líneas (sus etiquetas también)
+  // Una decisión nunca se salta: si aparece antes de las n líneas, se guarda y es lo primero que sale.
   narradorSaltando(n) {
     const real = this.narrador;
+    let guardado = null;
     return Object.assign(Object.create(real), {
       empezar(nudo) {
         if (!real.empezar(nudo)) return false;
-        for (let k = 0; k < n;) { const p = real.paso(); if (!p || p.tipo === 'opciones') break; if (p.tipo === 'linea') k++; }
+        for (let k = 0; k < n;) {
+          const p = real.paso();
+          if (!p) break;
+          if (p.tipo === 'opciones') { guardado = p; break; }
+          if (p.tipo === 'linea') k++;
+        }
         return true;
       },
-      paso: () => real.paso(),
+      paso: () => {
+        if (guardado) { const p = guardado; guardado = null; return p; }
+        return real.paso();
+      },
     });
   },
 

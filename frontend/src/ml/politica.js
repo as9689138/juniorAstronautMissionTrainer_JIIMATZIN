@@ -58,7 +58,7 @@ const beta = (a, b) => { const x = gamma(a); return x / (x + gamma(b)); };
 
 export const politica = {
   brazos: {},            // 'momento|tramo|movida' -> [éxitos, fallos]
-  pendiente: {},         // tema -> clave del brazo que espera su recompensa
+  pendiente: {},         // tema -> claves de los brazos que esperan su recompensa (la siguiente prueba de ese tema)
   errores: {},           // tema -> fallos seguidos
   ultimaPrueba: {},      // tema -> sol de su última prueba
   retoDado: {},          // tema -> ya se le dio el reto en esta partida
@@ -81,8 +81,16 @@ export const politica = {
     }
     return this.apuntar(momento, tema, dominio, mejor);
   },
+  // La ayuda queda en espera hasta la siguiente prueba del tema. Si antes llega otra ayuda del mismo tema (la
+  // explicación de ayer y la pista de hoy), las dos esperan y las dos se premian con esa prueba: antes la nueva
+  // borraba a la anterior sin contarla, y las explicaciones de "decidir" casi nunca recibían recompensa.
   apuntar(momento, tema, dominio, movida) {
-    if (movida && movida !== 'reto' && movida !== 'repaso') this.pendiente[tema] = `${momento}|${tramo(dominio)}|${movida}`;
+    if (movida && movida !== 'reto' && movida !== 'repaso') {
+      const clave = `${momento}|${tramo(dominio)}|${movida}`;
+      const lista = (this.pendiente[tema] ??= []);
+      if (!lista.includes(clave)) lista.push(clave);
+      if (lista.length > 3) lista.shift();
+    }
     return movida;
   },
 
@@ -117,10 +125,9 @@ export const politica = {
 
   // Cada prueba del BKT: recompensa a la ayuda pendiente de ese tema y lleva la cuenta de errores seguidos
   observar(tema, correcto, sol) {
-    const clave = this.pendiente[tema];
-    if (clave) {
-      const b = (this.brazos[clave] ??= [0, 0]);
-      b[correcto ? 0 : 1]++;
+    const claves = this.pendiente[tema];
+    if (claves?.length) {
+      for (const clave of claves) (this.brazos[clave] ??= [0, 0])[correcto ? 0 : 1]++;
       delete this.pendiente[tema];
       this.guardar();
     }

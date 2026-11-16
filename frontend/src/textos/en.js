@@ -356,6 +356,37 @@ export default {
   '-12 de Energía': '-12 Energy',
   '¡Genial! Los paneles brillan otra vez y la batería está cargando.': 'Great! The panels are shining again and the battery is charging.',
   'Quedó mucho polvo en los paneles ({a}/{b}). Esta noche tendremos poca batería.': 'A lot of dust was left on the panels ({a}/{b}). We’ll be low on battery tonight.',
+  // kit de misiones (src/minijuegos/mision.js) y paneles con el estilo del mapa
+  'SOL {n} · MISIÓN': 'SOL {n} · MISSION',
+  // consola
+  'Recuerdo desbloqueado': 'Memory unlocked', 'Consola de Mando': 'Command Console',
+  'SOL {n} / 10 · MAÑANA': 'SOL {n} / 10 · MORNING', 'Reparte los 6 núcleos': 'Share out the 6 cores',
+  'Toca + o − en cada sistema': 'Tap + or − on each system', 'Núcleos repartidos': 'Cores assigned',
+  'CONFIRMAR E IR AL DÍA': 'CONFIRM AND START THE DAY', 'SOL {n} / 10 · NOCHE': 'SOL {n} / 10 · NIGHT',
+  // filtro de CO₂
+  'Arregla el filtro de CO₂': 'Fix the CO₂ filter', 'Arrastra cada pieza a su hueco': 'Drag each piece to its slot',
+  'Así el filtro cuadrado encaja en el tubo redondo': 'This is how the square filter fits the round tube', 'PIEZAS': 'PIECES',
+  '1 · CARTÓN': '1 · CARDBOARD', '2 · CINTA': '2 · TAPE', '3 · MANGUERA': '3 · HOSE',
+  'Arrastra {pieza} hasta el hueco {n}: el que tiene su misma forma.': 'Drag {pieza} to slot {n}: the one with the same shape.',
+  'el cartón': 'the cardboard', 'la cinta': 'the tape', 'la manguera': 'the hose',
+  // invernadero
+  'Riega las flores espaciales': 'Water the space flowers',
+  'Toca una planta y pulsa REGAR: 2 gotas cada una': 'Tap a plant and press WATER: 2 drops each',
+  'Gotas flotando: VENTILADOR': 'Floating drops: FAN', 'Plantas regadas': 'Plants watered', 'REGAR': 'WATER',
+  'VENTILADOR': 'FAN', 'VENTILADOR ✓': 'FAN ✓', '¡Moho!': 'Mold!', 'Gotas flotando: {n}': 'Floating drops: {n}',
+  '¡Cuidado! Muchas gotas flotando: usa el VENTILADOR.': 'Careful! Lots of drops floating: use the FAN.',
+  '¡Ya regaste todas! Enciende el VENTILADOR para secar el aire.': 'You watered them all! Turn on the FAN to dry the air.',
+  'Hay gotas flotando: enciende el VENTILADOR antes de que salga moho.': 'There are drops floating: turn on the FAN before mold appears.',
+  'Salió moho: el VENTILADOR seca el aire y lo quita.': 'Mold appeared: the FAN dries the air and clears it.',
+  'A la {p} le faltan {n} gotas: tócala y pulsa REGAR.': '{p} still needs {n} drops: tap it and press WATER.',
+  'Toca el polvo': 'Tap the dust', 'Tecla verde: VIBRAR quita 5': 'Green key: VIBRATE removes 5', '¡MISIÓN CUMPLIDA!': 'MISSION COMPLETE!', 'MISIÓN INCOMPLETA': 'MISSION INCOMPLETE',
+  'Toca el polvo para limpiar el panel. Cuando la tecla VIBRAR se ponga verde, púlsala: quita 5 de golpe.':
+    'Tap the dust to clean the panel. When the VIBRATE key turns green, press it: it removes 5 at once.',
+  'Polvo retirado': 'Dust removed', 'VIBRAR': 'VIBRATE', '¡VIBRA YA!': 'VIBRATE NOW!', 'Ladrillos de Polvo': 'Dust Bricks',
+  'Toca los montones de polvo del panel para quitarlos.': 'Tap the dust piles on the panel to remove them.',
+  'Te faltan {n}. ¡Toca el polvo antes de que anochezca!': '{n} to go. Tap the dust before nightfall!',
+  '¡La tecla estaba verde! Púlsala a tiempo: VIBRAR quita 5 montones de golpe.':
+    'The key was green! Press it in time: VIBRATE removes 5 piles at once.',
   // filtro
   'SOL {n} · MINIJUEGO 2: EL INVENTO DEL APOLO 13': 'SOL {n} · MINIGAME 2: THE APOLLO 13 INVENTION',
   'Arrastra cartón, cinta y manguera hasta su zona para adaptar el filtro cuadrado al tubo redondo.': 'Drag the cardboard, tape and hose to their spots to fit the square filter to the round pipe.',

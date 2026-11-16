@@ -2,6 +2,7 @@ import { parseArgs } from 'node:util';
 import { writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import pg from 'pg';
+import { celdaCsv } from './csv.js';
 
 // Para el equipo: lo que guarda el juego (partidas anónimas y sus pruebas de aprendizaje). No hay ruta HTTP para leerlo.
 const help = `Uso: pnpm --filter @jiimatzin/backend partidas -- <resumen|exportar|borrar>
@@ -10,11 +11,7 @@ exportar: --salida <CSV> [--desde <AAAA-MM-DD>]   Una fila por prueba (para estu
 borrar: --jugador <uuid>                          Borra todo lo de ese jugador (si una familia lo pide: el juego le
                                                   muestra su código en el reporte para adultos).`;
 
-const csv = (v) => {
-  if (v === null || v === undefined) return '';
-  const s = typeof v === 'object' ? JSON.stringify(v) : String(v);
-  return /[",\n]/.test(s) ? `"${s.replaceAll('"', '""')}"` : s;
-};
+const csv = celdaCsv;
 
 let pool;
 try {

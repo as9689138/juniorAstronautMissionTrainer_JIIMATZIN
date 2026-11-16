@@ -228,7 +228,9 @@ export function frase(momento, movida, datos, en = false) {
   const usados = recientes.get(clave) ?? [];
   const libres = lista.map((_, i) => i).filter(i => !usados.includes(i));
   const i = (libres.length ? libres : lista.map((_, k) => k))[Math.floor(Math.random() * (libres.length || lista.length))];
-  recientes.set(clave, [...usados, i].slice(-Math.min(2, lista.length - 1)));
+  // las dos últimas (o la última, si solo hay dos); con una sola variante no hay nada que recordar
+  // (antes, con una sola, .slice(-0) guardaba la lista entera y crecía sin fin)
+  recientes.set(clave, lista.length > 1 ? [...usados, i].slice(-Math.min(2, lista.length - 1)) : []);
   const v = valores(datos, en);
   return lista[i][en ? 'en' : 'es'].map(l => llenar(l, v));
 }

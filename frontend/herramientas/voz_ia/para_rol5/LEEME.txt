@@ -1,0 +1,47 @@
+VOCES QUE FALTAN (para el rol 5)
+================================
+
+Tu entrega trae 213 líneas grabadas, SOLO EN ESPAÑOL: IA 86, Wenceslao 39, Judith 35 y Atlas 53.
+Ahí está todo lo de historia.ink que tiene personaje. Lo que falta, con tus mismas voces fijas (voces/IA.wav,
+WEN.wav, JUD.wav y ATL.wav) y tus mismos ajustes:
+
+ESPAÑOL: 383 líneas (lineas_faltan_es.json), TODAS con la voz de la IA (P.I.E.D.R.A)
+  - 360 de la IA del juego. La IA ahora se llama P.I.E.D.R.A y en la voz se dice "Piedra". Son frases que arma
+    el juego, no historia.ink:
+      - amanecer de cada sol con cada personaje;
+      - avisos de las estaciones y la antena;
+      - anochecer con lo que gasta la base;
+      - pistas, porqués, preguntas de repaso y resumen de la IA guía (varias formas de decir cada cosa);
+      - noticias del Sol.
+  - 23 de narración: prólogo (10), cartas de los personajes (8), introducción "Año 2030…" (4) y
+    "Las luces se apagan una por una." (1). TODA la narración la dice P.I.E.D.R.A, con su misma voz (IA.wav).
+
+INGLÉS: 600 líneas (lineas_faltan_en.json)
+  - 473 de la IA: las mismas 383 (juego y narración) en inglés, más tus 86 líneas de la IA de historia.ink. Esas 86 van con el
+    texto tal como sale en pantalla: con el nombre del personaje en lugar de {jugador} (por eso hay 4 de más) y sin
+    "Fun fact:" en los recuerdos.
+  - 127 de historia.ink: Wenceslao 39, Judith 35 y Atlas 53 (traducción de tu lineas_es_en.json, mismos ids que
+    tus MP3 en español).
+
+FORMATO
+Los dos JSON tienen el formato de tu 8_casting_voces/lineas.json:
+  { id, escena, personaje, cara, texto, texto_tts }
+texto_tts ya trae los números en palabras, "dióxido de carbono" / "carbon dioxide" y "Piedra".
+lineas_faltan.csv es lo mismo en tabla, para revisarlo a mano.
+
+CÓMO GENERARLAS CON TU CHATTERBOX
+  - Español: copia lineas_faltan_es.json como lineas.json en una copia de 8_casting_voces y corre
+    generar_voz.py.
+  - Inglés: lo mismo con lineas_faltan_en.json. Cambia language_id="es" por "en" y usa el modelo multilingüe v3
+    (t3_mtl23ls_v3.safetensors), como en tu organiza.py --idioma en.
+  - Luego organiza.py (−16 LUFS, silencios de 0,12 y 0,25 s, MP3 a 24 kHz mono).
+
+QUÉ ENTREGAR
+Un zip con un MP3 por línea, nombrado con su id (por ejemplo ia_juego_es_001.mp3, introduccion_03.mp3,
+ia_juego_en_001.mp3), en dos carpetas: es/ y en/.
+Del resto se encarga quien integra:
+  - las 383 + 473 de la IA (con la narración) van al índice de la IA (frontend/public/assets/audio/voces/ia/);
+  - las de los personajes en inglés se ligan por id.
+
+Mientras tanto, el juego ya genera la voz de la IA con Piper + OpenVoice (tu servidor de voz) como respaldo.
+Cuando lleguen las tuyas, sustituyen a esas.

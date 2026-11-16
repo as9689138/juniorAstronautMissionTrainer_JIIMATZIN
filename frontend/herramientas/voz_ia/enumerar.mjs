@@ -44,6 +44,14 @@ for (let n = 3; n <= 30; n++) add(`Son las 8 de la noche. Ya es de noche y los p
 for (let k = 1; k <= 8; k++) add(`Con tus ajustes de ingeniero, Wenceslao, son ${k} menos que sin ellos.`, 'neutral', false);
 add('Vamos al Refugio a descansar con el equipo.', 'neutral', false);
 // (la IA guía: pistas, porqués, repaso y resumen salen de src/compania/frases.js, más abajo)
+// Narración sin personaje (prólogo, cartas, introducción, final): la dice P.I.E.D.R.A. Español de docs/voces-pendientes.md;
+// el inglés es el de src/textos/historia_en.js
+{
+  const { HISTORIA_EN } = await import(pathToFileURL(path.join(FRONT, 'src/textos/historia_en.js')).href);
+  const enDe = new Map(HISTORIA_EN);
+  const md = readFileSync(path.join(FRONT, 'docs/voces-pendientes.md'), 'utf8').split('## 2.')[0];
+  for (const [, , t] of md.matchAll(/^\| `([a-z_]+)` \| (.+) \|$/gm)) add(t.trim(), 'sereno', false, enDe.get(t.trim()) ?? null);
+}
 // Noticias del Sol (datosReales.lineasSol): lo que no depende de la fecha ni de la clase
 add('Noticias del Sol, de la NASA: en los últimos 7 días no se registró ninguna llamarada solar. El Sol ha estado tranquilo.', 'feliz', false);
 // (y por frases: si la NASA no respondió, el juego le añade una frase al final)

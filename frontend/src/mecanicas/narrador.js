@@ -32,6 +32,7 @@ export class Narrador {
     }
     this.jugador = 'Astronauta';
     idioma.prepararHistoria(juego.cache.json.get('lineas_en'));
+    this.vocesEn = new Set(juego.cache.json.get('voces_en') ?? []);   // ids grabados en inglés (assets/audio/voces/en/)
   }
 
   // Variables que escribe el juego: jugador, rol, energia, oxigeno, blindaje, sol
@@ -93,12 +94,14 @@ export class Narrador {
     // ¿Es un recuerdo de la IA (flashback)? Se muestra sin "Dato curioso:" y su voz salta esa parte
     const rec = recuerdoDeLinea(tal);
     let vozDesde = rec && voz ? SALTO_VOZ[voz[0]] ?? 0 : 0;
-    // En inglés: el texto de la traducción y sin MP3 (las voces grabadas son en español): habla la voz del navegador
+    // En inglés: el texto de la traducción y su voz grabada en inglés si la hay (Wenceslao, Judith y Atlas); si no,
+    // P.I.E.D.R.A con su índice de inglés o la voz del navegador
     let vozFinal = voz, traducido = false;
     if (idioma.ingles) {
       const en = idioma.lineaHistoria(dicho, this.jugador);
       if (en) { dicho = en; traducido = true; }
-      vozFinal = null; vozDesde = 0;
+      vozFinal = voz && this.vocesEn.has(voz[0]) ? [`${voz[0]}_en`, `assets/audio/voces/en/${voz[0]}.mp3`] : null;
+      vozDesde = 0;
     }
     if (rec) dicho = textoDeRecuerdo(dicho);
     return { tipo: 'linea', quien, texto: dicho, cara: tags.cara?.[0] ?? null, voz: vozFinal, vozDesde, recuerdo: rec, traducido, tags };

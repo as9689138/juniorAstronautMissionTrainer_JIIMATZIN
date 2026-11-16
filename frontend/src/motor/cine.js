@@ -28,19 +28,23 @@ export async function verCine(nombre) {
     const capa = document.createElement('div'); capa.id = 'cine';
     const video = document.createElement('video');
     video.src = `assets/cine/${nombre}.mp4`; video.playsInline = true; video.preload = 'auto';
+    let sinPermiso = false;                                 // el navegador no dejó sonar el video: va en silencio
     video.muted = !!sonido.silencio;
     const sub = document.createElement('div'); sub.className = 'sub'; sub.setAttribute('aria-live', 'polite');
     const saltar = document.createElement('button'); saltar.textContent = idioma.ingles ? 'Skip ▸' : 'Saltar ▸';
     capa.append(video, sub, saltar); document.body.append(capa);
-    const juego = window.__juego;
-    const muteAntes = juego?.sound?.mute;
-    if (juego?.sound) juego.sound.mute = true;            // la música del juego calla mientras suena el video
+    // La música del juego calla mientras suena el video. Al acabar vuelve lo que diga el silencio del jugador, que
+    // pudo cambiar con la M durante el video (antes se restauraba el valor de antes y se desincronizaba).
+    sonido.enCine = true;
+    sonido.aplicarSilencio();
     const lineas = subs?.[idioma.ingles ? 'en' : 'es'] ?? [];
     let actual = -1, listo = false;
     const fin = vio => {
       if (listo) return; listo = true;
       document.removeEventListener('keydown', tecla, true);
-      if (juego?.sound) juego.sound.mute = !!muteAntes;
+      video.pause();
+      sonido.enCine = false;
+      sonido.aplicarSilencio();
       capa.classList.remove('ver');
       setTimeout(() => capa.remove(), 400);
       resolver(vio);
@@ -49,6 +53,7 @@ export async function verCine(nombre) {
     document.addEventListener('keydown', tecla, true);
     saltar.addEventListener('click', () => fin(true));
     video.addEventListener('timeupdate', () => {
+      video.muted = sinPermiso || !!sonido.silencio;       // la M también calla (o devuelve) el sonido del video
       const t = video.currentTime;
       const i = lineas.findIndex(l => t >= l.desde && t < l.hasta);
       if (i === actual) return;
@@ -59,6 +64,6 @@ export async function verCine(nombre) {
     video.addEventListener('ended', () => fin(true));
     video.addEventListener('error', () => fin(false));
     requestAnimationFrame(() => capa.classList.add('ver'));
-    video.play().catch(() => { video.muted = true; video.play().catch(() => fin(false)); });   // sin permiso de audio: en silencio
+    video.play().catch(() => { sinPermiso = true; video.muted = true; video.play().catch(() => fin(false)); });   // sin permiso de audio: en silencio
   });
 }

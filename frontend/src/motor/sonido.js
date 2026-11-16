@@ -47,16 +47,21 @@ export const sonido = {
   vozObj: null,
   silencio: false,
 
+  enCine: false,          // mientras se ve un video (src/motor/cine.js) el sonido del juego calla, sin tocar `silencio`
+
   iniciar(juego) {
     this.juego = juego;
     // 'silencio.v2': antes la tecla M abría el álbum Y silenciaba, y ese silencio sin querer quedaba guardado
     try { this.silencio = localStorage.getItem('silencio.v2') === '1'; } catch { /* sin almacenamiento */ }
-    juego.sound.mute = this.silencio;
+    this.aplicarSilencio();
   },
+
+  // El volumen general del juego: callado si el jugador lo pidió (M o el botón) o si hay un video encima
+  aplicarSilencio() { if (this.juego) this.juego.sound.mute = this.silencio || this.enCine; },
 
   alternarSilencio() {
     this.silencio = !this.silencio;
-    this.juego.sound.mute = this.silencio;
+    this.aplicarSilencio();
     if (this.silencio) this.callar();
     try { localStorage.setItem('silencio.v2', this.silencio ? '1' : '0'); } catch { /* sin almacenamiento */ }
     this.alCambiarSilencio?.(this.silencio);
@@ -146,7 +151,12 @@ export const sonido = {
     const turno = ++this.turnoVoz;
     const { id, ruta, desde = 0, texto, quien } = linea;
     if (!this.juego) return Promise.resolve();
-    if (!id || !ruta) return quien === 'ia' ? this.decirIA(texto, turno) : this.hablarNavegador(texto, quien, turno);
+    // P.I.E.D.R.A dice también toda la narración (prólogo, cartas, introducción): con su voz, sin el bip-bup
+    if (!id || !ruta) {
+      if (quien === 'ia') return this.decirIA(texto, turno);
+      if (!quien || quien === 'narracion') return this.decirIA(texto, turno, false);
+      return this.hablarNavegador(texto, quien, turno);
+    }
     return this.tocarVoz(id, ruta, desde, turno,
       () => (quien === 'ia' ? this.decirIA(texto, turno) : this.hablarNavegador(texto, quien, turno)));
   },
@@ -184,7 +194,7 @@ export const sonido = {
   // Busca el texto en assets/audio/voces/ia/indice.json: la línea entera y, si no está, frase por frase (los avisos
   // del juego se arman con piezas). Lo que no tiene audio (fechas y clases de las llamaradas, medidas del día) se lee
   // en pantalla sin voz. Antes de hablar hace bip-bup, como el robot.
-  decirIA(texto, turno = this.turnoVoz) {
+  decirIA(texto, turno = this.turnoVoz, bip = true) {
     const indice = this.juego.cache.json.get('voces_ia')?.[idioma.actual] ?? {};
     const ruta = archivo => `assets/audio/voces/ia/${idioma.actual}/${archivo}`;
     const limpio = (texto ?? '').replace(/\s+/g, ' ').trim();
@@ -193,9 +203,9 @@ export const sonido = {
     const sinVoz = !partes.length;
     if (sinVoz && limpio) console.debug('[voz IA] sin audio:', limpio);
     if (this.silencio || turno !== this.turnoVoz) return Promise.resolve();
-    this.pitido(2 + Math.floor(Math.random() * 2));
+    if (bip) this.pitido(2 + Math.floor(Math.random() * 2));
     if (sinVoz) return Promise.resolve();
-    return new Promise(r => setTimeout(r, 260)).then(async () => {
+    return new Promise(r => setTimeout(r, bip ? 260 : 0)).then(async () => {
       for (const archivo of partes) {
         if (turno !== this.turnoVoz) return;
         await this.tocarVoz(`vozia_${idioma.actual}_${archivo.replace(/\.mp3$/, '')}`, ruta(archivo), 0, turno);
