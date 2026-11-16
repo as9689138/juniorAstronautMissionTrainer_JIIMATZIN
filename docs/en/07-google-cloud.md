@@ -106,7 +106,7 @@ Deployed site: <https://project-dd0f486a-7a8b-44de-86e.web.app>. On this site th
 | Who sees it | Only the team, with the CLI (`partidas -- exportar`). There is no HTTP route to read it. Access to Cloud SQL through IAM |
 | Notice | On the game's title screen and in the adults' report |
 | Deleting | The adults' report shows the device code; with it: `partidas -- borrar --jugador <code>` |
-| Retention | Proposal: delete sessions older than 12 months. Decide it and note it here |
+| Retention | Decided: 12 months; sessions older than 12 months are deleted (the periodic deletion still has to be scheduled) |
 
 Although the data is anonymous, the players are children aged 7 to 12: confirm with the local Space Apps lead (and with the school, if it is played in class) that the notice is enough.
 

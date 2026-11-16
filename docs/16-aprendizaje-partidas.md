@@ -78,7 +78,7 @@ Secuencia en el [diagrama 13](14-flujos-backend.md#13-guardado-de-una-partida-an
 | Lectura | No hay ruta HTTP; solo el equipo, con el CLI |
 | Aviso | En la portada del juego y en el reporte para adultos |
 | Borrado | El reporte para adultos muestra el código del dispositivo; con él se ejecuta `partidas -- borrar --jugador <código>` |
-| Conservación | Propuesta: borrar partidas de más de 12 meses. Falta decidirlo |
+| Conservación | Decidido: 12 meses; se borran las partidas de más de 12 meses (falta programar el borrado periódico) |
 
 Juegan niños de 7 a 12 años: aunque los datos son anónimos, conviene confirmar con el líder local de Space Apps (y con la
 escuela, si se juega en clase) que el aviso es suficiente.

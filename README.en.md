@@ -58,7 +58,7 @@ Each back-end feature gathers its model, JSON view, controller, routes and repos
 | Google Cloud (main) | <https://project-dd0f486a-7a8b-44de-86e.web.app> | Game on Firebase Hosting, API on Cloud Run and PostgreSQL on Cloud SQL, under the same domain (`/api/**` and `/health` go to the API). Stores the anonymous sessions |
 | GitHub Pages | <https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/> | Only the static game, with no API: it uses the fallback in `public/escenarios/` and its local session queue reaches no server unless it is built with `VITE_API_URL` |
 
-Checked on 2026-11-15: `/health` and `/health/listo` answer `ok` on the cloud site and `/api/v1/scenarios` returns an empty list because no scenario has been published yet.
+Checked on 2026-11-15: `/health` and `/health/listo` answer `ok` on the cloud site and `/api/v1/scenarios` lists `base-marte-uno` v1, published with real data (science package `3fe144ab…28f67`, 263,358 REMS observations). Checked in the browser: the game on the Google Cloud site loads the scenario from the API (`/api/v1/scenarios/base-marte-uno`, 200; the console logs `escenario "Base Marte Uno…" v1 (api)`, not the fallback) and queries live DONKI.
 
 ## Getting started
 
@@ -111,7 +111,7 @@ Format and errors: [docs/en/04-api.md](docs/en/04-api.md).
 2. **Scenarios:** done. Endpoints connected to `ciencia` through `juego`, contract 2, rule versions, pinned catalogue and static fallback. Publishing the mission and its editorial parameters is managed from the CLI.
 3. **Game integration:** done. The Phaser game loads the scenario from the API (with fallback), shows the "Real data" cards and live DONKI flares, and saves anonymous sessions. See [front-end architecture](docs/en/15-frontend.md).
 4. **Deployment:** done. The complete game with its API lives on Google Cloud (https://project-dd0f486a-7a8b-44de-86e.web.app: Firebase Hosting, Cloud Run and Cloud SQL, see [docs/en/07-google-cloud.md](docs/en/07-google-cloud.md)) and a static copy is published on GitHub Pages with every push to `main` (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/). See [Where it is published](#where-it-is-published).
-5. **Pending:** publish the first scenario with real data (`/api/v1/scenarios` still answers with no scenarios), have native speakers review the English texts and decide the retention policy for stored sessions.
+5. **Pending:** have native speakers review the English texts, schedule the deletion of sessions older than 12 months (policy already decided) and define the database backups. The first scenario with real data (`base-marte-uno` v1) is already published in the cloud.
 
 ## Documentation and collaboration
 

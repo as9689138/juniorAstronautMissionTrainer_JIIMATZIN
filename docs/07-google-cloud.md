@@ -111,7 +111,7 @@ Sitio desplegado: <https://project-dd0f486a-7a8b-44de-86e.web.app>. Con este sit
 | Quién lo ve | Solo el equipo, con el CLI (`partidas -- exportar`). No hay ruta HTTP para leerlo. Acceso a Cloud SQL por IAM |
 | Aviso | En la portada del juego y en el reporte para adultos |
 | Borrar | El reporte para adultos muestra el código del dispositivo; con él: `partidas -- borrar --jugador <código>` |
-| Conservación | Propuesta: borrar las partidas de más de 12 meses. Decidirlo y anotarlo aquí |
+| Conservación | Decidido: 12 meses; se borran las partidas de más de 12 meses (falta programar el borrado periódico) |
 
 Aunque los datos son anónimos, juegan niños de 7 a 12 años: confirmen con el líder local de Space Apps (y con la escuela,
 si se juega en clase) que el aviso es suficiente.

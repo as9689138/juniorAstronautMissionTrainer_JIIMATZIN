@@ -62,8 +62,8 @@ El diagrama completo con Google Cloud está en el [diagrama 16](14-flujos-backen
 ## Pendiente
 
 - Hosting: **resuelto**. Desplegado en Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL) en <https://project-dd0f486a-7a8b-44de-86e.web.app>; pasos en [07-google-cloud.md](07-google-cloud.md).
-- Decidir si GitHub Pages (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/) debe usar la API de la nube: hoy se compila sin `VITE_API_URL` y la API no tiene su origen en `CORS_ORIGINS`.
-- Decidir quién ejecuta las migraciones en cada despliegue (manual o paso del pipeline).
+- GitHub Pages (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/): **decidido**, se queda como copia estática sin API (se compila sin `VITE_API_URL` y la API no lista su origen en `CORS_ORIGINS`). El uso real es el sitio de Google Cloud.
+- Migraciones: **decidido**, por ahora se ejecutan **a mano** con el Job `jiimatzin-migrar`, solo cuando una versión trae archivos nuevos en `backend/migrations/` y antes de desplegar la API. Se puede automatizar más adelante con un paso del pipeline.
 - Registro estructurado, si el tráfico lo justifica (la limitación de tasa por IP ya existe).
-- Política de conservación de las partidas anónimas (propuesta: 12 meses); ver [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md).
-- Cuando se importen datos reales: estrategia de copias de seguridad de la BD.
+- Conservación de las partidas anónimas: **decidido**, 12 meses; ver [16-aprendizaje-partidas.md](16-aprendizaje-partidas.md). Falta programar el borrado periódico de las partidas más antiguas.
+- Datos reales ya cargados en Cloud SQL (release `rel_40afe5ce…` y escenario `base-marte-uno` v1 publicados): falta definir la estrategia de copias de seguridad de la BD.

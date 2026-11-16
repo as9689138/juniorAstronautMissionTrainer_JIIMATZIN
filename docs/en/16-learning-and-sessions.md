@@ -71,7 +71,7 @@ The game leaves the session in a `localStorage` queue and sends it at the end of
 | Reading | There is no HTTP route; only the team, with the CLI |
 | Notice | On the game's title screen and in the adults' report |
 | Deletion | The adults' report shows the device code; with it run `partidas -- borrar --jugador <code>` |
-| Retention | Proposal: delete sessions older than 12 months. Still to be decided |
+| Retention | Decided: 12 months; sessions older than 12 months are deleted (the periodic deletion still has to be scheduled) |
 
 The players are children aged 7 to 12: although the data is anonymous, confirm with the local Space Apps lead (and with the school, if it is played in class) that the notice is enough.
 

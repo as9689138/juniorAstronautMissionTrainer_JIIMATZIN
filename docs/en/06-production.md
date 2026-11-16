@@ -64,8 +64,8 @@ The complete diagram with Google Cloud is [diagram 16](14-system-flows.md#16-dep
 ## Pending
 
 - Hosting: **solved**. Deployed on Google Cloud (Firebase Hosting + Cloud Run + Cloud SQL) at <https://project-dd0f486a-7a8b-44de-86e.web.app>; steps in [07-google-cloud.md](07-google-cloud.md).
-- Decide whether GitHub Pages (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/) should use the cloud API: today it is built without `VITE_API_URL` and the API does not list its origin in `CORS_ORIGINS`.
-- Decide who runs the migrations on each deployment (manual or a pipeline step).
+- GitHub Pages (https://as9689138.github.io/juniorAstronautMissionTrainer_JIIMATZIN/): **decided**, it stays as a static copy with no API (built without `VITE_API_URL`, and the API does not list its origin in `CORS_ORIGINS`). Real use is the Google Cloud site.
+- Migrations: **decided**, for now they are run **by hand** with the `jiimatzin-migrar` Job, only when a release brings new files in `backend/migrations/` and before deploying the API. They can be automated later as a pipeline step.
 - Structured logging, if traffic justifies it (per-IP rate limiting already exists).
-- Retention policy for the anonymous sessions (proposal: 12 months); see [16-learning-and-sessions.md](16-learning-and-sessions.md).
-- When real data is imported: a database backup strategy.
+- Retention of anonymous sessions: **decided**, 12 months; see [16-learning-and-sessions.md](16-learning-and-sessions.md). The periodic deletion of older sessions still has to be scheduled.
+- Real data is already loaded in Cloud SQL (release `rel_40afe5ce…` and scenario `base-marte-uno` v1 published): the database backup strategy is still to be defined.
