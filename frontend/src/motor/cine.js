@@ -27,7 +27,9 @@ export async function verCine(nombre) {
     }
     const capa = document.createElement('div'); capa.id = 'cine';
     const video = document.createElement('video');
-    video.src = `assets/cine/${nombre}.mp4`; video.playsInline = true; video.preload = 'auto';
+    // en inglés, el video narrado en inglés (<nombre>_en.mp4); si no está, el de español con subtítulos en inglés
+    video.src = `assets/cine/${nombre}${idioma.ingles ? '_en' : ''}.mp4`; video.playsInline = true; video.preload = 'auto';
+    let respaldo = !idioma.ingles;                           // ¿ya se está usando el video en español?
     let sinPermiso = false;                                 // el navegador no dejó sonar el video: va en silencio
     video.muted = !!sonido.silencio;
     const sub = document.createElement('div'); sub.className = 'sub'; sub.setAttribute('aria-live', 'polite');
@@ -62,7 +64,15 @@ export async function verCine(nombre) {
       else { sub.textContent = lineas[i].texto; sub.classList.add('ver'); }
     });
     video.addEventListener('ended', () => fin(true));
-    video.addEventListener('error', () => fin(false));
+    video.addEventListener('error', () => {
+      if (!respaldo) {                                      // sin video en inglés: el de español, con subtítulos en inglés
+        respaldo = true;
+        video.src = `assets/cine/${nombre}.mp4`;
+        video.play().catch(() => { sinPermiso = true; video.muted = true; video.play().catch(() => fin(false)); });
+        return;
+      }
+      fin(false);
+    });
     requestAnimationFrame(() => capa.classList.add('ver'));
     video.play().catch(() => { sinPermiso = true; video.muted = true; video.play().catch(() => fin(false)); });   // sin permiso de audio: en silencio
   });

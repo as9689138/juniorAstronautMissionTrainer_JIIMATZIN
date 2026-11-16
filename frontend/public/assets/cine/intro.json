@@ -24,24 +24,34 @@
  ],
  "en": [
   {
-   "desde": 0.75,
-   "hasta": 3.25,
+   "desde": 0.4,
+   "hasta": 2.21,
    "texto": "Year 2030…"
   },
   {
-   "desde": 3.75,
-   "hasta": 14.95,
-   "texto": "It all began in 2023, when four NASA volunteers lived for 378 days inside a simulated Mars base in Houston."
+   "desde": 2.6,
+   "hasta": 8.18,
+   "texto": "It all began in 2023, when four NASA volunteers lived for 378 days inside a"
   },
   {
-   "desde": 15.75,
-   "hasta": 22.47,
+   "desde": 8.18,
+   "hasta": 10.49,
+   "texto": "simulated Mars base in Houston."
+  },
+  {
+   "desde": 20.0,
+   "hasta": 23.22,
    "texto": "Since then, humanity has been getting ready to send people to Mars."
   },
   {
-   "desde": 23.25,
-   "hasta": 35.09,
-   "texto": "Today, in 2030, a small team is on its test mission at Mars Base One. It’s a simulation, but it’s very close to the real thing."
+   "desde": 23.57,
+   "hasta": 27.81,
+   "texto": "Today, in 2030, a small team is on its test mission at Mars Base One."
+  },
+  {
+   "desde": 27.81,
+   "hasta": 31.32,
+   "texto": "It’s a simulation, but it’s very close to the real thing."
   }
  ]
 }

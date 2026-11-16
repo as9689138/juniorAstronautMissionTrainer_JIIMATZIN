@@ -54,53 +54,163 @@
  ],
  "en": [
   {
-   "desde": 6,
-   "hasta": 24,
-   "texto": "Humans, living beings, come together. Beyond this planet lies an even bigger world… infinite, immense, full of mysteries, questions waiting for an answer and treasures waiting to be found."
+   "desde": 0.6,
+   "hasta": 3.33,
+   "texto": "Humans, living beings, come together."
   },
   {
-   "desde": 24.75,
-   "hasta": 31.47,
+   "desde": 3.33,
+   "hasta": 6.64,
+   "texto": "Beyond this planet lies an even bigger world…"
+  },
+  {
+   "desde": 6.64,
+   "hasta": 12.02,
+   "texto": "infinite, immense, full of mysteries, questions waiting for an answer and"
+  },
+  {
+   "desde": 12.02,
+   "hasta": 14.23,
+   "texto": "treasures waiting to be found."
+  },
+  {
+   "desde": 24.0,
+   "hasta": 28.69,
    "texto": "In 1969, Neil Armstrong was the first person to reach the Moon."
   },
   {
-   "desde": 33.75,
-   "hasta": 48.35,
-   "texto": "What makes us human? What makes us who we really are? It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our intelligence…"
+   "desde": 33.0,
+   "hasta": 34.22,
+   "texto": "What makes us human?"
   },
   {
-   "desde": 48.75,
-   "hasta": 51.63,
-   "texto": "So… what is it?..."
+   "desde": 34.22,
+   "hasta": 36.16,
+   "texto": "What makes us who we really are?"
   },
   {
-   "desde": 54.75,
-   "hasta": 81.35,
-   "texto": "Yes, it’s the need to know what else is out there, to know what lies beyond what our eyes can see. It’s that thirst for knowledge, wanting to take the whole world and swallow it in a single bite, to know what moves the planet, every dimension, every particle, every wave and every electron."
+   "desde": 36.16,
+   "hasta": 40.73,
+   "texto": "It isn’t our social skills, it isn’t our anatomy and, clearly, it isn’t our"
   },
   {
-   "desde": 81.75,
-   "hasta": 102.35,
-   "texto": "Everything moves because we want to know more, do more, achieve more and reach higher… Not just looking at the sky and covering the sun with a finger; it’s standing before the sun and seeing, reflected in your eyes, those waves dancing so fiercely to the rhythm of the stars…"
+   "desde": 40.73,
+   "hasta": 41.52,
+   "texto": "intelligence…"
   },
   {
-   "desde": 102.75,
-   "hasta": 123.35,
-   "texto": "Time goes by and, the more time goes by, the more things emerge between Earth and space. All of this is the legacy of thousands of people, handed down from generation to generation, who dedicated their whole lives to finding answers."
+   "desde": 45.0,
+   "hasta": 45.26,
+   "texto": "So…"
   },
   {
-   "desde": 123.75,
-   "hasta": 133.91,
-   "texto": "Nothing is impossible, because when you try… it won’t always be what you expect, but you will always get a result…"
+   "desde": 45.26,
+   "hasta": 46.47,
+   "texto": "what is it?..."
   },
   {
-   "desde": 135.75,
-   "hasta": 150.35,
-   "texto": "Now it’s your turn… You carry the torch of wisdom, of knowledge, of curiosity and of perseverance… Show what you can do, push yourself and show how capable you are."
+   "desde": 54.0,
+   "hasta": 58.5,
+   "texto": "Yes, it’s the need to know what else is out there, to know what lies beyond what"
   },
   {
-   "desde": 150.75,
-   "hasta": 154.59,
+   "desde": 58.5,
+   "hasta": 59.45,
+   "texto": "our eyes can see."
+  },
+  {
+   "desde": 59.45,
+   "hasta": 64.12,
+   "texto": "It’s that thirst for knowledge, wanting to take the whole world and swallow it in a"
+  },
+  {
+   "desde": 64.12,
+   "hasta": 68.4,
+   "texto": "single bite, to know what moves the planet, every dimension, every particle,"
+  },
+  {
+   "desde": 68.4,
+   "hasta": 70.08,
+   "texto": "every wave and every electron."
+  },
+  {
+   "desde": 70.43,
+   "hasta": 75.37,
+   "texto": "Everything moves because we want to know more, do more, achieve more and reach"
+  },
+  {
+   "desde": 75.37,
+   "hasta": 75.82,
+   "texto": "higher…"
+  },
+  {
+   "desde": 75.82,
+   "hasta": 80.69,
+   "texto": "Not just looking at the sky and covering the sun with a finger; it’s standing"
+  },
+  {
+   "desde": 80.69,
+   "hasta": 85.89,
+   "texto": "before the sun and seeing, reflected in your eyes, those waves dancing so fiercely"
+  },
+  {
+   "desde": 85.89,
+   "hasta": 87.6,
+   "texto": "to the rhythm of the stars…"
+  },
+  {
+   "desde": 96.0,
+   "hasta": 101.23,
+   "texto": "Time goes by and, the more time goes by, the more things emerge between Earth and"
+  },
+  {
+   "desde": 101.23,
+   "hasta": 101.61,
+   "texto": "space."
+  },
+  {
+   "desde": 101.61,
+   "hasta": 106.78,
+   "texto": "All of this is the legacy of thousands of people, handed down from generation to"
+  },
+  {
+   "desde": 106.78,
+   "hasta": 110.84,
+   "texto": "generation, who dedicated their whole lives to finding answers."
+  },
+  {
+   "desde": 123.0,
+   "hasta": 125.36,
+   "texto": "Nothing is impossible, because when you try…"
+  },
+  {
+   "desde": 125.36,
+   "hasta": 129.05,
+   "texto": "it won’t always be what you expect, but you will always get a result…"
+  },
+  {
+   "desde": 135.0,
+   "hasta": 136.12,
+   "texto": "Now it’s your turn…"
+  },
+  {
+   "desde": 136.12,
+   "hasta": 139.87,
+   "texto": "You carry the torch of wisdom, of knowledge, of curiosity and of"
+  },
+  {
+   "desde": 139.87,
+   "hasta": 140.63,
+   "texto": "perseverance…"
+  },
+  {
+   "desde": 140.63,
+   "hasta": 144.45,
+   "texto": "Show what you can do, push yourself and show how capable you are."
+  },
+  {
+   "desde": 150.0,
+   "hasta": 156.72,
    "texto": "Because if you try, you can do it…"
   }
  ]
